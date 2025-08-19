@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Unit 15 — Synthetic Division</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+<nav class="nav"><a href="index.html">← All Units</a></nav>
+<header class="unit-header"><h1>Unit 15 — Synthetic Division</h1></header>
+<main class="container"><h1>Unit 15 — Synthetic Division</h1>
+<p>Synthetic division is a shortcut for dividing polynomials when the divisor is of the form:</p>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>x</mi><mo>&#x02212;</mo><mi>c</mi></mrow></math>
+
+<hr />
+<h2>15.1 Performing Synthetic Division</h2>
+<p>Steps:
+1. Write down coefficients of dividend (fill in 0 for missing terms).<br />
+2. Write <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>c</mi></mrow></math> from <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x02212;</mo><mi>c</mi><mo stretchy="false">&#x00029;</mo></mrow></math>.<br />
+3. Bring down the first coefficient.<br />
+4. Multiply by <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>c</mi></mrow></math>, add to next coefficient, repeat.  </p>
+<p><strong>Example 1</strong><br />
+Divide <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mn>2</mn><msup><mi>x</mi><mn>3</mn></msup><mo>&#x0002B;</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>&#x02212;</mo><mn>5</mn><mi>x</mi><mo>&#x0002B;</mo><mn>6</mn></mrow></math> by <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>x</mi><mo>&#x02212;</mo><mn>2</mn></mrow></math>.  </p>
+<p>Set up:  </p>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mtable columnlines="solid none none none" rowlines="none solid"><mtr><mtd columnalign="right"><mn>2</mn></mtd><mtd columnalign="right"><mn>2</mn></mtd><mtd columnalign="right"><mn>3</mn></mtd><mtd columnalign="right"><mo>&#x02212;</mo><mn>5</mn></mtd><mtd columnalign="right"><mn>6</mn></mtd></mtr><mtr><mtd columnalign="right" /><mtd columnalign="right" /><mtd columnalign="right"><mn>4</mn></mtd><mtd columnalign="right"><mn>14</mn></mtd><mtd columnalign="right"><mn>18</mn></mtd></mtr><mtr><mtd columnalign="right" /><mtd columnalign="right"><mn>2</mn></mtd><mtd columnalign="right"><mn>7</mn></mtd><mtd columnalign="right"><mn>9</mn></mtd><mtd columnalign="right"><mn>24</mn></mtd></mtr></mtable></mrow></math>
+
+<p>Quotient: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>&#x0002B;</mo><mn>7</mn><mi>x</mi><mo>&#x0002B;</mo><mn>9</mn></mrow></math>, remainder <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mn>24</mn></mrow></math>.<br />
+So:</p>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mrow><mn>2</mn><msup><mi>x</mi><mn>3</mn></msup><mo>&#x0002B;</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>&#x02212;</mo><mn>5</mn><mi>x</mi><mo>&#x0002B;</mo><mn>6</mn></mrow><mrow><mi>x</mi><mo>&#x02212;</mo><mn>2</mn></mrow></mfrac><mo>&#x0003D;</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>&#x0002B;</mo><mn>7</mn><mi>x</mi><mo>&#x0002B;</mo><mn>9</mn><mo>&#x0002B;</mo><mfrac><mrow><mn>24</mn></mrow><mrow><mi>x</mi><mo>&#x02212;</mo><mn>2</mn></mrow></mfrac></mrow></math>
+
+<hr />
+<h2>15.2 Equivalent Expressions</h2>
+<p>If remainder = 0, the divisor is a factor.  </p>
+<p><strong>Example 2</strong><br />
+Divide <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>&#x02212;</mo><mn>6</mn><msup><mi>x</mi><mn>2</mn></msup><mo>&#x0002B;</mo><mn>11</mn><mi>x</mi><mo>&#x02212;</mo><mn>6</mn></mrow></math> by <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>x</mi><mo>&#x02212;</mo><mn>1</mn></mrow></math>.  </p>
+<p>Set up:  </p>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mtable columnlines="solid none none none" rowlines="none solid"><mtr><mtd columnalign="right"><mn>1</mn></mtd><mtd columnalign="right"><mn>1</mn></mtd><mtd columnalign="right"><mo>&#x02212;</mo><mn>6</mn></mtd><mtd columnalign="right"><mn>11</mn></mtd><mtd columnalign="right"><mo>&#x02212;</mo><mn>6</mn></mtd></mtr><mtr><mtd columnalign="right" /><mtd columnalign="right" /><mtd columnalign="right"><mn>1</mn></mtd><mtd columnalign="right"><mo>&#x02212;</mo><mn>5</mn></mtd><mtd columnalign="right"><mn>6</mn></mtd></mtr><mtr><mtd columnalign="right" /><mtd columnalign="right"><mn>1</mn></mtd><mtd columnalign="right"><mo>&#x02212;</mo><mn>5</mn></mtd><mtd columnalign="right"><mn>6</mn></mtd><mtd columnalign="right"><mn>0</mn></mtd></mtr></mtable></mrow></math>
+
+<p>Quotient: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>&#x02212;</mo><mn>5</mn><mi>x</mi><mo>&#x0002B;</mo><mn>6</mn></mrow></math>, remainder <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mn>0</mn></mrow></math>.<br />
+So <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x02212;</mo><mn>1</mn><mo stretchy="false">&#x00029;</mo></mrow></math> is a factor.  </p>
+<hr />
+<h2>15.3 The Remainder Theorem</h2>
+<p>For <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>f</mi><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo stretchy="false">&#x00029;</mo></mrow></math> divided by <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x02212;</mo><mi>c</mi><mo stretchy="false">&#x00029;</mo></mrow></math>, the remainder is simply <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>f</mi><mo stretchy="false">&#x00028;</mo><mi>c</mi><mo stretchy="false">&#x00029;</mo></mrow></math>.  </p>
+<p><strong>Example 3</strong>  </p>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>f</mi><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><msup><mi>x</mi><mn>3</mn></msup><mo>&#x0002B;</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>&#x02212;</mo><mn>3</mn><mi>x</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></math>
+<p>. Find remainder when divided by 
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>x</mi><mo>&#x02212;</mo><mn>2</mn></mrow></math></p>
+<p>.  </p>
+<p>Compute <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>f</mi><mo stretchy="false">&#x00028;</mo><mn>2</mn><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><msup><mn>2</mn><mn>3</mn></msup><mo>&#x0002B;</mo><mn>2</mn><mo stretchy="false">&#x00028;</mo><msup><mn>2</mn><mn>2</mn></msup><mo stretchy="false">&#x00029;</mo><mo>&#x02212;</mo><mn>3</mn><mo stretchy="false">&#x00028;</mo><mn>2</mn><mo stretchy="false">&#x00029;</mo><mo>&#x0002B;</mo><mn>1</mn><mo>&#x0003D;</mo><mn>8</mn><mo>&#x0002B;</mo><mn>8</mn><mo>&#x02212;</mo><mn>6</mn><mo>&#x0002B;</mo><mn>1</mn><mo>&#x0003D;</mo><mn>11</mn></mrow></math>.<br />
+So remainder = 11.  </p>
+<hr />
+<h2>15.4 SAT Tips</h2>
+<ul>
+<li>Use remainder theorem to save time.  </li>
+<li>If <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>f</mi><mo stretchy="false">&#x00028;</mo><mi>c</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mn>0</mn></mrow></math>, then <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x02212;</mo><mi>c</mi><mo stretchy="false">&#x00029;</mo></mrow></math> is a factor.  </li>
+<li>Synthetic division only works for divisors of form <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x02212;</mo><mi>c</mi><mo stretchy="false">&#x00029;</mo></mrow></math>, not <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>&#x0002B;</mo><mo>&#x0002E;</mo><mo>&#x0002E;</mo><mo>&#x0002E;</mo></mrow></math>  </li>
+</ul>
+<hr />
+<h2>Practice Problems (Unit 15)</h2>
+<p>1) Divide <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>&#x0002B;</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>&#x02212;</mo><mn>7</mn><mi>x</mi><mo>&#x0002B;</mo><mn>2</mn></mrow></math> by <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>x</mi><mo>&#x02212;</mo><mn>3</mn></mrow></math>.<br />
+2) Divide <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mn>2</mn><msup><mi>x</mi><mn>3</mn></msup><mo>&#x02212;</mo><mn>9</mn><msup><mi>x</mi><mn>2</mn></msup><mo>&#x0002B;</mo><mn>7</mn><mi>x</mi><mo>&#x0002B;</mo><mn>6</mn></mrow></math> by <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>x</mi><mo>&#x02212;</mo><mn>2</mn></mrow></math>.<br />
+3) Use the remainder theorem: find remainder of <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>f</mi><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><msup><mi>x</mi><mn>4</mn></msup><mo>&#x02212;</mo><mn>5</mn><msup><mi>x</mi><mn>3</mn></msup><mo>&#x0002B;</mo><mn>2</mn></mrow></math> when divided by <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>x</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></math>.<br />
+4) Factor <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>&#x02212;</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>&#x0002B;</mo><mi>x</mi><mo>&#x0002B;</mo><mn>6</mn></mrow></math> completely using synthetic division.<br />
+5) If <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>f</mi><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mn>2</mn><msup><mi>x</mi><mn>3</mn></msup><mo>&#x0002B;</mo><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>&#x02212;</mo><mn>3</mn><mi>x</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></math>, is <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x02212;</mo><mn>1</mn><mo stretchy="false">&#x00029;</mo></mrow></math> a factor?  </p>
+<hr />
+<h2>Solutions</h2>
+<p>1)  </p>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mtable columnlines="solid none none none" rowlines="none solid"><mtr><mtd columnalign="right"><mn>3</mn></mtd><mtd columnalign="right"><mn>1</mn></mtd><mtd columnalign="right"><mn>4</mn></mtd><mtd columnalign="right"><mo>&#x02212;</mo><mn>7</mn></mtd><mtd columnalign="right"><mn>2</mn></mtd></mtr><mtr><mtd columnalign="right" /><mtd columnalign="right" /><mtd columnalign="right"><mn>3</mn></mtd><mtd columnalign="right"><mn>21</mn></mtd><mtd columnalign="right"><mn>42</mn></mtd></mtr><mtr><mtd columnalign="right" /><mtd columnalign="right"><mn>1</mn></mtd><mtd columnalign="right"><mn>7</mn></mtd><mtd columnalign="right"><mn>14</mn></mtd><mtd columnalign="right"><mn>44</mn></mtd></mtr></mtable></mrow></math>
+
+<p>Quotient: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>&#x0002B;</mo><mn>7</mn><mi>x</mi><mo>&#x0002B;</mo><mn>14</mn></mrow></math>, remainder <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mn>44</mn></mrow></math>.  </p>
+<p>2)  </p>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mtable columnlines="solid none none none" rowlines="none solid"><mtr><mtd columnalign="right"><mn>2</mn></mtd><mtd columnalign="right"><mn>2</mn></mtd><mtd columnalign="right"><mo>&#x02212;</mo><mn>9</mn></mtd><mtd columnalign="right"><mn>7</mn></mtd><mtd columnalign="right"><mn>6</mn></mtd></mtr><mtr><mtd columnalign="right" /><mtd columnalign="right" /><mtd columnalign="right"><mn>4</mn></mtd><mtd columnalign="right"><mo>&#x02212;</mo><mn>10</mn></mtd><mtd columnalign="right"><mo>&#x02212;</mo><mn>6</mn></mtd></mtr><mtr><mtd columnalign="right" /><mtd columnalign="right"><mn>2</mn></mtd><mtd columnalign="right"><mo>&#x02212;</mo><mn>5</mn></mtd><mtd columnalign="right"><mo>&#x02212;</mo><mn>3</mn></mtd><mtd columnalign="right"><mn>0</mn></mtd></mtr></mtable></mrow></math>
+
+<p>Quotient: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>&#x02212;</mo><mn>5</mn><mi>x</mi><mo>&#x02212;</mo><mn>3</mn></mrow></math>, remainder <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mn>0</mn></mrow></math>.  </p>
+<p>3) <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>f</mi><mo stretchy="false">&#x00028;</mo><mo>&#x02212;</mo><mn>1</mn><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mo stretchy="false">&#x00028;</mo><mo>&#x02212;</mo><mn>1</mn><msup><mo stretchy="false">&#x00029;</mo><mn>4</mn></msup><mo>&#x02212;</mo><mn>5</mn><mo stretchy="false">&#x00028;</mo><mo>&#x02212;</mo><mn>1</mn><msup><mo stretchy="false">&#x00029;</mo><mn>3</mn></msup><mo>&#x0002B;</mo><mn>2</mn><mo>&#x0003D;</mo><mn>1</mn><mo>&#x0002B;</mo><mn>5</mn><mo>&#x0002B;</mo><mn>2</mn><mo>&#x0003D;</mo><mn>8</mn></mrow></math>. Remainder = 8.  </p>
+<p>4) Test factors: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>f</mi><mo stretchy="false">&#x00028;</mo><mn>2</mn><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mn>0</mn></mrow></math>. Divide by <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x02212;</mo><mn>2</mn><mo stretchy="false">&#x00029;</mo></mrow></math>.  </p>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mtable columnlines="solid none none none" rowlines="none solid"><mtr><mtd columnalign="right"><mn>2</mn></mtd><mtd columnalign="right"><mn>1</mn></mtd><mtd columnalign="right"><mo>&#x02212;</mo><mn>4</mn></mtd><mtd columnalign="right"><mn>1</mn></mtd><mtd columnalign="right"><mn>6</mn></mtd></mtr><mtr><mtd columnalign="right" /><mtd columnalign="right" /><mtd columnalign="right"><mn>2</mn></mtd><mtd columnalign="right"><mo>&#x02212;</mo><mn>4</mn></mtd><mtd columnalign="right"><mo>&#x02212;</mo><mn>6</mn></mtd></mtr><mtr><mtd columnalign="right" /><mtd columnalign="right"><mn>1</mn></mtd><mtd columnalign="right"><mo>&#x02212;</mo><mn>2</mn></mtd><mtd columnalign="right"><mo>&#x02212;</mo><mn>3</mn></mtd><mtd columnalign="right"><mn>0</mn></mtd></mtr></mtable></mrow></math>
+
+<p>Quotient: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>&#x02212;</mo><mn>2</mn><mi>x</mi><mo>&#x02212;</mo><mn>3</mn><mo>&#x0003D;</mo><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x02212;</mo><mn>3</mn><mo stretchy="false">&#x00029;</mo><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x0002B;</mo><mn>1</mn><mo stretchy="false">&#x00029;</mo></mrow></math>.<br />
+So <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>&#x02212;</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>&#x0002B;</mo><mi>x</mi><mo>&#x0002B;</mo><mn>6</mn><mo>&#x0003D;</mo><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x02212;</mo><mn>2</mn><mo stretchy="false">&#x00029;</mo><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x02212;</mo><mn>3</mn><mo stretchy="false">&#x00029;</mo><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x0002B;</mo><mn>1</mn><mo stretchy="false">&#x00029;</mo></mrow></math>.  </p>
+<p>5) <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>f</mi><mo stretchy="false">&#x00028;</mo><mn>1</mn><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mn>2</mn><mo stretchy="false">&#x00028;</mo><mn>1</mn><msup><mo stretchy="false">&#x00029;</mo><mn>3</mn></msup><mo>&#x0002B;</mo><mn>5</mn><mo stretchy="false">&#x00028;</mo><mn>1</mn><msup><mo stretchy="false">&#x00029;</mo><mn>2</mn></msup><mo>&#x02212;</mo><mn>3</mn><mo stretchy="false">&#x00028;</mo><mn>1</mn><mo stretchy="false">&#x00029;</mo><mo>&#x0002B;</mo><mn>1</mn><mo>&#x0003D;</mo><mn>2</mn><mo>&#x0002B;</mo><mn>5</mn><mo>&#x02212;</mo><mn>3</mn><mo>&#x0002B;</mo><mn>1</mn><mo>&#x0003D;</mo><mn>5</mn><mo>&#x02260;</mo><mn>0</mn></mrow></math>.<br />
+So <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x02212;</mo><mn>1</mn><mo stretchy="false">&#x00029;</mo></mrow></math> is <strong>not</strong> a factor.  </p>
+<pre><code class="language-python">
+</code></pre></main>
+
+</body>
+</html>
