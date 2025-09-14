@@ -1,0 +1,67 @@
+{
+  "unit_id": "unit2_central_ideas_details",
+  "unit_title": "Unit 2 Lecture: Central Ideas & Details",
+  "target_exam": "SAT Reading & Writing",
+  "total_mastery_points": 400,
+  "audience": "High school students preparing for the SAT (Reading & Writing)",
+  "teacher_notes": {
+    "pacing": "45 minutes; modeling main idea vs detail.",
+    "materials": "Passage handouts and highlighters.",
+    "assessment": "4-item unit check; one-sentence central idea summary."
+  },
+  "learning_objectives": [
+    "Identify a passage’s main claim in one sentence.",
+    "Distinguish central ideas from minor details.",
+    "Select paraphrases that capture the overall point."
+  ],
+  "structure": [
+    {
+      "section_id": "central_ideas_details",
+      "title": "Central Ideas & Details",
+      "time_suggested_minutes": 35,
+      "objectives": [
+        "State the author’s purpose succinctly.",
+        "Eliminate choices that quote details only.",
+        "Prefer accurate paraphrases over exact wording."
+      ],
+      "lecture_script": [
+        {"type": "mini_lecture", "duration_min": 12, "script": "Ask: What is the passage doing overall? Choose the option that captures that purpose, not a single fact."},
+        {"type": "error_analysis", "duration_min": 12, "script": "We’ll discard a choice that quotes a detail but misses the passage’s point."},
+        {"type": "guided_practice", "duration_min": 9, "script": "Underline the purpose verb-argues, explains, describes-then pick the matching paraphrase."}
+      ],
+      "content": {
+        "worked_example": {
+          "passage": "Community gardens, beyond supplying produce, build trust among neighbors who meet regularly to plan and share the harvest.",
+          "question": "Which choice states the central idea?",
+          "options": {"A": "Gardens are expensive.", "B": "Community gardens foster social connections as well as food.", "C": "Only experts can garden.", "D": "Harvests are unpredictable."},
+          "correct_answer": "B",
+          "explanation": "The sentence stresses both produce and social trust-connections beyond food."
+        },
+        "practice_set": [
+          {"id": "U2_CI_P1", "passage": "The biography notes that early failures taught techniques later evident in praised works.", "question": "What is the central idea?", "options": {"A": "The artist avoided failure.", "B": "Failures informed later success.", "C": "Praise is unreliable.", "D": "Biographies are fictional."}, "correct_answer": "B"}
+        ]
+      }
+    }
+  ],
+  "unit_check": [
+    {"id": "U2_CI_UC1", "question": "Central idea choices should", "options": {"A": "quote a minor detail", "B": "capture the overall point", "C": "be the longest", "D": "add outside facts"}, "correct_answer": "B"},
+    {"id": "U2_CI_UC2", "question": "Best paraphrase is", "options": {"A": "closest wording", "B": "accurate meaning", "C": "new information", "D": "shortest option"}, "correct_answer": "B"},
+    {"id": "U2_CI_UC3", "question": "Purpose can often be found by the", "options": {"A": "purpose verb", "B": "longest sentence", "C": "first noun", "D": "title only"}, "correct_answer": "A"},
+    {"id": "U2_CI_UC4", "question": "Details are", "options": {"A": "the entire point", "B": "supporting facts", "C": "irrelevant always", "D": "better than main ideas"}, "correct_answer": "B"}
+  ],
+  "homework": [
+    "Write a one-sentence central idea for three short passages.",
+    "Explain why a tempting detail choice is not the main idea for two items.",
+    "Create a paraphrase of a main idea without repeating phrases."
+  ],
+  "answer_key": {
+    "U2_CI_P1": "B",
+    "U2_CI_UC1": "B",
+    "U2_CI_UC2": "B",
+    "U2_CI_UC3": "A",
+    "U2_CI_UC4": "B"
+  }
+}
+
+
+

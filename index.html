@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SAT Materials</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>SAT Materials</h1>
+    <nav class="tabs" role="tablist">
+      <button id="tab-rw" class="tab active" role="tab" aria-selected="true" aria-controls="panel-rw">Reading &amp; Writing</button>
+      <button id="tab-math" class="tab" role="tab" aria-selected="false" aria-controls="panel-math">Math</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="panel-rw" class="panel" role="tabpanel" aria-labelledby="tab-rw">
+      <aside>
+        <input id="rw-search" type="text" placeholder="Search R&W lessons..." aria-label="Search Reading & Writing lessons" />
+        <ul id="rw-list"></ul>
+      </aside>
+      <section class="content" id="rw-content">
+        <div class="content-header">
+          <h2 id="rw-title">Choose a lesson</h2>
+          <div id="rw-meta"></div>
+        </div>
+        <div id="rw-body"></div>
+      </section>
+    </section>
+
+    <section id="panel-math" class="panel hidden" role="tabpanel" aria-labelledby="tab-math">
+      <aside>
+        <input id="math-search" type="text" placeholder="Search Math units..." aria-label="Search Math units" />
+        <ul id="math-list"></ul>
+      </aside>
+      <section class="content" id="math-content">
+        <div class="content-header">
+          <h2 id="math-title">Choose a unit</h2>
+          <div id="math-meta"></div>
+        </div>
+        <div id="math-body"></div>
+      </section>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2025 SAT Materials</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
+

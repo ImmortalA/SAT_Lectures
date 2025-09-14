@@ -1,0 +1,67 @@
+{
+  "unit_id": "unit3_words_in_context",
+  "unit_title": "Unit 3 Lecture: Words in Context",
+  "target_exam": "SAT Reading & Writing",
+  "total_mastery_points": 400,
+  "audience": "High school students preparing for the SAT (Reading & Writing)",
+  "teacher_notes": {
+    "pacing": "45 minutes; context-clue strategy with modeling and drills.",
+    "materials": "Slides with example sentences, highlighters, handout of items.",
+    "assessment": "4-item unit check and one context paraphrase exit ticket."
+  },
+  "learning_objectives": [
+    "Infer word meaning from surrounding context.",
+    "Match tone and usage when choosing definitions.",
+    "Eliminate dictionary-true but context-wrong options."
+  ],
+  "structure": [
+    {
+      "section_id": "words_in_context",
+      "title": "Words in Context",
+      "time_suggested_minutes": 35,
+      "objectives": [
+        "Paraphrase the sentence in simple terms.",
+        "Test each meaning in the sentence.",
+        "Reject meanings that clash with tone or logic."
+      ],
+      "lecture_script": [
+        {"type": "mini_lecture", "duration_min": 12, "script": "Read before and after the word. Paraphrase the sentence, then pick the meaning that fits that paraphrase."},
+        {"type": "think_aloud", "duration_min": 12, "script": "‘Temperate climate’ with thriving farms suggests ‘mild,’ not ‘angry.’ Context controls meaning."},
+        {"type": "quick_check", "duration_min": 9, "script": "Say why the tempting meaning fails here-tone, logic, or grammar?"}
+      ],
+      "content": {
+        "worked_example": {
+          "passage": "The critic praised the novel’s ‘spare’ style, noting each sentence carried weight without ornament.",
+          "question": "In the context, ‘spare’ most nearly means",
+          "options": {"A": "extra", "B": "minimal", "C": "damaged", "D": "luxurious"},
+          "correct_answer": "B",
+          "explanation": "‘Spare’ aligns with concise, unornamented prose-minimal style."
+        },
+        "practice_set": [
+          {"id": "U3_WIC_P1", "passage": "Despite the ‘opaque’ instructions, the team assembled the device by comparing diagrams.", "question": "‘Opaque’ most nearly means", "options": {"A": "unclear", "B": "transparent", "C": "fragile", "D": "official"}, "correct_answer": "A"}
+        ]
+      }
+    }
+  ],
+  "unit_check": [
+    {"id": "U3_WIC_UC1", "question": "Best first step for WIC is to", "options": {"A": "memorize the word", "B": "paraphrase the sentence", "C": "count syllables", "D": "read options first"}, "correct_answer": "B"},
+    {"id": "U3_WIC_UC2", "question": "Choose meanings that fit the", "options": {"A": "tone and logic", "B": "alphabet", "C": "longest option", "D": "fanciest word"}, "correct_answer": "A"},
+    {"id": "U3_WIC_UC3", "question": "A dictionary-true meaning can be wrong if", "options": {"A": "it is short", "B": "context doesn’t support it", "C": "it’s common", "D": "it rhymes"}, "correct_answer": "B"},
+    {"id": "U3_WIC_UC4", "question": "When two options fit, prefer the one that is", "options": {"A": "extreme", "B": "closest in tone and precision", "C": "rarest", "D": "longest"}, "correct_answer": "B"}
+  ],
+  "homework": [
+    "Write a one-sentence paraphrase for five WIC items before choosing.",
+    "Explain why one tempting meaning fails for two items.",
+    "Create two original sentences that use a target word in different senses."
+  ],
+  "answer_key": {
+    "U3_WIC_P1": "A",
+    "U3_WIC_UC1": "B",
+    "U3_WIC_UC2": "A",
+    "U3_WIC_UC3": "B",
+    "U3_WIC_UC4": "B"
+  }
+}
+
+
+

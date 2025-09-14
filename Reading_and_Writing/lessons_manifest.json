@@ -1,0 +1,25 @@
+[
+  { "file": "SAT_RW_Unit1_intro.json", "label": "Unit 1: Introduction (Full Unit)" },
+  { "file": "SAT_RW_Unit2_information_ideas.json", "label": "Unit 2: Information and Ideas (Full Unit)" },
+  { "file": "SAT_RW_Unit3_craft_structure.json", "label": "Unit 3: Craft and Structure (Full Unit)" },
+  { "file": "SAT_RW_Unit4_expression_ideas.json", "label": "Unit 4: Expression of Ideas (Full Unit)" },
+  { "file": "SAT_RW_Unit5_conventions.json", "label": "Unit 5: Standard English Conventions (Full Unit)" },
+  { "file": "SAT_RW_Unit6_advanced_comprehension.json", "label": "Unit 6: Advanced Reading Comprehension (Full Unit)" },
+  { "file": "SAT_RW_Unit7_mixed_practice.json", "label": "Unit 7: Mixed Practice & Test Strategies (Full Unit)" },
+
+  { "file": "SAT_RW_Unit1_overview.json", "label": "Unit 1 Lecture: Overview of the Test" },
+  { "file": "SAT_RW_Unit1_scoring_timing.json", "label": "Unit 1 Lecture: Scoring & Timing" },
+  { "file": "SAT_RW_Unit1_passage_types.json", "label": "Unit 1 Lecture: Types of Passages & Questions" },
+
+  { "file": "SAT_RW_Unit2_textual_evidence.json", "label": "Unit 2 Lecture: Command of Evidence (Textual)" },
+  { "file": "SAT_RW_Unit2_quantitative_evidence.json", "label": "Unit 2 Lecture: Command of Evidence (Quantitative)" },
+  { "file": "SAT_RW_Unit2_central_ideas.json", "label": "Unit 2 Lecture: Central Ideas & Details" },
+  { "file": "SAT_RW_Unit2_inferences.json", "label": "Unit 2 Lecture: Inferences" },
+
+  { "file": "SAT_RW_Unit3_words_in_context.json", "label": "Unit 3 Lecture: Words in Context" },
+  { "file": "SAT_RW_Unit3_text_structure.json", "label": "Unit 3 Lecture: Text Structure" },
+  { "file": "SAT_RW_Unit3_cross_text.json", "label": "Unit 3 Lecture: Cross-Text Connections" }
+]
+
+
+

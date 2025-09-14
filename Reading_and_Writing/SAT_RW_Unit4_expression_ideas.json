@@ -1,0 +1,141 @@
+{
+  "unit_id": "expression_of_ideas",
+  "unit_title": "Expression of Ideas",
+  "target_exam": "SAT Reading & Writing",
+  "total_mastery_points": 400,
+  "audience": "High school students preparing for the SAT (Reading & Writing)",
+  "teacher_notes": {
+    "pacing": "60 minutes; 3 sections with quick practice and feedback.",
+    "materials": "Slide deck with example transitions, sample sources for synthesis, and style/tone examples.",
+    "assessment": "Unit check and review of edited sentences in guided practice."
+  },
+  "learning_objectives": [
+    "Choose precise transitions that reflect logic between ideas.",
+    "Synthesize information from a short source set to support a claim.",
+    "Maintain consistent style and tone appropriate to context."
+  ],
+  "structure": [
+    {
+      "section_id": "transitions",
+      "title": "Transitions",
+      "time_suggested_minutes": 20,
+      "objectives": [
+        "Match transition type to relationship (addition, contrast, cause).",
+        "Eliminate grammatically fine but illogical connectors.",
+        "Test by paraphrasing the link in simple words."
+      ],
+      "lecture_script": [
+        {"type": "mini_lecture", "duration_min": 6, "script": "Identify the relationship between sentences first. Then pick a transition that states that relationship-no fancier than needed."},
+        {"type": "guided_practice", "duration_min": 8, "script": "We’ll replace vague connectors with specific ones that show contrast or cause-and-effect."},
+        {"type": "quick_check", "duration_min": 6, "script": "State the link in two words: ‘therefore’ or ‘however’? Choose accordingly."}
+      ],
+      "content": {
+        "worked_example": {
+          "passage": "The proposal is affordable; however, it lacks a plan for maintenance costs after year one.",
+          "question": "Which transition best fits the relationship?",
+          "options": {"A": "for example", "B": "however", "C": "therefore", "D": "meanwhile"},
+          "correct_answer": "B",
+          "explanation": "The second clause contrasts a strength with a weakness; ‘however’ signals contrast."
+        },
+        "practice_set": [
+          {
+            "id": "U4S1_P1",
+            "passage": "The solar array cut energy use by 20%; therefore, monthly costs fell noticeably.",
+            "question": "The transition primarily shows",
+            "options": {"A": "contrast", "B": "cause-and-effect", "C": "chronology", "D": "concession"},
+            "correct_answer": "B"
+          }
+        ]
+      }
+    },
+    {
+      "section_id": "rhetorical_synthesis",
+      "title": "Rhetorical Synthesis",
+      "time_suggested_minutes": 20,
+      "objectives": [
+        "Select evidence that best supports a stated claim from multiple sources.",
+        "Avoid irrelevant but interesting facts.",
+        "Combine concise paraphrases from two brief sources."
+      ],
+      "lecture_script": [
+        {"type": "mini_lecture", "duration_min": 6, "script": "Underline the claim, then pick data that directly advances that claim. If it doesn’t support, it doesn’t belong."},
+        {"type": "think_aloud", "duration_min": 8, "script": "Claim: school gardens improve nutrition. Source A shows increased veggie intake; Source B shows more students trying new produce-both support the claim."},
+        {"type": "quick_check", "duration_min": 6, "script": "Which source sentence actually proves the claim? Give the letter only."}
+      ],
+      "content": {
+        "worked_example": {
+          "passage": "Claim: Later school start times improve attendance. Source 1: After shifting to 8:45 a.m., tardies fell by 30%. Source 2: Students reported feeling more rested.",
+          "question": "Which statement best supports the claim?",
+          "options": {"A": "Students like weekends.", "B": "Tardies fell by 30% after a later start.", "C": "Some students study at night.", "D": "Cafeteria lines were shorter."},
+          "correct_answer": "B",
+          "explanation": "The 30% drop in tardies directly supports improved attendance."
+        },
+        "practice_set": [
+          {
+            "id": "U4S2_P1",
+            "passage": "Claim: Adding shade trees lowers building energy use. Source A: Shaded walls absorb less heat. Source B: Meter readings fell 12% after tree planting.",
+            "question": "Which choice best supports the claim?",
+            "options": {"A": "Trees drop leaves in fall.", "B": "Meter readings fell 12% after planting.", "C": "Some buildings have basements.", "D": "People like parks."},
+            "correct_answer": "B"
+          }
+        ]
+      }
+    },
+    {
+      "section_id": "style_and_tone",
+      "title": "Style & Tone",
+      "time_suggested_minutes": 20,
+      "objectives": [
+        "Maintain a consistent formal or informal tone.",
+        "Choose concise, precise phrasing over wordiness.",
+        "Avoid slang or jargon that clashes with context."
+      ],
+      "lecture_script": [
+        {"type": "mini_lecture", "duration_min": 6, "script": "Match the register to the audience. Academic contexts prefer concise and neutral phrasing."},
+        {"type": "guided_practice", "duration_min": 8, "script": "We’ll revise sentences to remove wordiness and adjust tone from casual to formal."},
+        {"type": "quick_check", "duration_min": 6, "script": "Is this phrase too casual for a report? Answer yes or no."}
+      ],
+      "content": {
+        "worked_example": {
+          "passage": "Original: The experiment was kind of a big deal because it, like, showed cool results. Revision options vary in formality and precision.",
+          "question": "Which revision maintains an appropriately formal tone?",
+          "options": {"A": "The experiment was kinda big ‘cause it showed cool results.", "B": "The experiment was important because it demonstrated clear results.", "C": "The experiment was, you know, interesting.", "D": "The experiment was epic and wild."},
+          "correct_answer": "B",
+          "explanation": "Option B is concise and formal, avoiding slang and vagueness."
+        },
+        "practice_set": [
+          {
+            "id": "U4S3_P1",
+            "passage": "Choose the most concise, formal option to complete: ‘The committee decided to ___ the plan for clarity.’",
+            "question": "Which choice best fits?",
+            "options": {"A": "kinda redo", "B": "completely and totally overhaul in a manner that is thorough", "C": "revise", "D": "mess with"},
+            "correct_answer": "C"
+          }
+        ]
+      }
+    }
+  ],
+  "unit_check": [
+    {"id": "U4_UC1", "question": "Choose transitions by first identifying", "options": {"A": "word length", "B": "the logical relationship", "C": "alphabetical order", "D": "the longest option"}, "correct_answer": "B"},
+    {"id": "U4_UC2", "question": "Rhetorical synthesis prioritizes", "options": {"A": "interesting trivia", "B": "evidence that advances the stated claim", "C": "the most colorful quote", "D": "outside knowledge"}, "correct_answer": "B"},
+    {"id": "U4_UC3", "question": "In formal contexts, prefer", "options": {"A": "slang", "B": "vague praise", "C": "concise precision", "D": "jargon for flair"}, "correct_answer": "C"},
+    {"id": "U4_UC4", "question": "A tone mismatch occurs when", "options": {"A": "the option is concise", "B": "register clashes with audience", "C": "the sentence is short", "D": "two sources are used"}, "correct_answer": "B"}
+  ],
+  "homework": [
+    "Edit a paragraph by replacing three weak transitions with precise ones and justify each choice.",
+    "From two short sources, select two sentences that best support a given claim.",
+    "Revise five sentences to align tone with a formal report."
+  ],
+  "answer_key": {
+    "U4S1_P1": "B",
+    "U4S2_P1": "B",
+    "U4S3_P1": "C",
+    "U4_UC1": "B",
+    "U4_UC2": "B",
+    "U4_UC3": "C",
+    "U4_UC4": "B"
+  }
+}
+
+
+

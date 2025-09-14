@@ -1,0 +1,67 @@
+{
+  "unit_id": "unit2_inferences",
+  "unit_title": "Unit 2 Lecture: Inferences",
+  "target_exam": "SAT Reading & Writing",
+  "total_mastery_points": 400,
+  "audience": "High school students preparing for the SAT (Reading & Writing)",
+  "teacher_notes": {
+    "pacing": "45 minutes; inference modeling and checks.",
+    "materials": "Short passages, projector, and timers.",
+    "assessment": "4-item unit check; justify one inference with a quote."
+  },
+  "learning_objectives": [
+    "Draw conclusions supported by the text.",
+    "Avoid speculation beyond given information.",
+    "Cite the words that justify the inference."
+  ],
+  "structure": [
+    {
+      "section_id": "inferences",
+      "title": "Inferences",
+      "time_suggested_minutes": 35,
+      "objectives": [
+        "State the inference in plain language first.",
+        "Point to the exact words that justify it.",
+        "Reject options adding new facts."
+      ],
+      "lecture_script": [
+        {"type": "mini_lecture", "duration_min": 12, "script": "An inference is a justified conclusion. Ask: If this sentence is true, what must also be true?"},
+        {"type": "think_aloud", "duration_min": 12, "script": "‘Checks the door twice’ suggests worry about security-so I infer caution, not forgetfulness without evidence."},
+        {"type": "quick_check", "duration_min": 9, "script": "Hold up the letter for the option that is supported without adding unstated claims."}
+      ],
+      "content": {
+        "worked_example": {
+          "passage": "Hearing thunder grow nearer, Lina moved metal chairs indoors before locking the garden gate.",
+          "question": "What can be reasonably inferred about Lina?",
+          "options": {"A": "She dislikes rain.", "B": "She anticipates risk and prevents damage.", "C": "She plans to sell the chairs.", "D": "She ignores the storm."},
+          "correct_answer": "B",
+          "explanation": "Her preventive actions show anticipation of risk."
+        },
+        "practice_set": [
+          {"id": "U2_INF_P1", "passage": "When the auditorium lights dimmed, the presenter waited until whispers faded, then began.", "question": "What is the most reasonable inference?", "options": {"A": "The presenter forgot the topic.", "B": "The audience was small.", "C": "The presenter sought full attention first.", "D": "The equipment failed."}, "correct_answer": "C"}
+        ]
+      }
+    }
+  ],
+  "unit_check": [
+    {"id": "U2_INF_UC1", "question": "An inference must be", "options": {"A": "creative", "B": "text-supported", "C": "long", "D": "outside knowledge"}, "correct_answer": "B"},
+    {"id": "U2_INF_UC2", "question": "To justify an inference, you should", "options": {"A": "quote support", "B": "guess", "C": "ignore wording", "D": "add facts"}, "correct_answer": "A"},
+    {"id": "U2_INF_UC3", "question": "Avoid options that", "options": {"A": "paraphrase", "B": "introduce new claims", "C": "use moderate wording", "D": "cite evidence"}, "correct_answer": "B"},
+    {"id": "U2_INF_UC4", "question": "First step is to", "options": {"A": "write a plain-language inference", "B": "time out", "C": "read options first", "D": "skip the passage"}, "correct_answer": "A"}
+  ],
+  "homework": [
+    "Write a one-sentence inference for three mini-passages and cite words that support it.",
+    "Revise one overreaching inference to remove speculation.",
+    "Complete four inference items and explain one elimination."
+  ],
+  "answer_key": {
+    "U2_INF_P1": "C",
+    "U2_INF_UC1": "B",
+    "U2_INF_UC2": "A",
+    "U2_INF_UC3": "B",
+    "U2_INF_UC4": "A"
+  }
+}
+
+
+

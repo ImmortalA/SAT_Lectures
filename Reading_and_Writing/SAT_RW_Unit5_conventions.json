@@ -1,0 +1,156 @@
+{
+  "unit_id": "standard_english_conventions",
+  "unit_title": "Standard English Conventions",
+  "target_exam": "SAT Reading & Writing",
+  "total_mastery_points": 400,
+  "audience": "High school students preparing for the SAT (Reading & Writing)",
+  "teacher_notes": {
+    "pacing": "60–75 minutes; 3 grammar-focused sections with quick drills.",
+    "materials": "Slide deck, grammar reference sheet, and mini whiteboards for response.",
+    "assessment": "Unit check and correction of common errors from practice."
+  },
+  "learning_objectives": [
+    "Edit sentences for clarity and correct structure.",
+    "Apply punctuation rules for commas, dashes, and colons.",
+    "Ensure subject-verb and pronoun-antecedent agreement."
+  ],
+  "structure": [
+    {
+      "section_id": "sentence_structure",
+      "title": "Sentence Structure",
+      "time_suggested_minutes": 25,
+      "objectives": [
+        "Identify and correct fragments and run-ons.",
+        "Use subordination and coordination appropriately.",
+        "Choose concise, logically complete sentences."
+      ],
+      "lecture_script": [
+        {"type": "mini_lecture", "duration_min": 8, "script": "Complete sentences need a subject and a finite verb and express a full idea. Join related ideas with proper punctuation or conjunctions."},
+        {"type": "guided_practice", "duration_min": 10, "script": "We’ll fix two run-ons by adding conjunctions or splitting into two sentences, keeping meaning concise."},
+        {"type": "quick_check", "duration_min": 7, "script": "Is this a fragment, a run-on, or correct? Hold up F, R, or C."}
+      ],
+      "content": {
+        "worked_example": {
+          "passage": "The museum expanded last year it opened two new galleries devoted to modern art.",
+          "question": "Which choice best corrects the sentence?",
+          "options": {
+            "A": "The museum expanded last year opening two new galleries devoted to modern art.",
+            "B": "The museum expanded last year; it opened two new galleries devoted to modern art.",
+            "C": "Because the museum expanded last year, and opened two new galleries devoted to modern art.",
+            "D": "The museum expanded last year, it opened two new galleries devoted to modern art."
+          },
+          "correct_answer": "B",
+          "explanation": "Option B correctly joins two independent clauses with a semicolon."
+        },
+        "practice_set": [
+          {
+            "id": "U5S1_P1",
+            "passage": "Hoping to finish early and to catch the bus on time.",
+            "question": "Which revision creates a complete sentence?",
+            "options": {"A": "Hoping to finish early, the team worked quickly and caught the bus.", "B": "Hoping to finish early; and to catch the bus on time.", "C": "Hoping to finish early catching the bus on time.", "D": "Hoping to finish early on time bus."},
+            "correct_answer": "A"
+          }
+        ]
+      }
+    },
+    {
+      "section_id": "punctuation",
+      "title": "Punctuation",
+      "time_suggested_minutes": 25,
+      "objectives": [
+        "Use commas for nonessential information and series.",
+        "Apply colons to introduce explanations or lists.",
+        "Use dashes for emphasis or appositives when appropriate."
+      ],
+      "lecture_script": [
+        {"type": "mini_lecture", "duration_min": 8, "script": "Commas set off nonessential phrases; colons follow complete clauses to introduce explanations; dashes can replace commas for emphasis."},
+        {"type": "guided_practice", "duration_min": 10, "script": "We’ll test whether the clause before a colon is complete, then decide between comma, colon, or dash."},
+        {"type": "quick_check", "duration_min": 7, "script": "Is the information essential? If not, set it off with commas or dashes."}
+      ],
+      "content": {
+        "worked_example": {
+          "passage": "The recipe calls for three ingredients simple ones: flour, water, and salt.",
+          "question": "Which choice correctly uses punctuation?",
+          "options": {
+            "A": "The recipe calls for three ingredients: simple ones, flour, water, and salt.",
+            "B": "The recipe calls for three ingredients-simple ones: flour, water, and salt.",
+            "C": "The recipe calls for three ingredients: simple ones-flour, water, and salt.",
+            "D": "The recipe calls for three ingredients: flour, water, and salt."
+          },
+          "correct_answer": "D",
+          "explanation": "A complete clause precedes a colon that introduces a list; no extra words are needed."
+        },
+        "practice_set": [
+          {
+            "id": "U5S2_P1",
+            "passage": "The festival featured dancers musicians and poets from across the region.",
+            "question": "Which choice correctly punctuates the sentence?",
+            "options": {"A": "The festival featured dancers, musicians, and poets from across the region.", "B": "The festival featured dancers; musicians and poets from across the region.", "C": "The festival featured dancers musicians, and poets, from across the region.", "D": "The festival featured dancers-musicians-and poets from across the region."},
+            "correct_answer": "A"
+          }
+        ]
+      }
+    },
+    {
+      "section_id": "usage_agreement",
+      "title": "Usage & Agreement",
+      "time_suggested_minutes": 25,
+      "objectives": [
+        "Ensure subject-verb agreement, even with interrupting phrases.",
+        "Maintain pronoun clarity and agreement in number and person.",
+        "Choose precise, conventional usage over awkward phrasing."
+      ],
+      "lecture_script": [
+        {"type": "mini_lecture", "duration_min": 8, "script": "Match the verb to the true subject, not to nearby nouns. Keep pronouns clear and consistent with their antecedents."},
+        {"type": "guided_practice", "duration_min": 10, "script": "We’ll identify subjects in tricky sentences and adjust verbs or pronouns accordingly."},
+        {"type": "quick_check", "duration_min": 7, "script": "State the subject and the correct verb form in two words each."}
+      ],
+      "content": {
+        "worked_example": {
+          "passage": "The bouquet of roses and lilies were fragrant enough to fill the room.",
+          "question": "Which choice corrects the error?",
+          "options": {
+            "A": "The bouquet of roses and lilies was fragrant enough to fill the room.",
+            "B": "The bouquets of roses and lilies was fragrant enough to fill the room.",
+            "C": "The bouquet of roses and lilies were fragrant enough to fill the rooms.",
+            "D": "The bouquet of roses and lilies are fragrant enough to fill the room."
+          },
+          "correct_answer": "A",
+          "explanation": "Subject is ‘bouquet’ (singular), so the verb should be ‘was.’"
+        },
+        "practice_set": [
+          {
+            "id": "U5S3_P1",
+            "passage": "Neither the coach nor the players ___ ready for the photo when it was taken.",
+            "question": "Which verb correctly completes the sentence?",
+            "options": {"A": "was", "B": "were", "C": "is", "D": "be"},
+            "correct_answer": "B"
+          }
+        ]
+      }
+    }
+  ],
+  "unit_check": [
+    {"id": "U5_UC1", "question": "A complete sentence must include", "options": {"A": "a prepositional phrase", "B": "a subject and a finite verb", "C": "a semicolon", "D": "a colon"}, "correct_answer": "B"},
+    {"id": "U5_UC2", "question": "A colon should come after", "options": {"A": "a fragment", "B": "a complete clause", "C": "an incomplete list", "D": "a preposition"}, "correct_answer": "B"},
+    {"id": "U5_UC3", "question": "Subject-verb agreement is determined by", "options": {"A": "the nearest noun", "B": "the true subject", "C": "the longest noun phrase", "D": "the object"}, "correct_answer": "B"},
+    {"id": "U5_UC4", "question": "Nonessential information should be", "options": {"A": "set off with commas or dashes", "B": "left unpunctuated", "C": "capitalized", "D": "replaced with a colon"}, "correct_answer": "A"}
+  ],
+  "homework": [
+    "Fix ten sentences containing fragments, run-ons, or comma splices.",
+    "Add correct punctuation to five sentences with lists or explanations.",
+    "Revise five sentences for agreement and clear pronoun reference."
+  ],
+  "answer_key": {
+    "U5S1_P1": "A",
+    "U5S2_P1": "A",
+    "U5S3_P1": "B",
+    "U5_UC1": "B",
+    "U5_UC2": "B",
+    "U5_UC3": "B",
+    "U5_UC4": "A"
+  }
+}
+
+
+

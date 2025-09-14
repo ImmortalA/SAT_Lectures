@@ -1,0 +1,67 @@
+{
+  "unit_id": "unit3_text_structure",
+  "unit_title": "Unit 3 Lecture: Text Structure",
+  "target_exam": "SAT Reading & Writing",
+  "total_mastery_points": 400,
+  "audience": "High school students preparing for the SAT (Reading & Writing)",
+  "teacher_notes": {
+    "pacing": "45 minutes; function-of-sentence focus with signals.",
+    "materials": "Signal-word list and sample sentences.",
+    "assessment": "4-item unit check; label one function on exit."
+  },
+  "learning_objectives": [
+    "Identify how a sentence functions in context.",
+    "Use signal words to track logic.",
+    "Choose answers that preserve the author’s purpose."
+  ],
+  "structure": [
+    {
+      "section_id": "text_structure",
+      "title": "Text Structure",
+      "time_suggested_minutes": 35,
+      "objectives": [
+        "Label contrast, cause, example, or conclusion.",
+        "Connect clauses with appropriate transitions.",
+        "Avoid illogical but grammatical connectors."
+      ],
+      "lecture_script": [
+        {"type": "mini_lecture", "duration_min": 12, "script": "Ask what the sentence does: introduce, contrast, explain, or conclude. Signal words often reveal the function."},
+        {"type": "guided_practice", "duration_min": 12, "script": "Underline ‘however,’ ‘therefore,’ ‘for example,’ and match them to contrast, cause, or illustration."},
+        {"type": "quick_check", "duration_min": 9, "script": "Name the function of the underlined sentence in three words or fewer."}
+      ],
+      "content": {
+        "worked_example": {
+          "passage": "Many assumed the comet would dim quickly; however, new measurements showed it brightening near the sun.",
+          "question": "What is the function of ‘however’?",
+          "options": {"A": "example", "B": "contrast", "C": "cause", "D": "summary"},
+          "correct_answer": "B",
+          "explanation": "‘However’ contrasts prior assumption with new data."
+        },
+        "practice_set": [
+          {"id": "U3_TS_P1", "passage": "The device saves energy; therefore, it reduces monthly costs.", "question": "The transition primarily shows", "options": {"A": "contrast", "B": "cause-and-effect", "C": "chronology", "D": "definition"}, "correct_answer": "B"}
+        ]
+      }
+    }
+  ],
+  "unit_check": [
+    {"id": "U3_TS_UC1", "question": "Function questions ask what a sentence", "options": {"A": "looks like", "B": "does", "C": "costs", "D": "rhymes with"}, "correct_answer": "B"},
+    {"id": "U3_TS_UC2", "question": "‘However’ typically signals", "options": {"A": "addition", "B": "contrast", "C": "cause", "D": "example"}, "correct_answer": "B"},
+    {"id": "U3_TS_UC3", "question": "Choose transitions based on", "options": {"A": "logic between ideas", "B": "word length", "C": "alphabet", "D": "style only"}, "correct_answer": "A"},
+    {"id": "U3_TS_UC4", "question": "An illogical connector is", "options": {"A": "grammatical but wrong relationship", "B": "always a comma", "C": "always a dash", "D": "never a problem"}, "correct_answer": "A"}
+  ],
+  "homework": [
+    "Mark contrast/cause/example in a short article and label each.",
+    "Replace three vague connectors with precise ones.",
+    "Write two sentences that conclude a paragraph appropriately." 
+  ],
+  "answer_key": {
+    "U3_TS_P1": "B",
+    "U3_TS_UC1": "B",
+    "U3_TS_UC2": "B",
+    "U3_TS_UC3": "A",
+    "U3_TS_UC4": "A"
+  }
+}
+
+
+

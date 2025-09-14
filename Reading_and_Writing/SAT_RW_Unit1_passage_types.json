@@ -1,0 +1,67 @@
+{
+  "unit_id": "unit1_types_of_passages_and_questions",
+  "unit_title": "Unit 1 Lecture: Types of Passages & Questions",
+  "target_exam": "SAT Reading & Writing",
+  "total_mastery_points": 400,
+  "audience": "High school students preparing for the SAT (Reading & Writing)",
+  "teacher_notes": {
+    "pacing": "45 minutes; taxonomy with modeling and practice.",
+    "materials": "Slide with passage types, sample items, timer.",
+    "assessment": "4-item unit check and brief exit reflection."
+  },
+  "learning_objectives": [
+    "Recognize literary, historical, scientific, and informational passages.",
+    "Identify common question types and traps.",
+    "Apply elimination by relevance to the question."
+  ],
+  "structure": [
+    {
+      "section_id": "types_of_passages_and_questions",
+      "title": "Types of Passages & Questions",
+      "time_suggested_minutes": 35,
+      "objectives": [
+        "Label passage type before answering.",
+        "Name the question type and plan the approach.",
+        "Eliminate choices true-but-irrelevant."
+      ],
+      "lecture_script": [
+        {"type": "mini_lecture", "duration_min": 12, "script": "Expect literary, historical, scientific, and informational texts. Questions target main ideas, evidence, words in context, structure, and conventions."},
+        {"type": "error_analysis", "duration_min": 12, "script": "We’ll reject an option that echoes the passage but does not answer the question asked."},
+        {"type": "guided_practice", "duration_min": 9, "script": "Label type, name the question, then choose based on relevance and precision."}
+      ],
+      "content": {
+        "worked_example": {
+          "passage": "In 1913, the suffragists’ parade drew national attention, transforming a local campaign into a movement that pressed lawmakers to act.",
+          "question": "Which choice best captures the central idea?",
+          "options": {"A": "Parades always change laws.", "B": "A 1913 parade amplified a political movement.", "C": "Lawmakers dislike public events.", "D": "Local campaigns are ineffective."},
+          "correct_answer": "B",
+          "explanation": "The parade drew attention and transformed the campaign-amplifying the movement."
+        },
+        "practice_set": [
+          {"id": "U1_TP_P1", "passage": "The engineer compared outputs from two solar prototypes and found small design tweaks improved efficiency.", "question": "This passage is best categorized as", "options": {"A": "literary narrative", "B": "scientific/informational", "C": "historical speech", "D": "humorous anecdote"}, "correct_answer": "B"}
+        ]
+      }
+    }
+  ],
+  "unit_check": [
+    {"id": "U1_TP_UC1", "question": "A true but irrelevant option should be", "options": {"A": "selected", "B": "eliminated", "C": "rewarded", "D": "expanded"}, "correct_answer": "B"},
+    {"id": "U1_TP_UC2", "question": "Passage types include", "options": {"A": "only fiction", "B": "literary, historical, scientific, informational", "C": "math proofs only", "D": "personal letters only"}, "correct_answer": "B"},
+    {"id": "U1_TP_UC3", "question": "Before choosing, first", "options": {"A": "read the choices", "B": "label type and question", "C": "ignore the question", "D": "time out"}, "correct_answer": "B"},
+    {"id": "U1_TP_UC4", "question": "Central idea choices should", "options": {"A": "quote details", "B": "capture overall point", "C": "be the longest", "D": "add new facts"}, "correct_answer": "B"}
+  ],
+  "homework": [
+    "Sort ten mini-passages by type and justify each label.",
+    "For five items, name the question type and the best first step.",
+    "Write one sentence explaining why a trap is irrelevant for two items."
+  ],
+  "answer_key": {
+    "U1_TP_P1": "B",
+    "U1_TP_UC1": "B",
+    "U1_TP_UC2": "B",
+    "U1_TP_UC3": "B",
+    "U1_TP_UC4": "B"
+  }
+}
+
+
+

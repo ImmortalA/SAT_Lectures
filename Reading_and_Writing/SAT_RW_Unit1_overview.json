@@ -1,0 +1,68 @@
+{
+  "unit_id": "unit1_overview_of_test",
+  "unit_title": "Unit 1 Lecture: Overview of the SAT Reading & Writing Test",
+  "target_exam": "SAT Reading & Writing",
+  "total_mastery_points": 400,
+  "audience": "High school students preparing for the SAT (Reading & Writing)",
+  "teacher_notes": {
+    "pacing": "45 minutes; overview with modeling and a short practice.",
+    "materials": "Slides with module layout, timer, sample item handout.",
+    "assessment": "Exit ticket plus 4-item unit check; quick thumbs checks."
+  },
+  "learning_objectives": [
+    "Describe the digital SAT R&W module structure and navigation.",
+    "Explain the read–predict–select routine for single-item passages.",
+    "Identify common item formats and eliminate off-topic choices."
+  ],
+  "structure": [
+    {
+      "section_id": "overview_of_test",
+      "title": "Overview of the Test",
+      "time_suggested_minutes": 35,
+      "objectives": [
+        "Recognize adaptive modules and single-question passages.",
+        "Apply a fast read–predict–select process.",
+        "Eliminate distractors lacking relevance."
+      ],
+      "lecture_script": [
+        {"type": "mini_lecture", "duration_min": 12, "script": "The digital SAT R&W uses two adaptive modules with brief passages and one question each. You can flag items and return within a module; all questions are A–D multiple-choice."},
+        {"type": "think_aloud", "duration_min": 12, "script": "I skim for gist, predict in a few words, and then match that prediction to the best option while crossing out choices that are irrelevant or extreme."},
+        {"type": "guided_practice", "duration_min": 9, "script": "We’ll do one sample together: underline the key claim, say your prediction, then choose the option that directly fits it."},
+        {"type": "exit_ticket", "duration_min": 2, "script": "Write one sentence describing how you’ll use predict-before-choices on test day."}
+      ],
+      "content": {
+        "worked_example": {
+          "passage": "Maya arranged the lab samples methodically, noting that careful order reduced mistakes and sped analysis. Her mentor watched, smiling at the quiet efficiency.",
+          "question": "Which choice best states the main idea of the passage?",
+          "options": {"A": "Maya dislikes working in laboratories.", "B": "The mentor corrects Maya’s method.", "C": "Maya’s organized approach improves accuracy and speed.", "D": "The lab is too noisy for careful work."},
+          "correct_answer": "C",
+          "explanation": "Order reduces mistakes and speeds analysis, so organization improves accuracy and speed."
+        },
+        "practice_set": [
+          {"id": "U1_OV_P1", "passage": "The city council posted summaries before meetings so residents could prepare comments.", "question": "The council most likely intends to", "options": {"A": "discourage input", "B": "limit proposals", "C": "increase informed feedback", "D": "speed votes by excluding debate"}, "correct_answer": "C"}
+        ]
+      }
+    }
+  ],
+  "unit_check": [
+    {"id": "U1_OV_UC1", "question": "R&W items are primarily", "options": {"A": "essays", "B": "short-answer", "C": "multiple-choice A–D", "D": "fill-in"}, "correct_answer": "C"},
+    {"id": "U1_OV_UC2", "question": "A fast routine is", "options": {"A": "predict then match", "B": "read all choices first", "C": "memorize options", "D": "skip prediction"}, "correct_answer": "A"},
+    {"id": "U1_OV_UC3", "question": "Irrelevant choices should be", "options": {"A": "preferred", "B": "eliminated", "C": "paraphrased", "D": "lengthened"}, "correct_answer": "B"},
+    {"id": "U1_OV_UC4", "question": "Within a module you can", "options": {"A": "flag and return", "B": "change scoring", "C": "hide the timer", "D": "reorder the test"}, "correct_answer": "A"}
+  ],
+  "homework": [
+    "Write a one-paragraph summary of the SAT R&W format.",
+    "Complete five items using predict-before-choices and note your evidence phrase.",
+    "List three trap patterns you will eliminate quickly."
+  ],
+  "answer_key": {
+    "U1_OV_P1": "C",
+    "U1_OV_UC1": "C",
+    "U1_OV_UC2": "A",
+    "U1_OV_UC3": "B",
+    "U1_OV_UC4": "A"
+  }
+}
+
+
+

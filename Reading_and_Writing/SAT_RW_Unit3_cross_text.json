@@ -1,0 +1,67 @@
+{
+  "unit_id": "unit3_cross_text_connections",
+  "unit_title": "Unit 3 Lecture: Cross-Text Connections",
+  "target_exam": "SAT Reading & Writing",
+  "total_mastery_points": 400,
+  "audience": "High school students preparing for the SAT (Reading & Writing)",
+  "teacher_notes": {
+    "pacing": "45 minutes; synthesis across two texts.",
+    "materials": "Two short passages with related claims.",
+    "assessment": "4-item unit check; one synthesis sentence exit ticket."
+  },
+  "learning_objectives": [
+    "Identify each text’s claim and support.",
+    "Describe the relationship: support, qualify, or oppose.",
+    "Choose statements accurate for both texts."
+  ],
+  "structure": [
+    {
+      "section_id": "cross_text_connections",
+      "title": "Cross-Text Connections",
+      "time_suggested_minutes": 35,
+      "objectives": [
+        "Chart claims in five words each.",
+        "Test candidate statements against both texts.",
+        "Eliminate options mismatching either text."
+      ],
+      "lecture_script": [
+        {"type": "mini_lecture", "duration_min": 12, "script": "Read Text 1 and Text 2 for claims. Ask how Text 2 responds-supports, qualifies, or opposes-and select the statement true for both."},
+        {"type": "think_aloud", "duration_min": 12, "script": "Text 1: trees cool streets. Text 2: shade lowers energy use. Together: cooling benefits with practical effects."},
+        {"type": "quick_check", "duration_min": 9, "script": "If a choice misstates either claim, it’s out. State the letter that fits both."}
+      ],
+      "content": {
+        "worked_example": {
+          "passage": "Text 1: A survey finds bike lanes increase shop visits. Text 2: Weekend sales rose after a new lane opened.",
+          "question": "Together, the texts suggest",
+          "options": {"A": "bike lanes always reduce traffic", "B": "bike lanes may boost nearby commerce", "C": "shopping causes bike lanes", "D": "weekends are the only profitable days"},
+          "correct_answer": "B",
+          "explanation": "Both link bike lanes with increased shopping activity."
+        },
+        "practice_set": [
+          {"id": "U3_CT_P1", "passage": "Text 1: Eight hours of sleep improved recall. Text 2: Naps improved afternoon alertness.", "question": "What do the texts together support?", "options": {"A": "Sleep has no effect", "B": "Only naps matter", "C": "Sleep can aid memory and alertness", "D": "Recall is unrelated to alertness"}, "correct_answer": "C"}
+        ]
+      }
+    }
+  ],
+  "unit_check": [
+    {"id": "U3_CT_UC1", "question": "Cross-text items require accuracy for", "options": {"A": "both texts", "B": "one text only", "C": "neither text", "D": "outside sources"}, "correct_answer": "A"},
+    {"id": "U3_CT_UC2", "question": "First, identify each text’s", "options": {"A": "title", "B": "claim", "C": "author biography", "D": "syntax"}, "correct_answer": "B"},
+    {"id": "U3_CT_UC3", "question": "A qualifying response typically", "options": {"A": "agrees with no parts", "B": "adds conditions or limits", "C": "changes topics", "D": "copies verbatim"}, "correct_answer": "B"},
+    {"id": "U3_CT_UC4", "question": "Eliminate choices that", "options": {"A": "fit both", "B": "misstate either text", "C": "use moderate wording", "D": "paraphrase"}, "correct_answer": "B"}
+  ],
+  "homework": [
+    "Write one-sentence claim summaries for two paired texts and state the relationship.",
+    "Create one statement that both texts support; verify with quotes.",
+    "Complete four cross-text items and explain one elimination."
+  ],
+  "answer_key": {
+    "U3_CT_P1": "C",
+    "U3_CT_UC1": "A",
+    "U3_CT_UC2": "B",
+    "U3_CT_UC3": "B",
+    "U3_CT_UC4": "B"
+  }
+}
+
+
+

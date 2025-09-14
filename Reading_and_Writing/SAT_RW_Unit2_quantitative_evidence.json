@@ -1,0 +1,67 @@
+{
+  "unit_id": "unit2_quantitative_evidence",
+  "unit_title": "Unit 2 Lecture: Command of Evidence (Quantitative)",
+  "target_exam": "SAT Reading & Writing",
+  "total_mastery_points": 400,
+  "audience": "High school students preparing for the SAT (Reading & Writing)",
+  "teacher_notes": {
+    "pacing": "45 minutes; chart/graph reading and claims.",
+    "materials": "Printed mini-graphs, projector, and ruler if needed.",
+    "assessment": "4-item unit check and one-sentence trend paraphrase."
+  },
+  "learning_objectives": [
+    "Read titles, axes, and units before interpreting.",
+    "Match claims precisely to data points or trends.",
+    "Avoid extrapolation beyond the figure."
+  ],
+  "structure": [
+    {
+      "section_id": "quantitative_evidence",
+      "title": "Command of Evidence (Quantitative)",
+      "time_suggested_minutes": 35,
+      "objectives": [
+        "Parse labels and scales.",
+        "Identify largest increase/decrease accurately.",
+        "Translate numeric changes into plain language."
+      ],
+      "lecture_script": [
+        {"type": "mini_lecture", "duration_min": 12, "script": "Start with title, variables, and units. Read exact values and compare the right numbers for the claim."},
+        {"type": "guided_practice", "duration_min": 12, "script": "Annotate a small table and select the statement that mirrors the data-no more, no less."},
+        {"type": "quick_check", "duration_min": 9, "script": "If the claim says ‘largest increase,’ which two values must you compare? Answer succinctly."}
+      ],
+      "content": {
+        "worked_example": {
+          "passage": "Table: Year1=40, Year2=50, Year3=70 participants in a science fair.",
+          "question": "Which statement is best supported?",
+          "options": {"A": "Participation decreased overall.", "B": "Largest increase was from Year2 to Year3.", "C": "Year2 had the most participants.", "D": "Year1 equaled Year2."},
+          "correct_answer": "B",
+          "explanation": "Increases are +10 and +20; the larger is 2→3."
+        },
+        "practice_set": [
+          {"id": "U2_QE_P1", "passage": "Bar chart: Jan 200, Feb 220, Mar 260 library visits.", "question": "Which choice describes the trend?", "options": {"A": "Visits drop steadily.", "B": "Visits are constant.", "C": "Visits increase each month.", "D": "March has the fewest."}, "correct_answer": "C"}
+        ]
+      }
+    }
+  ],
+  "unit_check": [
+    {"id": "U2_QE_UC1", "question": "First step with figures is to read", "options": {"A": "colors", "B": "title, axes, units", "C": "longest bar", "D": "legend only"}, "correct_answer": "B"},
+    {"id": "U2_QE_UC2", "question": "A precise claim should", "options": {"A": "match the data", "B": "add outside facts", "C": "generalize", "D": "ignore units"}, "correct_answer": "A"},
+    {"id": "U2_QE_UC3", "question": "Largest increase means compare", "options": {"A": "any two bars", "B": "non-adjacent only", "C": "the relevant consecutive values", "D": "colors"}, "correct_answer": "C"},
+    {"id": "U2_QE_UC4", "question": "Avoid", "options": {"A": "paraphrasing", "B": "outside knowledge", "C": "units", "D": "precision"}, "correct_answer": "B"}
+  ],
+  "homework": [
+    "Summarize trends for three mini-graphs in one sentence each.",
+    "Write one accurate and one inaccurate claim for a table; explain why.",
+    "Complete four quantitative evidence items and note compared values."
+  ],
+  "answer_key": {
+    "U2_QE_P1": "C",
+    "U2_QE_UC1": "B",
+    "U2_QE_UC2": "A",
+    "U2_QE_UC3": "C",
+    "U2_QE_UC4": "B"
+  }
+}
+
+
+

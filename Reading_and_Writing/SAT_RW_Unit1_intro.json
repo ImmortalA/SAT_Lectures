@@ -1,0 +1,169 @@
+{
+  "unit_id": "introduction_to_sat_reading_and_writing",
+  "unit_title": "Introduction to SAT Reading & Writing",
+  "target_exam": "SAT Reading & Writing",
+  "total_mastery_points": 400,
+  "audience": "High school students preparing for the SAT (Reading & Writing)",
+  "teacher_notes": {
+    "pacing": "45–60 minutes; 3 short sections with brief checks for understanding.",
+    "materials": "Slides or handout with overview charts, timer, projector, and printed practice questions.",
+    "assessment": "Exit ticket plus 4-item unit check; informal cold-calls during quick checks."
+  },
+  "learning_objectives": [
+    "Describe the structure and purpose of the SAT Reading & Writing module.",
+    "Explain scoring, timing, and adaptive modules.",
+    "Recognize common passage types and question categories.",
+    "Apply a simple read–predict–select routine to short SAT items."
+  ],
+  "structure": [
+    {
+      "section_id": "overview_of_test",
+      "title": "Overview of the Test",
+      "time_suggested_minutes": 15,
+      "objectives": [
+        "Identify the module format and navigation basics.",
+        "Understand that questions are discreet and multiple-choice (A–D).",
+        "Practice a fast read–predict–select routine."
+      ],
+      "lecture_script": [
+        {"type": "mini_lecture", "duration_min": 5, "script": "The digital SAT Reading & Writing has two adaptive modules with short passages and one question each. All items are multiple-choice A–D, and you may flag and return within a module."},
+        {"type": "think_aloud", "duration_min": 4, "script": "I skim the passage first for the gist, predict the answer in a few words, then match that prediction to the option that best fits while eliminating distractors."},
+        {"type": "guided_practice", "duration_min": 4, "script": "We’ll try one item together. I’ll model how to underline the key claim and test each option against that claim."},
+        {"type": "quick_check", "duration_min": 2, "script": "Thumbs: Who feels clear on the module structure and the read–predict–select routine?"}
+      ],
+      "content": {
+        "worked_example": {
+          "passage": "Maya arranged the lab samples methodically, noting that careful order reduced mistakes and sped analysis. Her mentor watched, smiling at the quiet efficiency.",
+          "question": "Which choice best states the main idea of the passage?",
+          "options": {
+            "A": "Maya dislikes working in laboratories.",
+            "B": "The mentor corrects Maya’s inefficient method.",
+            "C": "Maya’s organized approach improves accuracy and speed.",
+            "D": "The lab is too noisy for careful work."
+          },
+          "correct_answer": "C",
+          "explanation": "The passage emphasizes that order reduces mistakes and speeds analysis, showing organization improves accuracy and speed."
+        },
+        "practice_set": [
+          {
+            "id": "U1S1_P1",
+            "passage": "The city council posted summaries before meetings so residents could preview proposals and prepare comments.",
+            "question": "The passage primarily shows the council’s goal to",
+            "options": {"A": "discourage participation", "B": "limit proposals", "C": "increase informed feedback", "D": "speed votes by excluding debate"},
+            "correct_answer": "C"
+          }
+        ]
+      }
+    },
+    {
+      "section_id": "scoring_and_timing",
+      "title": "Scoring & Timing",
+      "time_suggested_minutes": 15,
+      "objectives": [
+        "Explain the 200–800 section score scale.",
+        "Allocate time per question using benchmarks.",
+        "Practice skipping, flagging, and returning efficiently."
+      ],
+      "lecture_script": [
+        {"type": "mini_lecture", "duration_min": 5, "script": "Your Reading & Writing section score ranges from 200–800. Manage time by aiming for a steady pace and using flags to revisit tougher items within a module."},
+        {"type": "think_aloud", "duration_min": 4, "script": "If an item feels sticky after 20–30 seconds, I pick the best option so far, flag it, and move on to protect later points."},
+        {"type": "guided_practice", "duration_min": 4, "script": "We’ll simulate two quick items with a visible timer and practice making fast, confident choices."},
+        {"type": "quick_check", "duration_min": 2, "script": "What’s our rule when stuck: guess-and-flag or dwell? State it in one phrase."}
+      ],
+      "content": {
+        "worked_example": {
+          "passage": "Because the conference schedule was dense, Jordan reviewed abstracts the night before to decide which talks to attend first.",
+          "question": "What strategy does Jordan use to manage limited time?",
+          "options": {"A": "Skipping the conference", "B": "Randomly choosing talks", "C": "Previewing abstracts to prioritize", "D": "Leaving early"},
+          "correct_answer": "C",
+          "explanation": "Jordan previews abstracts to prioritize, mirroring time management and prioritization."
+        },
+        "practice_set": [
+          {
+            "id": "U1S2_P1",
+            "passage": "During the test, Priya flagged two questions that required more careful reading and answered easier ones first.",
+            "question": "Priya’s approach primarily aims to",
+            "options": {"A": "reduce total questions", "B": "maximize points by pacing", "C": "avoid reading", "D": "change the scoring scale"},
+            "correct_answer": "B"
+          }
+        ]
+      }
+    },
+    {
+      "section_id": "types_of_passages_and_questions",
+      "title": "Types of Passages & Questions",
+      "time_suggested_minutes": 15,
+      "objectives": [
+        "Recognize literary, historical, scientific, and informational passages.",
+        "Identify common question types (main idea, evidence, words in context).",
+        "Apply elimination using passage-based reasoning."
+      ],
+      "lecture_script": [
+        {"type": "mini_lecture", "duration_min": 5, "script": "Expect brief literary, historical, scientific, and informational texts. Questions target main ideas, evidence, words in context, structure, and standard English conventions."},
+        {"type": "error_analysis", "duration_min": 4, "script": "We’ll examine a trap answer that is true but not relevant, and show why relevance to the question is essential."},
+        {"type": "guided_practice", "duration_min": 4, "script": "Let’s label the passage type and question type before choosing an answer."},
+        {"type": "exit_ticket", "duration_min": 2, "script": "Write one sentence naming a passage type and the best first step you’d take."}
+      ],
+      "content": {
+        "worked_example": {
+          "passage": "In 1913, the suffragists’ parade drew national attention, transforming a local campaign into a movement that pressed lawmakers to act.",
+          "question": "Which choice best captures the central idea?",
+          "options": {"A": "Parades always change laws.", "B": "A 1913 parade amplified a political movement.", "C": "Lawmakers dislike public events.", "D": "Local campaigns are ineffective."},
+          "correct_answer": "B",
+          "explanation": "The sentence says the parade drew attention and transformed the campaign, amplifying the movement."
+        },
+        "practice_set": [
+          {
+            "id": "U1S3_P1",
+            "passage": "The engineer compared energy outputs from two solar prototypes, concluding that small design tweaks significantly improved efficiency.",
+            "question": "This passage is best categorized as",
+            "options": {"A": "literary narrative", "B": "scientific/informational", "C": "historical speech", "D": "humorous anecdote"},
+            "correct_answer": "B"
+          }
+        ]
+      }
+    }
+  ],
+  "unit_check": [
+    {
+      "id": "U1_UC1",
+      "question": "Which action most directly supports effective pacing on the SAT?",
+      "options": {"A": "Reread every passage twice", "B": "Answer easy items first and flag tough ones", "C": "Skip the last module", "D": "Avoid using the timer"},
+      "correct_answer": "B"
+    },
+    {
+      "id": "U1_UC2",
+      "question": "The SAT Reading & Writing questions are primarily",
+      "options": {"A": "short-answer", "B": "essay", "C": "multiple-choice A–D", "D": "fill-in-the-blank"},
+      "correct_answer": "C"
+    },
+    {
+      "id": "U1_UC3",
+      "question": "A statement that is true but not tied to the question is best eliminated for lacking",
+      "options": {"A": "relevance", "B": "length", "C": "vocabulary", "D": "humor"},
+      "correct_answer": "A"
+    },
+    {
+      "id": "U1_UC4",
+      "question": "The section score range for Reading & Writing is",
+      "options": {"A": "0–36", "B": "200–800", "C": "1–5", "D": "400–1600"},
+      "correct_answer": "B"
+    }
+  ],
+  "homework": [
+    "Create a one-page summary of the SAT R&W format and pacing rules.",
+    "Complete five mixed items using the read–predict–select routine and annotate traps.",
+    "Set a personal timing benchmark (items per 5 minutes) and test it on 10 questions."
+  ],
+  "answer_key": {
+    "U1S1_P1": "C",
+    "U1S2_P1": "B",
+    "U1S3_P1": "B",
+    "U1_UC1": "B",
+    "U1_UC2": "C",
+    "U1_UC3": "A",
+    "U1_UC4": "B"
+  }
+}
+
+

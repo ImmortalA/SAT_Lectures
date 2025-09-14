@@ -1,0 +1,149 @@
+{
+  "unit_id": "mixed_practice_and_test_strategies",
+  "unit_title": "Mixed Practice & Test Strategies",
+  "target_exam": "SAT Reading & Writing",
+  "total_mastery_points": 400,
+  "audience": "High school students preparing for the SAT (Reading & Writing)",
+  "teacher_notes": {
+    "pacing": "60–75 minutes; 3 sections with timed drills and review.",
+    "materials": "Timer, mixed item sets, and reflection sheets for strategy notes.",
+    "assessment": "4-item unit check and exit reflection on pacing decisions."
+  },
+  "learning_objectives": [
+    "Apply strategies across mixed Reading & Writing items.",
+    "Manage time with deliberate skipping and flagging.",
+    "Recognize and avoid common traps and pitfalls."
+  ],
+  "structure": [
+    {
+      "section_id": "mixed_question_sets",
+      "title": "Mixed Question Sets",
+      "time_suggested_minutes": 25,
+      "objectives": [
+        "Switch efficiently between item types.",
+        "Use read–predict–select across diverse passages.",
+        "Justify choices with brief evidence."
+      ],
+      "lecture_script": [
+        {"type": "mini_lecture", "duration_min": 8, "script": "On mixed sets, label the question type quickly, predict, then select while eliminating by relevance and precision."},
+        {"type": "guided_practice", "duration_min": 9, "script": "We’ll complete a 3-item mini set under time, then debrief choices in one sentence each."},
+        {"type": "quick_check", "duration_min": 8, "script": "State the evidence phrase that made your answer correct."}
+      ],
+      "content": {
+        "worked_example": {
+          "passage": "The beekeeper recorded hive weights weekly, noting that supplemental flowers near the fence correlated with steadier gains.",
+          "question": "Which choice best states the main idea?",
+          "options": {"A": "Hive weights were unpredictable.", "B": "Nearby flowers were associated with steadier weight gains.", "C": "The beekeeper stopped recording data.", "D": "Beekeeping requires expensive tools."},
+          "correct_answer": "B",
+          "explanation": "The sentence links supplemental flowers with steadier gains-central relationship."
+        },
+        "practice_set": [
+          {
+            "id": "U7S1_P1",
+            "passage": "The editor cut redundant phrases so the article would read quickly and clearly.",
+            "question": "The edit primarily aims to improve",
+            "options": {"A": "tone", "B": "organization", "C": "conciseness", "D": "figurative language"},
+            "correct_answer": "C"
+          },
+          {
+            "id": "U7S1_P2",
+            "passage": "Figure: A line rises from 10 to 18 between trials 1 and 4.",
+            "question": "Which statement is supported by the figure?",
+            "options": {"A": "Values declined by 8.", "B": "Values increased by 8 across trials.", "C": "Values remained constant.", "D": "Trial 4 shows the minimum."},
+            "correct_answer": "B"
+          }
+        ]
+      }
+    },
+    {
+      "section_id": "time_management_drills",
+      "title": "Time Management Drills",
+      "time_suggested_minutes": 25,
+      "objectives": [
+        "Apply guess-and-flag when stuck.",
+        "Use micro-benchmarks to pace work.",
+        "Avoid spending more than 30 seconds before moving on."
+      ],
+      "lecture_script": [
+        {"type": "mini_lecture", "duration_min": 8, "script": "Protect later points by setting 20–30 second decision windows. Make a best choice, flag, and continue."},
+        {"type": "guided_practice", "duration_min": 9, "script": "Run a two-minute drill: answer three items, flag one if needed, and return."},
+        {"type": "quick_check", "duration_min": 8, "script": "Share one item you flagged and why-you protected time for later points."}
+      ],
+      "content": {
+        "worked_example": {
+          "passage": "During a drill, Sam quickly eliminated two options as off-topic, chose the better of the remaining two, and flagged the item.",
+          "question": "Sam’s approach primarily demonstrates",
+          "options": {"A": "random guessing", "B": "reckless skipping", "C": "strategic pacing and elimination", "D": "memorizing vocabulary"},
+          "correct_answer": "C",
+          "explanation": "Elimination plus flagging reflects strategic pacing decisions."
+        },
+        "practice_set": [
+          {
+            "id": "U7S2_P1",
+            "passage": "Facing a dense sentence, Alia selected an answer, flagged the item, and finished the last three questions on time.",
+            "question": "What strategy is illustrated?",
+            "options": {"A": "Overreading", "B": "Guess-and-flag to preserve time", "C": "Ignoring instructions", "D": "Changing the scoring"},
+            "correct_answer": "B"
+          }
+        ]
+      }
+    },
+    {
+      "section_id": "common_pitfalls_review",
+      "title": "Common Pitfalls & Review",
+      "time_suggested_minutes": 20,
+      "objectives": [
+        "Avoid choices that are true but not relevant.",
+        "Watch for extreme or absolute wording when the passage is moderate.",
+        "Check that grammar edits preserve meaning."
+      ],
+      "lecture_script": [
+        {"type": "mini_lecture", "duration_min": 7, "script": "Most traps are tempting because they echo the text without answering the question or use extreme language not supported by the passage."},
+        {"type": "error_analysis", "duration_min": 7, "script": "We’ll dissect a distractor that is factually correct but irrelevant and a choice with ‘always’ that overreaches the evidence."},
+        {"type": "exit_ticket", "duration_min": 6, "script": "Write one trap pattern you will watch for on test day."}
+      ],
+      "content": {
+        "worked_example": {
+          "passage": "Researchers observed that moderate exercise was associated with improved mood in most participants during weekdays.",
+          "question": "Which choice is an overgeneralization?",
+          "options": {"A": "Moderate exercise was linked to better mood on weekdays.", "B": "Exercise always guarantees happiness for everyone.", "C": "Most participants reported improved mood.", "D": "The study noted weekday observations."},
+          "correct_answer": "B",
+          "explanation": "‘Always’ and ‘everyone’ go beyond the study’s limited claim."
+        },
+        "practice_set": [
+          {
+            "id": "U7S3_P1",
+            "passage": "The author praises a program for reducing food waste but notes it requires consistent volunteer hours.",
+            "question": "Which choice is not supported?",
+            "options": {"A": "The program reduces food waste.", "B": "Volunteers must commit time.", "C": "The author completely opposes the program.", "D": "There is a noted requirement for effort."},
+            "correct_answer": "C"
+          }
+        ]
+      }
+    }
+  ],
+  "unit_check": [
+    {"id": "U7_UC1", "question": "When stuck for 30 seconds, you should", "options": {"A": "reread the entire set", "B": "guess, flag, and move on", "C": "leave it blank", "D": "restart the module"}, "correct_answer": "B"},
+    {"id": "U7_UC2", "question": "A common trap is", "options": {"A": "a relevant, precise choice", "B": "a true but off-topic option", "C": "the shortest option", "D": "any option with numbers"}, "correct_answer": "B"},
+    {"id": "U7_UC3", "question": "Mixed sets reward", "options": {"A": "switching strategies by item type", "B": "using one strategy always", "C": "ignoring time", "D": "avoiding practice"}, "correct_answer": "A"},
+    {"id": "U7_UC4", "question": "Overgeneralizations often use", "options": {"A": "moderate wording", "B": "precise qualifiers", "C": "extreme words like ‘always’", "D": "citations"}, "correct_answer": "C"}
+  ],
+  "homework": [
+    "Complete a 12-item mixed set under time and annotate trap patterns.",
+    "Create a personal pacing plan with checkpoints every 5 minutes.",
+    "Write three ‘if stuck, then’ rules you will apply on test day."
+  ],
+  "answer_key": {
+    "U7S1_P1": "C",
+    "U7S1_P2": "B",
+    "U7S2_P1": "B",
+    "U7S3_P1": "C",
+    "U7_UC1": "B",
+    "U7_UC2": "B",
+    "U7_UC3": "A",
+    "U7_UC4": "C"
+  }
+}
+
+
+

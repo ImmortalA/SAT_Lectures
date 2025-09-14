@@ -1,0 +1,185 @@
+{
+  "unit_id": "information_and_ideas",
+  "unit_title": "Information and Ideas",
+  "target_exam": "SAT Reading & Writing",
+  "total_mastery_points": 400,
+  "audience": "High school students preparing for the SAT (Reading & Writing)",
+  "teacher_notes": {
+    "pacing": "60–75 minutes; 4 focused sections, each with a worked example and practice.",
+    "materials": "Projector, timer, mini whiteboards, and printed graphs/tables for quantitative items.",
+    "assessment": "4-item unit check plus review of practice responses."
+  },
+  "learning_objectives": [
+    "Cite textual evidence that best supports a claim.",
+    "Interpret and integrate information from charts and tables.",
+    "Determine central ideas and key details.",
+    "Draw logical inferences from concise passages."
+  ],
+  "structure": [
+    {
+      "section_id": "textual_evidence",
+      "title": "Command of Evidence (Textual)",
+      "time_suggested_minutes": 15,
+      "objectives": [
+        "Select lines that best support a given claim.",
+        "Eliminate statements that are true but irrelevant.",
+        "Use prediction before scanning options."
+      ],
+      "lecture_script": [
+        {"type": "mini_lecture", "duration_min": 5, "script": "For evidence items, restate the claim in your own words and seek the sentence that most directly proves it."},
+        {"type": "think_aloud", "duration_min": 5, "script": "I predict: ‘proof that the expedition faced unexpected cold.’ Then I scan for the sentence that explicitly mentions the cold as an obstacle."},
+        {"type": "quick_check", "duration_min": 3, "script": "Which option is relevant but doesn’t prove the claim? Hold up your letter."}
+      ],
+      "content": {
+        "worked_example": {
+          "passage": "Although the plan was meticulous, the hikers turned back when an early storm froze the trail and blocked the pass.",
+          "question": "Which choice best supports the claim that conditions forced a retreat?",
+          "options": {
+            "A": "The plan was meticulous.",
+            "B": "An early storm froze the trail and blocked the pass.",
+            "C": "The hikers liked warm weather.",
+            "D": "The pass is popular in summer."
+          },
+          "correct_answer": "B",
+          "explanation": "Option B directly states the conditions that caused the retreat."
+        },
+        "practice_set": [
+          {
+            "id": "U2S1_P1",
+            "passage": "The curator kept the painting in low light because its pigments, fragile with age, faded under stronger lamps.",
+            "question": "Which choice best supports the claim that the curator prioritized preservation?",
+            "options": {"A": "The painting was famous.", "B": "It was kept in low light to protect pigments.", "C": "Visitors preferred bright rooms.", "D": "The museum recently renovated."},
+            "correct_answer": "B"
+          }
+        ]
+      }
+    },
+    {
+      "section_id": "quantitative_evidence",
+      "title": "Command of Evidence (Quantitative)",
+      "time_suggested_minutes": 15,
+      "objectives": [
+        "Read titles, axes, and units before interpreting values.",
+        "Connect visual data to textual claims.",
+        "Avoid overgeneralizing beyond the figure."
+      ],
+      "lecture_script": [
+        {"type": "mini_lecture", "duration_min": 5, "script": "Always parse the figure: title, variables, scale, and trend. Then match the exact claim to the exact data point or pattern."},
+        {"type": "guided_practice", "duration_min": 6, "script": "We’ll annotate a small table and cross-check which option accurately cites the numbers."},
+        {"type": "quick_check", "duration_min": 4, "script": "If the claim says ‘largest increase,’ what two numbers must we compare? Answer in one phrase."}
+      ],
+      "content": {
+        "worked_example": {
+          "passage": "Figure: A table shows year 1 = 40 participants, year 2 = 50, year 3 = 70 in a school science fair.",
+          "question": "Which statement is best supported by the table?",
+          "options": {
+            "A": "Participation decreased from year 1 to year 3.",
+            "B": "The largest increase occurred between years 2 and 3.",
+            "C": "Year 2 had the most participants overall.",
+            "D": "Year 1 and year 2 had equal participation."
+          },
+          "correct_answer": "B",
+          "explanation": "Values rise 40→50 (+10) then 50→70 (+20); the larger increase is 2 to 3."
+        },
+        "practice_set": [
+          {
+            "id": "U2S2_P1",
+            "passage": "Figure: A bar chart shows library visits per month: Jan 200, Feb 220, Mar 260.",
+            "question": "Which choice accurately describes the trend?",
+            "options": {"A": "Visits drop steadily.", "B": "Visits remain constant.", "C": "Visits increase each month.", "D": "March has the fewest visits."},
+            "correct_answer": "C"
+          }
+        ]
+      }
+    },
+    {
+      "section_id": "central_ideas_details",
+      "title": "Central Ideas & Details",
+      "time_suggested_minutes": 15,
+      "objectives": [
+        "Identify a passage’s main claim.",
+        "Differentiate central ideas from minor details.",
+        "Use wording that paraphrases rather than copies."
+      ],
+      "lecture_script": [
+        {"type": "mini_lecture", "duration_min": 5, "script": "Main ideas explain the passage’s purpose. Details serve that purpose. Prefer options that capture the whole point without overspecifying."},
+        {"type": "error_analysis", "duration_min": 5, "script": "We’ll reject a choice that quotes a detail but misses the broader claim."},
+        {"type": "guided_practice", "duration_min": 5, "script": "Underline the author’s purpose verb and complete the sentence: ‘The author argues that…’"}
+      ],
+      "content": {
+        "worked_example": {
+          "passage": "Community gardens, beyond supplying produce, build trust among neighbors who meet regularly to plan, plant, and share the harvest.",
+          "question": "Which choice states the central idea?",
+          "options": {"A": "Gardens are expensive.", "B": "Community gardens foster social connections in addition to food.", "C": "Only experts can garden.", "D": "Harvests are unpredictable."},
+          "correct_answer": "B",
+          "explanation": "The sentence emphasizes both produce and building trust-social connections beyond food."
+        },
+        "practice_set": [
+          {
+            "id": "U2S3_P1",
+            "passage": "The biography notes that early failures taught the artist techniques later evident in widely praised works.",
+            "question": "What is the central idea?",
+            "options": {"A": "The artist avoided failure.", "B": "Failures informed later success.", "C": "Praise is unreliable.", "D": "Biographies are fictional."},
+            "correct_answer": "B"
+          }
+        ]
+      }
+    },
+    {
+      "section_id": "inferences",
+      "title": "Inferences",
+      "time_suggested_minutes": 15,
+      "objectives": [
+        "Make logical conclusions supported by the text.",
+        "Avoid speculation beyond the passage.",
+        "Use evidence to justify the inference."
+      ],
+      "lecture_script": [
+        {"type": "mini_lecture", "duration_min": 5, "script": "An inference is a justified conclusion, not a guess. Ask: If the text is true, what must also be true?"},
+        {"type": "think_aloud", "duration_min": 5, "script": "The narrator ‘checks the door twice’; I infer anxiety or caution because the action signals concern about security."},
+        {"type": "quick_check", "duration_min": 3, "script": "Which choice goes beyond the text? Call it when you hear unrelated claims."}
+      ],
+      "content": {
+        "worked_example": {
+          "passage": "Hearing the thunder grow nearer, Lina moved the metal chairs indoors before locking the garden gate.",
+          "question": "What can be reasonably inferred about Lina?",
+          "options": {"A": "She dislikes rain in general.", "B": "She anticipates risk and acts to prevent damage.", "C": "She plans to sell the chairs.", "D": "She is ignoring the storm."},
+          "correct_answer": "B",
+          "explanation": "She moves metal chairs and locks the gate as the storm approaches-preventive action shows anticipation of risk."
+        },
+        "practice_set": [
+          {
+            "id": "U2S4_P1",
+            "passage": "When the auditorium lights dimmed, the presenter paused until the last whispers faded, then began.",
+            "question": "What is the most reasonable inference?",
+            "options": {"A": "The presenter forgot the topic.", "B": "The audience was small.", "C": "The presenter waited for attention before starting.", "D": "The equipment failed."},
+            "correct_answer": "C"
+          }
+        ]
+      }
+    }
+  ],
+  "unit_check": [
+    {"id": "U2_UC1", "question": "Which step comes first when reading a chart?", "options": {"A": "Estimate trends before reading labels", "B": "Read title, axes, and units", "C": "Pick the largest bar", "D": "Ignore the scale"}, "correct_answer": "B"},
+    {"id": "U2_UC2", "question": "An inference must be", "options": {"A": "creative", "B": "speculative", "C": "text-supported", "D": "long"}, "correct_answer": "C"},
+    {"id": "U2_UC3", "question": "A central idea choice should", "options": {"A": "quote a minor detail", "B": "capture the passage’s overall point", "C": "be the longest", "D": "introduce new facts"}, "correct_answer": "B"},
+    {"id": "U2_UC4", "question": "Best evidence is the sentence that", "options": {"A": "is interesting", "B": "is closest in position", "C": "directly proves the claim", "D": "uses complex vocabulary"}, "correct_answer": "C"}
+  ],
+  "homework": [
+    "Complete one page of textual evidence items; underline the claim and the proving words.",
+    "Analyze two small charts; write one accurate and one inaccurate claim for each.",
+    "Summarize three short passages with a one-sentence central idea."
+  ],
+  "answer_key": {
+    "U2S1_P1": "B",
+    "U2S2_P1": "C",
+    "U2S3_P1": "B",
+    "U2S4_P1": "C",
+    "U2_UC1": "B",
+    "U2_UC2": "C",
+    "U2_UC3": "B",
+    "U2_UC4": "C"
+  }
+}
+
+

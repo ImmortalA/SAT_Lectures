@@ -1,0 +1,141 @@
+{
+  "unit_id": "craft_and_structure",
+  "unit_title": "Craft and Structure",
+  "target_exam": "SAT Reading & Writing",
+  "total_mastery_points": 400,
+  "audience": "High school students preparing for the SAT (Reading & Writing)",
+  "teacher_notes": {
+    "pacing": "60 minutes; 3 sections with modeling and quick checks.",
+    "materials": "Slides with sample sentences, highlighters, and practice handouts.",
+    "assessment": "Check-for-understanding after each section and a 4-item unit quiz."
+  },
+  "learning_objectives": [
+    "Interpret Words in Context using meaning from nearby clues.",
+    "Analyze text structure and purpose of sentences/paragraphs.",
+    "Connect ideas across brief related texts."
+  ],
+  "structure": [
+    {
+      "section_id": "words_in_context",
+      "title": "Words in Context",
+      "time_suggested_minutes": 20,
+      "objectives": [
+        "Use context clues to infer word meaning.",
+        "Choose definitions consistent with tone and usage.",
+        "Avoid memorizing isolated dictionary entries."
+      ],
+      "lecture_script": [
+        {"type": "mini_lecture", "duration_min": 7, "script": "Read around the word and restate it with a simple synonym that fits the sentence’s logic and tone."},
+        {"type": "think_aloud", "duration_min": 7, "script": "If ‘temperate’ describes the region’s climate and farming thrives, I pick a meaning like ‘mild’ rather than ‘angry.’"},
+        {"type": "quick_check", "duration_min": 6, "script": "In one sentence, explain why the wrong meaning is tempting but incorrect here."}
+      ],
+      "content": {
+        "worked_example": {
+          "passage": "The critic praised the novel’s ‘spare’ style, noting that each sentence carried weight without unnecessary ornament.",
+          "question": "In the context, ‘spare’ most nearly means",
+          "options": {"A": "extra", "B": "minimal", "C": "damaged", "D": "luxurious"},
+          "correct_answer": "B",
+          "explanation": "‘Spare’ aligns with concise, unornamented prose-minimal in style."
+        },
+        "practice_set": [
+          {
+            "id": "U3S1_P1",
+            "passage": "Despite the ‘opaque’ instructions, the team assembled the device by comparing diagrams.",
+            "question": "‘Opaque’ most nearly means",
+            "options": {"A": "unclear", "B": "transparent", "C": "fragile", "D": "official"},
+            "correct_answer": "A"
+          }
+        ]
+      }
+    },
+    {
+      "section_id": "text_structure",
+      "title": "Text Structure",
+      "time_suggested_minutes": 20,
+      "objectives": [
+        "Identify how a sentence functions (example, contrast, cause).",
+        "Track logical relationships across sentences.",
+        "Choose options that preserve the author’s purpose."
+      ],
+      "lecture_script": [
+        {"type": "mini_lecture", "duration_min": 6, "script": "Ask what the sentence does: introduce, contrast, explain, or conclude. Structure determines the best answer."},
+        {"type": "guided_practice", "duration_min": 8, "script": "We’ll label signal words-however, therefore, for example-and decide each sentence’s role."},
+        {"type": "quick_check", "duration_min": 6, "script": "Name the function: Does this sentence give a reason, or present a counterpoint?"}
+      ],
+      "content": {
+        "worked_example": {
+          "passage": "Many assumed the comet would dim quickly; however, new measurements showed it brightening as it neared the sun.",
+          "question": "What is the function of ‘however’ in the sentence?",
+          "options": {"A": "Provide an example", "B": "Signal a contrast to a prior assumption", "C": "Indicate a cause", "D": "Summarize a result"},
+          "correct_answer": "B",
+          "explanation": "‘However’ introduces a contrast between assumption and new data."
+        },
+        "practice_set": [
+          {
+            "id": "U3S2_P1",
+            "passage": "The device saves energy; therefore, it reduces monthly costs for users.",
+            "question": "The underlined transition primarily shows",
+            "options": {"A": "contrast", "B": "cause-and-effect", "C": "chronology", "D": "definition"},
+            "correct_answer": "B"
+          }
+        ]
+      }
+    },
+    {
+      "section_id": "cross_text_connections",
+      "title": "Cross-Text Connections",
+      "time_suggested_minutes": 20,
+      "objectives": [
+        "Synthesize ideas across two related short texts.",
+        "Identify agreements, disagreements, or complementary evidence.",
+        "Choose an option that accurately represents both texts."
+      ],
+      "lecture_script": [
+        {"type": "mini_lecture", "duration_min": 6, "script": "Read Text 1 and Text 2 for claims, then ask: How do they relate-support, qualify, or oppose?"},
+        {"type": "think_aloud", "duration_min": 8, "script": "Text 1 says urban trees cool streets; Text 2 notes shade lowers energy use. They complement the same idea: cooling benefits."},
+        {"type": "quick_check", "duration_min": 6, "script": "Is the proposed statement true for both texts? If not, it’s out."}
+      ],
+      "content": {
+        "worked_example": {
+          "passage": "Text 1: A survey finds bike lanes increase local shop visits. Text 2: A case study reports higher weekend sales after a new lane opened.",
+          "question": "Together, the texts primarily suggest that",
+          "options": {"A": "bike lanes always reduce traffic", "B": "bike lanes may boost nearby commerce", "C": "shopping causes bike lanes", "D": "weekends are the only profitable days"},
+          "correct_answer": "B",
+          "explanation": "Both texts connect bike lanes with increased shopping activity."
+        },
+        "practice_set": [
+          {
+            "id": "U3S3_P1",
+            "passage": "Text 1: Students who slept 8 hours performed better on recall. Text 2: Naps improved alertness in afternoon labs.",
+            "question": "What do the texts together support?",
+            "options": {"A": "Sleep has no effect on learning", "B": "Only naps, not night sleep, matter", "C": "Sleep can benefit memory and alertness", "D": "Recall is unrelated to alertness"},
+            "correct_answer": "C"
+          }
+        ]
+      }
+    }
+  ],
+  "unit_check": [
+    {"id": "U3_UC1", "question": "Words in Context should be solved by", "options": {"A": "memorizing definitions", "B": "reading context and paraphrasing", "C": "picking the fanciest word", "D": "counting syllables"}, "correct_answer": "B"},
+    {"id": "U3_UC2", "question": "‘However’ typically signals", "options": {"A": "addition", "B": "contrast", "C": "cause", "D": "example"}, "correct_answer": "B"},
+    {"id": "U3_UC3", "question": "Cross-text items require", "options": {"A": "agreement with one text only", "B": "accuracy for both texts", "C": "long quotations", "D": "outside knowledge"}, "correct_answer": "B"},
+    {"id": "U3_UC4", "question": "A function question asks what a sentence", "options": {"A": "looks like", "B": "does in the passage", "C": "costs", "D": "rhymes with"}, "correct_answer": "B"}
+  ],
+  "homework": [
+    "Create a context-clue paraphrase for 10 challenging words from practice.",
+    "Annotate one article for structure: mark contrast, cause, and example sentences.",
+    "Complete four cross-text items and write a one-sentence synthesis for each."
+  ],
+  "answer_key": {
+    "U3S1_P1": "A",
+    "U3S2_P1": "B",
+    "U3S3_P1": "C",
+    "U3_UC1": "B",
+    "U3_UC2": "B",
+    "U3_UC3": "B",
+    "U3_UC4": "B"
+  }
+}
+
+
+

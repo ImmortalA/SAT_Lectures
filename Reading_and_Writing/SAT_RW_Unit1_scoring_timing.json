@@ -1,0 +1,68 @@
+{
+  "unit_id": "unit1_scoring_and_timing",
+  "unit_title": "Unit 1 Lecture: Scoring & Timing",
+  "target_exam": "SAT Reading & Writing",
+  "total_mastery_points": 400,
+  "audience": "High school students preparing for the SAT (Reading & Writing)",
+  "teacher_notes": {
+    "pacing": "45 minutes; pacing benchmarks with short drill.",
+    "materials": "Timer, pacing chart, two sample questions.",
+    "assessment": "4-item unit check and a one-sentence pacing rule exit ticket."
+  },
+  "learning_objectives": [
+    "Explain 200–800 scoring and adaptive modules.",
+    "Set micro-benchmarks for item pacing.",
+    "Use guess-and-flag to protect time."
+  ],
+  "structure": [
+    {
+      "section_id": "scoring_and_timing",
+      "title": "Scoring & Timing",
+      "time_suggested_minutes": 35,
+      "objectives": [
+        "Allocate time per question using benchmarks.",
+        "Practice flagging and returning.",
+        "Make confident choices within 20–30 seconds."
+      ],
+      "lecture_script": [
+        {"type": "mini_lecture", "duration_min": 12, "script": "Your R&W score ranges 200–800. Maintain pace: decide in 20–30 seconds, choose best option, flag if needed, and move on."},
+        {"type": "think_aloud", "duration_min": 12, "script": "Stuck after 25 seconds, I pick my best elimination choice, flag it, and proceed to protect later points."},
+        {"type": "guided_practice", "duration_min": 9, "script": "Two timed items: make a choice within the window, then reflect on whether flagging was needed."},
+        {"type": "exit_ticket", "duration_min": 2, "script": "Write your personal pacing rule in one sentence."}
+      ],
+      "content": {
+        "worked_example": {
+          "passage": "Because the conference schedule was dense, Jordan reviewed abstracts the night before to decide which talks to attend first.",
+          "question": "What strategy does Jordan use to manage limited time?",
+          "options": {"A": "Skipping the conference", "B": "Randomly choosing talks", "C": "Previewing abstracts to prioritize", "D": "Leaving early"},
+          "correct_answer": "C",
+          "explanation": "Previewing abstracts to prioritize mirrors time-management and pacing."
+        },
+        "practice_set": [
+          {"id": "U1_ST_P1", "passage": "During the test, Priya flagged two questions that needed more careful reading and answered easier ones first.", "question": "Priya’s approach primarily aims to", "options": {"A": "reduce total questions", "B": "maximize points by pacing", "C": "avoid reading", "D": "change the scoring"}, "correct_answer": "B"}
+        ]
+      }
+    }
+  ],
+  "unit_check": [
+    {"id": "U1_ST_UC1", "question": "When stuck after ~25 seconds, you should", "options": {"A": "reread twice", "B": "leave blank", "C": "guess, flag, move on", "D": "restart the module"}, "correct_answer": "C"},
+    {"id": "U1_ST_UC2", "question": "The R&W score range is", "options": {"A": "0–36", "B": "200–800", "C": "1–5", "D": "400–1600"}, "correct_answer": "B"},
+    {"id": "U1_ST_UC3", "question": "Flagging helps you", "options": {"A": "skip scoring", "B": "protect time for later items", "C": "change answers after submission", "D": "hide the timer"}, "correct_answer": "B"},
+    {"id": "U1_ST_UC4", "question": "Benchmarks are", "options": {"A": "time targets per item", "B": "trick questions", "C": "final scores", "D": "passage titles"}, "correct_answer": "A"}
+  ],
+  "homework": [
+    "Run a 10-question drill with a 25-second decision window and record flags.",
+    "Create a pacing chart with checkpoints every 5 minutes.",
+    "Write three ‘if stuck, then…’ rules you will apply."
+  ],
+  "answer_key": {
+    "U1_ST_P1": "B",
+    "U1_ST_UC1": "C",
+    "U1_ST_UC2": "B",
+    "U1_ST_UC3": "B",
+    "U1_ST_UC4": "A"
+  }
+}
+
+
+

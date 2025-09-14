@@ -1,0 +1,141 @@
+{
+  "unit_id": "advanced_reading_comprehension",
+  "unit_title": "Advanced Reading Comprehension",
+  "target_exam": "SAT Reading & Writing",
+  "total_mastery_points": 400,
+  "audience": "High school students preparing for the SAT (Reading & Writing)",
+  "teacher_notes": {
+    "pacing": "75 minutes; 3 advanced sections with paired and domain passages.",
+    "materials": "Paired passage handouts, historical documents, and short science/social science texts.",
+    "assessment": "4-item unit check and review of evidence selection."
+  },
+  "learning_objectives": [
+    "Analyze and compare claims in paired passages.",
+    "Interpret historical documents with attention to purpose and audience.",
+    "Apply domain-reading strategies for science and social science texts."
+  ],
+  "structure": [
+    {
+      "section_id": "paired_passages",
+      "title": "Paired Passages",
+      "time_suggested_minutes": 25,
+      "objectives": [
+        "Identify each passage’s main claim and evidence.",
+        "Determine agreement, disagreement, or qualification.",
+        "Synthesize points into a single accurate statement."
+      ],
+      "lecture_script": [
+        {"type": "mini_lecture", "duration_min": 8, "script": "Read Passage 1 for claim and proof, then Passage 2 for response. Ask: support, qualify, or oppose? Choose an option true for both."},
+        {"type": "guided_practice", "duration_min": 9, "script": "We’ll chart each passage’s claim in five words, then write one synthesis sentence that captures the relationship."},
+        {"type": "quick_check", "duration_min": 8, "script": "If an option misstates either claim, it’s out. Give the letter that fits both."}
+      ],
+      "content": {
+        "worked_example": {
+          "passage": "Passage 1: A community garden increases local produce access. Passage 2: The garden also strengthens neighbor ties through shared work.",
+          "question": "Together, the passages suggest that the garden",
+          "options": {"A": "hurts local businesses", "B": "offers only social benefits", "C": "provides nutritional and social benefits", "D": "is too costly to maintain"},
+          "correct_answer": "C",
+          "explanation": "P1 emphasizes produce access; P2 emphasizes community ties-both nutritional and social benefits."
+        },
+        "practice_set": [
+          {
+            "id": "U6S1_P1",
+            "passage": "Passage 1: The museum should digitize archives to widen access. Passage 2: Digitization is useful but must protect fragile originals.",
+            "question": "The relationship between the passages is best described as",
+            "options": {"A": "complete agreement", "B": "disagreement without overlap", "C": "qualification of a proposal", "D": "unrelated topics"},
+            "correct_answer": "C"
+          }
+        ]
+      }
+    },
+    {
+      "section_id": "historical_documents",
+      "title": "Historical Documents",
+      "time_suggested_minutes": 25,
+      "objectives": [
+        "Identify author’s purpose and audience.",
+        "Interpret claims within historical context using only provided text.",
+        "Evaluate rhetoric such as appeals and structure."
+      ],
+      "lecture_script": [
+        {"type": "mini_lecture", "duration_min": 8, "script": "Focus on purpose, audience, and claim. Paraphrase archaic words, but base answers only on the text provided."},
+        {"type": "think_aloud", "duration_min": 9, "script": "If a petition ‘respectfully urges’ reform, the tone is formal and persuasive toward officials-aimed at policy change."},
+        {"type": "quick_check", "duration_min": 8, "script": "State audience and purpose in six words or fewer."}
+      ],
+      "content": {
+        "worked_example": {
+          "passage": "The letter, addressed to the city council, requests that public funds support a free night school so workers may study after hours.",
+          "question": "The author’s primary purpose is to",
+          "options": {"A": "entertain with a humorous story", "B": "describe a personal memory", "C": "persuade officials to fund education", "D": "announce a school’s opening"},
+          "correct_answer": "C",
+          "explanation": "The letter requests funding for a public night school-persuasion aimed at officials."
+        },
+        "practice_set": [
+          {
+            "id": "U6S2_P1",
+            "passage": "In the proclamation, the governor thanks volunteers and calls for continued service to aid communities after the storm.",
+            "question": "The document’s tone and purpose are best described as",
+            "options": {"A": "sarcastic and dismissive", "B": "formal appreciation with a call to action", "C": "casual narrative", "D": "technical instruction"},
+            "correct_answer": "B"
+          }
+        ]
+      }
+    },
+    {
+      "section_id": "science_social_science",
+      "title": "Science & Social Science Focus",
+      "time_suggested_minutes": 25,
+      "objectives": [
+        "Extract claims, evidence, and limitations from domain texts.",
+        "Translate data statements into plain language.",
+        "Avoid introducing outside knowledge beyond the passage and figure."
+      ],
+      "lecture_script": [
+        {"type": "mini_lecture", "duration_min": 8, "script": "Scientific and social science texts center on claims supported by data. Identify the claim, the measure, and the relationship between variables."},
+        {"type": "guided_practice", "duration_min": 9, "script": "We’ll read a brief findings summary and paraphrase the pattern described by the numbers."},
+        {"type": "quick_check", "duration_min": 8, "script": "Does the option accurately reflect the stated trend? Yes or no only."}
+      ],
+      "content": {
+        "worked_example": {
+          "passage": "Report: Students using spaced review scored 8 points higher on average than those who crammed the night before.",
+          "question": "Which statement is best supported by the report?",
+          "options": {"A": "Cramming is always ineffective.", "B": "Spaced review is associated with higher average scores.", "C": "Sleep causes all improvements.", "D": "Review methods did not differ."},
+          "correct_answer": "B",
+          "explanation": "The report links spaced review with higher average scores; no absolute claims are made."
+        },
+        "practice_set": [
+          {
+            "id": "U6S3_P1",
+            "passage": "Study: Towns adding bus lanes saw commute times drop from 40 to 32 minutes on average.",
+            "question": "Which choice accurately summarizes the finding?",
+            "options": {"A": "Bus lanes increased commute times.", "B": "Commute times fell by about eight minutes on average.", "C": "Only weekends were faster.", "D": "No change occurred."},
+            "correct_answer": "B"
+          }
+        ]
+      }
+    }
+  ],
+  "unit_check": [
+    {"id": "U6_UC1", "question": "In paired passages, first identify", "options": {"A": "the hardest vocabulary", "B": "each passage’s claim", "C": "outside historical facts", "D": "the author’s biography"}, "correct_answer": "B"},
+    {"id": "U6_UC2", "question": "Historical documents often aim to", "options": {"A": "persuade a specific audience", "B": "avoid any purpose", "C": "provide statistics only", "D": "confuse readers"}, "correct_answer": "A"},
+    {"id": "U6_UC3", "question": "Science texts typically present", "options": {"A": "claims tied to data", "B": "opinions without evidence", "C": "poetry", "D": "fictional plots"}, "correct_answer": "A"},
+    {"id": "U6_UC4", "question": "When summarizing data, avoid", "options": {"A": "plain language", "B": "outside knowledge", "C": "accuracy", "D": "units"}, "correct_answer": "B"}
+  ],
+  "homework": [
+    "Write one-sentence claim summaries for two paired passages and state the relationship.",
+    "Annotate a historical paragraph for audience, purpose, and tone.",
+    "Paraphrase three findings from short science/social science blurbs."
+  ],
+  "answer_key": {
+    "U6S1_P1": "C",
+    "U6S2_P1": "B",
+    "U6S3_P1": "B",
+    "U6_UC1": "B",
+    "U6_UC2": "A",
+    "U6_UC3": "A",
+    "U6_UC4": "B"
+  }
+}
+
+
+

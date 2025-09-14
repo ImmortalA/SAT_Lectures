@@ -1,0 +1,67 @@
+{
+  "unit_id": "unit2_textual_evidence",
+  "unit_title": "Unit 2 Lecture: Command of Evidence (Textual)",
+  "target_exam": "SAT Reading & Writing",
+  "total_mastery_points": 400,
+  "audience": "High school students preparing for the SAT (Reading & Writing)",
+  "teacher_notes": {
+    "pacing": "45 minutes; modeling, guided practice, quick check.",
+    "materials": "Projector, highlighters, short passages with evidence lines.",
+    "assessment": "4-item unit check and explanation of one elimination."
+  },
+  "learning_objectives": [
+    "Restate the claim before scanning for proof.",
+    "Select the sentence that directly supports the claim.",
+    "Eliminate statements that are true but irrelevant."
+  ],
+  "structure": [
+    {
+      "section_id": "textual_evidence",
+      "title": "Command of Evidence (Textual)",
+      "time_suggested_minutes": 35,
+      "objectives": [
+        "Predict the needed proof in simple words.",
+        "Locate the sentence that proves the claim.",
+        "Avoid proximity bias-closest line isn’t always best."
+      ],
+      "lecture_script": [
+        {"type": "mini_lecture", "duration_min": 12, "script": "Underline the claim and predict the proof. Then pick the sentence that most directly proves that prediction."},
+        {"type": "think_aloud", "duration_min": 12, "script": "If the claim says ‘conditions forced a retreat,’ I search for the sentence that names the exact condition causing the retreat."},
+        {"type": "quick_check", "duration_min": 9, "script": "Raise the letter of the option that proves the claim, not one that’s merely interesting."}
+      ],
+      "content": {
+        "worked_example": {
+          "passage": "Although the plan was meticulous, the hikers turned back when an early storm froze the trail and blocked the pass.",
+          "question": "Which choice best supports the claim that conditions forced a retreat?",
+          "options": {"A": "The plan was meticulous.", "B": "An early storm froze the trail and blocked the pass.", "C": "The hikers liked warm weather.", "D": "The pass is popular in summer."},
+          "correct_answer": "B",
+          "explanation": "Only B directly states the condition that caused the retreat."
+        },
+        "practice_set": [
+          {"id": "U2_TE_P1", "passage": "The curator kept the painting in low light because aged pigments faded under stronger lamps.", "question": "Which choice best supports the claim that preservation drove the decision?", "options": {"A": "The painting was famous.", "B": "Low light protected fragile pigments.", "C": "Visitors preferred bright rooms.", "D": "The museum renovated."}, "correct_answer": "B"}
+        ]
+      }
+    }
+  ],
+  "unit_check": [
+    {"id": "U2_TE_UC1", "question": "Best evidence should", "options": {"A": "be nearby", "B": "directly prove the claim", "C": "be longest", "D": "use fancy words"}, "correct_answer": "B"},
+    {"id": "U2_TE_UC2", "question": "First step is to", "options": {"A": "read options first", "B": "restate the claim", "C": "memorize lines", "D": "skip context"}, "correct_answer": "B"},
+    {"id": "U2_TE_UC3", "question": "True but irrelevant lines should be", "options": {"A": "selected", "B": "ignored", "C": "rewarded", "D": "quoted"}, "correct_answer": "B"},
+    {"id": "U2_TE_UC4", "question": "Proximity bias is", "options": {"A": "favoring nearby lines", "B": "timing the test", "C": "taking notes", "D": "paraphrasing"}, "correct_answer": "A"}
+  ],
+  "homework": [
+    "Complete six evidence items; write the predicted proof before choosing.",
+    "For two missed items, explain why the chosen line was irrelevant.",
+    "Summarize one passage’s claim in seven words or fewer."
+  ],
+  "answer_key": {
+    "U2_TE_P1": "B",
+    "U2_TE_UC1": "B",
+    "U2_TE_UC2": "B",
+    "U2_TE_UC3": "B",
+    "U2_TE_UC4": "A"
+  }
+}
+
+
+
