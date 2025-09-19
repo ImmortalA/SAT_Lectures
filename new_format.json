@@ -1,0 +1,14 @@
+{
+    "id": "1",
+    "title": "Introduction to Linear Functions",
+    "description": "Learn the basics of linear functions and their graphs",
+    "duration": 15,
+    "difficulty": "Easy",
+    "subject": "Algebra",
+    "unit": "Unit 1: Algebra Fundamentals",
+    "category": "Linear Functions",
+    "completed": false,
+    "locked": false,
+    "progress": 0,
+    "content": "# Introduction to Linear Functions\n\n## What is a Linear Function?\n\nA linear function is a function whose graph is a straight line. Linear functions have the form:\n\n**f(x) = mx + b**\n\nWhere:\n- **m** is the slope of the line\n- **b** is the y-intercept (where the line crosses the y-axis)\n- **x** is the input variable\n- **f(x)** is the output value\n\n## Key Properties\n\n### 1. Constant Rate of Change\nLinear functions have a constant rate of change, meaning the slope is the same between any two points on the line.\n\n### 2. Domain and Range\n- **Domain**: All real numbers (unless specified otherwise)\n- **Range**: All real numbers (for non-horizontal lines)\n\n### 3. Graphical Representation\nThe graph of a linear function is always a straight line.\n\n## Examples\n\n### Example 1: f(x) = 2x + 3\n- Slope (m) = 2\n- Y-intercept (b) = 3\n- For every 1 unit increase in x, y increases by 2 units\n\n### Example 2: f(x) = -0.5x + 1\n- Slope (m) = -0.5\n- Y-intercept (b) = 1\n- For every 1 unit increase in x, y decreases by 0.5 units\n\n## Practice Problems\n\nTry these problems to test your understanding:\n\n1. What is the slope of f(x) = 3x - 7?\n2. What is the y-intercept of f(x) = -2x + 5?\n3. Write the equation of a line with slope 4 and y-intercept -2."
+  }

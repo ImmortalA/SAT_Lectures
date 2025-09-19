@@ -1,0 +1,3228 @@
+[
+  {
+    "id": "introduction_to_sat_reading_and_writing",
+    "subject": "SAT",
+    "section": "Reading_and_Writing",
+    "unit": "Unit_1",
+    "lecture_type": "full_unit",
+    "title": "Introduction to SAT Reading & Writing",
+    "difficulty": "Beginner",
+    "duration_minutes": 60,
+    "target_exam": "SAT Reading & Writing",
+    "audience": "High school students preparing for the SAT (Reading & Writing)",
+    "total_mastery_points": 400,
+    "teacher_notes": {
+      "pacing": "45\u201360 minutes; 3 short sections with brief checks for understanding.",
+      "materials": "Slides or handout with overview charts, timer, projector, and printed practice questions.",
+      "assessment": "Exit ticket plus 4-item unit check; informal cold-calls during quick checks."
+    },
+    "learning_objectives": [
+      "Describe the structure and purpose of the SAT Reading & Writing module.",
+      "Explain scoring, timing, and adaptive modules.",
+      "Recognize common passage types and question categories.",
+      "Apply a simple read\u2013predict\u2013select routine to short SAT items."
+    ],
+    "structure": [
+      {
+        "section_id": "overview_of_test",
+        "title": "Overview of the Test",
+        "time_suggested_minutes": 15,
+        "objectives": [
+          "Identify the module format and navigation basics.",
+          "Understand that questions are discreet and multiple-choice (A\u2013D).",
+          "Practice a fast read\u2013predict\u2013select routine."
+        ],
+        "lecture_script": [
+          {
+            "type": "mini_lecture",
+            "duration_min": 5,
+            "script": "The digital SAT Reading & Writing has two adaptive modules with short passages and one question each. All items are multiple-choice A\u2013D, and you may flag and return within a module."
+          },
+          {
+            "type": "think_aloud",
+            "duration_min": 4,
+            "script": "I skim the passage first for the gist, predict the answer in a few words, then match that prediction to the option that best fits while eliminating distractors."
+          },
+          {
+            "type": "guided_practice",
+            "duration_min": 4,
+            "script": "We\u2019ll try one item together. I\u2019ll model how to underline the key claim and test each option against that claim."
+          },
+          {
+            "type": "quick_check",
+            "duration_min": 2,
+            "script": "Thumbs: Who feels clear on the module structure and the read\u2013predict\u2013select routine?"
+          }
+        ],
+        "content": {
+          "worked_example": {
+            "passage": "Maya arranged the lab samples methodically, noting that careful order reduced mistakes and sped analysis. Her mentor watched, smiling at the quiet efficiency.",
+            "question": "Which choice best states the main idea of the passage?",
+            "options": {
+              "A": "Maya dislikes working in laboratories.",
+              "B": "The mentor corrects Maya\u2019s inefficient method.",
+              "C": "Maya\u2019s organized approach improves accuracy and speed.",
+              "D": "The lab is too noisy for careful work."
+            },
+            "correct_answer": "C",
+            "explanation": "The passage emphasizes that order reduces mistakes and speeds analysis, showing organization improves accuracy and speed."
+          },
+          "practice_set": [
+            {
+              "id": "U1S1_P1",
+              "passage": "The city council posted summaries before meetings so residents could preview proposals and prepare comments.",
+              "question": "The passage primarily shows the council\u2019s goal to",
+              "options": {
+                "A": "discourage participation",
+                "B": "limit proposals",
+                "C": "increase informed feedback",
+                "D": "speed votes by excluding debate"
+              },
+              "correct_answer": "C"
+            }
+          ]
+        }
+      },
+      {
+        "section_id": "scoring_and_timing",
+        "title": "Scoring & Timing",
+        "time_suggested_minutes": 15,
+        "objectives": [
+          "Explain the 200\u2013800 section score scale.",
+          "Allocate time per question using benchmarks.",
+          "Practice skipping, flagging, and returning efficiently."
+        ],
+        "lecture_script": [
+          {
+            "type": "mini_lecture",
+            "duration_min": 5,
+            "script": "Your Reading & Writing section score ranges from 200\u2013800. Manage time by aiming for a steady pace and using flags to revisit tougher items within a module."
+          },
+          {
+            "type": "think_aloud",
+            "duration_min": 4,
+            "script": "If an item feels sticky after 20\u201330 seconds, I pick the best option so far, flag it, and move on to protect later points."
+          },
+          {
+            "type": "guided_practice",
+            "duration_min": 4,
+            "script": "We\u2019ll simulate two quick items with a visible timer and practice making fast, confident choices."
+          },
+          {
+            "type": "quick_check",
+            "duration_min": 2,
+            "script": "What\u2019s our rule when stuck: guess-and-flag or dwell? State it in one phrase."
+          }
+        ],
+        "content": {
+          "worked_example": {
+            "passage": "Because the conference schedule was dense, Jordan reviewed abstracts the night before to decide which talks to attend first.",
+            "question": "What strategy does Jordan use to manage limited time?",
+            "options": {
+              "A": "Skipping the conference",
+              "B": "Randomly choosing talks",
+              "C": "Previewing abstracts to prioritize",
+              "D": "Leaving early"
+            },
+            "correct_answer": "C",
+            "explanation": "Jordan previews abstracts to prioritize, mirroring time management and prioritization."
+          },
+          "practice_set": [
+            {
+              "id": "U1S2_P1",
+              "passage": "During the test, Priya flagged two questions that required more careful reading and answered easier ones first.",
+              "question": "Priya\u2019s approach primarily aims to",
+              "options": {
+                "A": "reduce total questions",
+                "B": "maximize points by pacing",
+                "C": "avoid reading",
+                "D": "change the scoring scale"
+              },
+              "correct_answer": "B"
+            }
+          ]
+        }
+      },
+      {
+        "section_id": "types_of_passages_and_questions",
+        "title": "Types of Passages & Questions",
+        "time_suggested_minutes": 15,
+        "objectives": [
+          "Recognize literary, historical, scientific, and informational passages.",
+          "Identify common question types (main idea, evidence, words in context).",
+          "Apply elimination using passage-based reasoning."
+        ],
+        "lecture_script": [
+          {
+            "type": "mini_lecture",
+            "duration_min": 5,
+            "script": "Expect brief literary, historical, scientific, and informational texts. Questions target main ideas, evidence, words in context, structure, and standard English conventions."
+          },
+          {
+            "type": "error_analysis",
+            "duration_min": 4,
+            "script": "We\u2019ll examine a trap answer that is true but not relevant, and show why relevance to the question is essential."
+          },
+          {
+            "type": "guided_practice",
+            "duration_min": 4,
+            "script": "Let\u2019s label the passage type and question type before choosing an answer."
+          },
+          {
+            "type": "exit_ticket",
+            "duration_min": 2,
+            "script": "Write one sentence naming a passage type and the best first step you\u2019d take."
+          }
+        ],
+        "content": {
+          "worked_example": {
+            "passage": "In 1913, the suffragists\u2019 parade drew national attention, transforming a local campaign into a movement that pressed lawmakers to act.",
+            "question": "Which choice best captures the central idea?",
+            "options": {
+              "A": "Parades always change laws.",
+              "B": "A 1913 parade amplified a political movement.",
+              "C": "Lawmakers dislike public events.",
+              "D": "Local campaigns are ineffective."
+            },
+            "correct_answer": "B",
+            "explanation": "The sentence says the parade drew attention and transformed the campaign, amplifying the movement."
+          },
+          "practice_set": [
+            {
+              "id": "U1S3_P1",
+              "passage": "The engineer compared energy outputs from two solar prototypes, concluding that small design tweaks significantly improved efficiency.",
+              "question": "This passage is best categorized as",
+              "options": {
+                "A": "literary narrative",
+                "B": "scientific/informational",
+                "C": "historical speech",
+                "D": "humorous anecdote"
+              },
+              "correct_answer": "B"
+            }
+          ]
+        }
+      }
+    ],
+    "unit_check": [
+      {
+        "id": "U1_UC1",
+        "question": "Which action most directly supports effective pacing on the SAT?",
+        "options": {
+          "A": "Reread every passage twice",
+          "B": "Answer easy items first and flag tough ones",
+          "C": "Skip the last module",
+          "D": "Avoid using the timer"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "U1_UC2",
+        "question": "The SAT Reading & Writing questions are primarily",
+        "options": {
+          "A": "short-answer",
+          "B": "essay",
+          "C": "multiple-choice A\u2013D",
+          "D": "fill-in-the-blank"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "id": "U1_UC3",
+        "question": "A statement that is true but not tied to the question is best eliminated for lacking",
+        "options": {
+          "A": "relevance",
+          "B": "length",
+          "C": "vocabulary",
+          "D": "humor"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": "U1_UC4",
+        "question": "The section score range for Reading & Writing is",
+        "options": {
+          "A": "0\u201336",
+          "B": "200\u2013800",
+          "C": "1\u20135",
+          "D": "400\u20131600"
+        },
+        "correct_answer": "B"
+      }
+    ],
+    "homework": [
+      "Create a one-page summary of the SAT R&W format and pacing rules.",
+      "Complete five mixed items using the read\u2013predict\u2013select routine and annotate traps.",
+      "Set a personal timing benchmark (items per 5 minutes) and test it on 10 questions."
+    ],
+    "answer_key": {
+      "U1S1_P1": "C",
+      "U1S2_P1": "B",
+      "U1S3_P1": "B",
+      "U1_UC1": "B",
+      "U1_UC2": "C",
+      "U1_UC3": "A",
+      "U1_UC4": "B"
+    }
+  },
+  {
+    "id": "unit1_overview_of_test",
+    "subject": "SAT",
+    "section": "Reading_and_Writing",
+    "unit": "Unit_1",
+    "lecture_type": "individual_lecture",
+    "title": "Unit 1 Lecture: Overview of the SAT Reading & Writing Test",
+    "difficulty": "Beginner",
+    "duration_minutes": 45,
+    "target_exam": "SAT Reading & Writing",
+    "audience": "High school students preparing for the SAT (Reading & Writing)",
+    "total_mastery_points": 400,
+    "teacher_notes": {
+      "pacing": "45 minutes; overview with modeling and a short practice.",
+      "materials": "Slides with module layout, timer, sample item handout.",
+      "assessment": "Exit ticket plus 4-item unit check; quick thumbs checks."
+    },
+    "learning_objectives": [
+      "Describe the digital SAT R&W module structure and navigation.",
+      "Explain the read\u2013predict\u2013select routine for single-item passages.",
+      "Identify common item formats and eliminate off-topic choices."
+    ],
+    "structure": [
+      {
+        "section_id": "overview_of_test",
+        "title": "Overview of the Test",
+        "time_suggested_minutes": 35,
+        "objectives": [
+          "Recognize adaptive modules and single-question passages.",
+          "Apply a fast read\u2013predict\u2013select process.",
+          "Eliminate distractors lacking relevance."
+        ],
+        "lecture_script": [
+          {
+            "type": "mini_lecture",
+            "duration_min": 12,
+            "script": "The digital SAT R&W uses two adaptive modules with brief passages and one question each. You can flag items and return within a module; all questions are A\u2013D multiple-choice."
+          },
+          {
+            "type": "think_aloud",
+            "duration_min": 12,
+            "script": "I skim for gist, predict in a few words, and then match that prediction to the best option while crossing out choices that are irrelevant or extreme."
+          },
+          {
+            "type": "guided_practice",
+            "duration_min": 9,
+            "script": "We\u2019ll do one sample together: underline the key claim, say your prediction, then choose the option that directly fits it."
+          },
+          {
+            "type": "exit_ticket",
+            "duration_min": 2,
+            "script": "Write one sentence describing how you\u2019ll use predict-before-choices on test day."
+          }
+        ],
+        "content": {
+          "worked_example": {
+            "passage": "Maya arranged the lab samples methodically, noting that careful order reduced mistakes and sped analysis. Her mentor watched, smiling at the quiet efficiency.",
+            "question": "Which choice best states the main idea of the passage?",
+            "options": {
+              "A": "Maya dislikes working in laboratories.",
+              "B": "The mentor corrects Maya\u2019s method.",
+              "C": "Maya\u2019s organized approach improves accuracy and speed.",
+              "D": "The lab is too noisy for careful work."
+            },
+            "correct_answer": "C",
+            "explanation": "Order reduces mistakes and speeds analysis, so organization improves accuracy and speed."
+          },
+          "practice_set": [
+            {
+              "id": "U1_OV_P1",
+              "passage": "The city council posted summaries before meetings so residents could prepare comments.",
+              "question": "The council most likely intends to",
+              "options": {
+                "A": "discourage input",
+                "B": "limit proposals",
+                "C": "increase informed feedback",
+                "D": "speed votes by excluding debate"
+              },
+              "correct_answer": "C"
+            }
+          ]
+        }
+      }
+    ],
+    "unit_check": [
+      {
+        "id": "U1_OV_UC1",
+        "question": "R&W items are primarily",
+        "options": {
+          "A": "essays",
+          "B": "short-answer",
+          "C": "multiple-choice A\u2013D",
+          "D": "fill-in"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "id": "U1_OV_UC2",
+        "question": "A fast routine is",
+        "options": {
+          "A": "predict then match",
+          "B": "read all choices first",
+          "C": "memorize options",
+          "D": "skip prediction"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": "U1_OV_UC3",
+        "question": "Irrelevant choices should be",
+        "options": {
+          "A": "preferred",
+          "B": "eliminated",
+          "C": "paraphrased",
+          "D": "lengthened"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "U1_OV_UC4",
+        "question": "Within a module you can",
+        "options": {
+          "A": "flag and return",
+          "B": "change scoring",
+          "C": "hide the timer",
+          "D": "reorder the test"
+        },
+        "correct_answer": "A"
+      }
+    ],
+    "homework": [
+      "Write a one-paragraph summary of the SAT R&W format.",
+      "Complete five items using predict-before-choices and note your evidence phrase.",
+      "List three trap patterns you will eliminate quickly."
+    ],
+    "answer_key": {
+      "U1_OV_P1": "C",
+      "U1_OV_UC1": "C",
+      "U1_OV_UC2": "A",
+      "U1_OV_UC3": "B",
+      "U1_OV_UC4": "A"
+    }
+  },
+  {
+    "id": "unit1_scoring_and_timing",
+    "subject": "SAT",
+    "section": "Reading_and_Writing",
+    "unit": "Unit_1",
+    "lecture_type": "individual_lecture",
+    "title": "Unit 1 Lecture: Scoring & Timing",
+    "difficulty": "Beginner",
+    "duration_minutes": 45,
+    "target_exam": "SAT Reading & Writing",
+    "audience": "High school students preparing for the SAT (Reading & Writing)",
+    "total_mastery_points": 400,
+    "teacher_notes": {
+      "pacing": "45 minutes; pacing benchmarks with short drill.",
+      "materials": "Timer, pacing chart, two sample questions.",
+      "assessment": "4-item unit check and a one-sentence pacing rule exit ticket."
+    },
+    "learning_objectives": [
+      "Explain 200\u2013800 scoring and adaptive modules.",
+      "Set micro-benchmarks for item pacing.",
+      "Use guess-and-flag to protect time."
+    ],
+    "structure": [
+      {
+        "section_id": "scoring_and_timing",
+        "title": "Scoring & Timing",
+        "time_suggested_minutes": 35,
+        "objectives": [
+          "Allocate time per question using benchmarks.",
+          "Practice flagging and returning.",
+          "Make confident choices within 20\u201330 seconds."
+        ],
+        "lecture_script": [
+          {
+            "type": "mini_lecture",
+            "duration_min": 12,
+            "script": "Your R&W score ranges 200\u2013800. Maintain pace: decide in 20\u201330 seconds, choose best option, flag if needed, and move on."
+          },
+          {
+            "type": "think_aloud",
+            "duration_min": 12,
+            "script": "Stuck after 25 seconds, I pick my best elimination choice, flag it, and proceed to protect later points."
+          },
+          {
+            "type": "guided_practice",
+            "duration_min": 9,
+            "script": "Two timed items: make a choice within the window, then reflect on whether flagging was needed."
+          },
+          {
+            "type": "exit_ticket",
+            "duration_min": 2,
+            "script": "Write your personal pacing rule in one sentence."
+          }
+        ],
+        "content": {
+          "worked_example": {
+            "passage": "Because the conference schedule was dense, Jordan reviewed abstracts the night before to decide which talks to attend first.",
+            "question": "What strategy does Jordan use to manage limited time?",
+            "options": {
+              "A": "Skipping the conference",
+              "B": "Randomly choosing talks",
+              "C": "Previewing abstracts to prioritize",
+              "D": "Leaving early"
+            },
+            "correct_answer": "C",
+            "explanation": "Previewing abstracts to prioritize mirrors time-management and pacing."
+          },
+          "practice_set": [
+            {
+              "id": "U1_ST_P1",
+              "passage": "During the test, Priya flagged two questions that needed more careful reading and answered easier ones first.",
+              "question": "Priya\u2019s approach primarily aims to",
+              "options": {
+                "A": "reduce total questions",
+                "B": "maximize points by pacing",
+                "C": "avoid reading",
+                "D": "change the scoring"
+              },
+              "correct_answer": "B"
+            }
+          ]
+        }
+      }
+    ],
+    "unit_check": [
+      {
+        "id": "U1_ST_UC1",
+        "question": "When stuck after ~25 seconds, you should",
+        "options": {
+          "A": "reread twice",
+          "B": "leave blank",
+          "C": "guess, flag, move on",
+          "D": "restart the module"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "id": "U1_ST_UC2",
+        "question": "The R&W score range is",
+        "options": {
+          "A": "0\u201336",
+          "B": "200\u2013800",
+          "C": "1\u20135",
+          "D": "400\u20131600"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "U1_ST_UC3",
+        "question": "Flagging helps you",
+        "options": {
+          "A": "skip scoring",
+          "B": "protect time for later items",
+          "C": "change answers after submission",
+          "D": "hide the timer"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "U1_ST_UC4",
+        "question": "Benchmarks are",
+        "options": {
+          "A": "time targets per item",
+          "B": "trick questions",
+          "C": "final scores",
+          "D": "passage titles"
+        },
+        "correct_answer": "A"
+      }
+    ],
+    "homework": [
+      "Run a 10-question drill with a 25-second decision window and record flags.",
+      "Create a pacing chart with checkpoints every 5 minutes.",
+      "Write three \u2018if stuck, then\u2026\u2019 rules you will apply."
+    ],
+    "answer_key": {
+      "U1_ST_P1": "B",
+      "U1_ST_UC1": "C",
+      "U1_ST_UC2": "B",
+      "U1_ST_UC3": "B",
+      "U1_ST_UC4": "A"
+    }
+  },
+  {
+    "id": "unit1_types_of_passages_and_questions",
+    "subject": "SAT",
+    "section": "Reading_and_Writing",
+    "unit": "Unit_1",
+    "lecture_type": "individual_lecture",
+    "title": "Unit 1 Lecture: Types of Passages & Questions",
+    "difficulty": "Beginner",
+    "duration_minutes": 45,
+    "target_exam": "SAT Reading & Writing",
+    "audience": "High school students preparing for the SAT (Reading & Writing)",
+    "total_mastery_points": 400,
+    "teacher_notes": {
+      "pacing": "45 minutes; taxonomy with modeling and practice.",
+      "materials": "Slide with passage types, sample items, timer.",
+      "assessment": "4-item unit check and brief exit reflection."
+    },
+    "learning_objectives": [
+      "Recognize literary, historical, scientific, and informational passages.",
+      "Identify common question types and traps.",
+      "Apply elimination by relevance to the question."
+    ],
+    "structure": [
+      {
+        "section_id": "types_of_passages_and_questions",
+        "title": "Types of Passages & Questions",
+        "time_suggested_minutes": 35,
+        "objectives": [
+          "Label passage type before answering.",
+          "Name the question type and plan the approach.",
+          "Eliminate choices true-but-irrelevant."
+        ],
+        "lecture_script": [
+          {
+            "type": "mini_lecture",
+            "duration_min": 12,
+            "script": "Expect literary, historical, scientific, and informational texts. Questions target main ideas, evidence, words in context, structure, and conventions."
+          },
+          {
+            "type": "error_analysis",
+            "duration_min": 12,
+            "script": "We\u2019ll reject an option that echoes the passage but does not answer the question asked."
+          },
+          {
+            "type": "guided_practice",
+            "duration_min": 9,
+            "script": "Label type, name the question, then choose based on relevance and precision."
+          }
+        ],
+        "content": {
+          "worked_example": {
+            "passage": "In 1913, the suffragists\u2019 parade drew national attention, transforming a local campaign into a movement that pressed lawmakers to act.",
+            "question": "Which choice best captures the central idea?",
+            "options": {
+              "A": "Parades always change laws.",
+              "B": "A 1913 parade amplified a political movement.",
+              "C": "Lawmakers dislike public events.",
+              "D": "Local campaigns are ineffective."
+            },
+            "correct_answer": "B",
+            "explanation": "The parade drew attention and transformed the campaign-amplifying the movement."
+          },
+          "practice_set": [
+            {
+              "id": "U1_TP_P1",
+              "passage": "The engineer compared outputs from two solar prototypes and found small design tweaks improved efficiency.",
+              "question": "This passage is best categorized as",
+              "options": {
+                "A": "literary narrative",
+                "B": "scientific/informational",
+                "C": "historical speech",
+                "D": "humorous anecdote"
+              },
+              "correct_answer": "B"
+            }
+          ]
+        }
+      }
+    ],
+    "unit_check": [
+      {
+        "id": "U1_TP_UC1",
+        "question": "A true but irrelevant option should be",
+        "options": {
+          "A": "selected",
+          "B": "eliminated",
+          "C": "rewarded",
+          "D": "expanded"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "U1_TP_UC2",
+        "question": "Passage types include",
+        "options": {
+          "A": "only fiction",
+          "B": "literary, historical, scientific, informational",
+          "C": "math proofs only",
+          "D": "personal letters only"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "U1_TP_UC3",
+        "question": "Before choosing, first",
+        "options": {
+          "A": "read the choices",
+          "B": "label type and question",
+          "C": "ignore the question",
+          "D": "time out"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "U1_TP_UC4",
+        "question": "Central idea choices should",
+        "options": {
+          "A": "quote details",
+          "B": "capture overall point",
+          "C": "be the longest",
+          "D": "add new facts"
+        },
+        "correct_answer": "B"
+      }
+    ],
+    "homework": [
+      "Sort ten mini-passages by type and justify each label.",
+      "For five items, name the question type and the best first step.",
+      "Write one sentence explaining why a trap is irrelevant for two items."
+    ],
+    "answer_key": {
+      "U1_TP_P1": "B",
+      "U1_TP_UC1": "B",
+      "U1_TP_UC2": "B",
+      "U1_TP_UC3": "B",
+      "U1_TP_UC4": "B"
+    }
+  },
+  {
+    "id": "information_and_ideas",
+    "subject": "SAT",
+    "section": "Reading_and_Writing",
+    "unit": "Unit_2",
+    "lecture_type": "full_unit",
+    "title": "Information and Ideas",
+    "difficulty": "Advanced",
+    "duration_minutes": 60,
+    "target_exam": "SAT Reading & Writing",
+    "audience": "High school students preparing for the SAT (Reading & Writing)",
+    "total_mastery_points": 400,
+    "teacher_notes": {
+      "pacing": "60\u201375 minutes; 4 focused sections, each with a worked example and practice.",
+      "materials": "Projector, timer, mini whiteboards, and printed graphs/tables for quantitative items.",
+      "assessment": "4-item unit check plus review of practice responses."
+    },
+    "learning_objectives": [
+      "Cite textual evidence that best supports a claim.",
+      "Interpret and integrate information from charts and tables.",
+      "Determine central ideas and key details.",
+      "Draw logical inferences from concise passages."
+    ],
+    "structure": [
+      {
+        "section_id": "textual_evidence",
+        "title": "Command of Evidence (Textual)",
+        "time_suggested_minutes": 15,
+        "objectives": [
+          "Select lines that best support a given claim.",
+          "Eliminate statements that are true but irrelevant.",
+          "Use prediction before scanning options."
+        ],
+        "lecture_script": [
+          {
+            "type": "mini_lecture",
+            "duration_min": 5,
+            "script": "For evidence items, restate the claim in your own words and seek the sentence that most directly proves it."
+          },
+          {
+            "type": "think_aloud",
+            "duration_min": 5,
+            "script": "I predict: \u2018proof that the expedition faced unexpected cold.\u2019 Then I scan for the sentence that explicitly mentions the cold as an obstacle."
+          },
+          {
+            "type": "quick_check",
+            "duration_min": 3,
+            "script": "Which option is relevant but doesn\u2019t prove the claim? Hold up your letter."
+          }
+        ],
+        "content": {
+          "worked_example": {
+            "passage": "Although the plan was meticulous, the hikers turned back when an early storm froze the trail and blocked the pass.",
+            "question": "Which choice best supports the claim that conditions forced a retreat?",
+            "options": {
+              "A": "The plan was meticulous.",
+              "B": "An early storm froze the trail and blocked the pass.",
+              "C": "The hikers liked warm weather.",
+              "D": "The pass is popular in summer."
+            },
+            "correct_answer": "B",
+            "explanation": "Option B directly states the conditions that caused the retreat."
+          },
+          "practice_set": [
+            {
+              "id": "U2S1_P1",
+              "passage": "The curator kept the painting in low light because its pigments, fragile with age, faded under stronger lamps.",
+              "question": "Which choice best supports the claim that the curator prioritized preservation?",
+              "options": {
+                "A": "The painting was famous.",
+                "B": "It was kept in low light to protect pigments.",
+                "C": "Visitors preferred bright rooms.",
+                "D": "The museum recently renovated."
+              },
+              "correct_answer": "B"
+            }
+          ]
+        }
+      },
+      {
+        "section_id": "quantitative_evidence",
+        "title": "Command of Evidence (Quantitative)",
+        "time_suggested_minutes": 15,
+        "objectives": [
+          "Read titles, axes, and units before interpreting values.",
+          "Connect visual data to textual claims.",
+          "Avoid overgeneralizing beyond the figure."
+        ],
+        "lecture_script": [
+          {
+            "type": "mini_lecture",
+            "duration_min": 5,
+            "script": "Always parse the figure: title, variables, scale, and trend. Then match the exact claim to the exact data point or pattern."
+          },
+          {
+            "type": "guided_practice",
+            "duration_min": 6,
+            "script": "We\u2019ll annotate a small table and cross-check which option accurately cites the numbers."
+          },
+          {
+            "type": "quick_check",
+            "duration_min": 4,
+            "script": "If the claim says \u2018largest increase,\u2019 what two numbers must we compare? Answer in one phrase."
+          }
+        ],
+        "content": {
+          "worked_example": {
+            "passage": "Figure: A table shows year 1 = 40 participants, year 2 = 50, year 3 = 70 in a school science fair.",
+            "question": "Which statement is best supported by the table?",
+            "options": {
+              "A": "Participation decreased from year 1 to year 3.",
+              "B": "The largest increase occurred between years 2 and 3.",
+              "C": "Year 2 had the most participants overall.",
+              "D": "Year 1 and year 2 had equal participation."
+            },
+            "correct_answer": "B",
+            "explanation": "Values rise 40\u219250 (+10) then 50\u219270 (+20); the larger increase is 2 to 3."
+          },
+          "practice_set": [
+            {
+              "id": "U2S2_P1",
+              "passage": "Figure: A bar chart shows library visits per month: Jan 200, Feb 220, Mar 260.",
+              "question": "Which choice accurately describes the trend?",
+              "options": {
+                "A": "Visits drop steadily.",
+                "B": "Visits remain constant.",
+                "C": "Visits increase each month.",
+                "D": "March has the fewest visits."
+              },
+              "correct_answer": "C"
+            }
+          ]
+        }
+      },
+      {
+        "section_id": "central_ideas_details",
+        "title": "Central Ideas & Details",
+        "time_suggested_minutes": 15,
+        "objectives": [
+          "Identify a passage\u2019s main claim.",
+          "Differentiate central ideas from minor details.",
+          "Use wording that paraphrases rather than copies."
+        ],
+        "lecture_script": [
+          {
+            "type": "mini_lecture",
+            "duration_min": 5,
+            "script": "Main ideas explain the passage\u2019s purpose. Details serve that purpose. Prefer options that capture the whole point without overspecifying."
+          },
+          {
+            "type": "error_analysis",
+            "duration_min": 5,
+            "script": "We\u2019ll reject a choice that quotes a detail but misses the broader claim."
+          },
+          {
+            "type": "guided_practice",
+            "duration_min": 5,
+            "script": "Underline the author\u2019s purpose verb and complete the sentence: \u2018The author argues that\u2026\u2019"
+          }
+        ],
+        "content": {
+          "worked_example": {
+            "passage": "Community gardens, beyond supplying produce, build trust among neighbors who meet regularly to plan, plant, and share the harvest.",
+            "question": "Which choice states the central idea?",
+            "options": {
+              "A": "Gardens are expensive.",
+              "B": "Community gardens foster social connections in addition to food.",
+              "C": "Only experts can garden.",
+              "D": "Harvests are unpredictable."
+            },
+            "correct_answer": "B",
+            "explanation": "The sentence emphasizes both produce and building trust-social connections beyond food."
+          },
+          "practice_set": [
+            {
+              "id": "U2S3_P1",
+              "passage": "The biography notes that early failures taught the artist techniques later evident in widely praised works.",
+              "question": "What is the central idea?",
+              "options": {
+                "A": "The artist avoided failure.",
+                "B": "Failures informed later success.",
+                "C": "Praise is unreliable.",
+                "D": "Biographies are fictional."
+              },
+              "correct_answer": "B"
+            }
+          ]
+        }
+      },
+      {
+        "section_id": "inferences",
+        "title": "Inferences",
+        "time_suggested_minutes": 15,
+        "objectives": [
+          "Make logical conclusions supported by the text.",
+          "Avoid speculation beyond the passage.",
+          "Use evidence to justify the inference."
+        ],
+        "lecture_script": [
+          {
+            "type": "mini_lecture",
+            "duration_min": 5,
+            "script": "An inference is a justified conclusion, not a guess. Ask: If the text is true, what must also be true?"
+          },
+          {
+            "type": "think_aloud",
+            "duration_min": 5,
+            "script": "The narrator \u2018checks the door twice\u2019; I infer anxiety or caution because the action signals concern about security."
+          },
+          {
+            "type": "quick_check",
+            "duration_min": 3,
+            "script": "Which choice goes beyond the text? Call it when you hear unrelated claims."
+          }
+        ],
+        "content": {
+          "worked_example": {
+            "passage": "Hearing the thunder grow nearer, Lina moved the metal chairs indoors before locking the garden gate.",
+            "question": "What can be reasonably inferred about Lina?",
+            "options": {
+              "A": "She dislikes rain in general.",
+              "B": "She anticipates risk and acts to prevent damage.",
+              "C": "She plans to sell the chairs.",
+              "D": "She is ignoring the storm."
+            },
+            "correct_answer": "B",
+            "explanation": "She moves metal chairs and locks the gate as the storm approaches-preventive action shows anticipation of risk."
+          },
+          "practice_set": [
+            {
+              "id": "U2S4_P1",
+              "passage": "When the auditorium lights dimmed, the presenter paused until the last whispers faded, then began.",
+              "question": "What is the most reasonable inference?",
+              "options": {
+                "A": "The presenter forgot the topic.",
+                "B": "The audience was small.",
+                "C": "The presenter waited for attention before starting.",
+                "D": "The equipment failed."
+              },
+              "correct_answer": "C"
+            }
+          ]
+        }
+      }
+    ],
+    "unit_check": [
+      {
+        "id": "U2_UC1",
+        "question": "Which step comes first when reading a chart?",
+        "options": {
+          "A": "Estimate trends before reading labels",
+          "B": "Read title, axes, and units",
+          "C": "Pick the largest bar",
+          "D": "Ignore the scale"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "U2_UC2",
+        "question": "An inference must be",
+        "options": {
+          "A": "creative",
+          "B": "speculative",
+          "C": "text-supported",
+          "D": "long"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "id": "U2_UC3",
+        "question": "A central idea choice should",
+        "options": {
+          "A": "quote a minor detail",
+          "B": "capture the passage\u2019s overall point",
+          "C": "be the longest",
+          "D": "introduce new facts"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "U2_UC4",
+        "question": "Best evidence is the sentence that",
+        "options": {
+          "A": "is interesting",
+          "B": "is closest in position",
+          "C": "directly proves the claim",
+          "D": "uses complex vocabulary"
+        },
+        "correct_answer": "C"
+      }
+    ],
+    "homework": [
+      "Complete one page of textual evidence items; underline the claim and the proving words.",
+      "Analyze two small charts; write one accurate and one inaccurate claim for each.",
+      "Summarize three short passages with a one-sentence central idea."
+    ],
+    "answer_key": {
+      "U2S1_P1": "B",
+      "U2S2_P1": "C",
+      "U2S3_P1": "B",
+      "U2S4_P1": "C",
+      "U2_UC1": "B",
+      "U2_UC2": "C",
+      "U2_UC3": "B",
+      "U2_UC4": "C"
+    }
+  },
+  {
+    "id": "unit2_textual_evidence",
+    "subject": "SAT",
+    "section": "Reading_and_Writing",
+    "unit": "Unit_2",
+    "lecture_type": "individual_lecture",
+    "title": "Unit 2 Lecture: Command of Evidence (Textual)",
+    "difficulty": "Intermediate",
+    "duration_minutes": 45,
+    "target_exam": "SAT Reading & Writing",
+    "audience": "High school students preparing for the SAT (Reading & Writing)",
+    "total_mastery_points": 400,
+    "teacher_notes": {
+      "pacing": "45 minutes; modeling, guided practice, quick check.",
+      "materials": "Projector, highlighters, short passages with evidence lines.",
+      "assessment": "4-item unit check and explanation of one elimination."
+    },
+    "learning_objectives": [
+      "Restate the claim before scanning for proof.",
+      "Select the sentence that directly supports the claim.",
+      "Eliminate statements that are true but irrelevant."
+    ],
+    "structure": [
+      {
+        "section_id": "textual_evidence",
+        "title": "Command of Evidence (Textual)",
+        "time_suggested_minutes": 35,
+        "objectives": [
+          "Predict the needed proof in simple words.",
+          "Locate the sentence that proves the claim.",
+          "Avoid proximity bias-closest line isn\u2019t always best."
+        ],
+        "lecture_script": [
+          {
+            "type": "mini_lecture",
+            "duration_min": 12,
+            "script": "Underline the claim and predict the proof. Then pick the sentence that most directly proves that prediction."
+          },
+          {
+            "type": "think_aloud",
+            "duration_min": 12,
+            "script": "If the claim says \u2018conditions forced a retreat,\u2019 I search for the sentence that names the exact condition causing the retreat."
+          },
+          {
+            "type": "quick_check",
+            "duration_min": 9,
+            "script": "Raise the letter of the option that proves the claim, not one that\u2019s merely interesting."
+          }
+        ],
+        "content": {
+          "worked_example": {
+            "passage": "Although the plan was meticulous, the hikers turned back when an early storm froze the trail and blocked the pass.",
+            "question": "Which choice best supports the claim that conditions forced a retreat?",
+            "options": {
+              "A": "The plan was meticulous.",
+              "B": "An early storm froze the trail and blocked the pass.",
+              "C": "The hikers liked warm weather.",
+              "D": "The pass is popular in summer."
+            },
+            "correct_answer": "B",
+            "explanation": "Only B directly states the condition that caused the retreat."
+          },
+          "practice_set": [
+            {
+              "id": "U2_TE_P1",
+              "passage": "The curator kept the painting in low light because aged pigments faded under stronger lamps.",
+              "question": "Which choice best supports the claim that preservation drove the decision?",
+              "options": {
+                "A": "The painting was famous.",
+                "B": "Low light protected fragile pigments.",
+                "C": "Visitors preferred bright rooms.",
+                "D": "The museum renovated."
+              },
+              "correct_answer": "B"
+            }
+          ]
+        }
+      }
+    ],
+    "unit_check": [
+      {
+        "id": "U2_TE_UC1",
+        "question": "Best evidence should",
+        "options": {
+          "A": "be nearby",
+          "B": "directly prove the claim",
+          "C": "be longest",
+          "D": "use fancy words"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "U2_TE_UC2",
+        "question": "First step is to",
+        "options": {
+          "A": "read options first",
+          "B": "restate the claim",
+          "C": "memorize lines",
+          "D": "skip context"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "U2_TE_UC3",
+        "question": "True but irrelevant lines should be",
+        "options": {
+          "A": "selected",
+          "B": "ignored",
+          "C": "rewarded",
+          "D": "quoted"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "U2_TE_UC4",
+        "question": "Proximity bias is",
+        "options": {
+          "A": "favoring nearby lines",
+          "B": "timing the test",
+          "C": "taking notes",
+          "D": "paraphrasing"
+        },
+        "correct_answer": "A"
+      }
+    ],
+    "homework": [
+      "Complete six evidence items; write the predicted proof before choosing.",
+      "For two missed items, explain why the chosen line was irrelevant.",
+      "Summarize one passage\u2019s claim in seven words or fewer."
+    ],
+    "answer_key": {
+      "U2_TE_P1": "B",
+      "U2_TE_UC1": "B",
+      "U2_TE_UC2": "B",
+      "U2_TE_UC3": "B",
+      "U2_TE_UC4": "A"
+    }
+  },
+  {
+    "id": "unit2_quantitative_evidence",
+    "subject": "SAT",
+    "section": "Reading_and_Writing",
+    "unit": "Unit_2",
+    "lecture_type": "individual_lecture",
+    "title": "Unit 2 Lecture: Command of Evidence (Quantitative)",
+    "difficulty": "Intermediate",
+    "duration_minutes": 45,
+    "target_exam": "SAT Reading & Writing",
+    "audience": "High school students preparing for the SAT (Reading & Writing)",
+    "total_mastery_points": 400,
+    "teacher_notes": {
+      "pacing": "45 minutes; chart/graph reading and claims.",
+      "materials": "Printed mini-graphs, projector, and ruler if needed.",
+      "assessment": "4-item unit check and one-sentence trend paraphrase."
+    },
+    "learning_objectives": [
+      "Read titles, axes, and units before interpreting.",
+      "Match claims precisely to data points or trends.",
+      "Avoid extrapolation beyond the figure."
+    ],
+    "structure": [
+      {
+        "section_id": "quantitative_evidence",
+        "title": "Command of Evidence (Quantitative)",
+        "time_suggested_minutes": 35,
+        "objectives": [
+          "Parse labels and scales.",
+          "Identify largest increase/decrease accurately.",
+          "Translate numeric changes into plain language."
+        ],
+        "lecture_script": [
+          {
+            "type": "mini_lecture",
+            "duration_min": 12,
+            "script": "Start with title, variables, and units. Read exact values and compare the right numbers for the claim."
+          },
+          {
+            "type": "guided_practice",
+            "duration_min": 12,
+            "script": "Annotate a small table and select the statement that mirrors the data-no more, no less."
+          },
+          {
+            "type": "quick_check",
+            "duration_min": 9,
+            "script": "If the claim says \u2018largest increase,\u2019 which two values must you compare? Answer succinctly."
+          }
+        ],
+        "content": {
+          "worked_example": {
+            "passage": "Table: Year1=40, Year2=50, Year3=70 participants in a science fair.",
+            "question": "Which statement is best supported?",
+            "options": {
+              "A": "Participation decreased overall.",
+              "B": "Largest increase was from Year2 to Year3.",
+              "C": "Year2 had the most participants.",
+              "D": "Year1 equaled Year2."
+            },
+            "correct_answer": "B",
+            "explanation": "Increases are +10 and +20; the larger is 2\u21923."
+          },
+          "practice_set": [
+            {
+              "id": "U2_QE_P1",
+              "passage": "Bar chart: Jan 200, Feb 220, Mar 260 library visits.",
+              "question": "Which choice describes the trend?",
+              "options": {
+                "A": "Visits drop steadily.",
+                "B": "Visits are constant.",
+                "C": "Visits increase each month.",
+                "D": "March has the fewest."
+              },
+              "correct_answer": "C"
+            }
+          ]
+        }
+      }
+    ],
+    "unit_check": [
+      {
+        "id": "U2_QE_UC1",
+        "question": "First step with figures is to read",
+        "options": {
+          "A": "colors",
+          "B": "title, axes, units",
+          "C": "longest bar",
+          "D": "legend only"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "U2_QE_UC2",
+        "question": "A precise claim should",
+        "options": {
+          "A": "match the data",
+          "B": "add outside facts",
+          "C": "generalize",
+          "D": "ignore units"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": "U2_QE_UC3",
+        "question": "Largest increase means compare",
+        "options": {
+          "A": "any two bars",
+          "B": "non-adjacent only",
+          "C": "the relevant consecutive values",
+          "D": "colors"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "id": "U2_QE_UC4",
+        "question": "Avoid",
+        "options": {
+          "A": "paraphrasing",
+          "B": "outside knowledge",
+          "C": "units",
+          "D": "precision"
+        },
+        "correct_answer": "B"
+      }
+    ],
+    "homework": [
+      "Summarize trends for three mini-graphs in one sentence each.",
+      "Write one accurate and one inaccurate claim for a table; explain why.",
+      "Complete four quantitative evidence items and note compared values."
+    ],
+    "answer_key": {
+      "U2_QE_P1": "C",
+      "U2_QE_UC1": "B",
+      "U2_QE_UC2": "A",
+      "U2_QE_UC3": "C",
+      "U2_QE_UC4": "B"
+    }
+  },
+  {
+    "id": "unit2_central_ideas_details",
+    "subject": "SAT",
+    "section": "Reading_and_Writing",
+    "unit": "Unit_2",
+    "lecture_type": "individual_lecture",
+    "title": "Unit 2 Lecture: Central Ideas & Details",
+    "difficulty": "Intermediate",
+    "duration_minutes": 45,
+    "target_exam": "SAT Reading & Writing",
+    "audience": "High school students preparing for the SAT (Reading & Writing)",
+    "total_mastery_points": 400,
+    "teacher_notes": {
+      "pacing": "45 minutes; modeling main idea vs detail.",
+      "materials": "Passage handouts and highlighters.",
+      "assessment": "4-item unit check; one-sentence central idea summary."
+    },
+    "learning_objectives": [
+      "Identify a passage\u2019s main claim in one sentence.",
+      "Distinguish central ideas from minor details.",
+      "Select paraphrases that capture the overall point."
+    ],
+    "structure": [
+      {
+        "section_id": "central_ideas_details",
+        "title": "Central Ideas & Details",
+        "time_suggested_minutes": 35,
+        "objectives": [
+          "State the author\u2019s purpose succinctly.",
+          "Eliminate choices that quote details only.",
+          "Prefer accurate paraphrases over exact wording."
+        ],
+        "lecture_script": [
+          {
+            "type": "mini_lecture",
+            "duration_min": 12,
+            "script": "Ask: What is the passage doing overall? Choose the option that captures that purpose, not a single fact."
+          },
+          {
+            "type": "error_analysis",
+            "duration_min": 12,
+            "script": "We\u2019ll discard a choice that quotes a detail but misses the passage\u2019s point."
+          },
+          {
+            "type": "guided_practice",
+            "duration_min": 9,
+            "script": "Underline the purpose verb-argues, explains, describes-then pick the matching paraphrase."
+          }
+        ],
+        "content": {
+          "worked_example": {
+            "passage": "Community gardens, beyond supplying produce, build trust among neighbors who meet regularly to plan and share the harvest.",
+            "question": "Which choice states the central idea?",
+            "options": {
+              "A": "Gardens are expensive.",
+              "B": "Community gardens foster social connections as well as food.",
+              "C": "Only experts can garden.",
+              "D": "Harvests are unpredictable."
+            },
+            "correct_answer": "B",
+            "explanation": "The sentence stresses both produce and social trust-connections beyond food."
+          },
+          "practice_set": [
+            {
+              "id": "U2_CI_P1",
+              "passage": "The biography notes that early failures taught techniques later evident in praised works.",
+              "question": "What is the central idea?",
+              "options": {
+                "A": "The artist avoided failure.",
+                "B": "Failures informed later success.",
+                "C": "Praise is unreliable.",
+                "D": "Biographies are fictional."
+              },
+              "correct_answer": "B"
+            }
+          ]
+        }
+      }
+    ],
+    "unit_check": [
+      {
+        "id": "U2_CI_UC1",
+        "question": "Central idea choices should",
+        "options": {
+          "A": "quote a minor detail",
+          "B": "capture the overall point",
+          "C": "be the longest",
+          "D": "add outside facts"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "U2_CI_UC2",
+        "question": "Best paraphrase is",
+        "options": {
+          "A": "closest wording",
+          "B": "accurate meaning",
+          "C": "new information",
+          "D": "shortest option"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "U2_CI_UC3",
+        "question": "Purpose can often be found by the",
+        "options": {
+          "A": "purpose verb",
+          "B": "longest sentence",
+          "C": "first noun",
+          "D": "title only"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": "U2_CI_UC4",
+        "question": "Details are",
+        "options": {
+          "A": "the entire point",
+          "B": "supporting facts",
+          "C": "irrelevant always",
+          "D": "better than main ideas"
+        },
+        "correct_answer": "B"
+      }
+    ],
+    "homework": [
+      "Write a one-sentence central idea for three short passages.",
+      "Explain why a tempting detail choice is not the main idea for two items.",
+      "Create a paraphrase of a main idea without repeating phrases."
+    ],
+    "answer_key": {
+      "U2_CI_P1": "B",
+      "U2_CI_UC1": "B",
+      "U2_CI_UC2": "B",
+      "U2_CI_UC3": "A",
+      "U2_CI_UC4": "B"
+    }
+  },
+  {
+    "id": "unit2_inferences",
+    "subject": "SAT",
+    "section": "Reading_and_Writing",
+    "unit": "Unit_2",
+    "lecture_type": "individual_lecture",
+    "title": "Unit 2 Lecture: Inferences",
+    "difficulty": "Intermediate",
+    "duration_minutes": 45,
+    "target_exam": "SAT Reading & Writing",
+    "audience": "High school students preparing for the SAT (Reading & Writing)",
+    "total_mastery_points": 400,
+    "teacher_notes": {
+      "pacing": "45 minutes; inference modeling and checks.",
+      "materials": "Short passages, projector, and timers.",
+      "assessment": "4-item unit check; justify one inference with a quote."
+    },
+    "learning_objectives": [
+      "Draw conclusions supported by the text.",
+      "Avoid speculation beyond given information.",
+      "Cite the words that justify the inference."
+    ],
+    "structure": [
+      {
+        "section_id": "inferences",
+        "title": "Inferences",
+        "time_suggested_minutes": 35,
+        "objectives": [
+          "State the inference in plain language first.",
+          "Point to the exact words that justify it.",
+          "Reject options adding new facts."
+        ],
+        "lecture_script": [
+          {
+            "type": "mini_lecture",
+            "duration_min": 12,
+            "script": "An inference is a justified conclusion. Ask: If this sentence is true, what must also be true?"
+          },
+          {
+            "type": "think_aloud",
+            "duration_min": 12,
+            "script": "\u2018Checks the door twice\u2019 suggests worry about security-so I infer caution, not forgetfulness without evidence."
+          },
+          {
+            "type": "quick_check",
+            "duration_min": 9,
+            "script": "Hold up the letter for the option that is supported without adding unstated claims."
+          }
+        ],
+        "content": {
+          "worked_example": {
+            "passage": "Hearing thunder grow nearer, Lina moved metal chairs indoors before locking the garden gate.",
+            "question": "What can be reasonably inferred about Lina?",
+            "options": {
+              "A": "She dislikes rain.",
+              "B": "She anticipates risk and prevents damage.",
+              "C": "She plans to sell the chairs.",
+              "D": "She ignores the storm."
+            },
+            "correct_answer": "B",
+            "explanation": "Her preventive actions show anticipation of risk."
+          },
+          "practice_set": [
+            {
+              "id": "U2_INF_P1",
+              "passage": "When the auditorium lights dimmed, the presenter waited until whispers faded, then began.",
+              "question": "What is the most reasonable inference?",
+              "options": {
+                "A": "The presenter forgot the topic.",
+                "B": "The audience was small.",
+                "C": "The presenter sought full attention first.",
+                "D": "The equipment failed."
+              },
+              "correct_answer": "C"
+            }
+          ]
+        }
+      }
+    ],
+    "unit_check": [
+      {
+        "id": "U2_INF_UC1",
+        "question": "An inference must be",
+        "options": {
+          "A": "creative",
+          "B": "text-supported",
+          "C": "long",
+          "D": "outside knowledge"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "U2_INF_UC2",
+        "question": "To justify an inference, you should",
+        "options": {
+          "A": "quote support",
+          "B": "guess",
+          "C": "ignore wording",
+          "D": "add facts"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": "U2_INF_UC3",
+        "question": "Avoid options that",
+        "options": {
+          "A": "paraphrase",
+          "B": "introduce new claims",
+          "C": "use moderate wording",
+          "D": "cite evidence"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "U2_INF_UC4",
+        "question": "First step is to",
+        "options": {
+          "A": "write a plain-language inference",
+          "B": "time out",
+          "C": "read options first",
+          "D": "skip the passage"
+        },
+        "correct_answer": "A"
+      }
+    ],
+    "homework": [
+      "Write a one-sentence inference for three mini-passages and cite words that support it.",
+      "Revise one overreaching inference to remove speculation.",
+      "Complete four inference items and explain one elimination."
+    ],
+    "answer_key": {
+      "U2_INF_P1": "C",
+      "U2_INF_UC1": "B",
+      "U2_INF_UC2": "A",
+      "U2_INF_UC3": "B",
+      "U2_INF_UC4": "A"
+    }
+  },
+  {
+    "id": "craft_and_structure",
+    "subject": "SAT",
+    "section": "Reading_and_Writing",
+    "unit": "Unit_3",
+    "lecture_type": "full_unit",
+    "title": "Craft and Structure",
+    "difficulty": "Advanced",
+    "duration_minutes": 60,
+    "target_exam": "SAT Reading & Writing",
+    "audience": "High school students preparing for the SAT (Reading & Writing)",
+    "total_mastery_points": 400,
+    "teacher_notes": {
+      "pacing": "60 minutes; 3 sections with modeling and quick checks.",
+      "materials": "Slides with sample sentences, highlighters, and practice handouts.",
+      "assessment": "Check-for-understanding after each section and a 4-item unit quiz."
+    },
+    "learning_objectives": [
+      "Interpret Words in Context using meaning from nearby clues.",
+      "Analyze text structure and purpose of sentences/paragraphs.",
+      "Connect ideas across brief related texts."
+    ],
+    "structure": [
+      {
+        "section_id": "words_in_context",
+        "title": "Words in Context",
+        "time_suggested_minutes": 20,
+        "objectives": [
+          "Use context clues to infer word meaning.",
+          "Choose definitions consistent with tone and usage.",
+          "Avoid memorizing isolated dictionary entries."
+        ],
+        "lecture_script": [
+          {
+            "type": "mini_lecture",
+            "duration_min": 7,
+            "script": "Read around the word and restate it with a simple synonym that fits the sentence\u2019s logic and tone."
+          },
+          {
+            "type": "think_aloud",
+            "duration_min": 7,
+            "script": "If \u2018temperate\u2019 describes the region\u2019s climate and farming thrives, I pick a meaning like \u2018mild\u2019 rather than \u2018angry.\u2019"
+          },
+          {
+            "type": "quick_check",
+            "duration_min": 6,
+            "script": "In one sentence, explain why the wrong meaning is tempting but incorrect here."
+          }
+        ],
+        "content": {
+          "worked_example": {
+            "passage": "The critic praised the novel\u2019s \u2018spare\u2019 style, noting that each sentence carried weight without unnecessary ornament.",
+            "question": "In the context, \u2018spare\u2019 most nearly means",
+            "options": {
+              "A": "extra",
+              "B": "minimal",
+              "C": "damaged",
+              "D": "luxurious"
+            },
+            "correct_answer": "B",
+            "explanation": "\u2018Spare\u2019 aligns with concise, unornamented prose-minimal in style."
+          },
+          "practice_set": [
+            {
+              "id": "U3S1_P1",
+              "passage": "Despite the \u2018opaque\u2019 instructions, the team assembled the device by comparing diagrams.",
+              "question": "\u2018Opaque\u2019 most nearly means",
+              "options": {
+                "A": "unclear",
+                "B": "transparent",
+                "C": "fragile",
+                "D": "official"
+              },
+              "correct_answer": "A"
+            }
+          ]
+        }
+      },
+      {
+        "section_id": "text_structure",
+        "title": "Text Structure",
+        "time_suggested_minutes": 20,
+        "objectives": [
+          "Identify how a sentence functions (example, contrast, cause).",
+          "Track logical relationships across sentences.",
+          "Choose options that preserve the author\u2019s purpose."
+        ],
+        "lecture_script": [
+          {
+            "type": "mini_lecture",
+            "duration_min": 6,
+            "script": "Ask what the sentence does: introduce, contrast, explain, or conclude. Structure determines the best answer."
+          },
+          {
+            "type": "guided_practice",
+            "duration_min": 8,
+            "script": "We\u2019ll label signal words-however, therefore, for example-and decide each sentence\u2019s role."
+          },
+          {
+            "type": "quick_check",
+            "duration_min": 6,
+            "script": "Name the function: Does this sentence give a reason, or present a counterpoint?"
+          }
+        ],
+        "content": {
+          "worked_example": {
+            "passage": "Many assumed the comet would dim quickly; however, new measurements showed it brightening as it neared the sun.",
+            "question": "What is the function of \u2018however\u2019 in the sentence?",
+            "options": {
+              "A": "Provide an example",
+              "B": "Signal a contrast to a prior assumption",
+              "C": "Indicate a cause",
+              "D": "Summarize a result"
+            },
+            "correct_answer": "B",
+            "explanation": "\u2018However\u2019 introduces a contrast between assumption and new data."
+          },
+          "practice_set": [
+            {
+              "id": "U3S2_P1",
+              "passage": "The device saves energy; therefore, it reduces monthly costs for users.",
+              "question": "The underlined transition primarily shows",
+              "options": {
+                "A": "contrast",
+                "B": "cause-and-effect",
+                "C": "chronology",
+                "D": "definition"
+              },
+              "correct_answer": "B"
+            }
+          ]
+        }
+      },
+      {
+        "section_id": "cross_text_connections",
+        "title": "Cross-Text Connections",
+        "time_suggested_minutes": 20,
+        "objectives": [
+          "Synthesize ideas across two related short texts.",
+          "Identify agreements, disagreements, or complementary evidence.",
+          "Choose an option that accurately represents both texts."
+        ],
+        "lecture_script": [
+          {
+            "type": "mini_lecture",
+            "duration_min": 6,
+            "script": "Read Text 1 and Text 2 for claims, then ask: How do they relate-support, qualify, or oppose?"
+          },
+          {
+            "type": "think_aloud",
+            "duration_min": 8,
+            "script": "Text 1 says urban trees cool streets; Text 2 notes shade lowers energy use. They complement the same idea: cooling benefits."
+          },
+          {
+            "type": "quick_check",
+            "duration_min": 6,
+            "script": "Is the proposed statement true for both texts? If not, it\u2019s out."
+          }
+        ],
+        "content": {
+          "worked_example": {
+            "passage": "Text 1: A survey finds bike lanes increase local shop visits. Text 2: A case study reports higher weekend sales after a new lane opened.",
+            "question": "Together, the texts primarily suggest that",
+            "options": {
+              "A": "bike lanes always reduce traffic",
+              "B": "bike lanes may boost nearby commerce",
+              "C": "shopping causes bike lanes",
+              "D": "weekends are the only profitable days"
+            },
+            "correct_answer": "B",
+            "explanation": "Both texts connect bike lanes with increased shopping activity."
+          },
+          "practice_set": [
+            {
+              "id": "U3S3_P1",
+              "passage": "Text 1: Students who slept 8 hours performed better on recall. Text 2: Naps improved alertness in afternoon labs.",
+              "question": "What do the texts together support?",
+              "options": {
+                "A": "Sleep has no effect on learning",
+                "B": "Only naps, not night sleep, matter",
+                "C": "Sleep can benefit memory and alertness",
+                "D": "Recall is unrelated to alertness"
+              },
+              "correct_answer": "C"
+            }
+          ]
+        }
+      }
+    ],
+    "unit_check": [
+      {
+        "id": "U3_UC1",
+        "question": "Words in Context should be solved by",
+        "options": {
+          "A": "memorizing definitions",
+          "B": "reading context and paraphrasing",
+          "C": "picking the fanciest word",
+          "D": "counting syllables"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "U3_UC2",
+        "question": "\u2018However\u2019 typically signals",
+        "options": {
+          "A": "addition",
+          "B": "contrast",
+          "C": "cause",
+          "D": "example"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "U3_UC3",
+        "question": "Cross-text items require",
+        "options": {
+          "A": "agreement with one text only",
+          "B": "accuracy for both texts",
+          "C": "long quotations",
+          "D": "outside knowledge"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "U3_UC4",
+        "question": "A function question asks what a sentence",
+        "options": {
+          "A": "looks like",
+          "B": "does in the passage",
+          "C": "costs",
+          "D": "rhymes with"
+        },
+        "correct_answer": "B"
+      }
+    ],
+    "homework": [
+      "Create a context-clue paraphrase for 10 challenging words from practice.",
+      "Annotate one article for structure: mark contrast, cause, and example sentences.",
+      "Complete four cross-text items and write a one-sentence synthesis for each."
+    ],
+    "answer_key": {
+      "U3S1_P1": "A",
+      "U3S2_P1": "B",
+      "U3S3_P1": "C",
+      "U3_UC1": "B",
+      "U3_UC2": "B",
+      "U3_UC3": "B",
+      "U3_UC4": "B"
+    }
+  },
+  {
+    "id": "unit3_words_in_context",
+    "subject": "SAT",
+    "section": "Reading_and_Writing",
+    "unit": "Unit_3",
+    "lecture_type": "individual_lecture",
+    "title": "Unit 3 Lecture: Words in Context",
+    "difficulty": "Intermediate",
+    "duration_minutes": 45,
+    "target_exam": "SAT Reading & Writing",
+    "audience": "High school students preparing for the SAT (Reading & Writing)",
+    "total_mastery_points": 400,
+    "teacher_notes": {
+      "pacing": "45 minutes; context-clue strategy with modeling and drills.",
+      "materials": "Slides with example sentences, highlighters, handout of items.",
+      "assessment": "4-item unit check and one context paraphrase exit ticket."
+    },
+    "learning_objectives": [
+      "Infer word meaning from surrounding context.",
+      "Match tone and usage when choosing definitions.",
+      "Eliminate dictionary-true but context-wrong options."
+    ],
+    "structure": [
+      {
+        "section_id": "words_in_context",
+        "title": "Words in Context",
+        "time_suggested_minutes": 35,
+        "objectives": [
+          "Paraphrase the sentence in simple terms.",
+          "Test each meaning in the sentence.",
+          "Reject meanings that clash with tone or logic."
+        ],
+        "lecture_script": [
+          {
+            "type": "mini_lecture",
+            "duration_min": 12,
+            "script": "Read before and after the word. Paraphrase the sentence, then pick the meaning that fits that paraphrase."
+          },
+          {
+            "type": "think_aloud",
+            "duration_min": 12,
+            "script": "\u2018Temperate climate\u2019 with thriving farms suggests \u2018mild,\u2019 not \u2018angry.\u2019 Context controls meaning."
+          },
+          {
+            "type": "quick_check",
+            "duration_min": 9,
+            "script": "Say why the tempting meaning fails here-tone, logic, or grammar?"
+          }
+        ],
+        "content": {
+          "worked_example": {
+            "passage": "The critic praised the novel\u2019s \u2018spare\u2019 style, noting each sentence carried weight without ornament.",
+            "question": "In the context, \u2018spare\u2019 most nearly means",
+            "options": {
+              "A": "extra",
+              "B": "minimal",
+              "C": "damaged",
+              "D": "luxurious"
+            },
+            "correct_answer": "B",
+            "explanation": "\u2018Spare\u2019 aligns with concise, unornamented prose-minimal style."
+          },
+          "practice_set": [
+            {
+              "id": "U3_WIC_P1",
+              "passage": "Despite the \u2018opaque\u2019 instructions, the team assembled the device by comparing diagrams.",
+              "question": "\u2018Opaque\u2019 most nearly means",
+              "options": {
+                "A": "unclear",
+                "B": "transparent",
+                "C": "fragile",
+                "D": "official"
+              },
+              "correct_answer": "A"
+            }
+          ]
+        }
+      }
+    ],
+    "unit_check": [
+      {
+        "id": "U3_WIC_UC1",
+        "question": "Best first step for WIC is to",
+        "options": {
+          "A": "memorize the word",
+          "B": "paraphrase the sentence",
+          "C": "count syllables",
+          "D": "read options first"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "U3_WIC_UC2",
+        "question": "Choose meanings that fit the",
+        "options": {
+          "A": "tone and logic",
+          "B": "alphabet",
+          "C": "longest option",
+          "D": "fanciest word"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": "U3_WIC_UC3",
+        "question": "A dictionary-true meaning can be wrong if",
+        "options": {
+          "A": "it is short",
+          "B": "context doesn\u2019t support it",
+          "C": "it\u2019s common",
+          "D": "it rhymes"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "U3_WIC_UC4",
+        "question": "When two options fit, prefer the one that is",
+        "options": {
+          "A": "extreme",
+          "B": "closest in tone and precision",
+          "C": "rarest",
+          "D": "longest"
+        },
+        "correct_answer": "B"
+      }
+    ],
+    "homework": [
+      "Write a one-sentence paraphrase for five WIC items before choosing.",
+      "Explain why one tempting meaning fails for two items.",
+      "Create two original sentences that use a target word in different senses."
+    ],
+    "answer_key": {
+      "U3_WIC_P1": "A",
+      "U3_WIC_UC1": "B",
+      "U3_WIC_UC2": "A",
+      "U3_WIC_UC3": "B",
+      "U3_WIC_UC4": "B"
+    }
+  },
+  {
+    "id": "unit3_text_structure",
+    "subject": "SAT",
+    "section": "Reading_and_Writing",
+    "unit": "Unit_3",
+    "lecture_type": "individual_lecture",
+    "title": "Unit 3 Lecture: Text Structure",
+    "difficulty": "Intermediate",
+    "duration_minutes": 45,
+    "target_exam": "SAT Reading & Writing",
+    "audience": "High school students preparing for the SAT (Reading & Writing)",
+    "total_mastery_points": 400,
+    "teacher_notes": {
+      "pacing": "45 minutes; function-of-sentence focus with signals.",
+      "materials": "Signal-word list and sample sentences.",
+      "assessment": "4-item unit check; label one function on exit."
+    },
+    "learning_objectives": [
+      "Identify how a sentence functions in context.",
+      "Use signal words to track logic.",
+      "Choose answers that preserve the author\u2019s purpose."
+    ],
+    "structure": [
+      {
+        "section_id": "text_structure",
+        "title": "Text Structure",
+        "time_suggested_minutes": 35,
+        "objectives": [
+          "Label contrast, cause, example, or conclusion.",
+          "Connect clauses with appropriate transitions.",
+          "Avoid illogical but grammatical connectors."
+        ],
+        "lecture_script": [
+          {
+            "type": "mini_lecture",
+            "duration_min": 12,
+            "script": "Ask what the sentence does: introduce, contrast, explain, or conclude. Signal words often reveal the function."
+          },
+          {
+            "type": "guided_practice",
+            "duration_min": 12,
+            "script": "Underline \u2018however,\u2019 \u2018therefore,\u2019 \u2018for example,\u2019 and match them to contrast, cause, or illustration."
+          },
+          {
+            "type": "quick_check",
+            "duration_min": 9,
+            "script": "Name the function of the underlined sentence in three words or fewer."
+          }
+        ],
+        "content": {
+          "worked_example": {
+            "passage": "Many assumed the comet would dim quickly; however, new measurements showed it brightening near the sun.",
+            "question": "What is the function of \u2018however\u2019?",
+            "options": {
+              "A": "example",
+              "B": "contrast",
+              "C": "cause",
+              "D": "summary"
+            },
+            "correct_answer": "B",
+            "explanation": "\u2018However\u2019 contrasts prior assumption with new data."
+          },
+          "practice_set": [
+            {
+              "id": "U3_TS_P1",
+              "passage": "The device saves energy; therefore, it reduces monthly costs.",
+              "question": "The transition primarily shows",
+              "options": {
+                "A": "contrast",
+                "B": "cause-and-effect",
+                "C": "chronology",
+                "D": "definition"
+              },
+              "correct_answer": "B"
+            }
+          ]
+        }
+      }
+    ],
+    "unit_check": [
+      {
+        "id": "U3_TS_UC1",
+        "question": "Function questions ask what a sentence",
+        "options": {
+          "A": "looks like",
+          "B": "does",
+          "C": "costs",
+          "D": "rhymes with"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "U3_TS_UC2",
+        "question": "\u2018However\u2019 typically signals",
+        "options": {
+          "A": "addition",
+          "B": "contrast",
+          "C": "cause",
+          "D": "example"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "U3_TS_UC3",
+        "question": "Choose transitions based on",
+        "options": {
+          "A": "logic between ideas",
+          "B": "word length",
+          "C": "alphabet",
+          "D": "style only"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": "U3_TS_UC4",
+        "question": "An illogical connector is",
+        "options": {
+          "A": "grammatical but wrong relationship",
+          "B": "always a comma",
+          "C": "always a dash",
+          "D": "never a problem"
+        },
+        "correct_answer": "A"
+      }
+    ],
+    "homework": [
+      "Mark contrast/cause/example in a short article and label each.",
+      "Replace three vague connectors with precise ones.",
+      "Write two sentences that conclude a paragraph appropriately."
+    ],
+    "answer_key": {
+      "U3_TS_P1": "B",
+      "U3_TS_UC1": "B",
+      "U3_TS_UC2": "B",
+      "U3_TS_UC3": "A",
+      "U3_TS_UC4": "A"
+    }
+  },
+  {
+    "id": "unit3_cross_text_connections",
+    "subject": "SAT",
+    "section": "Reading_and_Writing",
+    "unit": "Unit_3",
+    "lecture_type": "individual_lecture",
+    "title": "Unit 3 Lecture: Cross-Text Connections",
+    "difficulty": "Intermediate",
+    "duration_minutes": 45,
+    "target_exam": "SAT Reading & Writing",
+    "audience": "High school students preparing for the SAT (Reading & Writing)",
+    "total_mastery_points": 400,
+    "teacher_notes": {
+      "pacing": "45 minutes; synthesis across two texts.",
+      "materials": "Two short passages with related claims.",
+      "assessment": "4-item unit check; one synthesis sentence exit ticket."
+    },
+    "learning_objectives": [
+      "Identify each text\u2019s claim and support.",
+      "Describe the relationship: support, qualify, or oppose.",
+      "Choose statements accurate for both texts."
+    ],
+    "structure": [
+      {
+        "section_id": "cross_text_connections",
+        "title": "Cross-Text Connections",
+        "time_suggested_minutes": 35,
+        "objectives": [
+          "Chart claims in five words each.",
+          "Test candidate statements against both texts.",
+          "Eliminate options mismatching either text."
+        ],
+        "lecture_script": [
+          {
+            "type": "mini_lecture",
+            "duration_min": 12,
+            "script": "Read Text 1 and Text 2 for claims. Ask how Text 2 responds-supports, qualifies, or opposes-and select the statement true for both."
+          },
+          {
+            "type": "think_aloud",
+            "duration_min": 12,
+            "script": "Text 1: trees cool streets. Text 2: shade lowers energy use. Together: cooling benefits with practical effects."
+          },
+          {
+            "type": "quick_check",
+            "duration_min": 9,
+            "script": "If a choice misstates either claim, it\u2019s out. State the letter that fits both."
+          }
+        ],
+        "content": {
+          "worked_example": {
+            "passage": "Text 1: A survey finds bike lanes increase shop visits. Text 2: Weekend sales rose after a new lane opened.",
+            "question": "Together, the texts suggest",
+            "options": {
+              "A": "bike lanes always reduce traffic",
+              "B": "bike lanes may boost nearby commerce",
+              "C": "shopping causes bike lanes",
+              "D": "weekends are the only profitable days"
+            },
+            "correct_answer": "B",
+            "explanation": "Both link bike lanes with increased shopping activity."
+          },
+          "practice_set": [
+            {
+              "id": "U3_CT_P1",
+              "passage": "Text 1: Eight hours of sleep improved recall. Text 2: Naps improved afternoon alertness.",
+              "question": "What do the texts together support?",
+              "options": {
+                "A": "Sleep has no effect",
+                "B": "Only naps matter",
+                "C": "Sleep can aid memory and alertness",
+                "D": "Recall is unrelated to alertness"
+              },
+              "correct_answer": "C"
+            }
+          ]
+        }
+      }
+    ],
+    "unit_check": [
+      {
+        "id": "U3_CT_UC1",
+        "question": "Cross-text items require accuracy for",
+        "options": {
+          "A": "both texts",
+          "B": "one text only",
+          "C": "neither text",
+          "D": "outside sources"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": "U3_CT_UC2",
+        "question": "First, identify each text\u2019s",
+        "options": {
+          "A": "title",
+          "B": "claim",
+          "C": "author biography",
+          "D": "syntax"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "U3_CT_UC3",
+        "question": "A qualifying response typically",
+        "options": {
+          "A": "agrees with no parts",
+          "B": "adds conditions or limits",
+          "C": "changes topics",
+          "D": "copies verbatim"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "U3_CT_UC4",
+        "question": "Eliminate choices that",
+        "options": {
+          "A": "fit both",
+          "B": "misstate either text",
+          "C": "use moderate wording",
+          "D": "paraphrase"
+        },
+        "correct_answer": "B"
+      }
+    ],
+    "homework": [
+      "Write one-sentence claim summaries for two paired texts and state the relationship.",
+      "Create one statement that both texts support; verify with quotes.",
+      "Complete four cross-text items and explain one elimination."
+    ],
+    "answer_key": {
+      "U3_CT_P1": "C",
+      "U3_CT_UC1": "A",
+      "U3_CT_UC2": "B",
+      "U3_CT_UC3": "B",
+      "U3_CT_UC4": "B"
+    }
+  },
+  {
+    "id": "expression_of_ideas",
+    "subject": "SAT",
+    "section": "Reading_and_Writing",
+    "unit": "Unit_4",
+    "lecture_type": "full_unit",
+    "title": "Expression of Ideas",
+    "difficulty": "Advanced",
+    "duration_minutes": 60,
+    "target_exam": "SAT Reading & Writing",
+    "audience": "High school students preparing for the SAT (Reading & Writing)",
+    "total_mastery_points": 400,
+    "teacher_notes": {
+      "pacing": "60 minutes; 3 sections with quick practice and feedback.",
+      "materials": "Slide deck with example transitions, sample sources for synthesis, and style/tone examples.",
+      "assessment": "Unit check and review of edited sentences in guided practice."
+    },
+    "learning_objectives": [
+      "Choose precise transitions that reflect logic between ideas.",
+      "Synthesize information from a short source set to support a claim.",
+      "Maintain consistent style and tone appropriate to context."
+    ],
+    "structure": [
+      {
+        "section_id": "transitions",
+        "title": "Transitions",
+        "time_suggested_minutes": 20,
+        "objectives": [
+          "Match transition type to relationship (addition, contrast, cause).",
+          "Eliminate grammatically fine but illogical connectors.",
+          "Test by paraphrasing the link in simple words."
+        ],
+        "lecture_script": [
+          {
+            "type": "mini_lecture",
+            "duration_min": 6,
+            "script": "Identify the relationship between sentences first. Then pick a transition that states that relationship-no fancier than needed."
+          },
+          {
+            "type": "guided_practice",
+            "duration_min": 8,
+            "script": "We\u2019ll replace vague connectors with specific ones that show contrast or cause-and-effect."
+          },
+          {
+            "type": "quick_check",
+            "duration_min": 6,
+            "script": "State the link in two words: \u2018therefore\u2019 or \u2018however\u2019? Choose accordingly."
+          }
+        ],
+        "content": {
+          "worked_example": {
+            "passage": "The proposal is affordable; however, it lacks a plan for maintenance costs after year one.",
+            "question": "Which transition best fits the relationship?",
+            "options": {
+              "A": "for example",
+              "B": "however",
+              "C": "therefore",
+              "D": "meanwhile"
+            },
+            "correct_answer": "B",
+            "explanation": "The second clause contrasts a strength with a weakness; \u2018however\u2019 signals contrast."
+          },
+          "practice_set": [
+            {
+              "id": "U4S1_P1",
+              "passage": "The solar array cut energy use by 20%; therefore, monthly costs fell noticeably.",
+              "question": "The transition primarily shows",
+              "options": {
+                "A": "contrast",
+                "B": "cause-and-effect",
+                "C": "chronology",
+                "D": "concession"
+              },
+              "correct_answer": "B"
+            }
+          ]
+        }
+      },
+      {
+        "section_id": "rhetorical_synthesis",
+        "title": "Rhetorical Synthesis",
+        "time_suggested_minutes": 20,
+        "objectives": [
+          "Select evidence that best supports a stated claim from multiple sources.",
+          "Avoid irrelevant but interesting facts.",
+          "Combine concise paraphrases from two brief sources."
+        ],
+        "lecture_script": [
+          {
+            "type": "mini_lecture",
+            "duration_min": 6,
+            "script": "Underline the claim, then pick data that directly advances that claim. If it doesn\u2019t support, it doesn\u2019t belong."
+          },
+          {
+            "type": "think_aloud",
+            "duration_min": 8,
+            "script": "Claim: school gardens improve nutrition. Source A shows increased veggie intake; Source B shows more students trying new produce-both support the claim."
+          },
+          {
+            "type": "quick_check",
+            "duration_min": 6,
+            "script": "Which source sentence actually proves the claim? Give the letter only."
+          }
+        ],
+        "content": {
+          "worked_example": {
+            "passage": "Claim: Later school start times improve attendance. Source 1: After shifting to 8:45 a.m., tardies fell by 30%. Source 2: Students reported feeling more rested.",
+            "question": "Which statement best supports the claim?",
+            "options": {
+              "A": "Students like weekends.",
+              "B": "Tardies fell by 30% after a later start.",
+              "C": "Some students study at night.",
+              "D": "Cafeteria lines were shorter."
+            },
+            "correct_answer": "B",
+            "explanation": "The 30% drop in tardies directly supports improved attendance."
+          },
+          "practice_set": [
+            {
+              "id": "U4S2_P1",
+              "passage": "Claim: Adding shade trees lowers building energy use. Source A: Shaded walls absorb less heat. Source B: Meter readings fell 12% after tree planting.",
+              "question": "Which choice best supports the claim?",
+              "options": {
+                "A": "Trees drop leaves in fall.",
+                "B": "Meter readings fell 12% after planting.",
+                "C": "Some buildings have basements.",
+                "D": "People like parks."
+              },
+              "correct_answer": "B"
+            }
+          ]
+        }
+      },
+      {
+        "section_id": "style_and_tone",
+        "title": "Style & Tone",
+        "time_suggested_minutes": 20,
+        "objectives": [
+          "Maintain a consistent formal or informal tone.",
+          "Choose concise, precise phrasing over wordiness.",
+          "Avoid slang or jargon that clashes with context."
+        ],
+        "lecture_script": [
+          {
+            "type": "mini_lecture",
+            "duration_min": 6,
+            "script": "Match the register to the audience. Academic contexts prefer concise and neutral phrasing."
+          },
+          {
+            "type": "guided_practice",
+            "duration_min": 8,
+            "script": "We\u2019ll revise sentences to remove wordiness and adjust tone from casual to formal."
+          },
+          {
+            "type": "quick_check",
+            "duration_min": 6,
+            "script": "Is this phrase too casual for a report? Answer yes or no."
+          }
+        ],
+        "content": {
+          "worked_example": {
+            "passage": "Original: The experiment was kind of a big deal because it, like, showed cool results. Revision options vary in formality and precision.",
+            "question": "Which revision maintains an appropriately formal tone?",
+            "options": {
+              "A": "The experiment was kinda big \u2018cause it showed cool results.",
+              "B": "The experiment was important because it demonstrated clear results.",
+              "C": "The experiment was, you know, interesting.",
+              "D": "The experiment was epic and wild."
+            },
+            "correct_answer": "B",
+            "explanation": "Option B is concise and formal, avoiding slang and vagueness."
+          },
+          "practice_set": [
+            {
+              "id": "U4S3_P1",
+              "passage": "Choose the most concise, formal option to complete: \u2018The committee decided to ___ the plan for clarity.\u2019",
+              "question": "Which choice best fits?",
+              "options": {
+                "A": "kinda redo",
+                "B": "completely and totally overhaul in a manner that is thorough",
+                "C": "revise",
+                "D": "mess with"
+              },
+              "correct_answer": "C"
+            }
+          ]
+        }
+      }
+    ],
+    "unit_check": [
+      {
+        "id": "U4_UC1",
+        "question": "Choose transitions by first identifying",
+        "options": {
+          "A": "word length",
+          "B": "the logical relationship",
+          "C": "alphabetical order",
+          "D": "the longest option"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "U4_UC2",
+        "question": "Rhetorical synthesis prioritizes",
+        "options": {
+          "A": "interesting trivia",
+          "B": "evidence that advances the stated claim",
+          "C": "the most colorful quote",
+          "D": "outside knowledge"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "U4_UC3",
+        "question": "In formal contexts, prefer",
+        "options": {
+          "A": "slang",
+          "B": "vague praise",
+          "C": "concise precision",
+          "D": "jargon for flair"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "id": "U4_UC4",
+        "question": "A tone mismatch occurs when",
+        "options": {
+          "A": "the option is concise",
+          "B": "register clashes with audience",
+          "C": "the sentence is short",
+          "D": "two sources are used"
+        },
+        "correct_answer": "B"
+      }
+    ],
+    "homework": [
+      "Edit a paragraph by replacing three weak transitions with precise ones and justify each choice.",
+      "From two short sources, select two sentences that best support a given claim.",
+      "Revise five sentences to align tone with a formal report."
+    ],
+    "answer_key": {
+      "U4S1_P1": "B",
+      "U4S2_P1": "B",
+      "U4S3_P1": "C",
+      "U4_UC1": "B",
+      "U4_UC2": "B",
+      "U4_UC3": "C",
+      "U4_UC4": "B"
+    }
+  },
+  {
+    "id": "standard_english_conventions",
+    "subject": "SAT",
+    "section": "Reading_and_Writing",
+    "unit": "Unit_5",
+    "lecture_type": "full_unit",
+    "title": "Standard English Conventions",
+    "difficulty": "Advanced",
+    "duration_minutes": 60,
+    "target_exam": "SAT Reading & Writing",
+    "audience": "High school students preparing for the SAT (Reading & Writing)",
+    "total_mastery_points": 400,
+    "teacher_notes": {
+      "pacing": "60\u201375 minutes; 3 grammar-focused sections with quick drills.",
+      "materials": "Slide deck, grammar reference sheet, and mini whiteboards for response.",
+      "assessment": "Unit check and correction of common errors from practice."
+    },
+    "learning_objectives": [
+      "Edit sentences for clarity and correct structure.",
+      "Apply punctuation rules for commas, dashes, and colons.",
+      "Ensure subject-verb and pronoun-antecedent agreement."
+    ],
+    "structure": [
+      {
+        "section_id": "sentence_structure",
+        "title": "Sentence Structure",
+        "time_suggested_minutes": 25,
+        "objectives": [
+          "Identify and correct fragments and run-ons.",
+          "Use subordination and coordination appropriately.",
+          "Choose concise, logically complete sentences."
+        ],
+        "lecture_script": [
+          {
+            "type": "mini_lecture",
+            "duration_min": 8,
+            "script": "Complete sentences need a subject and a finite verb and express a full idea. Join related ideas with proper punctuation or conjunctions."
+          },
+          {
+            "type": "guided_practice",
+            "duration_min": 10,
+            "script": "We\u2019ll fix two run-ons by adding conjunctions or splitting into two sentences, keeping meaning concise."
+          },
+          {
+            "type": "quick_check",
+            "duration_min": 7,
+            "script": "Is this a fragment, a run-on, or correct? Hold up F, R, or C."
+          }
+        ],
+        "content": {
+          "worked_example": {
+            "passage": "The museum expanded last year it opened two new galleries devoted to modern art.",
+            "question": "Which choice best corrects the sentence?",
+            "options": {
+              "A": "The museum expanded last year opening two new galleries devoted to modern art.",
+              "B": "The museum expanded last year; it opened two new galleries devoted to modern art.",
+              "C": "Because the museum expanded last year, and opened two new galleries devoted to modern art.",
+              "D": "The museum expanded last year, it opened two new galleries devoted to modern art."
+            },
+            "correct_answer": "B",
+            "explanation": "Option B correctly joins two independent clauses with a semicolon."
+          },
+          "practice_set": [
+            {
+              "id": "U5S1_P1",
+              "passage": "Hoping to finish early and to catch the bus on time.",
+              "question": "Which revision creates a complete sentence?",
+              "options": {
+                "A": "Hoping to finish early, the team worked quickly and caught the bus.",
+                "B": "Hoping to finish early; and to catch the bus on time.",
+                "C": "Hoping to finish early catching the bus on time.",
+                "D": "Hoping to finish early on time bus."
+              },
+              "correct_answer": "A"
+            }
+          ]
+        }
+      },
+      {
+        "section_id": "punctuation",
+        "title": "Punctuation",
+        "time_suggested_minutes": 25,
+        "objectives": [
+          "Use commas for nonessential information and series.",
+          "Apply colons to introduce explanations or lists.",
+          "Use dashes for emphasis or appositives when appropriate."
+        ],
+        "lecture_script": [
+          {
+            "type": "mini_lecture",
+            "duration_min": 8,
+            "script": "Commas set off nonessential phrases; colons follow complete clauses to introduce explanations; dashes can replace commas for emphasis."
+          },
+          {
+            "type": "guided_practice",
+            "duration_min": 10,
+            "script": "We\u2019ll test whether the clause before a colon is complete, then decide between comma, colon, or dash."
+          },
+          {
+            "type": "quick_check",
+            "duration_min": 7,
+            "script": "Is the information essential? If not, set it off with commas or dashes."
+          }
+        ],
+        "content": {
+          "worked_example": {
+            "passage": "The recipe calls for three ingredients simple ones: flour, water, and salt.",
+            "question": "Which choice correctly uses punctuation?",
+            "options": {
+              "A": "The recipe calls for three ingredients: simple ones, flour, water, and salt.",
+              "B": "The recipe calls for three ingredients-simple ones: flour, water, and salt.",
+              "C": "The recipe calls for three ingredients: simple ones-flour, water, and salt.",
+              "D": "The recipe calls for three ingredients: flour, water, and salt."
+            },
+            "correct_answer": "D",
+            "explanation": "A complete clause precedes a colon that introduces a list; no extra words are needed."
+          },
+          "practice_set": [
+            {
+              "id": "U5S2_P1",
+              "passage": "The festival featured dancers musicians and poets from across the region.",
+              "question": "Which choice correctly punctuates the sentence?",
+              "options": {
+                "A": "The festival featured dancers, musicians, and poets from across the region.",
+                "B": "The festival featured dancers; musicians and poets from across the region.",
+                "C": "The festival featured dancers musicians, and poets, from across the region.",
+                "D": "The festival featured dancers-musicians-and poets from across the region."
+              },
+              "correct_answer": "A"
+            }
+          ]
+        }
+      },
+      {
+        "section_id": "usage_agreement",
+        "title": "Usage & Agreement",
+        "time_suggested_minutes": 25,
+        "objectives": [
+          "Ensure subject-verb agreement, even with interrupting phrases.",
+          "Maintain pronoun clarity and agreement in number and person.",
+          "Choose precise, conventional usage over awkward phrasing."
+        ],
+        "lecture_script": [
+          {
+            "type": "mini_lecture",
+            "duration_min": 8,
+            "script": "Match the verb to the true subject, not to nearby nouns. Keep pronouns clear and consistent with their antecedents."
+          },
+          {
+            "type": "guided_practice",
+            "duration_min": 10,
+            "script": "We\u2019ll identify subjects in tricky sentences and adjust verbs or pronouns accordingly."
+          },
+          {
+            "type": "quick_check",
+            "duration_min": 7,
+            "script": "State the subject and the correct verb form in two words each."
+          }
+        ],
+        "content": {
+          "worked_example": {
+            "passage": "The bouquet of roses and lilies were fragrant enough to fill the room.",
+            "question": "Which choice corrects the error?",
+            "options": {
+              "A": "The bouquet of roses and lilies was fragrant enough to fill the room.",
+              "B": "The bouquets of roses and lilies was fragrant enough to fill the room.",
+              "C": "The bouquet of roses and lilies were fragrant enough to fill the rooms.",
+              "D": "The bouquet of roses and lilies are fragrant enough to fill the room."
+            },
+            "correct_answer": "A",
+            "explanation": "Subject is \u2018bouquet\u2019 (singular), so the verb should be \u2018was.\u2019"
+          },
+          "practice_set": [
+            {
+              "id": "U5S3_P1",
+              "passage": "Neither the coach nor the players ___ ready for the photo when it was taken.",
+              "question": "Which verb correctly completes the sentence?",
+              "options": {
+                "A": "was",
+                "B": "were",
+                "C": "is",
+                "D": "be"
+              },
+              "correct_answer": "B"
+            }
+          ]
+        }
+      }
+    ],
+    "unit_check": [
+      {
+        "id": "U5_UC1",
+        "question": "A complete sentence must include",
+        "options": {
+          "A": "a prepositional phrase",
+          "B": "a subject and a finite verb",
+          "C": "a semicolon",
+          "D": "a colon"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "U5_UC2",
+        "question": "A colon should come after",
+        "options": {
+          "A": "a fragment",
+          "B": "a complete clause",
+          "C": "an incomplete list",
+          "D": "a preposition"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "U5_UC3",
+        "question": "Subject-verb agreement is determined by",
+        "options": {
+          "A": "the nearest noun",
+          "B": "the true subject",
+          "C": "the longest noun phrase",
+          "D": "the object"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "U5_UC4",
+        "question": "Nonessential information should be",
+        "options": {
+          "A": "set off with commas or dashes",
+          "B": "left unpunctuated",
+          "C": "capitalized",
+          "D": "replaced with a colon"
+        },
+        "correct_answer": "A"
+      }
+    ],
+    "homework": [
+      "Fix ten sentences containing fragments, run-ons, or comma splices.",
+      "Add correct punctuation to five sentences with lists or explanations.",
+      "Revise five sentences for agreement and clear pronoun reference."
+    ],
+    "answer_key": {
+      "U5S1_P1": "A",
+      "U5S2_P1": "A",
+      "U5S3_P1": "B",
+      "U5_UC1": "B",
+      "U5_UC2": "B",
+      "U5_UC3": "B",
+      "U5_UC4": "A"
+    }
+  },
+  {
+    "id": "advanced_reading_comprehension",
+    "subject": "SAT",
+    "section": "Reading_and_Writing",
+    "unit": "Unit_6",
+    "lecture_type": "full_unit",
+    "title": "Advanced Reading Comprehension",
+    "difficulty": "Advanced",
+    "duration_minutes": 60,
+    "target_exam": "SAT Reading & Writing",
+    "audience": "High school students preparing for the SAT (Reading & Writing)",
+    "total_mastery_points": 400,
+    "teacher_notes": {
+      "pacing": "75 minutes; 3 advanced sections with paired and domain passages.",
+      "materials": "Paired passage handouts, historical documents, and short science/social science texts.",
+      "assessment": "4-item unit check and review of evidence selection."
+    },
+    "learning_objectives": [
+      "Analyze and compare claims in paired passages.",
+      "Interpret historical documents with attention to purpose and audience.",
+      "Apply domain-reading strategies for science and social science texts."
+    ],
+    "structure": [
+      {
+        "section_id": "paired_passages",
+        "title": "Paired Passages",
+        "time_suggested_minutes": 25,
+        "objectives": [
+          "Identify each passage\u2019s main claim and evidence.",
+          "Determine agreement, disagreement, or qualification.",
+          "Synthesize points into a single accurate statement."
+        ],
+        "lecture_script": [
+          {
+            "type": "mini_lecture",
+            "duration_min": 8,
+            "script": "Read Passage 1 for claim and proof, then Passage 2 for response. Ask: support, qualify, or oppose? Choose an option true for both."
+          },
+          {
+            "type": "guided_practice",
+            "duration_min": 9,
+            "script": "We\u2019ll chart each passage\u2019s claim in five words, then write one synthesis sentence that captures the relationship."
+          },
+          {
+            "type": "quick_check",
+            "duration_min": 8,
+            "script": "If an option misstates either claim, it\u2019s out. Give the letter that fits both."
+          }
+        ],
+        "content": {
+          "worked_example": {
+            "passage": "Passage 1: A community garden increases local produce access. Passage 2: The garden also strengthens neighbor ties through shared work.",
+            "question": "Together, the passages suggest that the garden",
+            "options": {
+              "A": "hurts local businesses",
+              "B": "offers only social benefits",
+              "C": "provides nutritional and social benefits",
+              "D": "is too costly to maintain"
+            },
+            "correct_answer": "C",
+            "explanation": "P1 emphasizes produce access; P2 emphasizes community ties-both nutritional and social benefits."
+          },
+          "practice_set": [
+            {
+              "id": "U6S1_P1",
+              "passage": "Passage 1: The museum should digitize archives to widen access. Passage 2: Digitization is useful but must protect fragile originals.",
+              "question": "The relationship between the passages is best described as",
+              "options": {
+                "A": "complete agreement",
+                "B": "disagreement without overlap",
+                "C": "qualification of a proposal",
+                "D": "unrelated topics"
+              },
+              "correct_answer": "C"
+            }
+          ]
+        }
+      },
+      {
+        "section_id": "historical_documents",
+        "title": "Historical Documents",
+        "time_suggested_minutes": 25,
+        "objectives": [
+          "Identify author\u2019s purpose and audience.",
+          "Interpret claims within historical context using only provided text.",
+          "Evaluate rhetoric such as appeals and structure."
+        ],
+        "lecture_script": [
+          {
+            "type": "mini_lecture",
+            "duration_min": 8,
+            "script": "Focus on purpose, audience, and claim. Paraphrase archaic words, but base answers only on the text provided."
+          },
+          {
+            "type": "think_aloud",
+            "duration_min": 9,
+            "script": "If a petition \u2018respectfully urges\u2019 reform, the tone is formal and persuasive toward officials-aimed at policy change."
+          },
+          {
+            "type": "quick_check",
+            "duration_min": 8,
+            "script": "State audience and purpose in six words or fewer."
+          }
+        ],
+        "content": {
+          "worked_example": {
+            "passage": "The letter, addressed to the city council, requests that public funds support a free night school so workers may study after hours.",
+            "question": "The author\u2019s primary purpose is to",
+            "options": {
+              "A": "entertain with a humorous story",
+              "B": "describe a personal memory",
+              "C": "persuade officials to fund education",
+              "D": "announce a school\u2019s opening"
+            },
+            "correct_answer": "C",
+            "explanation": "The letter requests funding for a public night school-persuasion aimed at officials."
+          },
+          "practice_set": [
+            {
+              "id": "U6S2_P1",
+              "passage": "In the proclamation, the governor thanks volunteers and calls for continued service to aid communities after the storm.",
+              "question": "The document\u2019s tone and purpose are best described as",
+              "options": {
+                "A": "sarcastic and dismissive",
+                "B": "formal appreciation with a call to action",
+                "C": "casual narrative",
+                "D": "technical instruction"
+              },
+              "correct_answer": "B"
+            }
+          ]
+        }
+      },
+      {
+        "section_id": "science_social_science",
+        "title": "Science & Social Science Focus",
+        "time_suggested_minutes": 25,
+        "objectives": [
+          "Extract claims, evidence, and limitations from domain texts.",
+          "Translate data statements into plain language.",
+          "Avoid introducing outside knowledge beyond the passage and figure."
+        ],
+        "lecture_script": [
+          {
+            "type": "mini_lecture",
+            "duration_min": 8,
+            "script": "Scientific and social science texts center on claims supported by data. Identify the claim, the measure, and the relationship between variables."
+          },
+          {
+            "type": "guided_practice",
+            "duration_min": 9,
+            "script": "We\u2019ll read a brief findings summary and paraphrase the pattern described by the numbers."
+          },
+          {
+            "type": "quick_check",
+            "duration_min": 8,
+            "script": "Does the option accurately reflect the stated trend? Yes or no only."
+          }
+        ],
+        "content": {
+          "worked_example": {
+            "passage": "Report: Students using spaced review scored 8 points higher on average than those who crammed the night before.",
+            "question": "Which statement is best supported by the report?",
+            "options": {
+              "A": "Cramming is always ineffective.",
+              "B": "Spaced review is associated with higher average scores.",
+              "C": "Sleep causes all improvements.",
+              "D": "Review methods did not differ."
+            },
+            "correct_answer": "B",
+            "explanation": "The report links spaced review with higher average scores; no absolute claims are made."
+          },
+          "practice_set": [
+            {
+              "id": "U6S3_P1",
+              "passage": "Study: Towns adding bus lanes saw commute times drop from 40 to 32 minutes on average.",
+              "question": "Which choice accurately summarizes the finding?",
+              "options": {
+                "A": "Bus lanes increased commute times.",
+                "B": "Commute times fell by about eight minutes on average.",
+                "C": "Only weekends were faster.",
+                "D": "No change occurred."
+              },
+              "correct_answer": "B"
+            }
+          ]
+        }
+      }
+    ],
+    "unit_check": [
+      {
+        "id": "U6_UC1",
+        "question": "In paired passages, first identify",
+        "options": {
+          "A": "the hardest vocabulary",
+          "B": "each passage\u2019s claim",
+          "C": "outside historical facts",
+          "D": "the author\u2019s biography"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "U6_UC2",
+        "question": "Historical documents often aim to",
+        "options": {
+          "A": "persuade a specific audience",
+          "B": "avoid any purpose",
+          "C": "provide statistics only",
+          "D": "confuse readers"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": "U6_UC3",
+        "question": "Science texts typically present",
+        "options": {
+          "A": "claims tied to data",
+          "B": "opinions without evidence",
+          "C": "poetry",
+          "D": "fictional plots"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": "U6_UC4",
+        "question": "When summarizing data, avoid",
+        "options": {
+          "A": "plain language",
+          "B": "outside knowledge",
+          "C": "accuracy",
+          "D": "units"
+        },
+        "correct_answer": "B"
+      }
+    ],
+    "homework": [
+      "Write one-sentence claim summaries for two paired passages and state the relationship.",
+      "Annotate a historical paragraph for audience, purpose, and tone.",
+      "Paraphrase three findings from short science/social science blurbs."
+    ],
+    "answer_key": {
+      "U6S1_P1": "C",
+      "U6S2_P1": "B",
+      "U6S3_P1": "B",
+      "U6_UC1": "B",
+      "U6_UC2": "A",
+      "U6_UC3": "A",
+      "U6_UC4": "B"
+    }
+  },
+  {
+    "id": "mixed_practice_and_test_strategies",
+    "subject": "SAT",
+    "section": "Reading_and_Writing",
+    "unit": "Unit_7",
+    "lecture_type": "full_unit",
+    "title": "Mixed Practice & Test Strategies",
+    "difficulty": "Advanced",
+    "duration_minutes": 60,
+    "target_exam": "SAT Reading & Writing",
+    "audience": "High school students preparing for the SAT (Reading & Writing)",
+    "total_mastery_points": 400,
+    "teacher_notes": {
+      "pacing": "60\u201375 minutes; 3 sections with timed drills and review.",
+      "materials": "Timer, mixed item sets, and reflection sheets for strategy notes.",
+      "assessment": "4-item unit check and exit reflection on pacing decisions."
+    },
+    "learning_objectives": [
+      "Apply strategies across mixed Reading & Writing items.",
+      "Manage time with deliberate skipping and flagging.",
+      "Recognize and avoid common traps and pitfalls."
+    ],
+    "structure": [
+      {
+        "section_id": "mixed_question_sets",
+        "title": "Mixed Question Sets",
+        "time_suggested_minutes": 25,
+        "objectives": [
+          "Switch efficiently between item types.",
+          "Use read\u2013predict\u2013select across diverse passages.",
+          "Justify choices with brief evidence."
+        ],
+        "lecture_script": [
+          {
+            "type": "mini_lecture",
+            "duration_min": 8,
+            "script": "On mixed sets, label the question type quickly, predict, then select while eliminating by relevance and precision."
+          },
+          {
+            "type": "guided_practice",
+            "duration_min": 9,
+            "script": "We\u2019ll complete a 3-item mini set under time, then debrief choices in one sentence each."
+          },
+          {
+            "type": "quick_check",
+            "duration_min": 8,
+            "script": "State the evidence phrase that made your answer correct."
+          }
+        ],
+        "content": {
+          "worked_example": {
+            "passage": "The beekeeper recorded hive weights weekly, noting that supplemental flowers near the fence correlated with steadier gains.",
+            "question": "Which choice best states the main idea?",
+            "options": {
+              "A": "Hive weights were unpredictable.",
+              "B": "Nearby flowers were associated with steadier weight gains.",
+              "C": "The beekeeper stopped recording data.",
+              "D": "Beekeeping requires expensive tools."
+            },
+            "correct_answer": "B",
+            "explanation": "The sentence links supplemental flowers with steadier gains-central relationship."
+          },
+          "practice_set": [
+            {
+              "id": "U7S1_P1",
+              "passage": "The editor cut redundant phrases so the article would read quickly and clearly.",
+              "question": "The edit primarily aims to improve",
+              "options": {
+                "A": "tone",
+                "B": "organization",
+                "C": "conciseness",
+                "D": "figurative language"
+              },
+              "correct_answer": "C"
+            },
+            {
+              "id": "U7S1_P2",
+              "passage": "Figure: A line rises from 10 to 18 between trials 1 and 4.",
+              "question": "Which statement is supported by the figure?",
+              "options": {
+                "A": "Values declined by 8.",
+                "B": "Values increased by 8 across trials.",
+                "C": "Values remained constant.",
+                "D": "Trial 4 shows the minimum."
+              },
+              "correct_answer": "B"
+            }
+          ]
+        }
+      },
+      {
+        "section_id": "time_management_drills",
+        "title": "Time Management Drills",
+        "time_suggested_minutes": 25,
+        "objectives": [
+          "Apply guess-and-flag when stuck.",
+          "Use micro-benchmarks to pace work.",
+          "Avoid spending more than 30 seconds before moving on."
+        ],
+        "lecture_script": [
+          {
+            "type": "mini_lecture",
+            "duration_min": 8,
+            "script": "Protect later points by setting 20\u201330 second decision windows. Make a best choice, flag, and continue."
+          },
+          {
+            "type": "guided_practice",
+            "duration_min": 9,
+            "script": "Run a two-minute drill: answer three items, flag one if needed, and return."
+          },
+          {
+            "type": "quick_check",
+            "duration_min": 8,
+            "script": "Share one item you flagged and why-you protected time for later points."
+          }
+        ],
+        "content": {
+          "worked_example": {
+            "passage": "During a drill, Sam quickly eliminated two options as off-topic, chose the better of the remaining two, and flagged the item.",
+            "question": "Sam\u2019s approach primarily demonstrates",
+            "options": {
+              "A": "random guessing",
+              "B": "reckless skipping",
+              "C": "strategic pacing and elimination",
+              "D": "memorizing vocabulary"
+            },
+            "correct_answer": "C",
+            "explanation": "Elimination plus flagging reflects strategic pacing decisions."
+          },
+          "practice_set": [
+            {
+              "id": "U7S2_P1",
+              "passage": "Facing a dense sentence, Alia selected an answer, flagged the item, and finished the last three questions on time.",
+              "question": "What strategy is illustrated?",
+              "options": {
+                "A": "Overreading",
+                "B": "Guess-and-flag to preserve time",
+                "C": "Ignoring instructions",
+                "D": "Changing the scoring"
+              },
+              "correct_answer": "B"
+            }
+          ]
+        }
+      },
+      {
+        "section_id": "common_pitfalls_review",
+        "title": "Common Pitfalls & Review",
+        "time_suggested_minutes": 20,
+        "objectives": [
+          "Avoid choices that are true but not relevant.",
+          "Watch for extreme or absolute wording when the passage is moderate.",
+          "Check that grammar edits preserve meaning."
+        ],
+        "lecture_script": [
+          {
+            "type": "mini_lecture",
+            "duration_min": 7,
+            "script": "Most traps are tempting because they echo the text without answering the question or use extreme language not supported by the passage."
+          },
+          {
+            "type": "error_analysis",
+            "duration_min": 7,
+            "script": "We\u2019ll dissect a distractor that is factually correct but irrelevant and a choice with \u2018always\u2019 that overreaches the evidence."
+          },
+          {
+            "type": "exit_ticket",
+            "duration_min": 6,
+            "script": "Write one trap pattern you will watch for on test day."
+          }
+        ],
+        "content": {
+          "worked_example": {
+            "passage": "Researchers observed that moderate exercise was associated with improved mood in most participants during weekdays.",
+            "question": "Which choice is an overgeneralization?",
+            "options": {
+              "A": "Moderate exercise was linked to better mood on weekdays.",
+              "B": "Exercise always guarantees happiness for everyone.",
+              "C": "Most participants reported improved mood.",
+              "D": "The study noted weekday observations."
+            },
+            "correct_answer": "B",
+            "explanation": "\u2018Always\u2019 and \u2018everyone\u2019 go beyond the study\u2019s limited claim."
+          },
+          "practice_set": [
+            {
+              "id": "U7S3_P1",
+              "passage": "The author praises a program for reducing food waste but notes it requires consistent volunteer hours.",
+              "question": "Which choice is not supported?",
+              "options": {
+                "A": "The program reduces food waste.",
+                "B": "Volunteers must commit time.",
+                "C": "The author completely opposes the program.",
+                "D": "There is a noted requirement for effort."
+              },
+              "correct_answer": "C"
+            }
+          ]
+        }
+      }
+    ],
+    "unit_check": [
+      {
+        "id": "U7_UC1",
+        "question": "When stuck for 30 seconds, you should",
+        "options": {
+          "A": "reread the entire set",
+          "B": "guess, flag, and move on",
+          "C": "leave it blank",
+          "D": "restart the module"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "U7_UC2",
+        "question": "A common trap is",
+        "options": {
+          "A": "a relevant, precise choice",
+          "B": "a true but off-topic option",
+          "C": "the shortest option",
+          "D": "any option with numbers"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "U7_UC3",
+        "question": "Mixed sets reward",
+        "options": {
+          "A": "switching strategies by item type",
+          "B": "using one strategy always",
+          "C": "ignoring time",
+          "D": "avoiding practice"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": "U7_UC4",
+        "question": "Overgeneralizations often use",
+        "options": {
+          "A": "moderate wording",
+          "B": "precise qualifiers",
+          "C": "extreme words like \u2018always\u2019",
+          "D": "citations"
+        },
+        "correct_answer": "C"
+      }
+    ],
+    "homework": [
+      "Complete a 12-item mixed set under time and annotate trap patterns.",
+      "Create a personal pacing plan with checkpoints every 5 minutes.",
+      "Write three \u2018if stuck, then\u2019 rules you will apply on test day."
+    ],
+    "answer_key": {
+      "U7S1_P1": "C",
+      "U7S1_P2": "B",
+      "U7S2_P1": "B",
+      "U7S3_P1": "C",
+      "U7_UC1": "B",
+      "U7_UC2": "B",
+      "U7_UC3": "A",
+      "U7_UC4": "C"
+    }
+  }
+]
