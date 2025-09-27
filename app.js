@@ -128,7 +128,20 @@ async function initMath() {
   const listEl = document.getElementById('math-list');
   const searchEl = document.getElementById('math-search');
   const data = await fetchJSON('Math/lectures.json').catch(() => ({ units: [] }));
-  const units = data.units || [];
+  // Normalize units to match expected keys from possible snake_case schema
+  const units = (data.units || []).map(u => {
+    const unitTitle = u.unitTitle || u.unit_title || 'Unit';
+    const slug = (u.slug || u.unit_id || unitTitle)
+      .toString()
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/(^-|-$)/g, '');
+    const lectures = (u.lectures || u.structure || []).map(sec => ({
+      title: sec.title || 'Lecture',
+      contentHtml: sec.contentHtml || (sec.content && sec.content.html) || ''
+    }));
+    return { ...u, unitTitle, slug, lectures };
+  });
 
   function renderUnit(u) {
     const body = document.getElementById('math-body');
@@ -151,7 +164,7 @@ async function initMath() {
     units
       .filter(u => (u.unitTitle || '').toLowerCase().includes(filter.toLowerCase()))
       .forEach(u => {
-        const li = el('li', {}, [u.unitTitle]);
+        const li = el('li', {}, [u.unitTitle || 'Unit']);
         li.addEventListener('click', () => {
           [...listEl.children].forEach(a => a.classList.remove('active'));
           li.classList.add('active');
