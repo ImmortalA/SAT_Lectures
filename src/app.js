@@ -293,64 +293,92 @@ function renderRWSection(section) {
   ].filter(Boolean));
 }
 
-async function loadRWLesson(file, manifest) {
-  const data = await fetchJSON(`data/Reading_and_Writing/${file}`);
-  document.getElementById('rw-title').textContent = data.unit_title || 'Lesson';
-  const meta = document.getElementById('rw-meta');
-  meta.innerHTML = '';
-  meta.append(
-    el('span', { class: 'pill' }, [data.target_exam || 'SAT R&W']),
-    el('span', { class: 'pill' }, [`Mastery: ${data.total_mastery_points || 0}`])
-  );
-  const body = document.getElementById('rw-body');
-  body.innerHTML = '';
+function renderRWLesson(lesson) {
+  const titleEl = document.getElementById('rw-title');
+  const metaEl = document.getElementById('rw-meta');
+  const bodyEl = document.getElementById('rw-body');
 
-  const notes = el('div', { class: 'content-block' }, [
-    el('div', { class: 'pill' }, ['Teacher Notes']),
-    el('div', {}, [`Pacing: ${data.teacher_notes?.pacing || ''}`]),
-    el('div', {}, [`Materials: ${data.teacher_notes?.materials || ''}`]),
-    el('div', {}, [`Assessment: ${data.teacher_notes?.assessment || ''}`])
-  ]);
-  const lo = el('div', { class: 'content-block' }, [
-    el('div', { class: 'pill' }, ['Learning Objectives']),
-    el('ul', {}, (data.learning_objectives || []).map(x => el('li', {}, [x])))
-  ]);
-  body.append(notes, lo);
+  titleEl.textContent = lesson.unit || 'Lesson';
+  metaEl.innerHTML = '';
+  metaEl.append(
+    el('span', { class: 'pill' }, [lesson.section || 'Reading & Writing']),
+    el('span', { class: 'pill' }, [lesson.domain || 'Domain']),
+    el('span', { class: 'pill' }, [`~${lesson.duration || 0} min`]),
+    (lesson.related_skills && lesson.related_skills.length)
+      ? el('span', { class: 'pill' }, [`Skills: ${lesson.related_skills.length}`])
+      : null
+  ).filter ? null : undefined; // append returns void; using filter guard to avoid linter warnings
 
-  (data.structure || []).forEach(sec => body.appendChild(renderRWSection(sec)));
-  if (data.unit_check) body.appendChild(el('div', {}, [el('h3', {}, ['Unit Check']), el('div', { class: 'grid-2' }, data.unit_check.map(renderRWQAItem))]));
-  if (data.homework) body.appendChild(el('div', {}, [el('h3', {}, ['Homework']), el('ul', {}, data.homework.map(x => el('li', {}, [x])))]));
+  bodyEl.innerHTML = '';
 
-  localStorage.setItem('rw:last', file);
+  const descBlock = lesson.description
+    ? el('div', { class: 'content-block' }, [el('div', { class: 'pill' }, ['Description']), el('div', {}, [lesson.description])])
+    : null;
+
+  // Render content: if it contains HTML tags, inject as HTML; otherwise show pre-wrapped text
+  const contentContainer = el('div', { class: 'content-block' });
+  const hasHtml = typeof lesson.content === 'string' && /<[^>]+>/.test(lesson.content);
+  if (hasHtml) {
+    contentContainer.innerHTML = '<div class="pill">Content</div>' + (lesson.content || '');
+  } else {
+    const contentWrap = el('div', {});
+    contentWrap.style.whiteSpace = 'pre-wrap';
+    contentWrap.textContent = lesson.content || '';
+    contentContainer.appendChild(el('div', { class: 'pill' }, ['Content']));
+    contentContainer.appendChild(contentWrap);
+  }
+
+  [descBlock, contentContainer].filter(Boolean).forEach(x => bodyEl.appendChild(x));
+
+  localStorage.setItem('rw:last-id', lesson.id || '');
 }
 
 async function initRW() {
   const listEl = document.getElementById('rw-list');
   const searchEl = document.getElementById('rw-search');
-  const manifest = await fetchJSON('data/Reading_and_Writing/lessons_manifest.json');
+
+  // Load new unified lessons schema
+  const lessons = await fetchJSON('data/Reading_and_Writing/sat_full_lessons.json').catch(() => []);
+
+  function filterLessons(query) {
+    const q = (query || '').toLowerCase();
+    if (!q) return lessons;
+    return lessons.filter(l => (
+      (l.unit || '').toLowerCase().includes(q) ||
+      (l.domain || '').toLowerCase().includes(q) ||
+      (l.section || '').toLowerCase().includes(q) ||
+      (l.description || '').toLowerCase().includes(q) ||
+      (Array.isArray(l.related_skills) && l.related_skills.some(s => (s || '').toLowerCase().includes(q)))
+    ));
+  }
 
   function renderList(filter = '') {
     listEl.innerHTML = '';
-    manifest
-      .filter(x => x.label.toLowerCase().includes(filter.toLowerCase()))
-      .forEach((item) => {
-        const li = el('li', {}, [item.label]);
-        li.addEventListener('click', () => {
-          [...listEl.children].forEach(a => a.classList.remove('active'));
-          li.classList.add('active');
-          loadRWLesson(item.file, manifest).catch(err => console.error(err));
-        });
-        listEl.appendChild(li);
+    filterLessons(filter).forEach((lesson) => {
+      const label = lesson.unit || (lesson.domain ? `${lesson.domain}` : 'Lesson');
+      const li = el('li', {}, [label]);
+      li.addEventListener('click', () => {
+        [...listEl.children].forEach(a => a.classList.remove('active'));
+        li.classList.add('active');
+        renderRWLesson(lesson);
       });
+      listEl.appendChild(li);
+    });
   }
 
   renderList('');
   searchEl.addEventListener('input', e => renderList(e.target.value));
 
-  const last = localStorage.getItem('rw:last');
-  const first = manifest[0]?.file;
-  const toLoad = last || first;
-  if (toLoad) await loadRWLesson(toLoad, manifest);
+  // Load last viewed or first
+  const lastId = localStorage.getItem('rw:last-id');
+  const initial = lessons.find(l => l.id === lastId) || lessons[0];
+  if (initial) {
+    // Mark active in list (approximate by matching unit)
+    [...listEl.children].forEach(li => {
+      if (li.textContent === (initial.unit || 'Lesson')) li.classList.add('active');
+    });
+    renderRWLesson(initial);
+  }
 }
 
 // ---- Math rendering (reads prebuilt HTML unit pages via lectures.json) ----
