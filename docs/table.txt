@@ -1,0 +1,14 @@
+section            domain                             accuracy  correct  total  section_accuracy
+-----------------  ---------------------------------  --------  -------  -----  ----------------
+Math               Advanced Math                        0.4444        4      9            0.5227
+Math               Algebra                              0.7500        9     12            0.5227
+Math               Geometry and Trigonometry            0.5556        5      9            0.5227
+Math               Problem-Solving and Data Analysis    0.3571        5     14            0.5227
+Reading & Writing  Craft and Structure                  0.4286        6     14            0.5370
+Reading & Writing  Expression of Ideas                  0.5000        6     12            0.5370
+Reading & Writing  Information and Ideas                0.6429        9     14            0.5370
+Reading & Writing  Standard English Conventions         0.5714        8     14            0.5370
+
+Math Section Score: 514
+Reading & Writing Section Score: 522
+Total Score: 1036

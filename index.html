@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SAT Materials</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="src/styles.css" />
 </head>
 <body>
   <header class="site-header">
@@ -12,6 +12,7 @@
     <nav class="tabs" role="tablist">
       <button id="tab-rw" class="tab active" role="tab" aria-selected="true" aria-controls="panel-rw">Reading &amp; Writing</button>
       <button id="tab-math" class="tab" role="tab" aria-selected="false" aria-controls="panel-math">Math</button>
+      <button id="tab-rubric" class="tab" role="tab" aria-selected="false" aria-controls="panel-rubric">Plan &amp; Rubric</button>
     </nav>
   </header>
 
@@ -43,13 +44,42 @@
         <div id="math-body"></div>
       </section>
     </section>
+
+    <section id="panel-rubric" class="panel hidden" role="tabpanel" aria-labelledby="tab-rubric">
+      <aside>
+        <div class="content-block">
+          <div class="pill">Controls</div>
+          <label for="rubric-section-filter">Section</label>
+          <select id="rubric-section-filter" aria-label="Filter by section">
+            <option value="all">All</option>
+            <option value="Reading &amp; Writing">Reading &amp; Writing</option>
+            <option value="Math">Math</option>
+          </select>
+        </div>
+        <div class="content-block">
+          <div class="pill">Goals</div>
+          <label for="rubric-target-points">Target improvement (+points)</label>
+          <input id="rubric-target-points" type="number" min="0" step="5" placeholder="e.g., 50" />
+          <label for="rubric-target-weeks" style="margin-top:8px; display:block;">Time available (weeks)</label>
+          <input id="rubric-target-weeks" type="number" min="0" step="1" placeholder="e.g., 4" />
+          <button id="rubric-apply" class="tab" style="margin-top:10px;">Suggest Plan</button>
+        </div>
+      </aside>
+      <section class="content" id="rubric-content">
+        <div class="content-header">
+          <h2>Plan &amp; Rubric</h2>
+          <div id="rubric-meta"></div>
+        </div>
+        <div id="rubric-body"></div>
+      </section>
+    </section>
   </main>
 
   <footer>
     <span>© 2025 SAT Materials</span>
   </footer>
 
-  <script src="app.js"></script>
+  <script src="src/app.js"></script>
 </body>
 </html>
 
