@@ -34,6 +34,23 @@ aside { background: var(--panel); border: 1px solid var(--border); border-radius
 #rw-list li:hover, #math-list li:hover { background: #0b1022; }
 #rw-list li.active, #math-list li.active { border-color: var(--accent); color: var(--accent); }
 
+/* Unit grouping styles */
+.unit-header { 
+  font-weight: 600; 
+  color: var(--accent); 
+  background: var(--border) !important; 
+  cursor: default !important; 
+  margin-bottom: 4px;
+  border-color: var(--accent) !important;
+}
+.unit-header:hover { background: var(--border) !important; }
+.lesson-item { 
+  margin-left: 12px; 
+  font-size: 14px; 
+  border-color: #2d3748 !important;
+  background: #0a0e1a;
+}
+
 .content-header { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
 .pill { display: inline-block; padding: 2px 8px; border-radius: 9999px; background: #0b1022; border: 1px solid var(--border); color: var(--muted); font-size: 12px; margin-right: 6px; }
 .section { border-top: 1px dashed var(--border); padding-top: 16px; margin-top: 12px; }

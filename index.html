@@ -12,6 +12,7 @@
     <nav class="tabs" role="tablist">
       <button id="tab-rw" class="tab active" role="tab" aria-selected="true" aria-controls="panel-rw">Reading &amp; Writing</button>
       <button id="tab-math" class="tab" role="tab" aria-selected="false" aria-controls="panel-math">Math</button>
+      <button id="tab-processed" class="tab" role="tab" aria-selected="false" aria-controls="panel-processed">Processed Units</button>
       <button id="tab-rubric" class="tab" role="tab" aria-selected="false" aria-controls="panel-rubric">Plan &amp; Rubric</button>
     </nav>
   </header>
@@ -42,6 +43,20 @@
           <div id="math-meta"></div>
         </div>
         <div id="math-body"></div>
+      </section>
+    </section>
+
+    <section id="panel-processed" class="panel hidden" role="tabpanel" aria-labelledby="tab-processed">
+      <aside>
+        <input id="processed-search" type="text" placeholder="Search processed units..." aria-label="Search processed units" />
+        <ul id="processed-list"></ul>
+      </aside>
+      <section class="content" id="processed-content">
+        <div class="content-header">
+          <h2 id="processed-title">Choose a processed unit</h2>
+          <div id="processed-meta"></div>
+        </div>
+        <div id="processed-body"></div>
       </section>
     </section>
 

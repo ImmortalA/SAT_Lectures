@@ -367,17 +367,35 @@ async function initRW() {
 
   function renderList(filter = '') {
     listEl.innerHTML = '';
-    filterLessons(filter).forEach((lesson) => {
-      // Display the full unit name
-      const label = lesson.unit || lesson.title || lesson.domain || 'Lesson';
+    const filteredLessons = filterLessons(filter);
+    
+    // Group lessons by unit
+    const unitGroups = {};
+    filteredLessons.forEach(lesson => {
+      const unitName = lesson.unit || 'Other';
+      if (!unitGroups[unitName]) {
+        unitGroups[unitName] = [];
+      }
+      unitGroups[unitName].push(lesson);
+    });
+    
+    // Render grouped lessons
+    Object.entries(unitGroups).forEach(([unitName, unitLessons]) => {
+      // Add unit header
+      const unitHeader = el('li', { class: 'unit-header' }, [unitName]);
+      listEl.appendChild(unitHeader);
       
-      const li = el('li', {}, [label]);
-      li.addEventListener('click', () => {
-        [...listEl.children].forEach(a => a.classList.remove('active'));
-        li.classList.add('active');
-        renderRWLesson(lesson);
+      // Add lessons under this unit (for R&W, most units have only one lesson)
+      unitLessons.forEach(lesson => {
+        const lessonTitle = lesson.title || lesson.domain || `Lesson ${lesson.id}`;
+        const li = el('li', { class: 'lesson-item' }, [lessonTitle]);
+        li.addEventListener('click', () => {
+          [...listEl.children].forEach(a => a.classList.remove('active'));
+          li.classList.add('active');
+          renderRWLesson(lesson);
+        });
+        listEl.appendChild(li);
       });
-      listEl.appendChild(li);
     });
   }
 
@@ -388,11 +406,13 @@ async function initRW() {
   const lastId = localStorage.getItem('rw:last-id');
   const initial = lessons.find(l => l.id === lastId) || lessons[0];
   if (initial) {
-    // Mark active in list (approximate by matching unit name)
-    const targetLabel = initial.unit || initial.title || initial.domain || 'Lesson';
+    // Mark active in list (look for lesson items, not unit headers)
+    const targetLabel = initial.title || initial.domain || `Lesson ${initial.id}`;
     
     [...listEl.children].forEach(li => {
-      if (li.textContent === targetLabel) li.classList.add('active');
+      if (li.classList.contains('lesson-item') && li.textContent === targetLabel) {
+        li.classList.add('active');
+      }
     });
     renderRWLesson(initial);
   }
@@ -471,16 +491,35 @@ async function initMath() {
 
   function renderList(filter = '') {
     listEl.innerHTML = '';
-    filterLessons(filter).forEach((lesson) => {
-      // Display the full unit name
-      const label = lesson.unit || lesson.title || 'Lesson';
-      const li = el('li', {}, [label]);
-      li.addEventListener('click', () => {
-        [...listEl.children].forEach(a => a.classList.remove('active'));
-        li.classList.add('active');
-        renderMathLesson(lesson);
+    const filteredLessons = filterLessons(filter);
+    
+    // Group lessons by unit
+    const unitGroups = {};
+    filteredLessons.forEach(lesson => {
+      const unitName = lesson.unit || 'Other';
+      if (!unitGroups[unitName]) {
+        unitGroups[unitName] = [];
+      }
+      unitGroups[unitName].push(lesson);
+    });
+    
+    // Render grouped lessons
+    Object.entries(unitGroups).forEach(([unitName, unitLessons]) => {
+      // Add unit header
+      const unitHeader = el('li', { class: 'unit-header' }, [unitName]);
+      listEl.appendChild(unitHeader);
+      
+      // Add lessons under this unit
+      unitLessons.forEach(lesson => {
+        const lessonTitle = lesson.title || `Lesson ${lesson.id}`;
+        const li = el('li', { class: 'lesson-item' }, [lessonTitle]);
+        li.addEventListener('click', () => {
+          [...listEl.children].forEach(a => a.classList.remove('active'));
+          li.classList.add('active');
+          renderMathLesson(lesson);
+        });
+        listEl.appendChild(li);
       });
-      listEl.appendChild(li);
     });
   }
 
@@ -491,11 +530,13 @@ async function initMath() {
   const lastId = localStorage.getItem('math:last-id');
   const initial = lessons.find(l => l.id === lastId) || lessons[0];
   if (initial) {
-    // Mark active in list (approximate by matching unit name)
-    const targetLabel = initial.unit || initial.title || 'Lesson';
+    // Mark active in list (look for lesson items, not unit headers)
+    const targetLabel = initial.title || `Lesson ${initial.id}`;
     
     [...listEl.children].forEach(li => {
-      if (li.textContent === targetLabel) li.classList.add('active');
+      if (li.classList.contains('lesson-item') && li.textContent === targetLabel) {
+        li.classList.add('active');
+      }
     });
     renderMathLesson(initial);
   }
