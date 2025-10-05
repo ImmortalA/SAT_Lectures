@@ -1,6 +1,7 @@
 [
   {
     "id": "0199897e6530-565f4243949c8c3ae1830d09",
+    "title": "Overview of the SAT Reading & Writing Test",
     "section": "Reading & Writing",
     "domain": "Information and Ideas",
     "related_skills": [],
@@ -14,6 +15,7 @@
   },
   {
     "id": "0199897e6530-06704aae8e2b59f2f13f9cab",
+    "title": "Types of Passages & Questions",
     "section": "Reading & Writing",
     "domain": "Information and Ideas",
     "related_skills": [],
@@ -27,6 +29,7 @@
   },
   {
     "id": "0199897e6530-370a4d6eb48c3a3111e81d4b",
+    "title": "Scoring & Timing",
     "section": "Reading & Writing",
     "domain": "Information and Ideas",
     "related_skills": [],
@@ -40,6 +43,7 @@
   },
   {
     "id": "0199897e6530-91d0457884e6c1b143c61cd0",
+    "title": "Central Ideas & Details",
     "section": "Reading & Writing",
     "domain": "Information and Ideas",
     "related_skills": [

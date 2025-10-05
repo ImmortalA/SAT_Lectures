@@ -294,20 +294,23 @@ function renderRWSection(section) {
 }
 
 function renderRWLesson(lesson) {
+  console.log('Rendering R&W lesson:', lesson);
   const titleEl = document.getElementById('rw-title');
   const metaEl = document.getElementById('rw-meta');
   const bodyEl = document.getElementById('rw-body');
 
-  titleEl.textContent = lesson.unit || 'Lesson';
+  // Display the full unit name
+  titleEl.textContent = lesson.unit || lesson.title || 'Lesson';
   metaEl.innerHTML = '';
-  metaEl.append(
+  const metaPills = [
     el('span', { class: 'pill' }, [lesson.section || 'Reading & Writing']),
     el('span', { class: 'pill' }, [lesson.domain || 'Domain']),
     el('span', { class: 'pill' }, [`~${lesson.duration || 0} min`]),
     (lesson.related_skills && lesson.related_skills.length)
       ? el('span', { class: 'pill' }, [`Skills: ${lesson.related_skills.length}`])
       : null
-  ).filter ? null : undefined; // append returns void; using filter guard to avoid linter warnings
+  ].filter(Boolean);
+  metaPills.forEach(pill => metaEl.appendChild(pill));
 
   bodyEl.innerHTML = '';
 
@@ -315,17 +318,20 @@ function renderRWLesson(lesson) {
     ? el('div', { class: 'content-block' }, [el('div', { class: 'pill' }, ['Description']), el('div', {}, [lesson.description])])
     : null;
 
-  // Render content: if it contains HTML tags, inject as HTML; otherwise show pre-wrapped text
+  // Render content: handle both markdown and HTML content
   const contentContainer = el('div', { class: 'content-block' });
-  const hasHtml = typeof lesson.content === 'string' && /<[^>]+>/.test(lesson.content);
-  if (hasHtml) {
-    contentContainer.innerHTML = '<div class="pill">Content</div>' + (lesson.content || '');
-  } else {
+  contentContainer.appendChild(el('div', { class: 'pill' }, ['Content']));
+  
+  if (lesson.content) {
+    console.log('Rendering R&W content:', lesson.content.substring(0, 100) + '...');
     const contentWrap = el('div', {});
     contentWrap.style.whiteSpace = 'pre-wrap';
-    contentWrap.textContent = lesson.content || '';
-    contentContainer.appendChild(el('div', { class: 'pill' }, ['Content']));
+    contentWrap.style.lineHeight = '1.5';
+    contentWrap.textContent = lesson.content;
     contentContainer.appendChild(contentWrap);
+  } else {
+    console.log('No content found for R&W lesson:', lesson.id);
+    contentContainer.appendChild(el('div', {}, ['No content available']));
   }
 
   [descBlock, contentContainer].filter(Boolean).forEach(x => bodyEl.appendChild(x));
@@ -337,13 +343,20 @@ async function initRW() {
   const listEl = document.getElementById('rw-list');
   const searchEl = document.getElementById('rw-search');
 
-  // Load new unified lessons schema
-  const lessons = await fetchJSON('data/Reading_and_Writing/sat_full_lessons.json').catch(() => []);
+  // Load new unified lessons schema and filter for R&W only
+  const allLessons = await fetchJSON('data/Reading_and_Writing/sat_full_lessons.json').catch(err => {
+    console.error('Failed to load R&W lessons:', err);
+    return [];
+  });
+  console.log('Loaded R&W lessons:', allLessons.length);
+  const lessons = allLessons.filter(lesson => lesson.section === 'Reading & Writing' || lesson.section === 'Reading and Writing');
+  console.log('Filtered R&W lessons:', lessons.length);
 
   function filterLessons(query) {
     const q = (query || '').toLowerCase();
     if (!q) return lessons;
     return lessons.filter(l => (
+      (l.title || '').toLowerCase().includes(q) ||
       (l.unit || '').toLowerCase().includes(q) ||
       (l.domain || '').toLowerCase().includes(q) ||
       (l.section || '').toLowerCase().includes(q) ||
@@ -355,7 +368,9 @@ async function initRW() {
   function renderList(filter = '') {
     listEl.innerHTML = '';
     filterLessons(filter).forEach((lesson) => {
-      const label = lesson.unit || (lesson.domain ? `${lesson.domain}` : 'Lesson');
+      // Display the full unit name
+      const label = lesson.unit || lesson.title || lesson.domain || 'Lesson';
+      
       const li = el('li', {}, [label]);
       li.addEventListener('click', () => {
         [...listEl.children].forEach(a => a.classList.remove('active'));
@@ -373,73 +388,117 @@ async function initRW() {
   const lastId = localStorage.getItem('rw:last-id');
   const initial = lessons.find(l => l.id === lastId) || lessons[0];
   if (initial) {
-    // Mark active in list (approximate by matching unit)
+    // Mark active in list (approximate by matching unit name)
+    const targetLabel = initial.unit || initial.title || initial.domain || 'Lesson';
+    
     [...listEl.children].forEach(li => {
-      if (li.textContent === (initial.unit || 'Lesson')) li.classList.add('active');
+      if (li.textContent === targetLabel) li.classList.add('active');
     });
     renderRWLesson(initial);
   }
 }
 
-// ---- Math rendering (reads prebuilt HTML unit pages via lectures.json) ----
+// ---- Math rendering (uses new flat lesson schema) ----
+function renderMathLesson(lesson) {
+  console.log('Rendering Math lesson:', lesson);
+  const titleEl = document.getElementById('math-title');
+  const metaEl = document.getElementById('math-meta');
+  const bodyEl = document.getElementById('math-body');
+
+  // Display the full unit name
+  titleEl.textContent = lesson.unit || lesson.title || 'Lesson';
+  metaEl.innerHTML = '';
+  const metaPills = [
+    el('span', { class: 'pill' }, [lesson.section || 'Math']),
+    el('span', { class: 'pill' }, [lesson.subject || 'Subject']),
+    el('span', { class: 'pill' }, [lesson.difficulty || 'Medium']),
+    el('span', { class: 'pill' }, [`~${lesson.duration || 0} min`]),
+    lesson.category ? el('span', { class: 'pill' }, [lesson.category]) : null
+  ].filter(Boolean);
+  metaPills.forEach(pill => metaEl.appendChild(pill));
+
+  bodyEl.innerHTML = '';
+
+  const descBlock = lesson.description
+    ? el('div', { class: 'content-block' }, [el('div', { class: 'pill' }, ['Description']), el('div', {}, [lesson.description])])
+    : null;
+
+  // Render content: handle markdown-style content
+  const contentContainer = el('div', { class: 'content-block' });
+  contentContainer.appendChild(el('div', { class: 'pill' }, ['Content']));
+  
+  if (lesson.content) {
+    console.log('Rendering Math content:', lesson.content.substring(0, 100) + '...');
+    const contentWrap = el('div', {});
+    contentWrap.style.whiteSpace = 'pre-wrap';
+    contentWrap.style.lineHeight = '1.5';
+    contentWrap.textContent = lesson.content;
+    contentContainer.appendChild(contentWrap);
+  } else {
+    console.log('No content found for Math lesson:', lesson.id);
+    contentContainer.appendChild(el('div', {}, ['No content available']));
+  }
+
+  [descBlock, contentContainer].filter(Boolean).forEach(x => bodyEl.appendChild(x));
+
+  localStorage.setItem('math:last-id', lesson.id || '');
+}
+
 async function initMath() {
   const listEl = document.getElementById('math-list');
   const searchEl = document.getElementById('math-search');
-  const data = await fetchJSON('data/Math/lectures.json').catch(() => ({ units: [] }));
-  // Normalize units to match expected keys from possible snake_case schema
-  const units = (data.units || []).map(u => {
-    const unitTitle = u.unitTitle || u.unit_title || 'Unit';
-    const slug = (u.slug || u.unit_id || unitTitle)
-      .toString()
-      .toLowerCase()
-      .replace(/[^a-z0-9]+/g, '-')
-      .replace(/(^-|-$)/g, '');
-    const lectures = (u.lectures || u.structure || []).map(sec => ({
-      title: sec.title || 'Lecture',
-      contentHtml: sec.contentHtml || (sec.content && sec.content.html) || ''
-    }));
-    return { ...u, unitTitle, slug, lectures };
+
+  // Load new unified lessons schema and filter for Math only
+  const allLessons = await fetchJSON('data/Math/lectures.json').catch(err => {
+    console.error('Failed to load Math lessons:', err);
+    return [];
   });
+  console.log('Loaded Math lessons:', allLessons.length);
+  const lessons = allLessons.filter(lesson => lesson.section === 'Math' || !lesson.section);
+  console.log('Filtered Math lessons:', lessons.length);
 
-  function renderUnit(u) {
-    const body = document.getElementById('math-body');
-    const title = document.getElementById('math-title');
-    const meta = document.getElementById('math-meta');
-    title.textContent = u.unitTitle || 'Unit';
-    meta.innerHTML = '';
-    body.innerHTML = '';
-
-    (u.lectures || []).forEach(lec => {
-      body.appendChild(el('div', { class: 'section' }, [
-        el('h3', {}, [lec.title || 'Lecture']),
-        el('div', { class: 'content-block', html: lec.contentHtml || '' })
-      ]));
-    });
+  function filterLessons(query) {
+    const q = (query || '').toLowerCase();
+    if (!q) return lessons;
+    return lessons.filter(l => (
+      (l.title || '').toLowerCase().includes(q) ||
+      (l.subject || '').toLowerCase().includes(q) ||
+      (l.unit || '').toLowerCase().includes(q) ||
+      (l.category || '').toLowerCase().includes(q) ||
+      (l.description || '').toLowerCase().includes(q)
+    ));
   }
 
   function renderList(filter = '') {
     listEl.innerHTML = '';
-    units
-      .filter(u => (u.unitTitle || '').toLowerCase().includes(filter.toLowerCase()))
-      .forEach(u => {
-        const li = el('li', {}, [u.unitTitle || 'Unit']);
-        li.addEventListener('click', () => {
-          [...listEl.children].forEach(a => a.classList.remove('active'));
-          li.classList.add('active');
-          renderUnit(u);
-          localStorage.setItem('math:last', u.slug);
-        });
-        listEl.appendChild(li);
+    filterLessons(filter).forEach((lesson) => {
+      // Display the full unit name
+      const label = lesson.unit || lesson.title || 'Lesson';
+      const li = el('li', {}, [label]);
+      li.addEventListener('click', () => {
+        [...listEl.children].forEach(a => a.classList.remove('active'));
+        li.classList.add('active');
+        renderMathLesson(lesson);
       });
+      listEl.appendChild(li);
+    });
   }
 
   renderList('');
   searchEl.addEventListener('input', e => renderList(e.target.value));
 
-  // Load last or first
-  const lastSlug = localStorage.getItem('math:last');
-  const chosen = units.find(u => u.slug === lastSlug) || units[0];
-  if (chosen) renderUnit(chosen);
+  // Load last viewed or first
+  const lastId = localStorage.getItem('math:last-id');
+  const initial = lessons.find(l => l.id === lastId) || lessons[0];
+  if (initial) {
+    // Mark active in list (approximate by matching unit name)
+    const targetLabel = initial.unit || initial.title || 'Lesson';
+    
+    [...listEl.children].forEach(li => {
+      if (li.textContent === targetLabel) li.classList.add('active');
+    });
+    renderMathLesson(initial);
+  }
 }
 
 function initTabs() {
