@@ -36,13 +36,17 @@ def unmask_mathml(masked: str, blocks: List[str]) -> str:
 def fix_mojibake_visible(text: str, unit_title: str) -> str:
     repls = [
         ('â€”', '—'), ('â€“', '–'), ('â€˜', '‘'), ('â€™', '’'), ('â€œ', '“'), ('â€�', '”'),
-        ('×', '×'), ('âˆ’', '−'), ('⇒', '⇒'),
+        ('Ã—', '×'), ('â†’', '→'), ('â‡’', '⇒'), ('âˆ’', '−'),
+        ('â‰≥', '≥'), ('â‰¥', '≥'), ('â‰≤', '≤'),
     ]
     for bad, good in repls:
         text = text.replace(bad, good)
 
     # â‰ -> ≠ only when it precedes 0 or variables (visible text only)
     text = re.sub(r'â‰(?=\s*[0-9A-Za-z])', '≠', text)
+
+    # Remove accidental backslashes before <math>
+    text = re.sub(r'\\\s*(?=<math\b)', '', text, flags=re.IGNORECASE)
 
     # Unit 9 specific: replace corrupted token ≠¤ -> ≤
     if 'Unit 9' in unit_title or 'unit 9' in unit_title.lower():
@@ -65,31 +69,44 @@ def remove_stray_dot_breaks(text: str) -> str:
     text = re.sub(r'\s*\.\s*<br\s*/?>', '<br />', text, flags=re.IGNORECASE)
     # Remove orphan punctuation paragraphs like <p>.  </p>
     text = re.sub(r'<p>\s*[\.,;:!\?]\s*</p>', '', text, flags=re.IGNORECASE)
-    # Collapse repeated <br/>
-    text = re.sub(r'(?:\s*<br\s*/?>\s*){2,}', '<br />', text, flags=re.IGNORECASE)
+    # Collapse 3+ repeated <br/> to at most two
+    text = re.sub(r'(?:\s*<br\s*/?>\s*){3,}', '<br /><br />', text, flags=re.IGNORECASE)
+    # Collapse multiple <hr> to a single canonical form
+    text = re.sub(r'(?:(?:\s*<hr(?:\s*/?)>\s*){2,})', '<hr />', text, flags=re.IGNORECASE)
+    # Remove empty <pre><code></code></pre>
+    text = re.sub(r'<pre>\s*<code[^>]*>\s*</code>\s*</pre>', '', text, flags=re.IGNORECASE)
     return text
 
 
 def label_mc_choices(text: str) -> str:
     # Convert unlabeled 4-item bullets into labeled choices A-D using data-choice
-    def process_ul(m: re.Match) -> str:
+    out_parts: List[str] = []
+    last = 0
+    for m in re.finditer(r'<ul>([\s\S]*?)</ul>', text, flags=re.IGNORECASE):
+        out_parts.append(text[last:m.start()])
+        ul_html = m.group(0)
         ul_inner = m.group(1)
         lis = re.findall(r'<li([^>]*)>([\s\S]*?)</li>', ul_inner, flags=re.IGNORECASE)
-        if len(lis) != 4:
-            return m.group(0)
-        # If already labeled with data-choice, do nothing
-        if all('data-choice' in attrs.lower() for attrs, _ in lis):
-            return m.group(0)
-        # If items start with A./A)/B... assume already labeled visually; still add attributes if missing
-        letters = ['A', 'B', 'C', 'D']
-        rebuilt_items: List[str] = []
-        for idx, (attrs, body) in enumerate(lis):
-            if 'data-choice' not in attrs.lower():
-                attrs = (attrs + f' data-choice="{letters[idx]}"').strip()
-            rebuilt_items.append(f'<li{(" " + attrs) if attrs else ""}>{body}</li>')
-        return '<ul>' + ''.join(rebuilt_items) + '</ul>'
-
-    return re.sub(r'<ul>([\s\S]*?)</ul>', process_ul, text, flags=re.IGNORECASE)
+        if len(lis) == 4:
+            # Heuristic: treat as MC only if the preceding 200 chars indicate a question context
+            prev = text[max(0, m.start()-200): m.start()]
+            is_mc_context = bool(re.search(r'Which of the following|Which choice|Which .* following|Choose|Select', prev, flags=re.IGNORECASE))
+            # Or items already visually labeled A./A)/A-
+            visually_labeled = all(re.match(r'\s*[A-D](\)|\.|-|\s)', re.sub(r'<[^>]+>', '', body).strip()) for _, body in lis)
+            # Avoid labeling long explanatory lists
+            too_long = any(len(re.sub(r'<[^>]+>', '', body).strip()) > 220 for _, body in lis)
+            if (is_mc_context or visually_labeled) and not too_long:
+                letters = ['A', 'B', 'C', 'D']
+                rebuilt_items: List[str] = []
+                for idx, (attrs, body) in enumerate(lis):
+                    if 'data-choice' not in attrs.lower():
+                        attrs = (attrs + f' data-choice="{letters[idx]}"').strip()
+                    rebuilt_items.append(f'<li{(" " + attrs) if attrs else ""}>{body}</li>')
+                ul_html = '<ul>' + ''.join(rebuilt_items) + '</ul>'
+        out_parts.append(ul_html)
+        last = m.end()
+    out_parts.append(text[last:])
+    return ''.join(out_parts)
 
 
 def dedupe_problem_solution(text: str) -> str:
