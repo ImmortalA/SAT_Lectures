@@ -1,0 +1,1084 @@
+QC REPORT
+[File] unit-01-exponents-radicals.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: ISSUES:
+Missing header: Title & Goal
+Missing header: Another example
+Duplicate header: Next idea at ~offsets [7297, 7396, 8038, 12135, 12234]
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: needed to match template
+
+QC REPORT
+[File] unit-02-percent.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: ISSUES:
+Missing header: Title & Goal
+Missing header: Next idea
+Missing header: Another example
+Missing header: More practice
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: needed to match template
+
+QC REPORT
+[File] unit-03-manipulating-solving-equations.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: ISSUES:
+Missing header: Title & Goal
+Missing header: Worked example
+Missing header: Another example
+Missing header: More practice
+Duplicate header: Next idea at ~offsets [493, 2822]
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: needed to match template
+
+QC REPORT
+[File] unit-04-rates.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: ISSUES:
+Missing header: Title & Goal
+Missing header: Next idea
+Missing header: Another example
+Missing header: More practice
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+Replace "≠ˆ"→"≈" candidates: 2
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: needed to match template
+
+QC REPORT
+[File] unit-05-expressions.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: ISSUES:
+Missing header: Title & Goal
+Missing header: Next idea
+Missing header: Another example
+Missing header: More practice
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: needed to match template
+
+QC REPORT
+[File] unit-06-manipulating-solving-equations.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 3; {'â†”': 3}
+
+"ations</h3>
+<ul>
+<li>Addition â†” Subtraction  </li>
+<li>Mul" (offset ~2304)
+
+Structure: ISSUES:
+Missing header: Title & Goal
+Missing header: Worked example
+Missing header: Next idea
+Missing header: Another example
+Missing header: More practice
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+Replace "â†”"→"↔" candidates: 3
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: ['"â†”"→"<correct>"']
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: needed to match template
+
+QC REPORT
+[File] unit-07-more-equation-solving-strategies.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: ISSUES:
+Missing header: Title & Goal
+Missing header: Worked example
+Missing header: Next idea
+Missing header: Another example
+Missing header: More practice
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: needed to match template
+
+QC REPORT
+[File] unit-08-systems-of-equations.json
+JSON: OK
+HTML: WARN/LINT(Orphan punctuation paragraph at ~8134: "</mo><mn>5</mn></mrow></math>
+<p>.  </p>
+<math display="inli" | Orphan punctuation paragraph at ~8610: "mfrac></mstyle></mrow></math>
+<p>.  </p>
+<p>Then <math displ" | Orphan punctuation paragraph at ~9963: "mfrac></mstyle></mrow></math>
+<p>.  </p>
+<p>Solution: <math ")
+MathML: OK
+Mojibake: 0; {}
+
+Structure: ISSUES:
+Missing header: Title & Goal
+Missing header: Worked example
+Missing header: Next idea
+Missing header: Another example
+Missing header: More practice
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: needed to match template
+
+QC REPORT
+[File] unit-09-inequalities.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: ISSUES:
+Missing header: Title & Goal
+Missing header: Worked example
+Missing header: Next idea
+Missing header: Another example
+Missing header: More practice
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+Replace "≠¤"→"≤" candidates: 16
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: needed to match template
+
+QC REPORT
+[File] unit-10-word-problems.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: ISSUES:
+Missing header: Title & Goal
+Missing header: Worked example
+Missing header: Next idea
+Missing header: Another example
+Missing header: More practice
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: needed to match template
+
+QC REPORT
+[File] unit-11-lines.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: ISSUES:
+Missing header: Title & Goal
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: needed to match template
+
+QC REPORT
+[File] unit-12-interpreting-linear-models.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: ISSUES:
+Missing header: Title & Goal
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: needed to match template
+
+QC REPORT
+[File] unit-13-functions.json
+JSON: OK
+HTML: WARN/LINT(Orphan punctuation paragraph at ~3681: "><mn>3</mn></mrow></math></p>
+<p>.  </p>
+<p><strong>Example " | Orphan punctuation paragraph at ~4100: "><mn>5</mn></mrow></math></p>
+<p>.  </p>
+<hr />
+<p>If <math ")
+MathML: OK
+Mojibake: 0; {}
+
+Structure: ISSUES:
+Missing header: Title & Goal
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: needed to match template
+
+QC REPORT
+[File] unit-14-quadratics.json
+JSON: OK
+HTML: WARN/LINT(Orphan punctuation paragraph at ~8675: "</mo><mn>1</mn></mrow></math>
+<p>.  </p>
+<math display="inli")
+MathML: OK
+Mojibake: 0; {}
+
+Structure: ISSUES:
+Missing header: Title & Goal
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: needed to match template
+
+QC REPORT
+[File] unit-15-synthetic-division.json
+JSON: OK
+HTML: WARN/LINT(Orphan punctuation paragraph at ~7269: "><mn>2</mn></mrow></math></p>
+<p>.  </p>
+<p>Compute <math di")
+MathML: OK
+Mojibake: 0; {}
+
+Structure: ISSUES:
+Missing header: Title & Goal
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: needed to match template
+
+QC REPORT
+[File] unit-17-absolute-value.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: ISSUES:
+Missing header: Title & Goal
+Duplicate header: Next idea at ~offsets [2018, 4097, 4203]
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: needed to match template
+
+QC REPORT
+[File] unit-18-angles.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: ISSUES:
+Missing header: Title & Goal
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: needed to match template
+
+QC REPORT
+[File] unit-19-triangles.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: ISSUES:
+Missing header: Title & Goal
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: needed to match template
+
+QC REPORT
+[File] unit-20-circles.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: ISSUES:
+Missing header: Title & Goal
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: needed to match template
+
+QC REPORT
+[File] unit-21-trigonometry.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: ISSUES:
+Missing header: Title & Goal
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: needed to match template
+
+QC REPORT
+[File] unit-22-reading-data.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: ISSUES:
+Missing header: Title & Goal
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: needed to match template
+
+QC REPORT
+[File] unit-23-probability.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: ISSUES:
+Missing header: Title & Goal
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: needed to match template
+
+QC REPORT
+[File] unit-24-statistics-i.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: ISSUES:
+Missing header: Title & Goal
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: needed to match template
+
+QC REPORT
+[File] unit-25-statistics-ii.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: ISSUES:
+Missing header: Title & Goal
+
+SAT Style: ISSUES:
+MC answers as bullets at ~3036
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: needed to match template
+
+QC REPORT
+[File] unit-26-volume.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: ISSUES:
+Missing header: Title & Goal
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: needed to match template
+
+QC REPORT
+[File] rw-unit-01-main-idea-and-purpose.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: OK
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: []
+
+QC REPORT
+[File] rw-unit-02-inference.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: OK
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: []
+
+QC REPORT
+[File] rw-unit-03-evidence-based-questions.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: OK
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: []
+
+QC REPORT
+[File] rw-unit-04-tone-and-attitude.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: OK
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: []
+
+QC REPORT
+[File] rw-unit-05-passage-structure.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: OK
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: []
+
+QC REPORT
+[File] rw-unit-06-paired-passages.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: OK
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: []
+
+QC REPORT
+[File] rw-unit-07-data-+-text-integration.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: OK
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: []
+
+QC REPORT
+[File] rw-unit-08-words-in-context.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: OK
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: []
+
+QC REPORT
+[File] rw-unit-09-precision-and-concision.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: OK
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: []
+
+QC REPORT
+[File] rw-unit-10-tone-appropriate-word-choice.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: OK
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: []
+
+QC REPORT
+[File] rw-unit-11-sentence-boundaries.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: OK
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: []
+
+QC REPORT
+[File] rw-unit-12-punctuation-basics.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: OK
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: []
+
+QC REPORT
+[File] rw-unit-13-subject-verb-agreement.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: OK
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: []
+
+QC REPORT
+[File] rw-unit-14-pronouns.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: OK
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: []
+
+QC REPORT
+[File] rw-unit-15-verb-tense-and-mood.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: OK
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: []
+
+QC REPORT
+[File] rw-unit-16-modifiers.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: OK
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: []
+
+QC REPORT
+[File] rw-unit-17-sentence-placement.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: OK
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: []
+
+QC REPORT
+[File] rw-unit-18-transitions.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: OK
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: []
+
+QC REPORT
+[File] rw-unit-19-relevance-and-redundancy.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: OK
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: []
+
+QC REPORT
+[File] rw-unit-20-clarity-and-style.json
+JSON: OK
+HTML: OK
+MathML: OK
+Mojibake: 0; {}
+
+Structure: OK
+
+SAT Style: OK
+
+Truncation: none
+
+UNIT-SPECIFIC flags (if any):
+
+Suggested SAFE Fixes (REPORT ONLY — not applied):
+Literal replacements: []
+Bullet normalization targets: []
+Duplicate <hr> collapse: []
+Empty <pre><code> removal points: []
+Header restructuring: []
+
+Summary Totals
+- Files with ERRORS: 0 ([])
+- Files with WARN/LINT only: 25 (['unit-01-exponents-radicals.json', 'unit-02-percent.json', 'unit-03-manipulating-solving-equations.json', 'unit-04-rates.json', 'unit-05-expressions.json', 'unit-06-manipulating-solving-equations.json', 'unit-07-more-equation-solving-strategies.json', 'unit-08-systems-of-equations.json', 'unit-09-inequalities.json', 'unit-10-word-problems.json', 'unit-11-lines.json', 'unit-12-interpreting-linear-models.json', 'unit-13-functions.json', 'unit-14-quadratics.json', 'unit-15-synthetic-division.json', 'unit-17-absolute-value.json', 'unit-18-angles.json', 'unit-19-triangles.json', 'unit-20-circles.json', 'unit-21-trigonometry.json', 'unit-22-reading-data.json', 'unit-23-probability.json', 'unit-24-statistics-i.json', 'unit-25-statistics-ii.json', 'unit-26-volume.json'])
+- Clean files: 20 (['rw-unit-01-main-idea-and-purpose.json', 'rw-unit-02-inference.json', 'rw-unit-03-evidence-based-questions.json', 'rw-unit-04-tone-and-attitude.json', 'rw-unit-05-passage-structure.json', 'rw-unit-06-paired-passages.json', 'rw-unit-07-data-+-text-integration.json', 'rw-unit-08-words-in-context.json', 'rw-unit-09-precision-and-concision.json', 'rw-unit-10-tone-appropriate-word-choice.json', 'rw-unit-11-sentence-boundaries.json', 'rw-unit-12-punctuation-basics.json', 'rw-unit-13-subject-verb-agreement.json', 'rw-unit-14-pronouns.json', 'rw-unit-15-verb-tense-and-mood.json', 'rw-unit-16-modifiers.json', 'rw-unit-17-sentence-placement.json', 'rw-unit-18-transitions.json', 'rw-unit-19-relevance-and-redundancy.json', 'rw-unit-20-clarity-and-style.json'])
+- Totals by issue type:
+  mojibake: {'â†”': 3}
+  bullet conversions needed (files): 1
+  header issues (files): 25
+  truncations (files): 0
