@@ -1,0 +1,450 @@
+{
+  "unit-01-exponents-radicals": {
+    "easy": [
+      "02f3b84c-0c50-4f9f-aa28-02d7ae75e99d",
+      "0a1b6fd4-dd0a-4c8b-a035-b159da5cefa7",
+      "1dc7239a-dedf-49de-abec-c69f8acd00e6",
+      "277fda06-fa5b-483f-b234-fc7cb15e6e8e",
+      "2df40af9-7dc5-4be7-b68e-8909b1b67c10"
+    ],
+    "medium": [
+      "2350e4d0-5363-4994-aa2d-ef1dad6202d6",
+      "39d2f131-473f-46e5-9430-248847032ef1",
+      "3fcfead5-912e-417a-9e4f-ee257489c68a"
+    ],
+    "hard": [
+      "0cae707e-cb54-4c88-bc1c-1fcb0773e335",
+      "0d1fd283-a5c4-401d-9862-45177888c935"
+    ]
+  },
+  "unit-02-percent": {
+    "easy": [
+      "7321afbc-70e7-4bf5-8848-f2227608fd5a",
+      "8eff5bc0-b422-49de-a1a1-f37c3f79df07",
+      "7924967f-60ae-4964-adad-cab59989eddf",
+      "952016a8-9107-4e0a-a5e3-669b2a65788f",
+      "03227496-d5ae-42f7-a86d-fc2f312edb51"
+    ],
+    "medium": [
+      "46430e32-da44-47d0-9533-7e8cffa94671",
+      "9e34a770-e2e1-43d3-abf5-9379de7217b7",
+      "dc43dcbf-4d99-43e8-9baa-5075708e49e1"
+    ],
+    "hard": [
+      "02672cb2-7340-4344-8dc8-257d5159823b",
+      "09398c0c-b40b-4309-9ea8-a451e1342d9d"
+    ]
+  },
+  "unit-03-manipulating-solving-equations": {
+    "easy": [],
+    "medium": [],
+    "hard": []
+  },
+  "unit-04-rates": {
+    "easy": [
+      "1c148ac9-2544-47d1-8819-792b9d53fd90",
+      "2b64c755-07db-49bd-8c47-29156cd69ba3",
+      "3a28cf2a-ba3c-4764-b859-21d5d0fe8198",
+      "4e291320-9562-4ddd-9ccb-36c63f57f8b3",
+      "5686a668-f066-4583-9d13-aaa23f583f17"
+    ],
+    "medium": [
+      "206e776b-5c5d-48c0-8a74-b5bf24f4dc21",
+      "2bac1200-915b-4edb-9aa9-c07cb8d30450",
+      "4c8bea11-e38b-4d52-a733-4fe399e198fc"
+    ],
+    "hard": [
+      "73857a20-b09c-4ca2-a92e-587e4a2e0732",
+      "b77ba45d-6acc-4b11-b5f2-81b7b6546fd9"
+    ]
+  },
+  "unit-05-expressions": {
+    "easy": [],
+    "medium": [],
+    "hard": []
+  },
+  "unit-06-manipulating-solving-equations-2": {
+    "easy": [],
+    "medium": [],
+    "hard": []
+  },
+  "unit-07-more-equation-strategies": {
+    "easy": [],
+    "medium": [],
+    "hard": []
+  },
+  "unit-08-systems-of-equations": {
+    "easy": [
+      "0e4f8e37-c9cb-4b62-bae8-f6e516dd744b",
+      "100071d1-6c80-44ab-9a31-9d182aed57ae",
+      "3c99ae45-761f-4502-8b01-a175f4094aea",
+      "473ba0ae-2e27-4eb0-83ed-ba1a8f79edfc",
+      "6aa421ae-9aa7-40b6-9478-e539b4efc7d7"
+    ],
+    "medium": [
+      "284408e1-c764-4300-823f-196992b5b7be",
+      "47548dc0-42b0-4e09-aaca-80db7779a364",
+      "53884b80-dd87-4d93-ba29-904916e46ec1"
+    ],
+    "hard": [
+      "0752e3f1-5acc-45cf-883e-5a93989a9531",
+      "3e8dfd58-78d1-40c2-a518-ef7bf4964012"
+    ]
+  },
+  "unit-09-inequalities": {
+    "easy": [
+      "06868720-2332-4e01-b188-4f2342bc60a9",
+      "0cfcbba4-6b23-45e4-90d4-d9ed3a4e5352",
+      "0d8bdd95-d411-40c9-a290-dcb5c5fb2bf4",
+      "0dc81d34-6ad5-4aab-b0f6-0e753be212d5",
+      "0f4509b3-8e10-4da3-87d7-335413d614c4"
+    ],
+    "medium": [
+      "013b49a8-e0e3-4cde-8913-5016b184fb62",
+      "08ae0f01-75f8-491a-9958-ba37830d42e1",
+      "13c27936-b67a-4f69-84ee-16cdc3fa934f"
+    ],
+    "hard": [
+      "085f9e1d-b449-454e-9e38-6224fda4717c",
+      "0b746561-2736-4f1e-abf9-351fea4e81f6"
+    ]
+  },
+  "unit-10-word-problems": {
+    "easy": [],
+    "medium": [],
+    "hard": []
+  },
+  "unit-11-lines": {
+    "easy": [
+      "449dce64-a3d4-4ed2-afe6-0dcc8f5e6314"
+    ],
+    "medium": [],
+    "hard": [
+      "3984d1d5-9448-4b5b-8a39-095d44bae0eb"
+    ]
+  },
+  "unit-12-interpreting-linear-models": {
+    "easy": [],
+    "medium": [],
+    "hard": []
+  },
+  "unit-13-functions": {
+    "easy": [],
+    "medium": [],
+    "hard": []
+  },
+  "unit-14-quadratics": {
+    "easy": [],
+    "medium": [],
+    "hard": []
+  },
+  "unit-15-synthetic-division": {
+    "easy": [],
+    "medium": [],
+    "hard": []
+  },
+  "unit-17-absolute-value": {
+    "easy": [],
+    "medium": [],
+    "hard": []
+  },
+  "unit-18-angles": {
+    "easy": [],
+    "medium": [],
+    "hard": []
+  },
+  "unit-19-triangles": {
+    "easy": [],
+    "medium": [],
+    "hard": []
+  },
+  "unit-20-circles": {
+    "easy": [],
+    "medium": [],
+    "hard": []
+  },
+  "unit-21-trigonometry": {
+    "easy": [],
+    "medium": [],
+    "hard": []
+  },
+  "unit-22-reading-data": {
+    "easy": [],
+    "medium": [],
+    "hard": []
+  },
+  "unit-23-probability": {
+    "easy": [],
+    "medium": [],
+    "hard": []
+  },
+  "unit-24-statistics-i": {
+    "easy": [],
+    "medium": [],
+    "hard": []
+  },
+  "unit-25-statistics-ii": {
+    "easy": [],
+    "medium": [],
+    "hard": []
+  },
+  "unit-26-volume": {
+    "easy": [],
+    "medium": [],
+    "hard": []
+  },
+  "rw-unit-01-main-idea-and-purpose": {
+    "easy": [
+      "11700439-7ddb-4d59-8e74-de31ed5bb433",
+      "66c5cb70-5eb8-4b83-bc88-7400cd049d9c",
+      "b52d3e4d-d063-4f3b-b9d5-fc5136ad8066",
+      "b5b0cc68-7759-4c00-8692-cf353518733a",
+      "bb790814-9eeb-462d-9d08-c9fa0f2742c6"
+    ],
+    "medium": [
+      "00b70cd1-b58b-41df-9736-3aa66dd87694",
+      "09e34a70-e3e9-4eb8-b76e-24c85ff6cfcf",
+      "127f8e23-568a-42ad-bf50-89cfaa941cee"
+    ],
+    "hard": [
+      "3f3312e7-121f-46a0-8b56-b35fe07f3abe",
+      "3fcdf345-2f9a-43b6-96aa-c50921fb5120"
+    ]
+  },
+  "rw-unit-02-inference": {
+    "easy": [
+      "290470b4-b35f-4484-815e-5877e63f2e48",
+      "08889d3e-5844-4d9c-b199-8872759e78e9",
+      "2d6912cd-b169-4b29-8eda-a71d3b4be08d",
+      "72ddbf87-a223-4eca-82cb-507e95e7ec29",
+      "84227a81-f371-47dd-9a1f-c05f87fb6a99"
+    ],
+    "medium": [
+      "2eaffe66-66a1-4561-9009-3150c3ff7212",
+      "9fee1bb7-22ca-4019-bb6a-56f7deef2031",
+      "d172144c-b7b7-4b39-b5f0-f966facbb709"
+    ],
+    "hard": [
+      "04307ac2-5b7b-43e3-832a-1ee4b90a1226",
+      "196ad555-4d23-4bb9-955e-9ffd19ceaa6c"
+    ]
+  },
+  "rw-unit-03-evidence-based-questions": {
+    "easy": [],
+    "medium": [],
+    "hard": []
+  },
+  "rw-unit-04-tone-and-attitude": {
+    "easy": [
+      "1c148ac9-2544-47d1-8819-792b9d53fd90",
+      "3a28cf2a-ba3c-4764-b859-21d5d0fe8198",
+      "674ff5f7-e74c-4280-a64a-8e87f8dd465c",
+      "843735f8-8f4d-4f6c-b019-d29ffddae79b",
+      "723188b7-ae26-4fed-ba30-fff237aa57b9"
+    ],
+    "medium": [
+      "7aa1101c-f4cf-493e-88b2-d01b7aad1925",
+      "8e83da63-c27b-4f9a-a8bc-7177b8e32de8",
+      "4b23462c-fd7c-41d6-916a-d72b3dafea91"
+    ],
+    "hard": [
+      "e86ba0c6-6b12-498f-b451-8f3c6401b662",
+      "1f2e36ab-0f67-47dd-820f-e51aa5bfec10"
+    ]
+  },
+  "rw-unit-05-passage-structure": {
+    "easy": [
+      "a251caad-f9f9-49b7-848b-c8ccc7a14ffe",
+      "c4195587-80c5-4da8-a4fb-f1de1e93c448"
+    ],
+    "medium": [
+      "defff91a-c49c-4717-b6b0-6ed31c3baef7",
+      "06001fd6-903a-429e-aa09-23751741ab90",
+      "600a0427-7c77-4996-97b4-47f650d6668f"
+    ],
+    "hard": [
+      "a1c4a5f5-0ecd-4d83-a6a9-f2be662ce46d",
+      "ab85e6a3-2be9-45ad-96cb-71003a157f2b"
+    ]
+  },
+  "rw-unit-06-paired-passages": {
+    "easy": [],
+    "medium": [
+      "76b5da5f-b488-4d02-bf4d-1ee40073babb"
+    ],
+    "hard": []
+  },
+  "rw-unit-07-data-+-text-integration": {
+    "easy": [
+      "5686a668-f066-4583-9d13-aaa23f583f17",
+      "b9958639-b0a1-4128-a8a9-4011cf516231",
+      "9642b3bd-422e-4ae3-9d05-0ebf1a4f05c0",
+      "9804b7cb-c888-466f-860a-d6da99b070c7",
+      "c3b54a89-cad1-4170-9249-4a22175c2a92"
+    ],
+    "medium": [
+      "2615b496-fb9e-49ce-a810-2ebf29429a8e",
+      "0a614336-36b9-41f0-9564-129545186522",
+      "139bbcf1-177c-4895-a933-989da5cfd7cb"
+    ],
+    "hard": [
+      "f411ee4a-ef4d-430c-b3ea-8d1bb99afc65",
+      "70a2dae4-5561-4925-8451-eaa41184d744"
+    ]
+  },
+  "rw-unit-08-words-in-context": {
+    "easy": [],
+    "medium": [],
+    "hard": []
+  },
+  "rw-unit-09-precision-and-concision": {
+    "easy": [
+      "0945ec02-5cd9-4670-ad0c-4f6da08bb624",
+      "1709e144-4a1f-4e93-a25c-3768922ff17a",
+      "1ac61d5d-0f39-4ab8-ad2c-90989e40a1ed",
+      "20ab53a7-4238-4e7e-9085-15779f4a03f3",
+      "2f1fcab1-3c38-4ad7-9f9a-223d9ef29563"
+    ],
+    "medium": [
+      "0e0842d1-dd4a-48d1-9771-8d47efa63a9b",
+      "273fef6b-8d59-47ff-92b2-7037252fe07d",
+      "2cadbbf4-463f-4a5a-a054-77a40873f628"
+    ],
+    "hard": [
+      "0a2b60f3-73a9-48bf-8ed8-02ca96d39cb4",
+      "0b98b330-000e-4552-9b98-b2a5ad69ac4d"
+    ]
+  },
+  "rw-unit-10-tone-appropriate-word-choice": {
+    "easy": [
+      "ca589945-b2cc-482d-b2c3-590ebfa8efef"
+    ],
+    "medium": [
+      "ba5476dc-bbd8-4ec8-95dc-446960da8390",
+      "db5c21a9-cf35-4099-bd40-7fd4a6e07386",
+      "ebcfa219-9bbe-4ba9-8df5-288f890eae20"
+    ],
+    "hard": []
+  },
+  "rw-unit-11-sentence-boundaries": {
+    "easy": [],
+    "medium": [],
+    "hard": [
+      "fda44b70-feff-451b-bf47-979f2a01a783"
+    ]
+  },
+  "rw-unit-12-punctuation-basics": {
+    "easy": [
+      "0dc81d34-6ad5-4aab-b0f6-0e753be212d5",
+      "0e4f8e37-c9cb-4b62-bae8-f6e516dd744b",
+      "100071d1-6c80-44ab-9a31-9d182aed57ae",
+      "2c0f84e4-6b0c-457e-a05a-8139db3c6a6c",
+      "39869964-a3c6-41ac-8822-edb03f4aa034"
+    ],
+    "medium": [
+      "08ae0f01-75f8-491a-9958-ba37830d42e1",
+      "21e9dcf9-1432-4b6d-8d7b-5c3f7526992b",
+      "284408e1-c764-4300-823f-196992b5b7be"
+    ],
+    "hard": [
+      "02672cb2-7340-4344-8dc8-257d5159823b",
+      "3e8dfd58-78d1-40c2-a518-ef7bf4964012"
+    ]
+  },
+  "rw-unit-13-subject-verb-agreement": {
+    "easy": [],
+    "medium": [],
+    "hard": []
+  },
+  "rw-unit-14-pronouns": {
+    "easy": [
+      "294d9e93-77d5-4358-9029-df59408725f6",
+      "7276af31-bb7f-45e7-8c0a-98c1325b63ca",
+      "7321afbc-70e7-4bf5-8848-f2227608fd5a",
+      "8a8df05d-5602-4078-8cbd-33c2461076a8",
+      "8eff5bc0-b422-49de-a1a1-f37c3f79df07"
+    ],
+    "medium": [
+      "1d58218e-2220-42c4-84db-46468f11094d",
+      "2bac1200-915b-4edb-9aa9-c07cb8d30450",
+      "46430e32-da44-47d0-9533-7e8cffa94671"
+    ],
+    "hard": [
+      "09398c0c-b40b-4309-9ea8-a451e1342d9d",
+      "7756c259-e1f6-4608-ae5a-1c2828d6a560"
+    ]
+  },
+  "rw-unit-15-verb-tense-and-mood": {
+    "easy": [
+      "600cff5b-5405-4356-a3dc-781dd8f170a8",
+      "054b24aa-e28f-44c8-96cc-c6a47520f856",
+      "2de472d2-a02a-4a7d-bd9a-2b9f566bed17",
+      "d7e9c7af-3b2c-4c12-8a24-6bad78ebe4dc"
+    ],
+    "medium": [
+      "2d2f905c-635c-461c-ba3e-986f48104d1c",
+      "4c92cb78-2c3f-4d81-8d2e-a06f691ba16e",
+      "c960ed2e-453f-43c8-8cef-782e246e79ca"
+    ],
+    "hard": [
+      "29cdaba3-a72e-444e-a607-1933b1ff9bf6"
+    ]
+  },
+  "rw-unit-16-modifiers": {
+    "easy": [],
+    "medium": [],
+    "hard": []
+  },
+  "rw-unit-17-sentence-placement": {
+    "easy": [],
+    "medium": [],
+    "hard": []
+  },
+  "rw-unit-18-transitions": {
+    "easy": [
+      "4b48e8aa-9767-43d6-933a-fe06eeb64959",
+      "033c2e57-8b80-4a8f-a06e-abee4b3a3099",
+      "14eb2c92-a289-411b-9893-d99bf35b36e1",
+      "162320d7-b1cb-45f6-a189-5a5ce254aeec",
+      "1f4f1fa3-bcc1-47e0-859b-8c9e41dc204d"
+    ],
+    "medium": [
+      "0b66987f-8fe0-4ffe-83b7-5b3ebe39b375",
+      "0eeaacfb-456b-4568-94e4-50b3193e7807",
+      "10724406-5c32-46a4-9f76-eb4bd7fdd49a"
+    ],
+    "hard": [
+      "05821d83-810a-4991-8594-eaddab4557bd",
+      "0b1e1ae3-af3f-4364-8fde-cb096c5f206a"
+    ]
+  },
+  "rw-unit-19-relevance-and-redundancy": {
+    "easy": [],
+    "medium": [
+      "e64d6217-2288-4196-b5f8-d2c99c5bd8c7",
+      "c9fb230e-d60f-4d41-9e46-9beb2b11d31d"
+    ],
+    "hard": [
+      "1273854e-24a4-460f-b063-1b3948028c32",
+      "dabab923-98f7-4c75-a8ec-cc4b978406b3"
+    ]
+  },
+  "rw-unit-20-clarity-and-style": {
+    "easy": [
+      "06868720-2332-4e01-b188-4f2342bc60a9",
+      "0cfcbba4-6b23-45e4-90d4-d9ed3a4e5352",
+      "0d8bdd95-d411-40c9-a290-dcb5c5fb2bf4",
+      "1f70f5a2-5ce8-4972-991e-8eca780742fb",
+      "1fbdac08-7f42-4229-8f3a-9d1d93f548e4"
+    ],
+    "medium": [
+      "13c27936-b67a-4f69-84ee-16cdc3fa934f",
+      "206e776b-5c5d-48c0-8a74-b5bf24f4dc21",
+      "366cd449-d396-4472-8c3c-ca67129a4b11"
+    ],
+    "hard": [
+      "0752e3f1-5acc-45cf-883e-5a93989a9531",
+      "085f9e1d-b449-454e-9e38-6224fda4717c"
+    ]
+  }
+}
