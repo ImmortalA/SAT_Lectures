@@ -36,9 +36,22 @@
     ]
   },
   "unit-03-manipulating-solving-equations": {
-    "easy": [],
-    "medium": [],
-    "hard": []
+    "easy": [
+      "c4195587-80c5-4da8-a4fb-f1de1e93c448",
+      "34542f0e-91d1-45a5-b151-5d0102774456",
+      "0dc81d34-6ad5-4aab-b0f6-0e753be212d5",
+      "b5533c6b-a0ad-46b3-8ca4-f811dce1427e",
+      "6aa421ae-9aa7-40b6-9478-e539b4efc7d7"
+    ],
+    "medium": [
+      "5e6026c1-07e9-460d-b509-3bca75b43429",
+      "4ca746b7-f356-4bf4-90dc-0ed4c1a113e9",
+      "be6a42a0-ee10-474c-8a87-9e7b0e254d11"
+    ],
+    "hard": [
+      "76c9622d-9ed9-4bb4-858b-8a00a13f0326",
+      "5fe31180-2a3c-4cfd-8906-a6787f8b6cbe"
+    ]
   },
   "unit-04-rates": {
     "easy": [
@@ -59,19 +72,55 @@
     ]
   },
   "unit-05-expressions": {
-    "easy": [],
-    "medium": [],
-    "hard": []
+    "easy": [
+      "3057bc56-c2f1-452d-a769-6b500d12f401",
+      "fefd0641-1549-4867-b848-7eaf6422e3c6",
+      "bc979c74-87d2-4dfa-a584-4ba351d97752",
+      "ba3b7ce2-669b-4d76-b93f-911f9f6f4a1a",
+      "61dfa97b-4a3f-4a3a-9330-43ce655bbc1f"
+    ],
+    "medium": [
+      "91741146-0613-4ab5-a2c0-7eadf0b6c07a",
+      "39d2f131-473f-46e5-9430-248847032ef1",
+      "f2b3e339-8f03-4bb4-89a0-2dcadb1538fd"
+    ],
+    "hard": [
+      "b510c444-9f16-4a2b-8b9c-a98cb0c0b332",
+      "287ea7de-0444-4945-a3d0-8a9f23d040dd"
+    ]
   },
   "unit-06-manipulating-solving-equations-2": {
-    "easy": [],
-    "medium": [],
-    "hard": []
+    "easy": [
+      "c6b2f0f2-8c4b-4354-9abf-710a1a82c445",
+      "b66bb2c3-a171-4417-b880-79a0ea548851",
+      "30bd085d-6abf-49f3-97e1-bfae01154a4f",
+      "0f4509b3-8e10-4da3-87d7-335413d614c4",
+      "75a7b8a9-1452-4ff8-8b41-9bd2e748ced8"
+    ],
+    "medium": [
+      "9ed0d9cc-9a9c-496f-ab91-dafcefa5d2b6",
+      "91364c0e-d7fb-4480-9134-b0fb5cc6cc06",
+      "5b2ab36f-dd54-4bd7-9d8f-87faebb848a1"
+    ],
+    "hard": [
+      "0c7bf634-cf0a-4c21-8589-65fd3dad2906",
+      "e31ea41f-be85-4ffe-9d6c-2ebf13f0d90e"
+    ]
   },
   "unit-07-more-equation-strategies": {
-    "easy": [],
-    "medium": [],
-    "hard": []
+    "easy": [
+      "cdad1e06-ca6a-48c3-91a2-3df80c6bd132",
+      "61dfa97b-4a3f-4a3a-9330-43ce655bbc1f"
+    ],
+    "medium": [
+      "fb76681d-c13d-4ed1-a221-37e988949fc8",
+      "eb155e60-62a3-4056-846e-5ccb9c6d3ff2",
+      "ff7a90e3-f01a-4386-8c3e-9c707ee0a18a"
+    ],
+    "hard": [
+      "f51c8149-eb58-439d-8c48-043f8442e010",
+      "ee6a5d4d-6c43-47c5-96bd-629d6b5f18c2"
+    ]
   },
   "unit-08-systems-of-equations": {
     "easy": [
@@ -110,33 +159,93 @@
     ]
   },
   "unit-10-word-problems": {
-    "easy": [],
-    "medium": [],
-    "hard": []
+    "easy": [
+      "977e4212-2867-4a44-8597-0a615e5984da",
+      "5fe2333d-7abb-4c1e-88d3-cbfd7a18668a",
+      "77274156-6547-4862-a58d-44477e3c3eb4",
+      "39869964-a3c6-41ac-8822-edb03f4aa034",
+      "0136d17d-58ae-4a82-8a94-ea259b1e8fa7"
+    ],
+    "medium": [
+      "c2e82271-deb4-48e4-80cd-ca9fc0c6198d",
+      "6b5a9b3d-c52e-48f4-aec0-353d56e74af4",
+      "582785fd-8e31-42b0-9c9d-46a2183860e8"
+    ],
+    "hard": [
+      "3f3312e7-121f-46a0-8b56-b35fe07f3abe",
+      "6f817f7a-a5b8-43e7-91e5-f6232f3e2886"
+    ]
   },
   "unit-11-lines": {
     "easy": [
-      "449dce64-a3d4-4ed2-afe6-0dcc8f5e6314"
+      "2778966f-3a96-4dac-9989-7880fb9881ea",
+      "5bcb0fa8-893d-4ddb-bc17-78a114da35cf",
+      "f0292b5f-3705-4a8e-bb65-76b8efa19f66",
+      "bb16f6e5-1e8b-4015-ad6a-b8d82252c393",
+      "857d6a0c-f3b9-4dde-84f8-57727f7a50e2"
     ],
-    "medium": [],
+    "medium": [
+      "19073eba-8dbd-4a20-8045-b61f18ee98ad",
+      "55876ff8-9620-4837-b454-85791724b4fe",
+      "a4f8b2b1-8f3d-4a4f-85a8-d2d139ae74c9"
+    ],
     "hard": [
-      "3984d1d5-9448-4b5b-8a39-095d44bae0eb"
+      "137e07a4-2592-4db4-a3d2-f299d59d4413",
+      "a4f4a4da-c7a5-418d-8aab-3fc96ce65eb9"
     ]
   },
   "unit-12-interpreting-linear-models": {
-    "easy": [],
-    "medium": [],
-    "hard": []
+    "easy": [
+      "ca589945-b2cc-482d-b2c3-590ebfa8efef",
+      "42a460c9-c521-4415-b605-78882dcb898b",
+      "171e5804-96b0-4e3f-95b9-2f4e04ce5eb6",
+      "ac1ac3f7-70f6-49e3-bbf0-13c1dc0da804",
+      "08b3a000-8176-44be-a682-71b3ad7324ae"
+    ],
+    "medium": [
+      "d9064bc5-4daf-4023-8435-bb21bfa5a1f3",
+      "3cd3c9d2-d445-498b-aa29-b274adffdded",
+      "283dbc1e-12d1-426d-a74f-8481d22d767c"
+    ],
+    "hard": [
+      "3cabdafb-1ad5-45aa-b597-43ce6f0b0da8",
+      "c0ae8a2a-34d6-453e-bdd2-a3c9c4b2170c"
+    ]
   },
   "unit-13-functions": {
-    "easy": [],
-    "medium": [],
-    "hard": []
+    "easy": [
+      "c7af64c8-342c-40eb-b7f3-038b5fad4353",
+      "fe44994b-a61c-4ff7-9939-d3a6b5dd434b",
+      "7bbf43d9-8717-47cf-ae08-2e806e855603",
+      "e8d4a66a-9e69-4d8e-807a-201f6c1548e0",
+      "b9958639-b0a1-4128-a8a9-4011cf516231"
+    ],
+    "medium": [
+      "3fcfead5-912e-417a-9e4f-ee257489c68a",
+      "45194be8-db5a-4ff0-ae9a-08a92aed4cf2",
+      "1d58218e-2220-42c4-84db-46468f11094d"
+    ],
+    "hard": [
+      "954b1912-8588-4645-b40d-01f11f433cee",
+      "d17321c1-44d3-437e-9907-0aab26b2a67c"
+    ]
   },
   "unit-14-quadratics": {
-    "easy": [],
-    "medium": [],
-    "hard": []
+    "easy": [
+      "196aef40-8a87-49e0-8538-f8bd2caea970",
+      "2ad04ba6-9b38-49e2-a6ba-2273e2e5575e",
+      "4752fe08-ae43-4c6b-897e-fdcd6cc8629d",
+      "0cf055dd-784d-4faa-83ac-a14cce5bcdba"
+    ],
+    "medium": [
+      "6f304113-85cd-4930-ac36-c777b4c1a583",
+      "4af89aa1-f7eb-4094-bc0a-a8eb37dfb0b8",
+      "d0605cf7-f45a-439d-830a-a4ded9b61458"
+    ],
+    "hard": [
+      "0e3f3d4a-eebf-4ae0-8012-32c76531dec0",
+      "b5f4c481-a808-4e51-a12a-09e08f52c338"
+    ]
   },
   "unit-15-synthetic-division": {
     "easy": [],
@@ -149,49 +258,153 @@
     "hard": []
   },
   "unit-18-angles": {
-    "easy": [],
-    "medium": [],
-    "hard": []
+    "easy": [
+      "06b94e29-7b4a-4080-bb35-73d9386187ad",
+      "30bd085d-6abf-49f3-97e1-bfae01154a4f",
+      "a80b022b-78dc-4c0b-a2cb-71fe0e04a189",
+      "449dce64-a3d4-4ed2-afe6-0dcc8f5e6314",
+      "94ed12e3-a176-401a-8cf0-3a581702d099"
+    ],
+    "medium": [
+      "8a8c3323-e553-4b4a-b745-fec240211191",
+      "dc2406de-15b4-4152-9a3f-c10992d5a6bc",
+      "5d3c59ea-291e-45b1-94ae-39dd38130482"
+    ],
+    "hard": [
+      "20928cc3-f440-48bf-90d4-e60e8f4560f1",
+      "2c4ce1d4-fff0-4905-979e-6bd2f82a8fbc"
+    ]
   },
   "unit-19-triangles": {
-    "easy": [],
-    "medium": [],
-    "hard": []
+    "easy": [
+      "373bd807-a1c1-4485-93f9-0e12cce12145",
+      "e3c0454d-db7f-4b1a-be39-c12164fc3943",
+      "16b8a398-2d02-400e-b5e3-f1270f5a9c35",
+      "59f64eab-838e-4d87-b604-cf718b6a3e9a",
+      "2329cf42-ea2f-4a2f-a69d-609b310dd7ca"
+    ],
+    "medium": [
+      "6c6cf715-cc13-43cd-b916-cc3724c5bbff",
+      "0cb116a1-df55-4959-878c-cfbff26e1227",
+      "93575bc2-615a-40cb-be17-f4d7a6ae1426"
+    ],
+    "hard": [
+      "2eb24e21-904d-4690-bc5a-55d9427756bd",
+      "8c9abab8-de69-4713-93d3-c72423171dc9"
+    ]
   },
   "unit-20-circles": {
-    "easy": [],
-    "medium": [],
-    "hard": []
+    "easy": [
+      "fd06c555-bff4-4d51-aa00-42479c59c0d8",
+      "fbb6fc5b-dc99-4223-8d31-89f4dfb4cf36",
+      "844b337e-2d96-40f6-8588-ebad0f58a527",
+      "b52d3e4d-d063-4f3b-b9d5-fc5136ad8066",
+      "34542f0e-91d1-45a5-b151-5d0102774456"
+    ],
+    "medium": [
+      "94c2cb24-2857-49d1-a5b2-9f807d985b60",
+      "644dc2b2-5114-48cd-ae93-e006528c623d",
+      "335873b3-d7a3-4380-9ecf-4e4373d0684e"
+    ],
+    "hard": [
+      "53f8ecd1-73ee-47a9-bc24-87ff42030076",
+      "1f0e2444-ae3c-4f89-9187-756c4e090a5d"
+    ]
   },
   "unit-21-trigonometry": {
-    "easy": [],
-    "medium": [],
-    "hard": []
+    "easy": [
+      "30bd085d-6abf-49f3-97e1-bfae01154a4f",
+      "449dce64-a3d4-4ed2-afe6-0dcc8f5e6314",
+      "bc979c74-87d2-4dfa-a584-4ba351d97752"
+    ],
+    "medium": [
+      "04a12a1c-1d2a-43ce-bc5f-609b428a4bb8",
+      "7575dd0f-c4cb-42a2-9af9-3fb5eaff7633",
+      "0cb116a1-df55-4959-878c-cfbff26e1227"
+    ],
+    "hard": [
+      "dcb161a3-c40c-4077-bb00-4eb0e55d5e76",
+      "60c77f02-3298-4f35-8572-7c9b1eb475e4"
+    ]
   },
   "unit-22-reading-data": {
-    "easy": [],
-    "medium": [],
-    "hard": []
+    "easy": [
+      "2c0f84e4-6b0c-457e-a05a-8139db3c6a6c",
+      "c978de6b-cd38-42c8-a5a6-41382e6f6af9",
+      "5686a668-f066-4583-9d13-aaa23f583f17",
+      "1462e63c-f5ac-4b40-9d95-3e3afaad3a44",
+      "45e487a9-c657-46e8-99f5-77a31dd3df09"
+    ],
+    "medium": [
+      "5933da62-0fb2-4ba7-87ab-2f4230eeef46",
+      "234bb617-730d-44cc-a9eb-21eadfbaf4e7",
+      "b6b43523-fbe7-494b-bd6c-d44c1dd682af"
+    ],
+    "hard": [
+      "fabfff8e-bfd0-4d75-8205-bd06b6c31a12",
+      "3e1e7392-0056-401f-8bcd-fc9c8dfe2be4"
+    ]
   },
   "unit-23-probability": {
-    "easy": [],
-    "medium": [],
-    "hard": []
+    "easy": [
+      "35fbf869-05b7-4b53-b8a4-39d709a0aac2",
+      "32964a7a-a030-44e8-a904-253d21d3d6ed",
+      "cfd21ff8-0059-4d90-8add-b08b605c5d6b",
+      "303c6eb0-3a6a-484b-928d-afc13a0a6d99",
+      "64c67b59-5e2b-4bd0-9826-925bc48e5afa"
+    ],
+    "medium": [
+      "c34ba92b-3ab1-4a8c-97ec-1e563236dbe7",
+      "5efd4e24-e56a-412f-a0d3-026df395c423",
+      "9461d12b-7353-43a8-9cdc-f7efe9afcd8d"
+    ],
+    "hard": [
+      "b94d76d2-68d2-4964-a997-c8349c3e9673",
+      "8a69275d-7b92-4ac4-98ee-f3b858e835c8"
+    ]
   },
   "unit-24-statistics-i": {
-    "easy": [],
-    "medium": [],
-    "hard": []
+    "easy": [
+      "b3daf4c8-f5d3-421a-b78f-f6cc22b5a538",
+      "d57f3db2-3616-4aa8-8daf-b6e75ec8dd1f",
+      "e8c4705b-3a03-49b6-ad14-9f78a98e4288",
+      "d34656ff-c282-4f30-af0b-029471fd8002",
+      "1326b254-e81e-4d13-98b6-5ebf58920ff8"
+    ],
+    "medium": [
+      "2eafa12a-c38b-4abf-9cfd-e8db78628fa0",
+      "6f1f33ae-00a4-452b-999c-3dc1ae49458c",
+      "550f8089-1db2-423b-ac31-3ad4a132a321"
+    ],
+    "hard": [
+      "971ac238-5160-450a-8dbb-f7005873c331",
+      "5b94d641-767b-43a1-9184-e9b1dabb161a"
+    ]
   },
   "unit-25-statistics-ii": {
     "easy": [],
-    "medium": [],
-    "hard": []
+    "medium": [
+      "644dc2b2-5114-48cd-ae93-e006528c623d",
+      "9b43475c-f945-4a45-8831-bf99ef82f097"
+    ],
+    "hard": [
+      "40be99bc-5b6a-4dd7-b23a-535891a0502a",
+      "c0ae8a2a-34d6-453e-bdd2-a3c9c4b2170c"
+    ]
   },
   "unit-26-volume": {
-    "easy": [],
-    "medium": [],
-    "hard": []
+    "easy": [
+      "e32c3443-b368-4809-9db1-8195e1bd574a"
+    ],
+    "medium": [
+      "9b43475c-f945-4a45-8831-bf99ef82f097",
+      "9466d27e-3ba9-4d85-9207-33d4cdc277a1",
+      "32c229fd-cbc4-425e-ac88-0905ccf7ed4f"
+    ],
+    "hard": [
+      "0a24026c-988b-405f-b326-20f0579a1fca",
+      "84a336da-0788-4ead-a92a-282eaaed544a"
+    ]
   },
   "rw-unit-01-main-idea-and-purpose": {
     "easy": [
