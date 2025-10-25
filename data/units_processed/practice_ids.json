@@ -88,9 +88,22 @@
     ]
   },
   "unit-06-manipulating-solving-equations-2": {
-    "easy": [],
-    "medium": [],
-    "hard": []
+    "easy": [
+      "0dc81d34-6ad5-4aab-b0f6-0e753be212d5",
+      "0e4f8e37-c9cb-4b62-bae8-f6e516dd744b",
+      "100071d1-6c80-44ab-9a31-9d182aed57ae",
+      "1fbdac08-7f42-4229-8f3a-9d1d93f548e4",
+      "307e1c7f-87c2-4c82-9c5e-2db49eb15c11"
+    ],
+    "medium": [
+      "284408e1-c764-4300-823f-196992b5b7be",
+      "366cd449-d396-4472-8c3c-ca67129a4b11",
+      "47548dc0-42b0-4e09-aaca-80db7779a364"
+    ],
+    "hard": [
+      "0752e3f1-5acc-45cf-883e-5a93989a9531",
+      "3b6d1415-beb6-4c9b-ab45-5d531a6e160b"
+    ]
   },
   "unit-07-more-equation-strategies": {
     "easy": [
@@ -548,9 +561,22 @@
     ]
   },
   "rw-unit-08-words-in-context": {
-    "easy": [],
-    "medium": [],
-    "hard": []
+    "easy": [
+      "076d8000-b12c-403a-b1d9-200acb5cd538",
+      "1326b254-e81e-4d13-98b6-5ebf58920ff8",
+      "26eeea6d-a6b5-40f0-b2c1-cbfc3eaa1600",
+      "50eecf64-ec5b-4f92-a750-e311343f7fd4",
+      "6dc03a2b-22f7-44c6-a4c7-e4909b64483f"
+    ],
+    "medium": [
+      "00f4916f-6514-4d16-a999-52452f0b4428",
+      "0a456e62-fd21-4ce6-b52d-590ae05b9854",
+      "550f8089-1db2-423b-ac31-3ad4a132a321"
+    ],
+    "hard": [
+      "1538320c-40e6-40a1-99fc-7733e763e1ef",
+      "85ebf7af-675c-4cad-8c80-8ef4a4e7beed"
+    ]
   },
   "rw-unit-09-precision-and-concision": {
     "easy": [
@@ -643,9 +669,22 @@
     ]
   },
   "rw-unit-14-pronouns": {
-    "easy": [],
-    "medium": [],
-    "hard": []
+    "easy": [
+      "282adec4-e2b5-471c-bfae-63efc8f64354",
+      "294d9e93-77d5-4358-9029-df59408725f6",
+      "371341f1-77aa-4849-b7c0-9dee64773d71",
+      "3a28cf2a-ba3c-4764-b859-21d5d0fe8198",
+      "428dc96f-a483-40b4-8e38-792ad688c370"
+    ],
+    "medium": [
+      "1d58218e-2220-42c4-84db-46468f11094d",
+      "2bac1200-915b-4edb-9aa9-c07cb8d30450",
+      "46430e32-da44-47d0-9533-7e8cffa94671"
+    ],
+    "hard": [
+      "09398c0c-b40b-4309-9ea8-a451e1342d9d",
+      "7756c259-e1f6-4608-ae5a-1c2828d6a560"
+    ]
   },
   "rw-unit-15-verb-tense-and-mood": {
     "easy": [
