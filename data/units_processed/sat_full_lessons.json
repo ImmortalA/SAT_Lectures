@@ -715,7 +715,9 @@
     "section": "Algebra",
     "domain": "Linear Functions and Equations",
     "related_skills": [
-      ""
+      "Linear functions",
+      "Nonlinear functions",
+      "Equivalent expressions"
     ],
     "unit": "Unit 1: Parent Functions and Transformations",
     "description": "Learn how parent functions are transformed through shifts, reflections, stretches, and compressions to create new graphs.",
@@ -730,7 +732,9 @@
     "section": "Algebra",
     "domain": "Linear Functions and Equations",
     "related_skills": [
-      ""
+      "Linear functions",
+      "Nonlinear functions",
+      "Equivalent expressions"
     ],
     "unit": "Unit 2: Transformations of Linear and Absolute Value Functions",
     "description": "Transform linear and absolute value functions using shifts, reflections, and stretches to sketch accurate graphs.",
@@ -745,7 +749,15 @@
     "section": "Algebra",
     "domain": "Linear Functions and Equations",
     "related_skills": [
-      ""
+      "Linear equations in two variables",
+      "Linear functions",
+      "Two-variable data: Models and scatterplots",
+      "One-variable data: Distributions and measures of center and spread",
+      "Ratios, rates, proportional relationships, and units",
+      "Percentages",
+      "Evaluating statistical claims: Observational studies and experiments",
+      "Inference from sample statistics and margin of error",
+      "Probability and conditional probability"
     ],
     "unit": "Unit 3: Modeling with Linear Functions",
     "description": "Model real-world situations using linear functions by interpreting and applying slope and intercepts.",
@@ -760,7 +772,9 @@
     "section": "Algebra",
     "domain": "Linear Functions and Equations",
     "related_skills": [
-      ""
+      "Linear functions",
+      "Nonlinear functions",
+      "Equivalent expressions"
     ],
     "unit": "Unit 4: Understanding Functions and Function Notation",
     "description": "Interpret functions and use function notation to describe and evaluate relationships.",
@@ -775,7 +789,9 @@
     "section": "Algebra",
     "domain": "Linear Functions and Equations",
     "related_skills": [
-      ""
+      "Linear equations in two variables",
+      "Linear functions",
+      "Lines, angles, and triangles"
     ],
     "unit": "Unit 5: Graphing Linear Equations (Standard and Slope-Intercept Forms)",
     "description": "Graph linear equations from standard and slope-intercept forms and interpret slope and intercepts.",
@@ -790,7 +806,10 @@
     "section": "Algebra",
     "domain": "Linear Functions and Equations",
     "related_skills": [
-      ""
+      "Linear equations in one variable",
+      "Equivalent expressions",
+      "Ratios, rates, proportional relationships, and units",
+      "Percentages"
     ],
     "unit": "Unit 6: Solving Linear Equations (Single and Multi-Step)",
     "description": "Solve single- and multi-step linear equations and justify each step using inverse operations.",
@@ -805,7 +824,9 @@
     "section": "Algebra",
     "domain": "Linear Functions and Equations",
     "related_skills": [
-      ""
+      "Systems of two linear equations in two variables",
+      "Linear equations in two variables",
+      "Two-variable data: Models and scatterplots"
     ],
     "unit": "Unit 7: Solving Linear Systems (By Graphing, Substitution, Elimination)",
     "description": "Solve systems of linear equations using graphing, substitution, and elimination and interpret solutions.",
@@ -820,7 +841,10 @@
     "section": "Algebra",
     "domain": "Linear Functions and Equations",
     "related_skills": [
-      ""
+      "Linear functions",
+      "Linear equations in two variables",
+      "Lines, angles, and triangles",
+      "Ratios, rates, proportional relationships, and units"
     ],
     "unit": "Unit 8: Writing Equations of Lines (Point-Slope, Slope-Intercept, Standard Form)",
     "description": "Write linear equations from graphs, points, and slopes in point-slope, slope-intercept, and standard forms.",
@@ -835,7 +859,9 @@
     "section": "Algebra",
     "domain": "Linear Functions and Equations",
     "related_skills": [
-      ""
+      "Linear inequalities in one or two variables",
+      "Linear equations in two variables",
+      "Systems of two linear equations in two variables"
     ],
     "unit": "Unit 9: Linear Inequalities and Systems of Inequalities",
     "description": "Graph and solve linear inequalities and systems of inequalities and interpret feasible regions.",
@@ -850,7 +876,8 @@
     "section": "Algebra",
     "domain": "Quadratic Functions and Equations",
     "related_skills": [
-      ""
+      "Nonlinear functions",
+      "Equivalent expressions"
     ],
     "unit": "Unit 10: Transformations of Quadratic Functions",
     "description": "Describe and apply translations, reflections, and vertical/horizontal stretches and compressions of y = ax^2 in vertex form y = a(x − h)^2 + k; interpret how a, h, and k affect the graph.",
@@ -865,7 +892,7 @@
     "section": "Algebra",
     "domain": "Quadratic Functions and Equations",
     "related_skills": [
-      ""
+      "Nonlinear functions"
     ],
     "unit": "Unit 11: Characteristics of Quadratic Functions",
     "description": "Identify vertex, axis of symmetry, direction of opening, intercepts, domain, range, and maximum/minimum; relate features to parameters in standard and vertex forms and analyze average rate of change.",
@@ -880,7 +907,9 @@
     "section": "Algebra",
     "domain": "Quadratic Functions and Equations",
     "related_skills": [
-      ""
+      "Nonlinear functions",
+      "Nonlinear equations in one variable and systems of equations in two variables",
+      "Circles"
     ],
     "unit": "Unit 12: Graphing Quadratic Functions (Standard, Vertex, and Intercept Forms)",
     "description": "Graph quadratics given in standard ax^2 + bx + c, vertex a(x − h)^2 + k, and intercept a(x − p)(x − q) forms; convert between forms and use key features to sketch accurate graphs.",
@@ -895,7 +924,9 @@
     "section": "Algebra",
     "domain": "Quadratic Functions and Equations",
     "related_skills": [
-      ""
+      "Nonlinear functions",
+      "Lines, angles, and triangles",
+      "Circles"
     ],
     "unit": "Unit 13: Focus and Directrix of a Parabola",
     "description": "Define a parabola using focus and directrix; derive and use (x − h)^2 = 4p(y − k) and (y − k)^2 = 4p(x − h); find focus, directrix, and parameter p; graph parabolas from geometric data.",
@@ -910,7 +941,13 @@
     "section": "Algebra",
     "domain": "Quadratic Functions and Equations",
     "related_skills": [
-      ""
+      "Nonlinear functions",
+      "Two-variable data: Models and scatterplots",
+      "Ratios, rates, proportional relationships, and units",
+      "Percentages",
+      "Area and volume",
+      "Right triangles and trigonometry",
+      "Probability and conditional probability"
     ],
     "unit": "Unit 14: Modeling with Quadratic Equations",
     "description": "Model real-world situations using quadratic functions (e.g., projectile motion, area optimization); interpret coefficients and vertex; select appropriate form and use technology for regression when needed.",
@@ -925,7 +962,9 @@
     "section": "Algebra",
     "domain": "Quadratic Functions and Equations",
     "related_skills": [
-      ""
+      "Nonlinear equations in one variable and systems of equations in two variables",
+      "Equivalent expressions",
+      "Right triangles and trigonometry"
     ],
     "unit": "Unit 15: Solving Quadratic Equations (By Graphing, Factoring, Completing the Square, Quadratic Formula)",
     "description": "Solve quadratic equations using graphing, factoring, completing the square, and the quadratic formula; justify steps, choose efficient methods, and verify solutions (including complex solutions).",
@@ -940,7 +979,7 @@
     "section": "Algebra",
     "domain": "Quadratic Functions and Equations",
     "related_skills": [
-      ""
+      "Nonlinear equations in one variable and systems of equations in two variables"
     ],
     "unit": "Unit 16: Discriminant and Nature of Roots",
     "description": "Use the discriminant b^2 − 4ac to determine the number and type of roots (two real, one real double, or two complex); connect to x-intercepts and the positioning of the parabola relative to the x-axis.",
@@ -955,7 +994,7 @@
     "section": "Algebra",
     "domain": "Quadratic Functions and Equations",
     "related_skills": [
-      ""
+      "Nonlinear equations in one variable and systems of equations in two variables"
     ],
     "unit": "Unit 17: Complex Numbers",
     "description": "Extend the number system to include i; add, subtract, multiply, and divide complex numbers; use conjugates; represent complex numbers on the complex plane; solve quadratics with complex roots.",
@@ -970,7 +1009,8 @@
     "section": "Algebra",
     "domain": "Quadratic Functions and Equations",
     "related_skills": [
-      ""
+      "Linear inequalities in one or two variables",
+      "Nonlinear functions"
     ],
     "unit": "Unit 18: Quadratic Inequalities",
     "description": "Solve and graph quadratic inequalities in one variable using sign charts/interval testing and graph analysis; express solutions in interval notation and connect to features of the related quadratic function.",
@@ -985,7 +1025,8 @@
     "section": "Algebra",
     "domain": "Polynomial Functions and Operations",
     "related_skills": [
-      ""
+      "Equivalent expressions",
+      "Nonlinear functions"
     ],
     "unit": "Unit 19: Introduction to Polynomials and Polynomial Vocabulary",
     "description": "Define polynomials and classify them by degree and number of terms; identify coefficients, leading term, and constant term; recognize standard form and determine end behavior qualitatively.",
@@ -1000,7 +1041,8 @@
     "section": "Algebra",
     "domain": "Polynomial Functions and Operations",
     "related_skills": [
-      ""
+      "Equivalent expressions",
+      "Nonlinear functions"
     ],
     "unit": "Unit 20: Adding, Subtracting, and Multiplying Polynomials",
     "description": "Perform addition, subtraction, and multiplication of polynomials; apply the distributive and associative properties; simplify expressions and interpret polynomial structure in context.",
@@ -1015,7 +1057,7 @@
     "section": "Algebra",
     "domain": "Polynomial Functions and Operations",
     "related_skills": [
-      ""
+      "Equivalent expressions"
     ],
     "unit": "Unit 21: Special Products of Polynomials",
     "description": "Recognize and apply patterns for perfect square trinomials, difference and sum of cubes, and difference of squares; use these patterns to expand and factor efficiently.",
@@ -1030,7 +1072,8 @@
     "section": "Algebra",
     "domain": "Polynomial Functions and Operations",
     "related_skills": [
-      ""
+      "Equivalent expressions",
+      "Nonlinear equations in one variable and systems of equations in two variables"
     ],
     "unit": "Unit 22: Factoring Techniques (GCF, Quadratic, Grouping, Special Cases)",
     "description": "Factor polynomials completely using greatest common factor, grouping, trinomial patterns, difference of squares, and sum/difference of cubes; verify factorizations by multiplication.",
@@ -1045,7 +1088,7 @@
     "section": "Algebra",
     "domain": "Polynomial Functions and Operations",
     "related_skills": [
-      ""
+      "Equivalent expressions"
     ],
     "unit": "Unit 23: Dividing Polynomials (Including Long Division)",
     "description": "Divide polynomials by monomials and binomials using long division and synthetic division; interpret quotient and remainder; connect division to the factor and remainder theorems.",
@@ -1060,7 +1103,7 @@
     "section": "Algebra",
     "domain": "Polynomial Functions and Operations",
     "related_skills": [
-      ""
+      "Nonlinear equations in one variable and systems of equations in two variables"
     ],
     "unit": "Unit 24: Solving Polynomial Equations",
     "description": "Find real and complex zeros of polynomial equations using factoring, synthetic division, and technology; verify solutions; relate zeros to factors and to x-intercepts of the graph.",
@@ -1075,7 +1118,8 @@
     "section": "Algebra",
     "domain": "Polynomial Functions and Operations",
     "related_skills": [
-      ""
+      "Nonlinear functions",
+      "Two-variable data: Models and scatterplots"
     ],
     "unit": "Unit 25: Graphing Polynomial Functions and Analyzing Their Graphs",
     "description": "Graph polynomial functions using zeros, multiplicity, end behavior, and turning points; identify intervals of increase/decrease; sketch graphs by analyzing leading term and degree.",
@@ -1090,7 +1134,7 @@
     "section": "Algebra",
     "domain": "Polynomial Functions and Operations",
     "related_skills": [
-      ""
+      "Nonlinear equations in one variable and systems of equations in two variables"
     ],
     "unit": "Unit 26: The Fundamental Theorem of Algebra",
     "description": "State and apply the Fundamental Theorem of Algebra; use it to determine the total number of complex roots; explore connections between degree and the number of solutions (real and complex).",
@@ -1105,7 +1149,11 @@
     "section": "Algebra",
     "domain": "Polynomial Functions and Operations",
     "related_skills": [
-      ""
+      "Nonlinear functions",
+      "Two-variable data: Models and scatterplots",
+      "Ratios, rates, proportional relationships, and units",
+      "Area and volume",
+      "Percentages"
     ],
     "unit": "Unit 27: Modeling with Polynomial Functions",
     "description": "Model real-world and mathematical scenarios with polynomial functions; determine appropriate degrees, fit curves to data, interpret coefficients and roots, and make predictions using technology.",
@@ -1120,7 +1168,7 @@
     "section": "Algebra",
     "domain": "Rational and Radical Functions",
     "related_skills": [
-      ""
+      "Equivalent expressions"
     ],
     "unit": "Unit 28: Properties of Exponents and Operations",
     "description": "Apply laws of exponents (product, quotient, power to a power, power of a product/quotient) including zero and negative exponents to simplify expressions and check equivalence.",
@@ -1135,7 +1183,7 @@
     "section": "Algebra",
     "domain": "Rational and Radical Functions",
     "related_skills": [
-      ""
+      "Equivalent expressions"
     ],
     "unit": "Unit 29: Rational Exponents and nth Roots",
     "description": "Convert between radical form and rational exponents; evaluate and simplify expressions with fractional exponents; determine domain restrictions arising from even/odd indices and real-number constraints.",
@@ -1150,7 +1198,7 @@
     "section": "Algebra",
     "domain": "Rational and Radical Functions",
     "related_skills": [
-      ""
+      "Equivalent expressions"
     ],
     "unit": "Unit 30: Properties and Simplification of Radicals",
     "description": "Use radical properties (product/quotient rules) to simplify radicals; add, subtract, multiply, and divide radical expressions; rationalize denominators and state restrictions on variables.",
@@ -1165,7 +1213,7 @@
     "section": "Algebra",
     "domain": "Rational and Radical Functions",
     "related_skills": [
-      ""
+      "Nonlinear functions"
     ],
     "unit": "Unit 31: Graphing Radical Functions",
     "description": "Graph and transform square-root and cube-root functions y = a√(bx + c) + d and y = a∛(bx + c) + d; identify domain, range, intercepts, and key features; connect equations to graphs and contexts.",
@@ -1180,7 +1228,7 @@
     "section": "Algebra",
     "domain": "Rational and Radical Functions",
     "related_skills": [
-      ""
+      "Equivalent expressions"
     ],
     "unit": "Unit 32: Rational Algebraic Expressions (Simplifying, Operations)",
     "description": "Simplify rational expressions by factoring and canceling common factors; determine excluded values; perform multiplication, division, addition, and subtraction (including complex rational expressions).",
@@ -1195,7 +1243,8 @@
     "section": "Algebra",
     "domain": "Rational and Radical Functions",
     "related_skills": [
-      ""
+      "Nonlinear functions",
+      "Two-variable data: Models and scatterplots"
     ],
     "unit": "Unit 33: Graphing Rational Functions",
     "description": "Analyze and graph rational functions: identify vertical/horizontal/oblique asymptotes, holes, intercepts, and end behavior; use transformations and factor analysis to sketch accurate graphs.",
@@ -1210,7 +1259,7 @@
     "section": "Algebra",
     "domain": "Rational and Radical Functions",
     "related_skills": [
-      ""
+      "Nonlinear equations in one variable and systems of equations in two variables"
     ],
     "unit": "Unit 34: Solving Rational and Radical Equations and Inequalities",
     "description": "Solve equations and inequalities involving rational and radical expressions; identify and exclude extraneous solutions; express solutions in interval notation and justify using sign/interval testing or graphing.",
@@ -1225,7 +1274,8 @@
     "section": "Algebra",
     "domain": "Rational and Radical Functions",
     "related_skills": [
-      ""
+      "Nonlinear functions",
+      "Linear functions"
     ],
     "unit": "Unit 35: Inverse Functions",
     "description": "Determine and verify inverses algebraically and graphically (including restrictions to achieve one-to-one); use composition to check inverses; relate inverses of radical and simple rational functions via reflection across y = x.",
@@ -1240,7 +1290,10 @@
     "section": "Algebra",
     "domain": "Exponential and Logarithmic Functions",
     "related_skills": [
-      ""
+      "Nonlinear functions",
+      "Percentages",
+      "Ratios, rates, proportional relationships, and units",
+      "Two-variable data: Models and scatterplots"
     ],
     "unit": "Unit 36: Exponential Functions (Growth, Decay, Natural Base)",
     "description": "Explore exponential growth and decay models in the form y = a·b^x and y = a·e^(kx); identify key features such as initial value, rate of change, and asymptotes; interpret parameters in real-world contexts.",
@@ -1255,7 +1308,7 @@
     "section": "Algebra",
     "domain": "Exponential and Logarithmic Functions",
     "related_skills": [
-      ""
+      "Equivalent expressions"
     ],
     "unit": "Unit 37: Properties of Exponents",
     "description": "Apply and extend exponent rules (product, quotient, power, zero, negative, and fractional exponents) to simplify expressions and model relationships involving exponential patterns.",
@@ -1270,7 +1323,8 @@
     "section": "Algebra",
     "domain": "Exponential and Logarithmic Functions",
     "related_skills": [
-      ""
+      "Nonlinear functions",
+      "Equivalent expressions"
     ],
     "unit": "Unit 38: Logarithms and Logarithmic Functions",
     "description": "Define logarithms as inverses of exponential functions; evaluate and interpret log expressions; graph logarithmic functions; identify domain, range, intercepts, and asymptotes; connect to real-world applications.",
@@ -1285,7 +1339,7 @@
     "section": "Algebra",
     "domain": "Exponential and Logarithmic Functions",
     "related_skills": [
-      ""
+      "Nonlinear functions"
     ],
     "unit": "Unit 39: Transformations of Exponential and Logarithmic Functions",
     "description": "Analyze and apply transformations to exponential and logarithmic graphs, including translations, reflections, stretches, and compressions; describe effects of parameters a, b, h, and k in function form.",
@@ -1300,7 +1354,7 @@
     "section": "Algebra",
     "domain": "Exponential and Logarithmic Functions",
     "related_skills": [
-      ""
+      "Equivalent expressions"
     ],
     "unit": "Unit 40: Properties of Logarithms",
     "description": "Use logarithmic properties (product, quotient, and power rules) to expand and condense expressions; apply change-of-base formula to evaluate logs and solve problems involving different bases.",
@@ -1315,7 +1369,7 @@
     "section": "Algebra",
     "domain": "Exponential and Logarithmic Functions",
     "related_skills": [
-      ""
+      "Nonlinear equations in one variable and systems of equations in two variables"
     ],
     "unit": "Unit 41: Solving Exponential and Logarithmic Equations",
     "description": "Solve exponential and logarithmic equations using inverse relationships, properties of logs, and appropriate algebraic techniques; check for extraneous solutions and interpret results in context.",
@@ -1330,7 +1384,12 @@
     "section": "Algebra",
     "domain": "Exponential and Logarithmic Functions",
     "related_skills": [
-      ""
+      "Nonlinear functions",
+      "Two-variable data: Models and scatterplots",
+      "Percentages",
+      "Ratios, rates, proportional relationships, and units",
+      "Evaluating statistical claims: Observational studies and experiments",
+      "Inference from sample statistics and margin of error"
     ],
     "unit": "Unit 42: Modeling with Exponential and Logarithmic Functions",
     "description": "Apply exponential and logarithmic functions to model growth, decay, and real-world phenomena such as population, finance, and sound intensity; interpret parameters and compare model types.",
@@ -1345,7 +1404,9 @@
     "section": "Algebra",
     "domain": "Sequences and Series",
     "related_skills": [
-      ""
+      "Ratios, rates, proportional relationships, and units",
+      "Equivalent expressions",
+      "Two-variable data: Models and scatterplots"
     ],
     "unit": "Unit 43: Arithmetic Sequences and Series",
     "description": "Define arithmetic sequences; find nth terms using explicit and recursive formulas; determine common difference; compute partial sums using Sₙ = n/2[2a₁ + (n−1)d]; apply sigma notation in context.",
@@ -1360,7 +1421,9 @@
     "section": "Algebra",
     "domain": "Sequences and Series",
     "related_skills": [
-      ""
+      "Percentages",
+      "Ratios, rates, proportional relationships, and units",
+      "Nonlinear functions"
     ],
     "unit": "Unit 44: Geometric Sequences and Series",
     "description": "Define geometric sequences; find nth terms using explicit and recursive formulas; determine common ratio; compute partial sums using Sₙ = a₁(1−rⁿ)/(1−r) (r ≠ 1); use sigma notation and interpret applications.",
@@ -1375,7 +1438,8 @@
     "section": "Algebra",
     "domain": "Sequences and Series",
     "related_skills": [
-      ""
+      "Nonlinear functions",
+      "Equivalent expressions"
     ],
     "unit": "Unit 45: Recursive Formulas",
     "description": "Write and interpret recursive definitions for sequences (arithmetic, geometric, and other patterns); generate terms; translate between recursive and explicit forms when possible; model real situations recursively.",
@@ -1390,7 +1454,9 @@
     "section": "Algebra",
     "domain": "Sequences and Series",
     "related_skills": [
-      ""
+      "Nonlinear functions",
+      "Equivalent expressions",
+      "Probability and conditional probability"
     ],
     "unit": "Unit 46: Sums of Infinite Series",
     "description": "Examine convergence of infinite geometric series (|r| < 1) and compute sums using S∞ = a₁/(1−r); recognize divergence when |r| ≥ 1; apply to financial and decay/growth contexts.",
@@ -1405,7 +1471,8 @@
     "section": "Geometry",
     "domain": "Foundations and Reasoning",
     "related_skills": [
-      ""
+      "Lines, angles, and triangles",
+      "Ratios, rates, proportional relationships, and units"
     ],
     "unit": "Unit 1: Basic Geometric Terms and Language",
     "description": "Use precise definitions and notation for points, lines, segments, rays, and planes; distinguish collinear and coplanar sets; measure and classify angles; find distance and midpoint; use geometric tools and attend to precision.",
@@ -1420,7 +1487,8 @@
     "section": "Geometry",
     "domain": "Foundations and Reasoning",
     "related_skills": [
-      ""
+      "Lines, angles, and triangles",
+      "Equivalent expressions"
     ],
     "unit": "Unit 2: Logic, Proof, and Reasoning in Geometry",
     "description": "Differentiate inductive and deductive reasoning; analyze conditionals, converses, inverses, contrapositives, and biconditionals; write two-column and flow proofs using definitions, postulates, and properties of equality/congruence.",
@@ -1435,7 +1503,8 @@
     "section": "Geometry",
     "domain": "Foundations and Reasoning",
     "related_skills": [
-      ""
+      "Lines, angles, and triangles",
+      "Linear equations in two variables"
     ],
     "unit": "Unit 3: Parallel and Perpendicular Lines",
     "description": "Identify angle relationships formed by transversals (corresponding, alternate interior/exterior, same-side); use slope to test for parallel/perpendicular in the coordinate plane; prove lines parallel/perpendicular using theorems and postulates.",
@@ -1450,7 +1519,8 @@
     "section": "Geometry",
     "domain": "Foundations and Reasoning",
     "related_skills": [
-      ""
+      "Lines, angles, and triangles",
+      "Ratios, rates, proportional relationships, and units"
     ],
     "unit": "Unit 4: Angle Relationships and Measurement",
     "description": "Apply angle addition, linear pair, vertical angle, complementary, and supplementary relationships to find unknown measures; construct and bisect angles; solve algebraic problems involving angle relationships in and out of the coordinate plane.",
@@ -1465,7 +1535,7 @@
     "section": "Geometry",
     "domain": "Triangles and Polygons",
     "related_skills": [
-      ""
+      "Lines, angles, and triangles"
     ],
     "unit": "Unit 5: Triangle Properties and Congruence",
     "description": "Classify triangles by sides and angles; apply triangle sum and exterior angle theorems; prove congruence using SSS, SAS, ASA, AAS, and HL; use congruence to justify corresponding parts and solve geometric problems.",
@@ -1480,7 +1550,7 @@
     "section": "Geometry",
     "domain": "Triangles and Polygons",
     "related_skills": [
-      ""
+      "Lines, angles, and triangles"
     ],
     "unit": "Unit 6: Inequalities in Triangles",
     "description": "Use triangle inequality and hinge inequality (SAS Inequality); compare side lengths and angle measures; apply midsegment theorem and properties of perpendicular bisectors, medians, altitudes, and angle bisectors to establish inequalities.",
@@ -1495,7 +1565,9 @@
     "section": "Geometry",
     "domain": "Triangles and Polygons",
     "related_skills": [
-      ""
+      "Ratios, rates, proportional relationships, and units",
+      "Right triangles and trigonometry",
+      "Lines, angles, and triangles"
     ],
     "unit": "Unit 7: Similarity and Right Triangles",
     "description": "Prove triangles similar using AA, SSS~, and SAS~; use similarity to find missing measures; apply right-triangle relationships including geometric mean, Pythagorean Theorem and its converse, special right triangles, and basic trigonometric ratios.",
@@ -1510,7 +1582,8 @@
     "section": "Geometry",
     "domain": "Triangles and Polygons",
     "related_skills": [
-      ""
+      "Lines, angles, and triangles",
+      "Ratios, rates, proportional relationships, and units"
     ],
     "unit": "Unit 8: Quadrilaterals and Polygon Properties",
     "description": "Classify quadrilaterals using coordinate and synthetic proofs; establish and use properties of parallelograms, rectangles, rhombi, squares, kites, and trapezoids; explore interior/exterior angle sums and regular polygon properties.",
@@ -1525,7 +1598,8 @@
     "section": "Geometry",
     "domain": "Circles and Arcs",
     "related_skills": [
-      ""
+      "Circles",
+      "Lines, angles, and triangles"
     ],
     "unit": "Unit 9: Circle Basics (Chords, Arcs, and Central Angles)",
     "description": "Identify parts of a circle including radius, diameter, chord, secant, tangent, and arc; calculate arc measure and central angles; apply relationships among chords, radii, and diameters to solve geometric problems.",
@@ -1540,7 +1614,8 @@
     "section": "Geometry",
     "domain": "Circles and Arcs",
     "related_skills": [
-      ""
+      "Circles",
+      "Lines, angles, and triangles"
     ],
     "unit": "Unit 10: Tangents and Secants",
     "description": "Explore properties of tangents and secants to circles; apply theorems involving tangent-secant, secant-secant, and tangent-tangent relationships; solve for unknown lengths using geometric and algebraic methods.",
@@ -1555,7 +1630,9 @@
     "section": "Geometry",
     "domain": "Circles and Arcs",
     "related_skills": [
-      ""
+      "Circles",
+      "Lines, angles, and triangles",
+      "Ratios, rates, proportional relationships, and units"
     ],
     "unit": "Unit 11: Inscribed Angles and Arc Length",
     "description": "Define and calculate inscribed angles and their intercepted arcs; apply relationships among inscribed, central, and tangent-chord angles; find arc length and sector area; connect angular and linear measures in problem solving.",
@@ -1570,7 +1647,9 @@
     "section": "Geometry",
     "domain": "Coordinate Geometry",
     "related_skills": [
-      ""
+      "Linear equations in two variables",
+      "Right triangles and trigonometry",
+      "Lines, angles, and triangles"
     ],
     "unit": "Unit 12: Coordinate Plane Basics and Distance Formula",
     "description": "Plot points and interpret coordinates; use the distance formula derived from the Pythagorean Theorem; apply segment partitioning and coordinate proofs to verify geometric properties in the plane.",
@@ -1585,7 +1664,9 @@
     "section": "Geometry",
     "domain": "Coordinate Geometry",
     "related_skills": [
-      ""
+      "Linear equations in two variables",
+      "Lines, angles, and triangles",
+      "Ratios, rates, proportional relationships, and units"
     ],
     "unit": "Unit 13: Midpoint and Slope",
     "description": "Compute midpoints and slopes; interpret slope as rate of change and as a test for parallel/perpendicular lines; use slope-intercept and point-slope forms to analyze and solve geometric problems in the coordinate plane.",
@@ -1600,7 +1681,11 @@
     "section": "Geometry",
     "domain": "Coordinate Geometry",
     "related_skills": [
-      ""
+      "Linear equations in two variables",
+      "Circles",
+      "Nonlinear functions",
+      "Nonlinear equations in one variable and systems of equations in two variables",
+      "Equivalent expressions"
     ],
     "unit": "Unit 14: Equations of Lines, Circles, and Conics",
     "description": "Write and convert equations of lines (slope-intercept, point-slope, standard); derive and apply equations of circles (center-radius form) and basic conics (parabolas; optional: ellipses/hyperbolas) for modeling and proof.",
@@ -1615,7 +1700,8 @@
     "section": "Geometry",
     "domain": "Transformations and Symmetry",
     "related_skills": [
-      ""
+      "Lines, angles, and triangles",
+      "Linear equations in two variables"
     ],
     "unit": "Unit 15: Reflections, Rotations, and Translations",
     "description": "Perform and describe reflections, rotations, and translations in the plane; determine orientation, distance, and angle preservation; use coordinate rules and matrices to represent transformations; verify congruence via rigid motions.",
@@ -1630,7 +1716,7 @@
     "section": "Geometry",
     "domain": "Transformations and Symmetry",
     "related_skills": [
-      ""
+      "Lines, angles, and triangles"
     ],
     "unit": "Unit 16: Glide Reflections and Compositions of Transformations",
     "description": "Compose multiple rigid motions and analyze the resulting single transformation (e.g., rotation as two reflections; translation as two reflections); define and construct glide reflections; prove properties using transformational geometry.",
@@ -1645,7 +1731,8 @@
     "section": "Geometry",
     "domain": "Transformations and Symmetry",
     "related_skills": [
-      ""
+      "Lines, angles, and triangles",
+      "Ratios, rates, proportional relationships, and units"
     ],
     "unit": "Unit 17: Symmetry and Tessellations",
     "description": "Identify and classify lines of symmetry and centers of rotational symmetry; analyze symmetry groups of plane figures and patterns; construct and justify tessellations (regular, semi-regular, and with transformations) and relate to angle measures.",
@@ -1660,7 +1747,9 @@
     "section": "Geometry",
     "domain": "Area and Volume",
     "related_skills": [
-      ""
+      "Area and volume",
+      "Circles",
+      "Ratios, rates, proportional relationships, and units"
     ],
     "unit": "Unit 18: Area of Polygons and Circles",
     "description": "Calculate area of triangles, parallelograms, trapezoids, regular polygons (using apothem), and composite figures; apply the formula for the area of a circle and sectors; solve problems involving perimeter/circumference and area relationships.",
@@ -1675,7 +1764,8 @@
     "section": "Geometry",
     "domain": "Area and Volume",
     "related_skills": [
-      ""
+      "Area and volume",
+      "Ratios, rates, proportional relationships, and units"
     ],
     "unit": "Unit 19: Surface Area of Solids",
     "description": "Find surface area of right prisms, cylinders, pyramids, cones, and spheres; decompose nets and apply lateral/total surface area formulas; solve real-world problems including composite solids and unit conversions.",
@@ -1690,7 +1780,8 @@
     "section": "Geometry",
     "domain": "Area and Volume",
     "related_skills": [
-      ""
+      "Area and volume",
+      "Ratios, rates, proportional relationships, and units"
     ],
     "unit": "Unit 20: Volume of Prisms, Cylinders, Pyramids, Cones, and Spheres",
     "description": "Compute volumes of right prisms, cylinders, pyramids, cones, and spheres (and hemispheres); apply Cavalieri’s principle and volume relationships (e.g., pyramid/cone vs. prism/cylinder); solve modeling problems with composite figures.",
@@ -1705,7 +1796,9 @@
     "section": "Geometry",
     "domain": "Advanced Triangle Concepts",
     "related_skills": [
-      ""
+      "Right triangles and trigonometry",
+      "Ratios, rates, proportional relationships, and units",
+      "Lines, angles, and triangles"
     ],
     "unit": "Unit 21: Special Right Triangles",
     "description": "Explore relationships in 45°–45°–90° and 30°–60°–90° triangles; derive and apply side ratios to find missing sides; solve geometric and real-world problems involving special right triangles and their properties.",
@@ -1720,7 +1813,8 @@
     "section": "Geometry",
     "domain": "Advanced Triangle Concepts",
     "related_skills": [
-      ""
+      "Right triangles and trigonometry",
+      "Lines, angles, and triangles"
     ],
     "unit": "Unit 22: Pythagorean Theorem and Its Converse",
     "description": "Apply and prove the Pythagorean Theorem and its converse; use it to determine triangle types and solve for unknown sides; apply to coordinate geometry and real-world distance problems in two and three dimensions.",
@@ -1735,7 +1829,8 @@
     "section": "Geometry",
     "domain": "Advanced Triangle Concepts",
     "related_skills": [
-      ""
+      "Right triangles and trigonometry",
+      "Ratios, rates, proportional relationships, and units"
     ],
     "unit": "Unit 23: Trigonometric Ratios and Applications",
     "description": "Define sine, cosine, and tangent for acute angles; use trigonometric ratios to find missing sides and angles in right triangles; solve word problems involving elevation, depression, and indirect measurement.",
@@ -1750,7 +1845,9 @@
     "section": "Geometry",
     "domain": "Advanced Triangle Concepts",
     "related_skills": [
-      ""
+      "Right triangles and trigonometry",
+      "Lines, angles, and triangles",
+      "Ratios, rates, proportional relationships, and units"
     ],
     "unit": "Unit 24: Law of Sines and Law of Cosines",
     "description": "Apply the Law of Sines and Law of Cosines to solve oblique triangles (AAS, ASA, SSA, SAS, SSS cases); determine area of triangles using trigonometric methods; model and solve real-world problems involving non-right triangles.",
@@ -1765,7 +1862,8 @@
     "section": "Geometry",
     "domain": "Modeling and Applications",
     "related_skills": [
-      ""
+      "Probability and conditional probability",
+      "Ratios, rates, proportional relationships, and units"
     ],
     "unit": "Unit 25: Geometric Probability",
     "description": "Model probabilities using area and length ratios; compute likelihoods with segments, regions, and target areas; solve problems involving random points, chord/sector selections, and simulations/experimental design.",
@@ -1780,7 +1878,12 @@
     "section": "Geometry",
     "domain": "Modeling and Applications",
     "related_skills": [
-      ""
+      "Ratios, rates, proportional relationships, and units",
+      "Percentages",
+      "Two-variable data: Models and scatterplots",
+      "One-variable data: Distributions and measures of center and spread",
+      "Evaluating statistical claims: Observational studies and experiments",
+      "Inference from sample statistics and margin of error"
     ],
     "unit": "Unit 26: Using Geometry in Real-World Contexts",
     "description": "Apply geometric reasoning to design and measurement tasks (e.g., scale drawings, blueprints, packaging, optimization); interpret tolerances and error bounds; justify assumptions and validate models with units and precision.",
@@ -1795,7 +1898,10 @@
     "section": "Geometry",
     "domain": "Modeling and Applications",
     "related_skills": [
-      ""
+      "Linear equations in two variables",
+      "Systems of two linear equations in two variables",
+      "Two-variable data: Models and scatterplots",
+      "Ratios, rates, proportional relationships, and units"
     ],
     "unit": "Unit 27: Coordinate Geometry in Modeling",
     "description": "Use coordinates to model and solve geometric problems: fit and analyze lines/circles, partition segments in a given ratio, optimize distances, and prove properties with vectors/slope/distance/midpoint formulas in context-rich tasks.",
@@ -1810,7 +1916,8 @@
     "section": "Geometry",
     "domain": "Modeling and Applications",
     "related_skills": [
-      ""
+      "Right triangles and trigonometry",
+      "Ratios, rates, proportional relationships, and units"
     ],
     "unit": "Unit 28: Applying Trigonometric Ratios in Problem Solving",
     "description": "Model real-world and design problems using right-triangle trigonometry and inverse trig; resolve elevation/depression, bearing, and indirect measurement scenarios; incorporate error analysis and appropriate precision in solutions.",
@@ -1825,7 +1932,9 @@
     "section": "Geometry",
     "domain": "Advanced Geometry Concepts and Applications",
     "related_skills": [
-      ""
+      "Lines, angles, and triangles",
+      "Linear equations in two variables",
+      "Ratios, rates, proportional relationships, and units"
     ],
     "unit": "Unit 29: Advanced Geometric Constructions and Loci",
     "description": "Use compass-and-straightedge (and dynamic geometry tools) to construct perpendicular/angle bisectors, parallel lines, equilateral triangles, and copies of segments/angles; construct triangle centers (circumcenter, incenter, centroid, orthocenter) and analyze their properties; solve locus problems describing sets of points defined by distance constraints (from a point, a line, or two points/lines) and connect loci to coordinate and algebraic representations.",
@@ -1840,7 +1949,9 @@
     "section": "Geometry",
     "domain": "Advanced Geometry Concepts and Applications",
     "related_skills": [
-      ""
+      "Lines, angles, and triangles",
+      "Circles",
+      "Ratios, rates, proportional relationships, and units"
     ],
     "unit": "Unit 30: Foundations of Non-Euclidean and Spherical Geometry",
     "description": "Compare Euclid’s Parallel Postulate with alternatives; examine models of non-Euclidean geometry qualitatively (Poincaré disk/upper half-plane) and spherical geometry (great circles as geodesics, triangle angle sum > 180°, spherical polygons); explore real-world applications such as navigation and map projections, emphasizing similarities/differences from Euclidean results.",
@@ -1855,7 +1966,9 @@
     "section": "Geometry",
     "domain": "Advanced Geometry Concepts and Applications",
     "related_skills": [
-      ""
+      "Area and volume",
+      "Lines, angles, and triangles",
+      "Ratios, rates, proportional relationships, and units"
     ],
     "unit": "Unit 31: Solid Geometry, Cross-Sections, and Spatial Visualization",
     "description": "Analyze 3D figures (prisms, pyramids, cylinders, cones, spheres) using nets, surface development, and Euler’s formula (V − E + F = 2) for polyhedra; determine and sketch cross-sections of solids and identify resulting 2D figures; relate solids of revolution (qualitatively) and use coordinate/vector methods to compute distances and interpret spatial relationships in modeling tasks.",
