@@ -711,10 +711,12 @@
     "progress": 0
   },
   {
-    "id": "0199897e6530-f4fc411b956d7432f0bfcf0f",
+    "id": "0199897e6530-2f88df1c-9a42",
     "section": "Algebra",
     "domain": "Linear Functions and Equations",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 1: Parent Functions and Transformations",
     "description": "Learn how parent functions are transformed through shifts, reflections, stretches, and compressions to create new graphs.",
     "duration": 45,
@@ -724,10 +726,12 @@
     "progress": 0
   },
   {
-    "id": "0199897e6530-f4fc411b956d7432f0bfcf0f",
+    "id": "0199897e6530-eab39f00-23af",
     "section": "Algebra",
     "domain": "Linear Functions and Equations",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 2: Transformations of Linear and Absolute Value Functions",
     "description": "Transform linear and absolute value functions using shifts, reflections, and stretches to sketch accurate graphs.",
     "duration": 45,
@@ -737,10 +741,12 @@
     "progress": 0
   },
   {
-    "id": "0199897e6530-f4fc411b956d7432f0bfcf0f",
+    "id": "0199897e6530-5bf807ac-87db",
     "section": "Algebra",
     "domain": "Linear Functions and Equations",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 3: Modeling with Linear Functions",
     "description": "Model real-world situations using linear functions by interpreting and applying slope and intercepts.",
     "duration": 45,
@@ -753,7 +759,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u4",
     "section": "Algebra",
     "domain": "Linear Functions and Equations",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 4: Understanding Functions and Function Notation",
     "description": "Interpret functions and use function notation to describe and evaluate relationships.",
     "duration": 45,
@@ -766,7 +774,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u5",
     "section": "Algebra",
     "domain": "Linear Functions and Equations",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 5: Graphing Linear Equations (Standard and Slope-Intercept Forms)",
     "description": "Graph linear equations from standard and slope-intercept forms and interpret slope and intercepts.",
     "duration": 45,
@@ -779,7 +789,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u6",
     "section": "Algebra",
     "domain": "Linear Functions and Equations",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 6: Solving Linear Equations (Single and Multi-Step)",
     "description": "Solve single- and multi-step linear equations and justify each step using inverse operations.",
     "duration": 45,
@@ -792,7 +804,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u7",
     "section": "Algebra",
     "domain": "Linear Functions and Equations",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 7: Solving Linear Systems (By Graphing, Substitution, Elimination)",
     "description": "Solve systems of linear equations using graphing, substitution, and elimination and interpret solutions.",
     "duration": 45,
@@ -805,7 +819,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u8",
     "section": "Algebra",
     "domain": "Linear Functions and Equations",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 8: Writing Equations of Lines (Point-Slope, Slope-Intercept, Standard Form)",
     "description": "Write linear equations from graphs, points, and slopes in point-slope, slope-intercept, and standard forms.",
     "duration": 45,
@@ -818,7 +834,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u9",
     "section": "Algebra",
     "domain": "Linear Functions and Equations",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 9: Linear Inequalities and Systems of Inequalities",
     "description": "Graph and solve linear inequalities and systems of inequalities and interpret feasible regions.",
     "duration": 45,
@@ -831,7 +849,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u10",
     "section": "Algebra",
     "domain": "Quadratic Functions and Equations",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 10: Transformations of Quadratic Functions",
     "description": "Describe and apply translations, reflections, and vertical/horizontal stretches and compressions of y = ax^2 in vertex form y = a(x − h)^2 + k; interpret how a, h, and k affect the graph.",
     "duration": 45,
@@ -844,11 +864,13 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u11",
     "section": "Algebra",
     "domain": "Quadratic Functions and Equations",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 11: Characteristics of Quadratic Functions",
     "description": "Identify vertex, axis of symmetry, direction of opening, intercepts, domain, range, and maximum/minimum; relate features to parameters in standard and vertex forms and analyze average rate of change.",
     "duration": 45,
-    "content": "<div class=\"algebra-lesson\">\n  <h3>Definitions</h3>\n  <ul>\n    <li><strong>Quadratic Function:</strong> A function that can be written in standard form \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n        <mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</mi>\n      </math> with <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&ne;</mo><mn>0</mn></math>.\n    </li>\n    <li><strong>Vertex:</strong> The highest or lowest point of the parabola; in vertex form \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n        <mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><mo>(</mo><mi>x</mi><mo>-</mo><mi>h</mi><mo>)</mo><msup><mo></mo><mn>2</mn></msup><mo>+</mo><mi>k</mi>\n      </math> the vertex is \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mo>(</mo><mi>h</mi><mo>,</mo><mi>k</mi><mo>)</mo></math>.\n    </li>\n    <li><strong>Axis of Symmetry:</strong> Vertical line through the vertex that splits the parabola into mirror images; in standard form it is \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n        <mi>x</mi><mo>=</mo><mfrac><mrow><mo>-</mo><mi>b</mi></mrow><mrow><mn>2</mn><mi>a</mi></mrow></mfrac>\n      </math>.\n    </li>\n    <li><strong>Opening/Direction:</strong> If \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&gt;</mo><mn>0</mn></math> the parabola opens up (minimum); if \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&lt;</mo><mn>0</mn></math> it opens down (maximum).\n    </li>\n    <li><strong>Intercepts:</strong> y-intercept at \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>0</mn><mo>,</mo><mi>c</mi><mo>)</mo></math>; x-intercepts (zeros) are solutions to \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>0</mn></math>.\n    </li>\n    <li><strong>Discriminant:</strong> \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi>D</mi><mo>=</mo><msup><mi>b</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mi>a</mi><mi>c</mi></math> indicates number of real zeros.\n    </li>\n  </ul>\n\n  <h3>Key Concepts</h3>\n  <ul>\n    <li>From standard form, the axis is \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mrow><mo>-</mo><mi>b</mi></mrow><mrow><mn>2</mn><mi>a</mi></mrow></mfrac></math>; plug this x-value into \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></math> to get the vertex.</li>\n    <li>Vertex form \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><mo>(</mo><mi>x</mi><mo>-</mo><mi>h</mi><mo>)</mo><msup><mo></mo><mn>2</mn></msup><mo>+</mo><mi>k</mi></math> reveals vertex and direction immediately; the axis is \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mi>h</mi></math>.</li>\n    <li>If \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>&gt;</mo><mn>0</mn></math>: two real zeros; \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>=</mo><mn>0</mn></math>: one real zero (tangent); \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>&lt;</mo><mn>0</mn></math>: no real zeros.</li>\n    <li>Vertical stretch/compression: larger <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>a</mi><mo>|</mo></math> makes the parabola narrower; smaller makes it wider.</li>\n  </ul>\n\n  <h3>Step-by-Step Procedures</h3>\n  <ol>\n    <li><strong>From standard form</strong> \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</mi></math>:\n      <ol>\n        <li>Axis: \n          <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mrow><mo>-</mo><mi>b</mi></mrow><mrow><mn>2</mn><mi>a</mi></mrow></mfrac></math>.</li>\n        <li>Vertex: evaluate \n          <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi></math> at the axis.</li>\n        <li>Opening: sign of \n          <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>; y-intercept: \n          <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>.</li>\n        <li>Zeros: factor, complete the square, or quadratic formula using \n          <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>.</li>\n      </ol>\n    </li>\n    <li><strong>From vertex form</strong> \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><mo>(</mo><mi>x</mi><mo>-</mo><mi>h</mi><mo>)</mo><msup><mo></mo><mn>2</mn></msup><mo>+</mo><mi>k</mi></math>:\n      <ol>\n        <li>Vertex: \n          <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>h</mi><mo>,</mo><mi>k</mi><mo>)</mo></math>; axis: \n          <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mi>h</mi></math>.</li>\n        <li>Opening and width from \n          <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>; y-intercept by evaluating at \n          <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>0</mn></math>.</li>\n      </ol>\n    </li>\n  </ol>\n\n  <h3>Example 1 — Standard form</h3>\n  <p><strong>Given</strong> \n    <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n      <mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>3</mn>\n    </math>\n  </p>\n  <ul>\n    <li>Axis: \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mn>4</mn><mrow><mn>2</mn><mo>&#x2062;</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mn>2</mn></math>.</li>\n    <li>Vertex: \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2</mn><mo>,</mo><mi>f</mi><mo>(</mo><mn>2</mn><mo>)</mo><mo>)</mo></math> with \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>(</mo><mn>2</mn><mo>)</mo><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>-</mo><mn>8</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>-1</mn></math>; vertex \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2</mn><mo>,</mo><mo>-</mo><mn>1</mn><mo>)</mo></math>.</li>\n    <li>Opening: up (\n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>1</mn><mo>&gt;</mo><mn>0</mn></math>). y-intercept: \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>3</mn></math>.</li>\n    <li>Zeros (factor): \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>x</mi><mo>-</mo><mn>1</mn><mo>)(</mo><mi>x</mi><mo>-</mo><mn>3</mn><mo>)</mo><mo>=</mo><mn>0</mn></math> ⟶ \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>1</mn></math>, \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>3</mn></math>.\n    </li>\n  </ul>\n\n  <h3>Example 2 — Vertex form</h3>\n  <p><strong>Given</strong> \n    <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n      <mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mo>-</mo><mn>2</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo><msup><mo></mo><mn>2</mn></msup><mo>+</mo><mn>5</mn>\n    </math>\n  </p>\n  <ul>\n    <li>Vertex: \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>-</mo><mn>1</mn><mo>,</mo><mn>5</mn><mo>)</mo></math>; axis: \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mo>-</mo><mn>1</mn></math>.</li>\n    <li>Opening: down (\n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mo>-</mo><mn>2</mn></math>), so vertex is a <em>maximum</em> of \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math>.</li>\n    <li>y-intercept: evaluate at \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>0</mn></math>: \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi><mo>(</mo><mn>0</mn><mo>)</mo><mo>=</mo><mo>-</mo><mn>2</mn><msup><mrow><mo>(</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mn>5</mn><mo>=</mo><mn>3</mn></math>.</li>\n  </ul>\n\n  <h3>Example 3 — Discriminant and zeros</h3>\n  <p><strong>Given</strong> \n    <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n      <mi>h</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>5</mn>\n    </math>\n  </p>\n  <ul>\n    <li>Discriminant: \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>=</mo><msup><mn>3</mn><mn>2</mn></msup><mo>-</mo><mn>4</mn><mo>&#x2062;</mo><mn>2</mn><mo>&#x2062;</mo><mn>5</mn><mo>=</mo><mn>9</mn><mo>-</mo><mn>40</mn><mo>=</mo><mo>-</mo><mn>31</mn></math> \u2192 no real zeros.</li>\n    <li>Parabola lies entirely above the x-axis if the vertex y-value is positive and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&gt;</mo><mn>0</mn></math>; compute vertex if needed to justify.</li>\n  </ul>\n\n  <h3>Quick Tips &amp; Common Pitfalls</h3>\n  <ul>\n    <li>Use the axis formula first from standard form; it prevents algebra slips when completing the square.</li>\n    <li>Remember: sign of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> decides min vs. max.</li>\n    <li>Check intercepts carefully; not all quadratics cross the x-axis.</li>\n    <li>When converting to vertex form, complete the square accurately and keep the balance inside/outside the parentheses.</li>\n  </ul>\n</div>\n",
+    "content": "<div class=\"algebra-lesson\">\n  <h3>Definitions</h3>\n  <ul>\n    <li><strong>Quadratic Function:</strong> A function that can be written in standard form \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n        <mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</mi>\n      </math> with <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&ne;</mo><mn>0</mn></math>.\n    </li>\n    <li><strong>Vertex:</strong> The highest or lowest point of the parabola; in vertex form \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n        <mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><mo>(</mo><mi>x</mi><mo>-</mo><mi>h</mi><mo>)</mo><msup><mo></mo><mn>2</mn></msup><mo>+</mo><mi>k</mi>\n      </math> the vertex is \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mo>(</mo><mi>h</mi><mo>,</mo><mi>k</mi><mo>)</mo></math>.\n    </li>\n    <li><strong>Axis of Symmetry:</strong> Vertical line through the vertex that splits the parabola into mirror images; in standard form it is \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n        <mi>x</mi><mo>=</mo><mfrac><mrow><mo>-</mo><mi>b</mi></mrow><mrow><mn>2</mn><mi>a</mi></mrow></mfrac>\n      </math>.\n    </li>\n    <li><strong>Opening/Direction:</strong> If \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&gt;</mo><mn>0</mn></math> the parabola opens up (minimum); if \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&lt;</mo><mn>0</mn></math> it opens down (maximum).\n    </li>\n    <li><strong>Intercepts:</strong> y-intercept at \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>0</mn><mo>,</mo><mi>c</mi><mo>)</mo></math>; x-intercepts (zeros) are solutions to \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>0</mn></math>.\n    </li>\n    <li><strong>Discriminant:</strong> \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mi>D</mi><mo>=</mo><msup><mi>b</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mi>a</mi><mi>c</mi></math> indicates number of real zeros.\n    </li>\n  </ul>\n\n  <h3>Key Concepts</h3>\n  <ul>\n    <li>From standard form, the axis is \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mrow><mo>-</mo><mi>b</mi></mrow><mrow><mn>2</mn><mi>a</mi></mrow></mfrac></math>; plug this x-value into \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></math> to get the vertex.</li>\n    <li>Vertex form \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><mo>(</mo><mi>x</mi><mo>-</mo><mi>h</mi><mo>)</mo><msup><mo></mo><mn>2</mn></msup><mo>+</mo><mi>k</mi></math> reveals vertex and direction immediately; the axis is \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mi>h</mi></math>.</li>\n    <li>If \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>&gt;</mo><mn>0</mn></math>: two real zeros; \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>=</mo><mn>0</mn></math>: one real zero (tangent); \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>&lt;</mo><mn>0</mn></math>: no real zeros.</li>\n    <li>Vertical stretch/compression: larger <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>a</mi><mo>|</mo></math> makes the parabola narrower; smaller makes it wider.</li>\n  </ul>\n\n  <h3>Step-by-Step Procedures</h3>\n  <ol>\n    <li><strong>From standard form</strong> \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</mi></math>:\n      <ol>\n        <li>Axis: \n          <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mrow><mo>-</mo><mi>b</mi></mrow><mrow><mn>2</mn><mi>a</mi></mrow></mfrac></math>.</li>\n        <li>Vertex: evaluate \n          <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi></math> at the axis.</li>\n        <li>Opening: sign of \n          <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>; y-intercept: \n          <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>.</li>\n        <li>Zeros: factor, complete the square, or quadratic formula using \n          <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>.</li>\n      </ol>\n    </li>\n    <li><strong>From vertex form</strong> \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><mo>(</mo><mi>x</mi><mo>-</mo><mi>h</mi><mo>)</mo><msup><mo></mo><mn>2</mn></msup><mo>+</mo><mi>k</mi></math>:\n      <ol>\n        <li>Vertex: \n          <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>h</mi><mo>,</mo><mi>k</mi><mo>)</mo></math>; axis: \n          <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mi>h</mi></math>.</li>\n        <li>Opening and width from \n          <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>; y-intercept by evaluating at \n          <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>0</mn></math>.</li>\n      </ol>\n    </li>\n  </ol>\n\n  <h3>Example 1 — Standard form</h3>\n  <p><strong>Given</strong> \n    <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n      <mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>3</mn>\n    </math>\n  </p>\n  <ul>\n    <li>Axis: \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mn>4</mn><mrow><mn>2</mn><mo>&#x2062;</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mn>2</mn></math>.</li>\n    <li>Vertex: \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2</mn><mo>,</mo><mi>f</mi><mo>(</mo><mn>2</mn><mo>)</mo><mo>)</mo></math> with \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>(</mo><mn>2</mn><mo>)</mo><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>-</mo><mn>8</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>-1</mn></math>; vertex \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2</mn><mo>,</mo><mo>-</mo><mn>1</mn><mo>)</mo></math>.</li>\n    <li>Opening: up (\n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>1</mn><mo>&gt;</mo><mn>0</mn></math>). y-intercept: \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>3</mn></math>.</li>\n    <li>Zeros (factor): \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>x</mi><mo>-</mo><mn>1</mn><mo>)(</mo><mi>x</mi><mo>-</mo><mn>3</mn><mo>)</mo><mo>=</mo><mn>0</mn></math> ⟶ \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>1</mn></math>, \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>3</mn></math>.\n    </li>\n  </ul>\n\n  <h3>Example 2 — Vertex form</h3>\n  <p><strong>Given</strong> \n    <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n      <mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mo>-</mo><mn>2</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo><msup><mo></mo><mn>2</mn></msup><mo>+</mo><mn>5</mn>\n    </math>\n  </p>\n  <ul>\n    <li>Vertex: \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>-</mo><mn>1</mn><mo>,</mo><mn>5</mn><mo>)</mo></math>; axis: \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mo>-</mo><mn>1</mn></math>.</li>\n    <li>Opening: down (\n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mo>-</mo><mn>2</mn></math>), so vertex is a <em>maximum</em> of \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math>.</li>\n    <li>y-intercept: evaluate at \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>0</mn></math>: \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi><mo>(</mo><mn>0</mn><mo>)</mo><mo>=</mo><mo>-</mo><mn>2</mn><msup><mrow><mo>(</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mn>5</mn><mo>=</mo><mn>3</mn></math>.</li>\n  </ul>\n\n  <h3>Example 3 — Discriminant and zeros</h3>\n  <p><strong>Given</strong> \n    <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n      <mi>h</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>5</mn>\n    </math>\n  </p>\n  <ul>\n    <li>Discriminant: \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>=</mo><msup><mn>3</mn><mn>2</mn></msup><mo>-</mo><mn>4</mn><mo>&#x2062;</mo><mn>2</mn><mo>&#x2062;</mo><mn>5</mn><mo>=</mo><mn>9</mn><mo>-</mo><mn>40</mn><mo>=</mo><mo>-</mo><mn>31</mn></math> → no real zeros.</li>\n    <li>Parabola lies entirely above the x-axis if the vertex y-value is positive and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&gt;</mo><mn>0</mn></math>; compute vertex if needed to justify.</li>\n  </ul>\n\n  <h3>Quick Tips &amp; Common Pitfalls</h3>\n  <ul>\n    <li>Use the axis formula first from standard form; it prevents algebra slips when completing the square.</li>\n    <li>Remember: sign of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> decides min vs. max.</li>\n    <li>Check intercepts carefully; not all quadratics cross the x-axis.</li>\n    <li>When converting to vertex form, complete the square accurately and keep the balance inside/outside the parentheses.</li>\n  </ul>\n</div>\n",
     "completed": false,
     "locked": false,
     "progress": 0
@@ -857,7 +879,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u12",
     "section": "Algebra",
     "domain": "Quadratic Functions and Equations",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 12: Graphing Quadratic Functions (Standard, Vertex, and Intercept Forms)",
     "description": "Graph quadratics given in standard ax^2 + bx + c, vertex a(x − h)^2 + k, and intercept a(x − p)(x − q) forms; convert between forms and use key features to sketch accurate graphs.",
     "duration": 45,
@@ -870,7 +894,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u13",
     "section": "Algebra",
     "domain": "Quadratic Functions and Equations",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 13: Focus and Directrix of a Parabola",
     "description": "Define a parabola using focus and directrix; derive and use (x − h)^2 = 4p(y − k) and (y − k)^2 = 4p(x − h); find focus, directrix, and parameter p; graph parabolas from geometric data.",
     "duration": 45,
@@ -883,7 +909,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u14",
     "section": "Algebra",
     "domain": "Quadratic Functions and Equations",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 14: Modeling with Quadratic Equations",
     "description": "Model real-world situations using quadratic functions (e.g., projectile motion, area optimization); interpret coefficients and vertex; select appropriate form and use technology for regression when needed.",
     "duration": 45,
@@ -896,7 +924,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u15",
     "section": "Algebra",
     "domain": "Quadratic Functions and Equations",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 15: Solving Quadratic Equations (By Graphing, Factoring, Completing the Square, Quadratic Formula)",
     "description": "Solve quadratic equations using graphing, factoring, completing the square, and the quadratic formula; justify steps, choose efficient methods, and verify solutions (including complex solutions).",
     "duration": 45,
@@ -909,7 +939,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u16",
     "section": "Algebra",
     "domain": "Quadratic Functions and Equations",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 16: Discriminant and Nature of Roots",
     "description": "Use the discriminant b^2 − 4ac to determine the number and type of roots (two real, one real double, or two complex); connect to x-intercepts and the positioning of the parabola relative to the x-axis.",
     "duration": 45,
@@ -922,7 +954,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u17",
     "section": "Algebra",
     "domain": "Quadratic Functions and Equations",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 17: Complex Numbers",
     "description": "Extend the number system to include i; add, subtract, multiply, and divide complex numbers; use conjugates; represent complex numbers on the complex plane; solve quadratics with complex roots.",
     "duration": 45,
@@ -935,7 +969,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u18",
     "section": "Algebra",
     "domain": "Quadratic Functions and Equations",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 18: Quadratic Inequalities",
     "description": "Solve and graph quadratic inequalities in one variable using sign charts/interval testing and graph analysis; express solutions in interval notation and connect to features of the related quadratic function.",
     "duration": 45,
@@ -948,7 +984,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u19",
     "section": "Algebra",
     "domain": "Polynomial Functions and Operations",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 19: Introduction to Polynomials and Polynomial Vocabulary",
     "description": "Define polynomials and classify them by degree and number of terms; identify coefficients, leading term, and constant term; recognize standard form and determine end behavior qualitatively.",
     "duration": 45,
@@ -961,7 +999,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u20",
     "section": "Algebra",
     "domain": "Polynomial Functions and Operations",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 20: Adding, Subtracting, and Multiplying Polynomials",
     "description": "Perform addition, subtraction, and multiplication of polynomials; apply the distributive and associative properties; simplify expressions and interpret polynomial structure in context.",
     "duration": 45,
@@ -974,7 +1014,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u21",
     "section": "Algebra",
     "domain": "Polynomial Functions and Operations",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 21: Special Products of Polynomials",
     "description": "Recognize and apply patterns for perfect square trinomials, difference and sum of cubes, and difference of squares; use these patterns to expand and factor efficiently.",
     "duration": 45,
@@ -987,7 +1029,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u22",
     "section": "Algebra",
     "domain": "Polynomial Functions and Operations",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 22: Factoring Techniques (GCF, Quadratic, Grouping, Special Cases)",
     "description": "Factor polynomials completely using greatest common factor, grouping, trinomial patterns, difference of squares, and sum/difference of cubes; verify factorizations by multiplication.",
     "duration": 45,
@@ -1000,7 +1044,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u23",
     "section": "Algebra",
     "domain": "Polynomial Functions and Operations",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 23: Dividing Polynomials (Including Long Division)",
     "description": "Divide polynomials by monomials and binomials using long division and synthetic division; interpret quotient and remainder; connect division to the factor and remainder theorems.",
     "duration": 45,
@@ -1013,7 +1059,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u24",
     "section": "Algebra",
     "domain": "Polynomial Functions and Operations",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 24: Solving Polynomial Equations",
     "description": "Find real and complex zeros of polynomial equations using factoring, synthetic division, and technology; verify solutions; relate zeros to factors and to x-intercepts of the graph.",
     "duration": 45,
@@ -1026,7 +1074,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u25",
     "section": "Algebra",
     "domain": "Polynomial Functions and Operations",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 25: Graphing Polynomial Functions and Analyzing Their Graphs",
     "description": "Graph polynomial functions using zeros, multiplicity, end behavior, and turning points; identify intervals of increase/decrease; sketch graphs by analyzing leading term and degree.",
     "duration": 45,
@@ -1039,7 +1089,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u26",
     "section": "Algebra",
     "domain": "Polynomial Functions and Operations",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 26: The Fundamental Theorem of Algebra",
     "description": "State and apply the Fundamental Theorem of Algebra; use it to determine the total number of complex roots; explore connections between degree and the number of solutions (real and complex).",
     "duration": 45,
@@ -1052,7 +1104,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u27",
     "section": "Algebra",
     "domain": "Polynomial Functions and Operations",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 27: Modeling with Polynomial Functions",
     "description": "Model real-world and mathematical scenarios with polynomial functions; determine appropriate degrees, fit curves to data, interpret coefficients and roots, and make predictions using technology.",
     "duration": 45,
@@ -1065,7 +1119,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u28",
     "section": "Algebra",
     "domain": "Rational and Radical Functions",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 28: Properties of Exponents and Operations",
     "description": "Apply laws of exponents (product, quotient, power to a power, power of a product/quotient) including zero and negative exponents to simplify expressions and check equivalence.",
     "duration": 45,
@@ -1078,7 +1134,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u29",
     "section": "Algebra",
     "domain": "Rational and Radical Functions",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 29: Rational Exponents and nth Roots",
     "description": "Convert between radical form and rational exponents; evaluate and simplify expressions with fractional exponents; determine domain restrictions arising from even/odd indices and real-number constraints.",
     "duration": 45,
@@ -1091,7 +1149,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u30",
     "section": "Algebra",
     "domain": "Rational and Radical Functions",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 30: Properties and Simplification of Radicals",
     "description": "Use radical properties (product/quotient rules) to simplify radicals; add, subtract, multiply, and divide radical expressions; rationalize denominators and state restrictions on variables.",
     "duration": 45,
@@ -1104,7 +1164,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u31",
     "section": "Algebra",
     "domain": "Rational and Radical Functions",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 31: Graphing Radical Functions",
     "description": "Graph and transform square-root and cube-root functions y = a√(bx + c) + d and y = a∛(bx + c) + d; identify domain, range, intercepts, and key features; connect equations to graphs and contexts.",
     "duration": 45,
@@ -1117,7 +1179,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u32",
     "section": "Algebra",
     "domain": "Rational and Radical Functions",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 32: Rational Algebraic Expressions (Simplifying, Operations)",
     "description": "Simplify rational expressions by factoring and canceling common factors; determine excluded values; perform multiplication, division, addition, and subtraction (including complex rational expressions).",
     "duration": 45,
@@ -1130,7 +1194,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u33",
     "section": "Algebra",
     "domain": "Rational and Radical Functions",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 33: Graphing Rational Functions",
     "description": "Analyze and graph rational functions: identify vertical/horizontal/oblique asymptotes, holes, intercepts, and end behavior; use transformations and factor analysis to sketch accurate graphs.",
     "duration": 45,
@@ -1143,7 +1209,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u34",
     "section": "Algebra",
     "domain": "Rational and Radical Functions",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 34: Solving Rational and Radical Equations and Inequalities",
     "description": "Solve equations and inequalities involving rational and radical expressions; identify and exclude extraneous solutions; express solutions in interval notation and justify using sign/interval testing or graphing.",
     "duration": 45,
@@ -1156,7 +1224,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u35",
     "section": "Algebra",
     "domain": "Rational and Radical Functions",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 35: Inverse Functions",
     "description": "Determine and verify inverses algebraically and graphically (including restrictions to achieve one-to-one); use composition to check inverses; relate inverses of radical and simple rational functions via reflection across y = x.",
     "duration": 45,
@@ -1169,7 +1239,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u36",
     "section": "Algebra",
     "domain": "Exponential and Logarithmic Functions",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 36: Exponential Functions (Growth, Decay, Natural Base)",
     "description": "Explore exponential growth and decay models in the form y = a·b^x and y = a·e^(kx); identify key features such as initial value, rate of change, and asymptotes; interpret parameters in real-world contexts.",
     "duration": 45,
@@ -1182,7 +1254,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u37",
     "section": "Algebra",
     "domain": "Exponential and Logarithmic Functions",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 37: Properties of Exponents",
     "description": "Apply and extend exponent rules (product, quotient, power, zero, negative, and fractional exponents) to simplify expressions and model relationships involving exponential patterns.",
     "duration": 45,
@@ -1195,7 +1269,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u38",
     "section": "Algebra",
     "domain": "Exponential and Logarithmic Functions",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 38: Logarithms and Logarithmic Functions",
     "description": "Define logarithms as inverses of exponential functions; evaluate and interpret log expressions; graph logarithmic functions; identify domain, range, intercepts, and asymptotes; connect to real-world applications.",
     "duration": 45,
@@ -1208,7 +1284,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u39",
     "section": "Algebra",
     "domain": "Exponential and Logarithmic Functions",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 39: Transformations of Exponential and Logarithmic Functions",
     "description": "Analyze and apply transformations to exponential and logarithmic graphs, including translations, reflections, stretches, and compressions; describe effects of parameters a, b, h, and k in function form.",
     "duration": 45,
@@ -1221,7 +1299,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u40",
     "section": "Algebra",
     "domain": "Exponential and Logarithmic Functions",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 40: Properties of Logarithms",
     "description": "Use logarithmic properties (product, quotient, and power rules) to expand and condense expressions; apply change-of-base formula to evaluate logs and solve problems involving different bases.",
     "duration": 45,
@@ -1234,7 +1314,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u41",
     "section": "Algebra",
     "domain": "Exponential and Logarithmic Functions",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 41: Solving Exponential and Logarithmic Equations",
     "description": "Solve exponential and logarithmic equations using inverse relationships, properties of logs, and appropriate algebraic techniques; check for extraneous solutions and interpret results in context.",
     "duration": 45,
@@ -1247,7 +1329,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u42",
     "section": "Algebra",
     "domain": "Exponential and Logarithmic Functions",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 42: Modeling with Exponential and Logarithmic Functions",
     "description": "Apply exponential and logarithmic functions to model growth, decay, and real-world phenomena such as population, finance, and sound intensity; interpret parameters and compare model types.",
     "duration": 45,
@@ -1260,11 +1344,13 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u43",
     "section": "Algebra",
     "domain": "Sequences and Series",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 43: Arithmetic Sequences and Series",
     "description": "Define arithmetic sequences; find nth terms using explicit and recursive formulas; determine common difference; compute partial sums using Sₙ = n/2[2a₁ + (n−1)d]; apply sigma notation in context.",
     "duration": 45,
-      "content": "<div class=\"algebra-lesson\">\n  <h3>Definitions</h3>\n  <ul>\n    <li><strong>Arithmetic Sequence:</strong> A sequence where consecutive terms differ by a constant <em>common difference</em> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math>.</li>\n    <li><strong>First Term:</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub></math>; the <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>th term is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub></math>.</li>\n    <li><strong>Arithmetic Series:</strong> The sum of the first <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> terms of an arithmetic sequence, denoted <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mi>n</mi></msub></math>.</li>\n  </ul>\n\n  <h3>Key Formulas</h3>\n  <ul>\n    <li><strong>Explicit (nth term):</strong>\n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n        <msub><mi>a</mi><mi>n</mi></msub>\n        <mo>=</mo>\n        <msub><mi>a</mi><mn>1</mn></msub>\n        <mo>+</mo>\n        <mrow><mo>(</mo><mi>n</mi><mo>-</mo><mn>1</mn><mo>)</mo></mrow>\n        <mi>d</mi>\n      </math>\n    </li>\n    <li><strong>Recursive:</strong>\n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n        <msub><mi>a</mi><mn>1</mn></msub><mo>=</mo><msub><mi>a</mi><mn>1</mn></msub>\n        <mo>,</mo>\n        <mspace width=\"0.5em\"/>\n        <msub><mi>a</mi><mi>n</mi></msub>\n        <mo>=</mo>\n        <msub><mi>a</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msub>\n        <mo>+</mo>\n        <mi>d</mi>\n        <mspace width=\"0.25em\"/>\n        <mo>(</mo><mi>n</mi><mo>&ge;</mo><mn>2</mn><mo>)</mo>\n      </math>\n    </li>\n    <li><strong>Between two terms:</strong>\n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n        <msub><mi>a</mi><mi>n</mi></msub>\n        <mo>=</mo>\n        <msub><mi>a</mi><mi>m</mi></msub>\n        <mo>+</mo>\n        <mrow><mo>(</mo><mi>n</mi><mo>-</mo><mi>m</mi><mo>)</mo></mrow>\n        <mi>d</mi>\n      </math>\n    </li>\n    <li><strong>Arithmetic Mean (one step):</strong>\n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n        <mi>M</mi>\n        <mo>=</mo>\n        <mfrac><mrow><msub><mi>a</mi><mi>k</mi></msub><mo>+</mo><msub><mi>a</mi><mrow><mi>k</mi><mo>+</mo><mn>2</mn></mrow></msub></mrow><mn>2</mn></mfrac>\n      </math>\n    </li>\n    <li><strong>Sum of first n terms (two forms):</strong>\n      <ul>\n        <li>\n          <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n            <msub><mi>S</mi><mi>n</mi></msub>\n            <mo>=</mo>\n            <mfrac><mrow><mi>n</mi></mrow><mn>2</mn></mfrac>\n            <mrow><mo>(</mo><mn>2</mn><msub><mi>a</mi><mn>1</mn></msub><mo>+</mo><mrow><mo>(</mo><mi>n</mi><mo>-</mo><mn>1</mn><mo>)</mo></mrow><mi>d</mi><mo>)</mo></mrow>\n          </math>\n        </li>\n        <li>\n          <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n            <msub><mi>S</mi><mi>n</mi></msub>\n            <mo>=</mo>\n            <mfrac><mrow><mi>n</mi></mrow><mn>2</mn></mfrac>\n            <mrow><mo>(</mo><msub><mi>a</mi><mn>1</mn></msub><mo>+</mo><msub><mi>a</mi><mi>n</mi></msub><mo>)</mo></mrow>\n          </math>\n        </li>\n      </ul>\n    </li>\n    <li><strong>Sigma notation:</strong>\n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n        <msub><mi>S</mi><mi>n</mi></msub>\n        <mo>=</mo>\n        <munder><mo>&#x2211;</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow></munder>\n        <msup><mi>n</mi><mrow></mrow></msup>\n        <msub><mi>a</mi><mi>k</mi></msub>\n      </math>\n    </li>\n  </ul>\n\n  <h3>Step-by-Step Procedures</h3>\n  <ol>\n    <li><strong>Find the nth term given</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math>:\n      <ol>\n        <li>Use <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><msub><mi>a</mi><mn>1</mn></msub><mo>+</mo><mrow><mo>(</mo><mi>n</mi><mo>-</mo><mn>1</mn><mo>)</mo></mrow><mi>d</mi></math>.</li>\n      </ol>\n    </li>\n    <li><strong>Find d</strong> from two terms <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>m</mi></msub></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>&gt;</mo><mi>m</mi></math>):\n      <ol>\n        <li>\n          <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n            <mi>d</mi><mo>=</mo>\n            <mfrac>\n              <mrow><msub><mi>a</mi><mi>n</mi></msub><mo>-</mo><msub><mi>a</mi><mi>m</mi></msub></mrow>\n              <mrow><mi>n</mi><mo>-</mo><mi>m</mi></mrow>\n            </mfrac>\n          </math>\n        </li>\n      </ol>\n    </li>\n    <li><strong>Sum of first n terms:</strong>\n      <ol>\n        <li>Find <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub></math> (if needed).</li>\n        <li>Use either sum formula for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mi>n</mi></msub></math>.</li>\n      </ol>\n    </li>\n  </ol>\n\n  <h3>Examples</h3>\n  <h4>Example 1 — nth Term</h4>\n  <p>Given <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub><mo>=</mo><mn>7</mn></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mo>-</mo><mn>3</mn></math>, find <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>15</mn></msub></math>.</p>\n  <p>\n    <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n      <msub><mi>a</mi><mn>15</mn></msub>\n      <mo>=</mo>\n      <mn>7</mn><mo>+</mo>\n      <mrow><mo>(</mo><mn>15</mn><mo>-</mo><mn>1</mn><mo>)</mo></mrow>\n      <mo>(</mo><mo>-</mo><mn>3</mn><mo>)</mo>\n      <mo>=</mo>\n      <mn>7</mn><mo>+</mo><mn>14</mn><mo>(</mo><mo>-</mo><mn>3</mn><mo>)</mo>\n      <mo>=</mo>\n      <mn>7</mn><mo>-</mo><mn>42</mn><mo>=</mo><mo>-</mo><mn>35</mn>\n    </math>\n  </p>\n\n  <h4>Example 2 — Find d from Two Terms</h4>\n  <p>Suppose <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>4</mn></msub><mo>=</mo><mn>10</mn></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>11</mn></msub><mo>=</mo><mn>31</mn></math>. Find <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub></math>.</p>\n  <ul>\n    <li>\n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n        <mi>d</mi><mo>=</mo>\n        <mfrac><mrow><mn>31</mn><mo>-</mo><mn>10</mn></mrow><mrow><mn>11</mn><mo>-</mo><mn>4</mn></mrow></mfrac>\n        <mo>=</mo>\n        <mfrac><mn>21</mn><mn>7</mn></mfrac>\n        <mo>=</mo>\n        <mn>3</mn>\n      </math>\n    </li>\n    <li>\n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n        <msub><mi>a</mi><mn>4</mn></msub>\n        <mo>=</mo>\n        <msub><mi>a</mi><mn>1</mn></msub>\n        <mo>+</mo>\n        <mrow><mo>(</mo><mn>4</mn><mo>-</mo><mn>1</mn><mo>)</mo></mrow>\n        <mi>d</mi>\n        <mo>=</mo>\n        <msub><mi>a</mi><mn>1</mn></msub>\n        <mo>+</mo>\n        <mn>3</mn><mo>(</mo><mn>3</mn><mo>)</mo>\n        <mo>=</mo>\n        <msub><mi>a</mi><mn>1</mn></msub><mo>+</mo><mn>9</mn>\n      </math>\n      ⇒ \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub><mo>=</mo><mn>10</mn><mo>-</mo><mn>9</mn><mo>=</mo><mn>1</mn></math>.\n    </li>\n  </ul>\n\n  <h4>Example 3 — Sum of First n Terms</h4>\n  <p>Find <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>20</mn></msub></math> for the sequence with <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub><mo>=</mo><mn>5</mn></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mn>2</mn></math>.</p>\n  <ul>\n    <li>First find <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>20</mn></msub><mo>=</mo><mn>5</mn><mo>+</mo><mrow><mo>(</mo><mn>20</mn><mo>-</mo><mn>1</mn><mo>)</mo></mrow><mo>(</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>43</mn></math>.</li>\n    <li>\n      Then \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n        <msub><mi>S</mi><mn>20</mn></msub>\n        <mo>=</mo>\n        <mfrac><mn>20</mn><mn>2</mn></mfrac>\n        <mrow><mo>(</mo><mn>5</mn><mo>+</mo><mn>43</mn><mo>)</mo></mrow>\n        <mo>=</mo>\n        <mn>10</mn><mo>&#x2062;</mo><mn>48</mn>\n        <mo>=</mo>\n        <mn>480</mn>\n      </math>\n    </li>\n  </ul>\n\n  <h4>Example 4 — Sum with a Given Term</h4>\n  <p>The 12th term is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>12</mn></msub><mo>=</mo><mn>50</mn></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mn>4</mn></math>. Find <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>12</mn></msub></math>.</p>\n  <ul>\n    <li>\n      First term: \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n        <msub><mi>a</mi><mn>1</mn></msub>\n        <mo>=</mo>\n        <msub><mi>a</mi><mn>12</mn></msub>\n        <mo>-</mo>\n        <mrow><mo>(</mo><mn>12</mn><mo>-</mo><mn>1</mn><mo>)</mo></mrow>\n        <mi>d</mi>\n        <mo>=</mo>\n        <mn>50</mn><mo>-</mo><mn>11</mn><mo>&#x2062;</mo><mn>4</mn>\n        <mo>=</mo>\n        <mn>6</mn>\n      </math>\n    </li>\n    <li>\n      Sum: \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n        <msub><mi>S</mi><mn>12</mn></msub>\n        <mo>=</mo>\n        <mfrac><mn>12</mn><mn>2</mn></mfrac>\n        <mrow><mo>(</mo><msub><mi>a</mi><mn>1</mn></msub><mo>+</mo><msub><mi>a</mi><mn>12</mn></msub><mo>)</mo></mrow>\n        <mo>=</mo>\n        <mn>6</mn><mo>&#x2062;</mo><mrow><mo>(</mo><mn>6</mn><mo>+</mo><mn>50</mn><mo>)</mo></mrow>\n        <mo>=</mo>\n        <mn>6</mn><mo>&#x2062;</mo><mn>56</mn>\n        <mo>=</mo>\n        <mn>336</mn>\n      </math>\n    </li>\n  </ul>\n\n  <h3>Quick Tips &amp; Common Pitfalls</h3>\n  <ul>\n    <li>Be careful with indexing: the factor is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>n</mi><mo>-</mo><mn>1</mn><mo>)</mo></mrow></math>, not <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>, in the nth-term formula.</li>\n    <li>Use the two-term formula to avoid computing <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub></math> when it’s not given.</li>\n    <li>For sums, either formula for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mi>n</mi></msub></math> works; pick the one that fits your known values.</li>\n    <li>Check units and context: arithmetic sequences model linear growth/decline by constant increments.</li>\n  </ul>\n</div>",
+    "content": "<div class=\"algebra-lesson\">\n  <h3>Definitions</h3>\n  <ul>\n    <li><strong>Arithmetic Sequence:</strong> A sequence where consecutive terms differ by a constant <em>common difference</em> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math>.</li>\n    <li><strong>First Term:</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub></math>; the <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>th term is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub></math>.</li>\n    <li><strong>Arithmetic Series:</strong> The sum of the first <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> terms of an arithmetic sequence, denoted <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mi>n</mi></msub></math>.</li>\n  </ul>\n\n  <h3>Key Formulas</h3>\n  <ul>\n    <li><strong>Explicit (nth term):</strong>\n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n        <msub><mi>a</mi><mi>n</mi></msub>\n        <mo>=</mo>\n        <msub><mi>a</mi><mn>1</mn></msub>\n        <mo>+</mo>\n        <mrow><mo>(</mo><mi>n</mi><mo>-</mo><mn>1</mn><mo>)</mo></mrow>\n        <mi>d</mi>\n      </math>\n    </li>\n    <li><strong>Recursive:</strong>\n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n        <msub><mi>a</mi><mn>1</mn></msub><mo>=</mo><msub><mi>a</mi><mn>1</mn></msub>\n        <mo>,</mo>\n        <mspace width=\"0.5em\"/>\n        <msub><mi>a</mi><mi>n</mi></msub>\n        <mo>=</mo>\n        <msub><mi>a</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msub>\n        <mo>+</mo>\n        <mi>d</mi>\n        <mspace width=\"0.25em\"/>\n        <mo>(</mo><mi>n</mi><mo>&ge;</mo><mn>2</mn><mo>)</mo>\n      </math>\n    </li>\n    <li><strong>Between two terms:</strong>\n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n        <msub><mi>a</mi><mi>n</mi></msub>\n        <mo>=</mo>\n        <msub><mi>a</mi><mi>m</mi></msub>\n        <mo>+</mo>\n        <mrow><mo>(</mo><mi>n</mi><mo>-</mo><mi>m</mi><mo>)</mo></mrow>\n        <mi>d</mi>\n      </math>\n    </li>\n    <li><strong>Arithmetic Mean (one step):</strong>\n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n        <mi>M</mi>\n        <mo>=</mo>\n        <mfrac><mrow><msub><mi>a</mi><mi>k</mi></msub><mo>+</mo><msub><mi>a</mi><mrow><mi>k</mi><mo>+</mo><mn>2</mn></mrow></msub></mrow><mn>2</mn></mfrac>\n      </math>\n    </li>\n    <li><strong>Sum of first n terms (two forms):</strong>\n      <ul>\n        <li>\n          <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n            <msub><mi>S</mi><mi>n</mi></msub>\n            <mo>=</mo>\n            <mfrac><mrow><mi>n</mi></mrow><mn>2</mn></mfrac>\n            <mrow><mo>(</mo><mn>2</mn><msub><mi>a</mi><mn>1</mn></msub><mo>+</mo><mrow><mo>(</mo><mi>n</mi><mo>-</mo><mn>1</mn><mo>)</mo></mrow><mi>d</mi><mo>)</mo></mrow>\n          </math>\n        </li>\n        <li>\n          <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n            <msub><mi>S</mi><mi>n</mi></msub>\n            <mo>=</mo>\n            <mfrac><mrow><mi>n</mi></mrow><mn>2</mn></mfrac>\n            <mrow><mo>(</mo><msub><mi>a</mi><mn>1</mn></msub><mo>+</mo><msub><mi>a</mi><mi>n</mi></msub><mo>)</mo></mrow>\n          </math>\n        </li>\n      </ul>\n    </li>\n    <li><strong>Sigma notation:</strong>\n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n        <msub><mi>S</mi><mi>n</mi></msub>\n        <mo>=</mo>\n        <munder><mo>&#x2211;</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow></munder>\n        <msup><mi>n</mi><mrow></mrow></msup>\n        <msub><mi>a</mi><mi>k</mi></msub>\n      </math>\n    </li>\n  </ul>\n\n  <h3>Step-by-Step Procedures</h3>\n  <ol>\n    <li><strong>Find the nth term given</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math>:\n      <ol>\n        <li>Use <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><msub><mi>a</mi><mn>1</mn></msub><mo>+</mo><mrow><mo>(</mo><mi>n</mi><mo>-</mo><mn>1</mn><mo>)</mo></mrow><mi>d</mi></math>.</li>\n      </ol>\n    </li>\n    <li><strong>Find d</strong> from two terms <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>m</mi></msub></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>&gt;</mo><mi>m</mi></math>):\n      <ol>\n        <li>\n          <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n            <mi>d</mi><mo>=</mo>\n            <mfrac>\n              <mrow><msub><mi>a</mi><mi>n</mi></msub><mo>-</mo><msub><mi>a</mi><mi>m</mi></msub></mrow>\n              <mrow><mi>n</mi><mo>-</mo><mi>m</mi></mrow>\n            </mfrac>\n          </math>\n        </li>\n      </ol>\n    </li>\n    <li><strong>Sum of first n terms:</strong>\n      <ol>\n        <li>Find <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub></math> (if needed).</li>\n        <li>Use either sum formula for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mi>n</mi></msub></math>.</li>\n      </ol>\n    </li>\n  </ol>\n\n  <h3>Examples</h3>\n  <h4>Example 1 — nth Term</h4>\n  <p>Given <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub><mo>=</mo><mn>7</mn></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mo>-</mo><mn>3</mn></math>, find <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>15</mn></msub></math>.</p>\n  <p>\n    <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n      <msub><mi>a</mi><mn>15</mn></msub>\n      <mo>=</mo>\n      <mn>7</mn><mo>+</mo>\n      <mrow><mo>(</mo><mn>15</mn><mo>-</mo><mn>1</mn><mo>)</mo></mrow>\n      <mo>(</mo><mo>-</mo><mn>3</mn><mo>)</mo>\n      <mo>=</mo>\n      <mn>7</mn><mo>+</mo><mn>14</mn><mo>(</mo><mo>-</mo><mn>3</mn><mo>)</mo>\n      <mo>=</mo>\n      <mn>7</mn><mo>-</mo><mn>42</mn><mo>=</mo><mo>-</mo><mn>35</mn>\n    </math>\n  </p>\n\n  <h4>Example 2 — Find d from Two Terms</h4>\n  <p>Suppose <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>4</mn></msub><mo>=</mo><mn>10</mn></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>11</mn></msub><mo>=</mo><mn>31</mn></math>. Find <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub></math>.</p>\n  <ul>\n    <li>\n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n        <mi>d</mi><mo>=</mo>\n        <mfrac><mrow><mn>31</mn><mo>-</mo><mn>10</mn></mrow><mrow><mn>11</mn><mo>-</mo><mn>4</mn></mrow></mfrac>\n        <mo>=</mo>\n        <mfrac><mn>21</mn><mn>7</mn></mfrac>\n        <mo>=</mo>\n        <mn>3</mn>\n      </math>\n    </li>\n    <li>\n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n        <msub><mi>a</mi><mn>4</mn></msub>\n        <mo>=</mo>\n        <msub><mi>a</mi><mn>1</mn></msub>\n        <mo>+</mo>\n        <mrow><mo>(</mo><mn>4</mn><mo>-</mo><mn>1</mn><mo>)</mo></mrow>\n        <mi>d</mi>\n        <mo>=</mo>\n        <msub><mi>a</mi><mn>1</mn></msub>\n        <mo>+</mo>\n        <mn>3</mn><mo>(</mo><mn>3</mn><mo>)</mo>\n        <mo>=</mo>\n        <msub><mi>a</mi><mn>1</mn></msub><mo>+</mo><mn>9</mn>\n      </math>\n      ⇒ \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub><mo>=</mo><mn>10</mn><mo>-</mo><mn>9</mn><mo>=</mo><mn>1</mn></math>.\n    </li>\n  </ul>\n\n  <h4>Example 3 — Sum of First n Terms</h4>\n  <p>Find <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>20</mn></msub></math> for the sequence with <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub><mo>=</mo><mn>5</mn></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mn>2</mn></math>.</p>\n  <ul>\n    <li>First find <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>20</mn></msub><mo>=</mo><mn>5</mn><mo>+</mo><mrow><mo>(</mo><mn>20</mn><mo>-</mo><mn>1</mn><mo>)</mo></mrow><mo>(</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>43</mn></math>.</li>\n    <li>\n      Then \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n        <msub><mi>S</mi><mn>20</mn></msub>\n        <mo>=</mo>\n        <mfrac><mn>20</mn><mn>2</mn></mfrac>\n        <mrow><mo>(</mo><mn>5</mn><mo>+</mo><mn>43</mn><mo>)</mo></mrow>\n        <mo>=</mo>\n        <mn>10</mn><mo>&#x2062;</mo><mn>48</mn>\n        <mo>=</mo>\n        <mn>480</mn>\n      </math>\n    </li>\n  </ul>\n\n  <h4>Example 4 — Sum with a Given Term</h4>\n  <p>The 12th term is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>12</mn></msub><mo>=</mo><mn>50</mn></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mn>4</mn></math>. Find <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>12</mn></msub></math>.</p>\n  <ul>\n    <li>\n      First term: \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n        <msub><mi>a</mi><mn>1</mn></msub>\n        <mo>=</mo>\n        <msub><mi>a</mi><mn>12</mn></msub>\n        <mo>-</mo>\n        <mrow><mo>(</mo><mn>12</mn><mo>-</mo><mn>1</mn><mo>)</mo></mrow>\n        <mi>d</mi>\n        <mo>=</mo>\n        <mn>50</mn><mo>-</mo><mn>11</mn><mo>&#x2062;</mo><mn>4</mn>\n        <mo>=</mo>\n        <mn>6</mn>\n      </math>\n    </li>\n    <li>\n      Sum: \n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n        <msub><mi>S</mi><mn>12</mn></msub>\n        <mo>=</mo>\n        <mfrac><mn>12</mn><mn>2</mn></mfrac>\n        <mrow><mo>(</mo><msub><mi>a</mi><mn>1</mn></msub><mo>+</mo><msub><mi>a</mi><mn>12</mn></msub><mo>)</mo></mrow>\n        <mo>=</mo>\n        <mn>6</mn><mo>&#x2062;</mo><mrow><mo>(</mo><mn>6</mn><mo>+</mo><mn>50</mn><mo>)</mo></mrow>\n        <mo>=</mo>\n        <mn>6</mn><mo>&#x2062;</mo><mn>56</mn>\n        <mo>=</mo>\n        <mn>336</mn>\n      </math>\n    </li>\n  </ul>\n\n  <h3>Quick Tips &amp; Common Pitfalls</h3>\n  <ul>\n    <li>Be careful with indexing: the factor is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>n</mi><mo>-</mo><mn>1</mn><mo>)</mo></mrow></math>, not <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>, in the nth-term formula.</li>\n    <li>Use the two-term formula to avoid computing <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub></math> when it’s not given.</li>\n    <li>For sums, either formula for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mi>n</mi></msub></math> works; pick the one that fits your known values.</li>\n    <li>Check units and context: arithmetic sequences model linear growth/decline by constant increments.</li>\n  </ul>\n</div>",
     "completed": false,
     "locked": false,
     "progress": 0
@@ -1273,11 +1359,13 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u44",
     "section": "Algebra",
     "domain": "Sequences and Series",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 44: Geometric Sequences and Series",
     "description": "Define geometric sequences; find nth terms using explicit and recursive formulas; determine common ratio; compute partial sums using Sₙ = a₁(1−rⁿ)/(1−r) (r ≠ 1); use sigma notation and interpret applications.",
     "duration": 45,
-      "content": "<div class=\"algebra-lesson\">\n  <h3>Definitions</h3>\n  <ul>\n    <li><strong>Geometric Sequence:</strong> A sequence where each term after the first is obtained by multiplying the previous term by a constant <em>common ratio</em> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math>. If the first term is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub></math>, then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><msub><mi>a</mi><mn>1</mn></msub><msup><mi>r</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msup></math>.</li>\n    <li><strong>Recursive Form:</strong> For <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>&ge;</mo><mn>2</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mi>r</mi><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub></math> with given <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub></math>.</li>\n    <li><strong>Geometric Series:</strong> The sum of terms of a geometric sequence. The <em>partial sum</em> of the first <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> terms is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mi>n</mi></msub></math>.</li>\n    <li><strong>Common Ratio:</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mfrac><msub><mi>a</mi><mi>n</mi></msub><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub></mfrac></math> (for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>&ne;</mo><mn>0</mn></math>).</li>\n  </ul>\n\n  <h3>Key Concepts</h3>\n  <ul>\n    <li><strong>Explicit Formula (index starts at 1):</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><msub><mi>a</mi><mn>1</mn></msub><msup><mi>r</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msup></math>.</li>\n    <li><strong>Explicit Formula (index starts at 0):</strong> If first term is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>0</mn></msub></math>, then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><msub><mi>a</mi><mn>0</mn></msub><msup><mi>r</mi><mi>n</mi></msup></math>.</li>\n    <li><strong>Finite Sum (r ≠ 1):</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mi>n</mi></msub><mo>=</mo><msub><mi>a</mi><mn>1</mn></msub><mfrac><mrow><mn>1</mn><mo>−</mo><msup><mi>r</mi><mi>n</mi></msup></mrow><mrow><mn>1</mn><mo>−</mo><mi>r</mi></mrow></mfrac></math>.</li>\n    <li><strong>Finite Sum (r = 1):</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mi>n</mi></msub><mo>=</mo><mi>n</mi><msub><mi>a</mi><mn>1</mn></msub></math>.</li>\n    <li><strong>Infinite Geometric Series:</strong> Converges iff <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>r</mi><mo>|</mo><mo>&lt;</mo><mn>1</mn></math>; sum is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mi>∞</mi></msub><mo>=</mo><mfrac><msub><mi>a</mi><mn>1</mn></msub><mrow><mn>1</mn><mo>−</mo><mi>r</mi></mrow></mfrac></math>.</li>\n    <li><strong>Solving for n:</strong> If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><msub><mi>a</mi><mn>1</mn></msub><msup><mi>r</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msup></math>, then for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>&gt;</mo><mn>0</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>1</mn><mo>+</mo><mfrac><mrow><mi>log</mi><mo>(</mo><msub><mi>a</mi><mi>n</mi></msub><mo>/</mo><msub><mi>a</mi><mn>1</mn></msub><mo>)</mo></mrow><mrow><mi>log</mi><mo>(</mo><mi>r</mi><mo>)</mo></mrow></mfrac></math>.</li>\n    <li><strong>Geometric Mean (between a and b):</strong> The value <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi></math> so that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>g</mi><mi>a</mi></mfrac><mo>=</mo><mfrac><mi>b</mi><mi>g</mi></mfrac></math>, thus <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi><mo>=</mo><msqrt><mi>a</mi><mi>b</mi></msqrt></math> (for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>,</mo><mi>b</mi><mo>&ge;</mo><mn>0</mn></math>).</li>\n  </ul>\n\n  <h3>Step-by-Step Procedure</h3>\n  <ol>\n    <li><strong>Identify</strong> whether the sequence is geometric by checking the ratio between successive terms.</li>\n    <li><strong>Find parameters</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub></math> (or <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>0</mn></msub></math>) and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math>.</li>\n    <li><strong>Use the explicit or recursive form</strong> to get terms or to solve for a specific index.</li>\n    <li><strong>Compute sums</strong> using the finite-sum formula; for infinite sums, first verify <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>r</mi><mo>|</mo><mo>&lt;</mo><mn>1</mn></math>.</li>\n    <li><strong>Interpret</strong> results in context (growth/decay factor, alternating when <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>&lt;</mo><mn>0</mn></math>).</li>\n  </ol>\n\n  <h3>Example 1 — Identify and Write a Formula</h3>\n  <p><strong>Given:</strong> Sequence 5, 15, 45, 135, …</p>\n  <ul>\n    <li>Common ratio: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mn>3</mn></math>, first term <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub><mo>=</mo><mn>5</mn></math>.</li>\n    <li>Explicit: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mn>5</mn><msup><mn>3</mn><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msup></math>.</li>\n    <li>Recursive: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub><mo>=</mo><mn>5</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mn>3</mn><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub></math>.</li>\n  </ul>\n\n  <h3>Example 2 — Finite Sum</h3>\n  <p><strong>Find:</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>6</mn></msub></math> for the sequence in Example 1.</p>\n  <ul>\n    <li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mi>n</mi></msub><mo>=</mo><msub><mi>a</mi><mn>1</mn></msub><mfrac><mrow><mn>1</mn><mo>−</mo><msup><mi>r</mi><mi>n</mi></msup></mrow><mrow><mn>1</mn><mo>−</mo><mi>r</mi></mrow></mfrac></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>6</mn></msub><mo>=</mo><mn>5</mn><mfrac><mrow><mn>1</mn><mo>−</mo><msup><mn>3</mn><mn>6</mn></msup></mrow><mrow><mn>1</mn><mo>−</mo><mn>3</mn></mrow></mfrac></math>.</li>\n    <li>Simplify: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mfrac><mrow><mn>1</mn><mo>−</mo><mn>729</mn></mrow><mrow><mo>−</mo><mn>2</mn></mrow></mfrac><mo>=</mo><mn>5</mn><mfrac><mn>728</mn><mn>2</mn></mfrac><mo>=</mo><mn>5</mn><mo>·</mo><mn>364</mn><mo>=</mo><mn>1820</mn></math>.</li>\n  </ul>\n\n  <h3>Example 3 — Infinite Sum</h3>\n  <p><strong>Given:</strong> Infinite series with <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub><mo>=</mo><mn>12</mn></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></math>. Find <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mi>∞</mi></msub></math>.</p>\n  <ul>\n    <li>Since <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>r</mi><mo>|</mo><mo>&lt;</mo><mn>1</mn></math>, convergent.</li>\n    <li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mi>∞</mi></msub><mo>=</mo><mfrac><mn>12</mn><mrow><mn>1</mn><mo>−</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow></mfrac><mo>=</mo><mfrac><mn>12</mn><mrow><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow></mfrac><mo>=</mo><mn>16</mn></math>.</li>\n  </ul>\n\n  <h3>Example 4 — Solve for n</h3>\n  <p><strong>Given:</strong> In a geometric sequence, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub><mo>=</mo><mn>200</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mn>0.8</mn></math>. Find the smallest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> such that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>&lt;</mo><mn>50</mn></math>.</p>\n  <ul>\n    <li>Set <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>200</mn><msup><mn>0.8</mn><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msup><mo>&lt;</mo><mn>50</mn></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>0.8</mn><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msup><mo>&lt;</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></math>.</li>\n    <li>Take logs (base &gt; 1 or use natural log): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow><mo>&gt;</mo><mfrac><mrow><mi>log</mi><mo>(</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>)</mo></mrow><mrow><mi>log</mi><mo>(</mo><mn>0.8</mn><mo>)</mo></mrow></mfrac></math> (note both logs are negative).</li>\n    <li>Compute the inequality value and choose the least integer <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> satisfying it.</li>\n  </ul>\n\n  <h3>Example 5 — Word Problem (Savings Plan)</h3>\n  <p><strong>Scenario:</strong> You deposit $100 each month into an account earning 1% per month. The balance after <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> deposits is a geometric sum of grown deposits: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mi>n</mi></msub><mo>=</mo><mn>100</mn><mfrac><mrow><msup><mn>1.01</mn><mi>n</mi></msup><mo>−</mo><mn>1</mn></mrow><mrow><mn>1.01</mn><mo>−</mo><mn>1</mn></mrow></mfrac></math>.</p>\n  <ul>\n    <li>This is a <em>finite geometric series</em> with first grown term 100 and ratio <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1.01</mn></math>.</li>\n  </ul>\n\n  <h3>Quick Tips &amp; Common Pitfalls</h3>\n  <ul>\n    <li>Be consistent with indexing: confirm whether the first term is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>0</mn></msub></math> or <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub></math> before applying formulas.</li>\n    <li>For infinite sums, you <strong>must</strong> have <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>r</mi><mo>|</mo><mo>&lt;</mo><mn>1</mn></math>; otherwise the series diverges (no finite sum).</li>\n    <li>Negative <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math> causes terms (and partial sums) to alternate in sign.</li>\n    <li>When solving for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> using logs, mind inequality direction if the base/ratio is between 0 and 1.</li>\n    <li>To find <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math> from two nonconsecutive terms <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>i</mi></msub></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>j</mi></msub></math>, use <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><msup><mfrac><msub><mi>a</mi><mi>j</mi></msub><msub><mi>a</mi><mi>i</mi></msub></mfrac><mrow><mn>1</mn><mo>/</mo><mo>(</mo><mi>j</mi><mo>−</mo><mi>i</mi><mo>)</mo></mrow></msup></math>.</li>\n  </ul>\n</div>",
+    "content": "<div class=\"algebra-lesson\">\n  <h3>Definitions</h3>\n  <ul>\n    <li><strong>Geometric Sequence:</strong> A sequence where each term after the first is obtained by multiplying the previous term by a constant <em>common ratio</em> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math>. If the first term is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub></math>, then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><msub><mi>a</mi><mn>1</mn></msub><msup><mi>r</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msup></math>.</li>\n    <li><strong>Recursive Form:</strong> For <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>&ge;</mo><mn>2</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mi>r</mi><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub></math> with given <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub></math>.</li>\n    <li><strong>Geometric Series:</strong> The sum of terms of a geometric sequence. The <em>partial sum</em> of the first <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> terms is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mi>n</mi></msub></math>.</li>\n    <li><strong>Common Ratio:</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mfrac><msub><mi>a</mi><mi>n</mi></msub><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub></mfrac></math> (for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>&ne;</mo><mn>0</mn></math>).</li>\n  </ul>\n\n  <h3>Key Concepts</h3>\n  <ul>\n    <li><strong>Explicit Formula (index starts at 1):</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><msub><mi>a</mi><mn>1</mn></msub><msup><mi>r</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msup></math>.</li>\n    <li><strong>Explicit Formula (index starts at 0):</strong> If first term is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>0</mn></msub></math>, then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><msub><mi>a</mi><mn>0</mn></msub><msup><mi>r</mi><mi>n</mi></msup></math>.</li>\n    <li><strong>Finite Sum (r ≠ 1):</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mi>n</mi></msub><mo>=</mo><msub><mi>a</mi><mn>1</mn></msub><mfrac><mrow><mn>1</mn><mo>−</mo><msup><mi>r</mi><mi>n</mi></msup></mrow><mrow><mn>1</mn><mo>−</mo><mi>r</mi></mrow></mfrac></math>.</li>\n    <li><strong>Finite Sum (r = 1):</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mi>n</mi></msub><mo>=</mo><mi>n</mi><msub><mi>a</mi><mn>1</mn></msub></math>.</li>\n    <li><strong>Infinite Geometric Series:</strong> Converges iff <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>r</mi><mo>|</mo><mo>&lt;</mo><mn>1</mn></math>; sum is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mi>∞</mi></msub><mo>=</mo><mfrac><msub><mi>a</mi><mn>1</mn></msub><mrow><mn>1</mn><mo>−</mo><mi>r</mi></mrow></mfrac></math>.</li>\n    <li><strong>Solving for n:</strong> If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><msub><mi>a</mi><mn>1</mn></msub><msup><mi>r</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msup></math>, then for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>&gt;</mo><mn>0</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>1</mn><mo>+</mo><mfrac><mrow><mi>log</mi><mo>(</mo><msub><mi>a</mi><mi>n</mi></msub><mo>/</mo><msub><mi>a</mi><mn>1</mn></msub><mo>)</mo></mrow><mrow><mi>log</mi><mo>(</mo><mi>r</mi><mo>)</mo></mrow></mfrac></math>.</li>\n    <li><strong>Geometric Mean (between a and b):</strong> The value <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi></math> so that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>g</mi><mi>a</mi></mfrac><mo>=</mo><mfrac><mi>b</mi><mi>g</mi></mfrac></math>, thus <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi><mo>=</mo><msqrt><mi>a</mi><mi>b</mi></msqrt></math> (for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>,</mo><mi>b</mi><mo>&ge;</mo><mn>0</mn></math>).</li>\n  </ul>\n\n  <h3>Step-by-Step Procedure</h3>\n  <ol>\n    <li><strong>Identify</strong> whether the sequence is geometric by checking the ratio between successive terms.</li>\n    <li><strong>Find parameters</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub></math> (or <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>0</mn></msub></math>) and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math>.</li>\n    <li><strong>Use the explicit or recursive form</strong> to get terms or to solve for a specific index.</li>\n    <li><strong>Compute sums</strong> using the finite-sum formula; for infinite sums, first verify <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>r</mi><mo>|</mo><mo>&lt;</mo><mn>1</mn></math>.</li>\n    <li><strong>Interpret</strong> results in context (growth/decay factor, alternating when <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>&lt;</mo><mn>0</mn></math>).</li>\n  </ol>\n\n  <h3>Example 1 — Identify and Write a Formula</h3>\n  <p><strong>Given:</strong> Sequence 5, 15, 45, 135, …</p>\n  <ul>\n    <li>Common ratio: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mn>3</mn></math>, first term <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub><mo>=</mo><mn>5</mn></math>.</li>\n    <li>Explicit: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mn>5</mn><msup><mn>3</mn><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msup></math>.</li>\n    <li>Recursive: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub><mo>=</mo><mn>5</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mn>3</mn><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub></math>.</li>\n  </ul>\n\n  <h3>Example 2 — Finite Sum</h3>\n  <p><strong>Find:</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>6</mn></msub></math> for the sequence in Example 1.</p>\n  <ul>\n    <li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mi>n</mi></msub><mo>=</mo><msub><mi>a</mi><mn>1</mn></msub><mfrac><mrow><mn>1</mn><mo>−</mo><msup><mi>r</mi><mi>n</mi></msup></mrow><mrow><mn>1</mn><mo>−</mo><mi>r</mi></mrow></mfrac></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>6</mn></msub><mo>=</mo><mn>5</mn><mfrac><mrow><mn>1</mn><mo>−</mo><msup><mn>3</mn><mn>6</mn></msup></mrow><mrow><mn>1</mn><mo>−</mo><mn>3</mn></mrow></mfrac></math>.</li>\n    <li>Simplify: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mfrac><mrow><mn>1</mn><mo>−</mo><mn>729</mn></mrow><mrow><mo>−</mo><mn>2</mn></mrow></mfrac><mo>=</mo><mn>5</mn><mfrac><mn>728</mn><mn>2</mn></mfrac><mo>=</mo><mn>5</mn><mo>·</mo><mn>364</mn><mo>=</mo><mn>1820</mn></math>.</li>\n  </ul>\n\n  <h3>Example 3 — Infinite Sum</h3>\n  <p><strong>Given:</strong> Infinite series with <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub><mo>=</mo><mn>12</mn></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></math>. Find <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mi>∞</mi></msub></math>.</p>\n  <ul>\n    <li>Since <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>r</mi><mo>|</mo><mo>&lt;</mo><mn>1</mn></math>, convergent.</li>\n    <li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mi>∞</mi></msub><mo>=</mo><mfrac><mn>12</mn><mrow><mn>1</mn><mo>−</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow></mfrac><mo>=</mo><mfrac><mn>12</mn><mrow><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow></mfrac><mo>=</mo><mn>16</mn></math>.</li>\n  </ul>\n\n  <h3>Example 4 — Solve for n</h3>\n  <p><strong>Given:</strong> In a geometric sequence, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub><mo>=</mo><mn>200</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mn>0.8</mn></math>. Find the smallest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> such that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>&lt;</mo><mn>50</mn></math>.</p>\n  <ul>\n    <li>Set <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>200</mn><msup><mn>0.8</mn><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msup><mo>&lt;</mo><mn>50</mn></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>0.8</mn><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msup><mo>&lt;</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></math>.</li>\n    <li>Take logs (base &gt; 1 or use natural log): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow><mo>&gt;</mo><mfrac><mrow><mi>log</mi><mo>(</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>)</mo></mrow><mrow><mi>log</mi><mo>(</mo><mn>0.8</mn><mo>)</mo></mrow></mfrac></math> (note both logs are negative).</li>\n    <li>Compute the inequality value and choose the least integer <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> satisfying it.</li>\n  </ul>\n\n  <h3>Example 5 — Word Problem (Savings Plan)</h3>\n  <p><strong>Scenario:</strong> You deposit $100 each month into an account earning 1% per month. The balance after <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> deposits is a geometric sum of grown deposits: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mi>n</mi></msub><mo>=</mo><mn>100</mn><mfrac><mrow><msup><mn>1.01</mn><mi>n</mi></msup><mo>−</mo><mn>1</mn></mrow><mrow><mn>1.01</mn><mo>−</mo><mn>1</mn></mrow></mfrac></math>.</p>\n  <ul>\n    <li>This is a <em>finite geometric series</em> with first grown term 100 and ratio <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1.01</mn></math>.</li>\n  </ul>\n\n  <h3>Quick Tips &amp; Common Pitfalls</h3>\n  <ul>\n    <li>Be consistent with indexing: confirm whether the first term is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>0</mn></msub></math> or <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub></math> before applying formulas.</li>\n    <li>For infinite sums, you <strong>must</strong> have <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>r</mi><mo>|</mo><mo>&lt;</mo><mn>1</mn></math>; otherwise the series diverges (no finite sum).</li>\n    <li>Negative <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math> causes terms (and partial sums) to alternate in sign.</li>\n    <li>When solving for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> using logs, mind inequality direction if the base/ratio is between 0 and 1.</li>\n    <li>To find <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math> from two nonconsecutive terms <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>i</mi></msub></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>j</mi></msub></math>, use <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><msup><mfrac><msub><mi>a</mi><mi>j</mi></msub><msub><mi>a</mi><mi>i</mi></msub></mfrac><mrow><mn>1</mn><mo>/</mo><mo>(</mo><mi>j</mi><mo>−</mo><mi>i</mi><mo>)</mo></mrow></msup></math>.</li>\n  </ul>\n</div>",
     "completed": false,
     "locked": false,
     "progress": 0
@@ -1286,11 +1374,13 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u45",
     "section": "Algebra",
     "domain": "Sequences and Series",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 45: Recursive Formulas",
     "description": "Write and interpret recursive definitions for sequences (arithmetic, geometric, and other patterns); generate terms; translate between recursive and explicit forms when possible; model real situations recursively.",
     "duration": 45,
-      "content": "<div class=\"algebra-lesson\">\n  <h3>Definitions</h3>\n  <ul>\n    <li><strong>Sequence:</strong> An ordered list of numbers written as <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub><mo>,</mo><msub><mi>a</mi><mn>2</mn></msub><mo>,</mo><msub><mi>a</mi><mn>3</mn></msub><mo>,</mo><mo>…</mo></math> (or starting at index 0).</li>\n    <li><strong>Recursive Formula:</strong> Defines each term using earlier term(s) <em>and</em> one or more <strong>initial conditions</strong>. Example: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub><mo>=</mo><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>+</mo><mn>2</mn></math> for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>&ge;</mo><mn>2</mn></math>.</li>\n    <li><strong>Initial Condition(s):</strong> Starting value(s) needed to begin the recursion (e.g., <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub></math>, or <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>0</mn></msub></math>; for second-order recursions, two starting values).</li>\n    <li><strong>Order of a Recurrence:</strong> The number of previous terms used (first-order uses <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub></math>; second-order uses up to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>2</mn></mrow></msub></math>).</li>\n  </ul>\n\n  <h3>Key Concepts</h3>\n  <ul>\n    <li><strong>Arithmetic (recursive):</strong> Common difference <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math>:\n      <ul>\n        <li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub><mo>=</mo><mi>A</mi></math>, &nbsp; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>+</mo><mi>d</mi></math> for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>&ge;</mo><mn>2</mn></math>.</li>\n        <li>Equivalent explicit: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mi>A</mi><mo>+</mo><mi>d</mi><mo>(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo></math>.</li>\n      </ul>\n    </li>\n    <li><strong>Geometric (recursive):</strong> Common ratio <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math>:\n      <ul>\n        <li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub><mo>=</mo><mi>A</mi></math>, &nbsp; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mi>r</mi><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub></math>.</li>\n        <li>Equivalent explicit: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mi>A</mi><msup><mi>r</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msup></math>.</li>\n      </ul>\n    </li>\n    <li><strong>Second-Order Linear Recurrence (constant coefficients):</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mi>p</mi><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>+</mo><mi>q</mi><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>2</mn></mrow></msub></math> with two initial values. (Example: Fibonacci when <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>=</mo><mi>q</mi><mo>=</mo><mn>1</mn></math>.)</li>\n    <li><strong>Piecewise/Conditional Recursion:</strong> Rule depends on <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> or on the sign/size of previous terms (be sure to state each case and its starting index).</li>\n    <li><strong>Indexing Matters:</strong> Always state whether the sequence starts at <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>0</mn></math> or <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>1</mn></math>, and for which <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> your recursive rule applies.</li>\n  </ul>\n\n  <h3>Step-by-Step Procedure (Working with Recursive Formulas)</h3>\n  <ol>\n    <li><strong>Identify</strong> the order (how many previous terms are used) and list all initial conditions.</li>\n    <li><strong>Generate terms</strong> by iterating the rule carefully, keeping track of indices.</li>\n    <li><strong>Classify</strong> the type (arithmetic, geometric, linear second-order, or conditional).</li>\n    <li><strong>Convert to explicit</strong> when possible (arithmetic/geometric are straightforward; second-order may require more advanced methods or pattern recognition).</li>\n    <li><strong>Check</strong> your explicit formula by verifying it reproduces the first few recursive terms.</li>\n  </ol>\n\n  <h3>Example 1 — Arithmetic (Recursive → Terms → Explicit)</h3>\n  <p><strong>Given:</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub><mo>=</mo><mn>7</mn></math>, &nbsp; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>+</mo><mn>4</mn></math> for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>&ge;</mo><mn>2</mn></math>.</p>\n  <ul>\n    <li>First terms: 7, 11, 15, 19, 23, …</li>\n    <li>Explicit: difference <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mn>4</mn></math> ⇒ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mn>7</mn><mo>+</mo><mn>4</mn><mo>(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo></math>.</li>\n  </ul>\n\n  <h3>Example 2 — Geometric (Recursive → Terms → Explicit)</h3>\n  <p><strong>Given:</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub><mo>=</mo><mn>5</mn></math>, &nbsp; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mrow><mn>1.2</mn></mrow><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub></math>.</p>\n  <ul>\n    <li>First terms: 5, 6, 7.2, 8.64, …</li>\n    <li>Explicit: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mn>5</mn><msup><mrow><mn>1.2</mn></mrow><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msup></math>.</li>\n  </ul>\n\n  <h3>Example 3 — Second-Order (Fibonacci-Type)</h3>\n  <p><strong>Given:</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>F</mi><mn>1</mn></msub><mo>=</mo><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>F</mi><mn>2</mn></msub><mo>=</mo><mn>1</mn></math>, &nbsp; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>F</mi><mi>n</mi></msub><mo>=</mo><msub><mi>F</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>+</mo><msub><mi>F</mi><mrow><mi>n</mi><mo>−</mo><mn>2</mn></mrow></msub></math> for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>&ge;</mo><mn>3</mn></math>.</p>\n  <ul>\n    <li>First terms: 1, 1, 2, 3, 5, 8, 13, …</li>\n    <li>Note: Requires two initial conditions since it uses two previous terms.</li>\n  </ul>\n\n  <h3>Example 4 — Piecewise Recursive Rule</h3>\n  <p><strong>Define:</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub><mo>=</mo><mn>2</mn></math>, and for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>&ge;</mo><mn>2</mn></math>:</p>\n  <p>\n    <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n      <msub><mi>a</mi><mi>n</mi></msub>\n      <mo>=</mo>\n      <mrow>\n        <mo>{</mo>\n        <mtable>\n          <mtr>\n            <mtd><mn>2</mn><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>+</mo><mn>1</mn></mtd>\n            <mtd><mtext>if </mtext><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>&lt;</mo><mn>10</mn></mtd>\n          </mtr>\n          <mtr>\n            <mtd><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>−</mo><mn>3</mn></mtd>\n            <mtd><mtext>if </mtext><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>&ge;</mo><mn>10</mn></mtd>\n          </mtr>\n        </mtable>\n      </mrow>\n    </math>\n  </p>\n  <ul>\n    <li>Compute step-by-step, switching the rule when the condition changes.</li>\n  </ul>\n\n  <h3>Example 5 — Modeling with a First-Order Recurrence</h3>\n  <p><strong>Scenario:</strong> An account earns 1% per month and you deposit $100 at the <em>end</em> of each month. Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>B</mi><mn>0</mn></msub></math> be the starting balance.</p>\n  <ul>\n    <li>Recursion: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>B</mi><mi>n</mi></msub><mo>=</mo><mn>1.01</mn><msub><mi>B</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>+</mo><mn>100</mn></math> for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>&ge;</mo><mn>1</mn></math>, with <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>B</mi><mn>0</mn></msub></math> given.</li>\n    <li>First terms found by iteration; a closed form exists but is beyond the current scope.</li>\n  </ul>\n\n  <h3>Quick Tips &amp; Common Pitfalls</h3>\n  <ul>\n    <li><strong>Always state initial conditions</strong> clearly; without them, the recursion is incomplete.</li>\n    <li>Specify the <strong>index start</strong> and the domain of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> for which the rule applies (e.g., \"for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>&ge;</mo><mn>2</mn></math>\").</li>\n    <li>Arithmetic vs. geometric: look for <em>add a constant</em> vs. <em>multiply by a constant</em>.</li>\n    <li>Second-order recursions need two starting values; check both are provided.</li>\n    <li>When converting to explicit, <strong>verify</strong> by plugging in small <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> to see if terms match.</li>\n  </ul>\n</div>",
+    "content": "<div class=\"algebra-lesson\">\n  <h3>Definitions</h3>\n  <ul>\n    <li><strong>Sequence:</strong> An ordered list of numbers written as <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub><mo>,</mo><msub><mi>a</mi><mn>2</mn></msub><mo>,</mo><msub><mi>a</mi><mn>3</mn></msub><mo>,</mo><mo>…</mo></math> (or starting at index 0).</li>\n    <li><strong>Recursive Formula:</strong> Defines each term using earlier term(s) <em>and</em> one or more <strong>initial conditions</strong>. Example: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub><mo>=</mo><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>+</mo><mn>2</mn></math> for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>&ge;</mo><mn>2</mn></math>.</li>\n    <li><strong>Initial Condition(s):</strong> Starting value(s) needed to begin the recursion (e.g., <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub></math>, or <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>0</mn></msub></math>; for second-order recursions, two starting values).</li>\n    <li><strong>Order of a Recurrence:</strong> The number of previous terms used (first-order uses <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub></math>; second-order uses up to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>2</mn></mrow></msub></math>).</li>\n  </ul>\n\n  <h3>Key Concepts</h3>\n  <ul>\n    <li><strong>Arithmetic (recursive):</strong> Common difference <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math>:\n      <ul>\n        <li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub><mo>=</mo><mi>A</mi></math>, &nbsp; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>+</mo><mi>d</mi></math> for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>&ge;</mo><mn>2</mn></math>.</li>\n        <li>Equivalent explicit: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mi>A</mi><mo>+</mo><mi>d</mi><mo>(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo></math>.</li>\n      </ul>\n    </li>\n    <li><strong>Geometric (recursive):</strong> Common ratio <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math>:\n      <ul>\n        <li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub><mo>=</mo><mi>A</mi></math>, &nbsp; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mi>r</mi><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub></math>.</li>\n        <li>Equivalent explicit: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mi>A</mi><msup><mi>r</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msup></math>.</li>\n      </ul>\n    </li>\n    <li><strong>Second-Order Linear Recurrence (constant coefficients):</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mi>p</mi><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>+</mo><mi>q</mi><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>2</mn></mrow></msub></math> with two initial values. (Example: Fibonacci when <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>=</mo><mi>q</mi><mo>=</mo><mn>1</mn></math>.)</li>\n    <li><strong>Piecewise/Conditional Recursion:</strong> Rule depends on <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> or on the sign/size of previous terms (be sure to state each case and its starting index).</li>\n    <li><strong>Indexing Matters:</strong> Always state whether the sequence starts at <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>0</mn></math> or <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>1</mn></math>, and for which <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> your recursive rule applies.</li>\n  </ul>\n\n  <h3>Step-by-Step Procedure (Working with Recursive Formulas)</h3>\n  <ol>\n    <li><strong>Identify</strong> the order (how many previous terms are used) and list all initial conditions.</li>\n    <li><strong>Generate terms</strong> by iterating the rule carefully, keeping track of indices.</li>\n    <li><strong>Classify</strong> the type (arithmetic, geometric, linear second-order, or conditional).</li>\n    <li><strong>Convert to explicit</strong> when possible (arithmetic/geometric are straightforward; second-order may require more advanced methods or pattern recognition).</li>\n    <li><strong>Check</strong> your explicit formula by verifying it reproduces the first few recursive terms.</li>\n  </ol>\n\n  <h3>Example 1 — Arithmetic (Recursive → Terms → Explicit)</h3>\n  <p><strong>Given:</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub><mo>=</mo><mn>7</mn></math>, &nbsp; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>+</mo><mn>4</mn></math> for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>&ge;</mo><mn>2</mn></math>.</p>\n  <ul>\n    <li>First terms: 7, 11, 15, 19, 23, …</li>\n    <li>Explicit: difference <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mn>4</mn></math> ⇒ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mn>7</mn><mo>+</mo><mn>4</mn><mo>(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo></math>.</li>\n  </ul>\n\n  <h3>Example 2 — Geometric (Recursive → Terms → Explicit)</h3>\n  <p><strong>Given:</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub><mo>=</mo><mn>5</mn></math>, &nbsp; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mrow><mn>1.2</mn></mrow><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub></math>.</p>\n  <ul>\n    <li>First terms: 5, 6, 7.2, 8.64, …</li>\n    <li>Explicit: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mn>5</mn><msup><mrow><mn>1.2</mn></mrow><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msup></math>.</li>\n  </ul>\n\n  <h3>Example 3 — Second-Order (Fibonacci-Type)</h3>\n  <p><strong>Given:</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>F</mi><mn>1</mn></msub><mo>=</mo><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>F</mi><mn>2</mn></msub><mo>=</mo><mn>1</mn></math>, &nbsp; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>F</mi><mi>n</mi></msub><mo>=</mo><msub><mi>F</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>+</mo><msub><mi>F</mi><mrow><mi>n</mi><mo>−</mo><mn>2</mn></mrow></msub></math> for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>&ge;</mo><mn>3</mn></math>.</p>\n  <ul>\n    <li>First terms: 1, 1, 2, 3, 5, 8, 13, …</li>\n    <li>Note: Requires two initial conditions since it uses two previous terms.</li>\n  </ul>\n\n  <h3>Example 4 — Piecewise Recursive Rule</h3>\n  <p><strong>Define:</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub><mo>=</mo><mn>2</mn></math>, and for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>&ge;</mo><mn>2</mn></math>:</p>\n  <p>\n    <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n      <msub><mi>a</mi><mi>n</mi></msub>\n      <mo>=</mo>\n      <mrow>\n        <mo>{</mo>\n        <mtable>\n          <mtr>\n            <mtd><mn>2</mn><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>+</mo><mn>1</mn></mtd>\n            <mtd><mtext>if </mtext><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>&lt;</mo><mn>10</mn></mtd>\n          </mtr>\n          <mtr>\n            <mtd><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>−</mo><mn>3</mn></mtd>\n            <mtd><mtext>if </mtext><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>&ge;</mo><mn>10</mn></mtd>\n          </mtr>\n        </mtable>\n      </mrow>\n    </math>\n  </p>\n  <ul>\n    <li>Compute step-by-step, switching the rule when the condition changes.</li>\n  </ul>\n\n  <h3>Example 5 — Modeling with a First-Order Recurrence</h3>\n  <p><strong>Scenario:</strong> An account earns 1% per month and you deposit $100 at the <em>end</em> of each month. Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>B</mi><mn>0</mn></msub></math> be the starting balance.</p>\n  <ul>\n    <li>Recursion: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>B</mi><mi>n</mi></msub><mo>=</mo><mn>1.01</mn><msub><mi>B</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>+</mo><mn>100</mn></math> for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>&ge;</mo><mn>1</mn></math>, with <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>B</mi><mn>0</mn></msub></math> given.</li>\n    <li>First terms found by iteration; a closed form exists but is beyond the current scope.</li>\n  </ul>\n\n  <h3>Quick Tips &amp; Common Pitfalls</h3>\n  <ul>\n    <li><strong>Always state initial conditions</strong> clearly; without them, the recursion is incomplete.</li>\n    <li>Specify the <strong>index start</strong> and the domain of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> for which the rule applies (e.g., \"for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>&ge;</mo><mn>2</mn></math>\").</li>\n    <li>Arithmetic vs. geometric: look for <em>add a constant</em> vs. <em>multiply by a constant</em>.</li>\n    <li>Second-order recursions need two starting values; check both are provided.</li>\n    <li>When converting to explicit, <strong>verify</strong> by plugging in small <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> to see if terms match.</li>\n  </ul>\n</div>",
     "completed": false,
     "locked": false,
     "progress": 0
@@ -1299,11 +1389,13 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u46",
     "section": "Algebra",
     "domain": "Sequences and Series",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 46: Sums of Infinite Series",
     "description": "Examine convergence of infinite geometric series (|r| < 1) and compute sums using S∞ = a₁/(1−r); recognize divergence when |r| ≥ 1; apply to financial and decay/growth contexts.",
     "duration": 45,
-      "content": "<div class=\"algebra-lesson\">\n  <h3>Definitions</h3>\n  <ul>\n    <li><strong>Series:</strong> The sum of the terms in a sequence.</li>\n    <li><strong>Infinite Series:</strong> A series that continues indefinitely without an end.</li>\n    <li><strong>Convergent Series:</strong> An infinite series that approaches a finite sum as the number of terms increases.</li>\n    <li><strong>Divergent Series:</strong> An infinite series that does not approach a finite limit (the sum grows without bound or oscillates).</li>\n  </ul>\n\n  <h3>Key Concepts</h3>\n  <ul>\n    <li>For an infinite geometric series with first term <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> and common ratio <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math>:</li>\n    <li>If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>r</mi><mo>|</mo><mo>&lt;</mo><mn>1</mn></math>, the series converges and has a finite sum.</li>\n    <li>If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>r</mi><mo>|</mo><mo>&ge;</mo><mn>1</mn></math>, the series diverges (no finite sum exists).</li>\n  </ul>\n\n  <h3>Formula for the Sum of an Infinite Geometric Series</h3>\n  <p>\n    <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n      <mi>S</mi><mo>=</mo>\n      <mfrac><mi>a</mi><mrow><mn>1</mn><mo>-</mo><mi>r</mi></mrow></mfrac>\n      <mspace width=\"1em\"/>\n      <mtext>where</mtext>\n      <mspace width=\"0.5em\"/>\n      <mo>|</mo><mi>r</mi><mo>|</mo><mo>&lt;</mo><mn>1</mn>\n    </math>\n  </p>\n\n  <h3>Step-by-Step Procedures</h3>\n  <ol>\n    <li>Identify the series and confirm it is geometric (each term multiplied by the same ratio).</li>\n    <li>Find the first term <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> and common ratio <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math>.</li>\n    <li>Check if <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>r</mi><mo>|</mo><mo>&lt;</mo><mn>1</mn></math> (required for convergence).</li>\n    <li>If convergent, use <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mfrac><mi>a</mi><mrow><mn>1</mn><mo>-</mo><mi>r</mi></mrow></mfrac></math> to find the sum.</li>\n    <li>If divergent, state that no finite sum exists.</li>\n  </ol>\n\n  <h3>Examples</h3>\n  <h4>Example 1 — Convergent Series</h4>\n  <p>Find the sum of the series <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>+</mo><mn>2.5</mn><mo>+</mo><mn>1.25</mn><mo>+</mo><mn>0.625</mn><mo>+</mo><mo>…</mo></math>.</p>\n  <ul>\n    <li>Here, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>5</mn></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math>.</li>\n    <li>Since <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>r</mi><mo>|</mo><mo>&lt;</mo><mn>1</mn></math>, the series converges.</li>\n    <li>Sum:\n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n        <mi>S</mi><mo>=</mo>\n        <mfrac><mn>5</mn><mrow><mn>1</mn><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfrac>\n        <mo>=</mo>\n        <mfrac><mn>5</mn><mfrac><mn>1</mn><mn>2</mn></mfrac></mfrac>\n        <mo>=</mo>\n        <mn>10</mn>\n      </math>\n    </li>\n  </ul>\n\n  <h4>Example 2 — Divergent Series</h4>\n  <p>Determine if <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>12</mn><mo>+</mo><mn>24</mn><mo>+</mo><mo>…</mo></math> has a finite sum.</p>\n  <ul>\n    <li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mn>2</mn></math>.</li>\n    <li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>r</mi><mo>|</mo><mo>=</mo><mn>2</mn><mo>&gt;</mo><mn>1</mn></math> → Divergent, no finite sum exists.</li>\n  </ul>\n\n  <h4>Example 3 — Application Problem</h4>\n  <p>A ball is dropped from 10 meters and rebounds to 80% of its previous height each time. Find the total vertical distance it travels after infinite bounces.</p>\n  <ul>\n    <li>Downward distance first: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>10</mn></math>.</li>\n    <li>Rebound heights form a geometric series: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>(</mo><mn>0.8</mn><mo>)</mo><mo>+</mo><mn>10</mn><mo>(</mo><mn>0.8</mn><msup><mo>)</mo><mn>2</mn></msup><mo>+</mo><mn>10</mn><mo>(</mo><mn>0.8</mn><msup><mo>)</mo><mn>3</mn></msup><mo>+</mo><mo>…</mo></math>.</li>\n    <li>Each bounce adds two distances (up and down) except the first drop:</li>\n    <li>Total distance:\n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n        <mi>D</mi><mo>=</mo><mn>10</mn><mo>+</mo><mn>2</mn>\n        <mfrac><mrow><mn>10</mn><mo>(</mo><mn>0.8</mn><mo>)</mo></mrow><mrow><mn>1</mn><mo>-</mo><mn>0.8</mn></mrow></mfrac>\n        <mo>=</mo>\n        <mn>10</mn><mo>+</mo><mn>2</mn><mo>&#x2062;</mo><mfrac><mn>8</mn><mn>0.2</mn></mfrac>\n        <mo>=</mo>\n        <mn>10</mn><mo>+</mo><mn>80</mn>\n        <mo>=</mo>\n        <mn>90</mn>\n      </math>\n    </li>\n  </ul>\n\n  <h3>Quick Tips &amp; Common Pitfalls</h3>\n  <ul>\n    <li>Always test for convergence with <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>r</mi><mo>|</mo><mo>&lt;</mo><mn>1</mn></math> before using the sum formula.</li>\n    <li>The formula <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mfrac><mi>a</mi><mrow><mn>1</mn><mo>-</mo><mi>r</mi></mrow></mfrac></math> applies only to infinite *geometric* series, not arithmetic or other types.</li>\n    <li>If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math> is negative, terms alternate in sign; check convergence carefully.</li>\n    <li>Real-world convergence examples include interest calculations, repeated decay, or diminishing returns.</li>\n  </ul>\n</div>",
+    "content": "<div class=\"algebra-lesson\">\n  <h3>Definitions</h3>\n  <ul>\n    <li><strong>Series:</strong> The sum of the terms in a sequence.</li>\n    <li><strong>Infinite Series:</strong> A series that continues indefinitely without an end.</li>\n    <li><strong>Convergent Series:</strong> An infinite series that approaches a finite sum as the number of terms increases.</li>\n    <li><strong>Divergent Series:</strong> An infinite series that does not approach a finite limit (the sum grows without bound or oscillates).</li>\n  </ul>\n\n  <h3>Key Concepts</h3>\n  <ul>\n    <li>For an infinite geometric series with first term <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> and common ratio <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math>:</li>\n    <li>If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>r</mi><mo>|</mo><mo>&lt;</mo><mn>1</mn></math>, the series converges and has a finite sum.</li>\n    <li>If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>r</mi><mo>|</mo><mo>&ge;</mo><mn>1</mn></math>, the series diverges (no finite sum exists).</li>\n  </ul>\n\n  <h3>Formula for the Sum of an Infinite Geometric Series</h3>\n  <p>\n    <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n      <mi>S</mi><mo>=</mo>\n      <mfrac><mi>a</mi><mrow><mn>1</mn><mo>-</mo><mi>r</mi></mrow></mfrac>\n      <mspace width=\"1em\"/>\n      <mtext>where</mtext>\n      <mspace width=\"0.5em\"/>\n      <mo>|</mo><mi>r</mi><mo>|</mo><mo>&lt;</mo><mn>1</mn>\n    </math>\n  </p>\n\n  <h3>Step-by-Step Procedures</h3>\n  <ol>\n    <li>Identify the series and confirm it is geometric (each term multiplied by the same ratio).</li>\n    <li>Find the first term <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> and common ratio <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math>.</li>\n    <li>Check if <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>r</mi><mo>|</mo><mo>&lt;</mo><mn>1</mn></math> (required for convergence).</li>\n    <li>If convergent, use <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mfrac><mi>a</mi><mrow><mn>1</mn><mo>-</mo><mi>r</mi></mrow></mfrac></math> to find the sum.</li>\n    <li>If divergent, state that no finite sum exists.</li>\n  </ol>\n\n  <h3>Examples</h3>\n  <h4>Example 1 — Convergent Series</h4>\n  <p>Find the sum of the series <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>+</mo><mn>2.5</mn><mo>+</mo><mn>1.25</mn><mo>+</mo><mn>0.625</mn><mo>+</mo><mo>…</mo></math>.</p>\n  <ul>\n    <li>Here, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>5</mn></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math>.</li>\n    <li>Since <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>r</mi><mo>|</mo><mo>&lt;</mo><mn>1</mn></math>, the series converges.</li>\n    <li>Sum:\n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n        <mi>S</mi><mo>=</mo>\n        <mfrac><mn>5</mn><mrow><mn>1</mn><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfrac>\n        <mo>=</mo>\n        <mfrac><mn>5</mn><mfrac><mn>1</mn><mn>2</mn></mfrac></mfrac>\n        <mo>=</mo>\n        <mn>10</mn>\n      </math>\n    </li>\n  </ul>\n\n  <h4>Example 2 — Divergent Series</h4>\n  <p>Determine if <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>12</mn><mo>+</mo><mn>24</mn><mo>+</mo><mo>…</mo></math> has a finite sum.</p>\n  <ul>\n    <li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mn>2</mn></math>.</li>\n    <li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>r</mi><mo>|</mo><mo>=</mo><mn>2</mn><mo>&gt;</mo><mn>1</mn></math> → Divergent, no finite sum exists.</li>\n  </ul>\n\n  <h4>Example 3 — Application Problem</h4>\n  <p>A ball is dropped from 10 meters and rebounds to 80% of its previous height each time. Find the total vertical distance it travels after infinite bounces.</p>\n  <ul>\n    <li>Downward distance first: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>10</mn></math>.</li>\n    <li>Rebound heights form a geometric series: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>(</mo><mn>0.8</mn><mo>)</mo><mo>+</mo><mn>10</mn><mo>(</mo><mn>0.8</mn><msup><mo>)</mo><mn>2</mn></msup><mo>+</mo><mn>10</mn><mo>(</mo><mn>0.8</mn><msup><mo>)</mo><mn>3</mn></msup><mo>+</mo><mo>…</mo></math>.</li>\n    <li>Each bounce adds two distances (up and down) except the first drop:</li>\n    <li>Total distance:\n      <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n        <mi>D</mi><mo>=</mo><mn>10</mn><mo>+</mo><mn>2</mn>\n        <mfrac><mrow><mn>10</mn><mo>(</mo><mn>0.8</mn><mo>)</mo></mrow><mrow><mn>1</mn><mo>-</mo><mn>0.8</mn></mrow></mfrac>\n        <mo>=</mo>\n        <mn>10</mn><mo>+</mo><mn>2</mn><mo>&#x2062;</mo><mfrac><mn>8</mn><mn>0.2</mn></mfrac>\n        <mo>=</mo>\n        <mn>10</mn><mo>+</mo><mn>80</mn>\n        <mo>=</mo>\n        <mn>90</mn>\n      </math>\n    </li>\n  </ul>\n\n  <h3>Quick Tips &amp; Common Pitfalls</h3>\n  <ul>\n    <li>Always test for convergence with <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>r</mi><mo>|</mo><mo>&lt;</mo><mn>1</mn></math> before using the sum formula.</li>\n    <li>The formula <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mfrac><mi>a</mi><mrow><mn>1</mn><mo>-</mo><mi>r</mi></mrow></mfrac></math> applies only to infinite *geometric* series, not arithmetic or other types.</li>\n    <li>If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math> is negative, terms alternate in sign; check convergence carefully.</li>\n    <li>Real-world convergence examples include interest calculations, repeated decay, or diminishing returns.</li>\n  </ul>\n</div>",
     "completed": false,
     "locked": false,
     "progress": 0
@@ -1312,7 +1404,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u1",
     "section": "Geometry",
     "domain": "Foundations and Reasoning",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 1: Basic Geometric Terms and Language",
     "description": "Use precise definitions and notation for points, lines, segments, rays, and planes; distinguish collinear and coplanar sets; measure and classify angles; find distance and midpoint; use geometric tools and attend to precision.",
     "duration": 45,
@@ -1325,7 +1419,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u2",
     "section": "Geometry",
     "domain": "Foundations and Reasoning",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 2: Logic, Proof, and Reasoning in Geometry",
     "description": "Differentiate inductive and deductive reasoning; analyze conditionals, converses, inverses, contrapositives, and biconditionals; write two-column and flow proofs using definitions, postulates, and properties of equality/congruence.",
     "duration": 45,
@@ -1338,7 +1434,9 @@
     "id": "0199897e6530-f4fc411b956d7432f0bfcf0u3",
     "section": "Geometry",
     "domain": "Foundations and Reasoning",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 3: Parallel and Perpendicular Lines",
     "description": "Identify angle relationships formed by transversals (corresponding, alternate interior/exterior, same-side); use slope to test for parallel/perpendicular in the coordinate plane; prove lines parallel/perpendicular using theorems and postulates.",
     "duration": 45,
@@ -1348,10 +1446,12 @@
     "progress": 0
   },
   {
-    "id": "0199897e6530-f4fc411b956d7432f0bfcf0u4",
+    "id": "0199897e6530-9b7718f2-fe4c",
     "section": "Geometry",
     "domain": "Foundations and Reasoning",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 4: Angle Relationships and Measurement",
     "description": "Apply angle addition, linear pair, vertical angle, complementary, and supplementary relationships to find unknown measures; construct and bisect angles; solve algebraic problems involving angle relationships in and out of the coordinate plane.",
     "duration": 45,
@@ -1361,10 +1461,12 @@
     "progress": 0
   },
   {
-    "id": "0199897e6530-f4fc411b956d7432f0bfcf0u5",
+    "id": "0199897e6530-64c0fe77-a81d",
     "section": "Geometry",
     "domain": "Triangles and Polygons",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 5: Triangle Properties and Congruence",
     "description": "Classify triangles by sides and angles; apply triangle sum and exterior angle theorems; prove congruence using SSS, SAS, ASA, AAS, and HL; use congruence to justify corresponding parts and solve geometric problems.",
     "duration": 45,
@@ -1374,10 +1476,12 @@
     "progress": 0
   },
   {
-    "id": "0199897e6530-f4fc411b956d7432f0bfcf0u6",
+    "id": "0199897e6530-b9c1674f-2302",
     "section": "Geometry",
     "domain": "Triangles and Polygons",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 6: Inequalities in Triangles",
     "description": "Use triangle inequality and hinge inequality (SAS Inequality); compare side lengths and angle measures; apply midsegment theorem and properties of perpendicular bisectors, medians, altitudes, and angle bisectors to establish inequalities.",
     "duration": 45,
@@ -1387,10 +1491,12 @@
     "progress": 0
   },
   {
-    "id": "0199897e6530-f4fc411b956d7432f0bfcf0u7",
+    "id": "0199897e6530-8aec3698-1cd1",
     "section": "Geometry",
     "domain": "Triangles and Polygons",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 7: Similarity and Right Triangles",
     "description": "Prove triangles similar using AA, SSS~, and SAS~; use similarity to find missing measures; apply right-triangle relationships including geometric mean, Pythagorean Theorem and its converse, special right triangles, and basic trigonometric ratios.",
     "duration": 45,
@@ -1400,10 +1506,12 @@
     "progress": 0
   },
   {
-    "id": "0199897e6530-f4fc411b956d7432f0bfcf0u8",
+    "id": "0199897e6530-efef70da-5cc0",
     "section": "Geometry",
     "domain": "Triangles and Polygons",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 8: Quadrilaterals and Polygon Properties",
     "description": "Classify quadrilaterals using coordinate and synthetic proofs; establish and use properties of parallelograms, rectangles, rhombi, squares, kites, and trapezoids; explore interior/exterior angle sums and regular polygon properties.",
     "duration": 45,
@@ -1413,10 +1521,12 @@
     "progress": 0
   },
   {
-    "id": "0199897e6530-f4fc411b956d7432f0bfcf0u9",
+    "id": "0199897e6530-6290408d-bf78",
     "section": "Geometry",
     "domain": "Circles and Arcs",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 9: Circle Basics (Chords, Arcs, and Central Angles)",
     "description": "Identify parts of a circle including radius, diameter, chord, secant, tangent, and arc; calculate arc measure and central angles; apply relationships among chords, radii, and diameters to solve geometric problems.",
     "duration": 45,
@@ -1426,10 +1536,12 @@
     "progress": 0
   },
   {
-    "id": "0199897e6530-f4fc411b956d7432f0bfcf0u10",
+    "id": "0199897e6530-200c0eb8-3033",
     "section": "Geometry",
     "domain": "Circles and Arcs",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 10: Tangents and Secants",
     "description": "Explore properties of tangents and secants to circles; apply theorems involving tangent-secant, secant-secant, and tangent-tangent relationships; solve for unknown lengths using geometric and algebraic methods.",
     "duration": 45,
@@ -1439,10 +1551,12 @@
     "progress": 0
   },
   {
-    "id": "0199897e6530-f4fc411b956d7432f0bfcf0u11",
+    "id": "0199897e6530-9034f4c9-e792",
     "section": "Geometry",
     "domain": "Circles and Arcs",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 11: Inscribed Angles and Arc Length",
     "description": "Define and calculate inscribed angles and their intercepted arcs; apply relationships among inscribed, central, and tangent-chord angles; find arc length and sector area; connect angular and linear measures in problem solving.",
     "duration": 45,
@@ -1452,10 +1566,12 @@
     "progress": 0
   },
   {
-    "id": "0199897e6530-f4fc411b956d7432f0bfcf0u12",
+    "id": "0199897e6530-9c1f922c-0db4",
     "section": "Geometry",
     "domain": "Coordinate Geometry",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 12: Coordinate Plane Basics and Distance Formula",
     "description": "Plot points and interpret coordinates; use the distance formula derived from the Pythagorean Theorem; apply segment partitioning and coordinate proofs to verify geometric properties in the plane.",
     "duration": 45,
@@ -1465,10 +1581,12 @@
     "progress": 0
   },
   {
-    "id": "0199897e6530-f4fc411b956d7432f0bfcf0u13",
+    "id": "0199897e6530-48da7158-22df",
     "section": "Geometry",
     "domain": "Coordinate Geometry",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 13: Midpoint and Slope",
     "description": "Compute midpoints and slopes; interpret slope as rate of change and as a test for parallel/perpendicular lines; use slope-intercept and point-slope forms to analyze and solve geometric problems in the coordinate plane.",
     "duration": 45,
@@ -1478,10 +1596,12 @@
     "progress": 0
   },
   {
-    "id": "0199897e6530-f4fc411b956d7432f0bfcf0u14",
+    "id": "0199897e6530-c9a39e0f-b142",
     "section": "Geometry",
     "domain": "Coordinate Geometry",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 14: Equations of Lines, Circles, and Conics",
     "description": "Write and convert equations of lines (slope-intercept, point-slope, standard); derive and apply equations of circles (center-radius form) and basic conics (parabolas; optional: ellipses/hyperbolas) for modeling and proof.",
     "duration": 45,
@@ -1491,10 +1611,12 @@
     "progress": 0
   },
   {
-    "id": "0199897e6530-f4fc411b956d7432f0bfcf0u15",
+    "id": "0199897e6530-fef861e1-7bdf",
     "section": "Geometry",
     "domain": "Transformations and Symmetry",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 15: Reflections, Rotations, and Translations",
     "description": "Perform and describe reflections, rotations, and translations in the plane; determine orientation, distance, and angle preservation; use coordinate rules and matrices to represent transformations; verify congruence via rigid motions.",
     "duration": 45,
@@ -1504,10 +1626,12 @@
     "progress": 0
   },
   {
-    "id": "0199897e6530-f4fc411b956d7432f0bfcf0u16",
+    "id": "0199897e6530-12081b88-526a",
     "section": "Geometry",
     "domain": "Transformations and Symmetry",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 16: Glide Reflections and Compositions of Transformations",
     "description": "Compose multiple rigid motions and analyze the resulting single transformation (e.g., rotation as two reflections; translation as two reflections); define and construct glide reflections; prove properties using transformational geometry.",
     "duration": 45,
@@ -1517,10 +1641,12 @@
     "progress": 0
   },
   {
-    "id": "0199897e6530-f4fc411b956d7432f0bfcf0u17",
+    "id": "0199897e6530-f52282a3-b765",
     "section": "Geometry",
     "domain": "Transformations and Symmetry",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 17: Symmetry and Tessellations",
     "description": "Identify and classify lines of symmetry and centers of rotational symmetry; analyze symmetry groups of plane figures and patterns; construct and justify tessellations (regular, semi-regular, and with transformations) and relate to angle measures.",
     "duration": 45,
@@ -1530,10 +1656,12 @@
     "progress": 0
   },
   {
-    "id": "0199897e6530-f4fc411b956d7432f0bfcf0u18",
+    "id": "0199897e6530-cc05cb7e-3f62",
     "section": "Geometry",
     "domain": "Area and Volume",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 18: Area of Polygons and Circles",
     "description": "Calculate area of triangles, parallelograms, trapezoids, regular polygons (using apothem), and composite figures; apply the formula for the area of a circle and sectors; solve problems involving perimeter/circumference and area relationships.",
     "duration": 45,
@@ -1543,10 +1671,12 @@
     "progress": 0
   },
   {
-    "id": "0199897e6530-f4fc411b956d7432f0bfcf0u19",
+    "id": "0199897e6530-fcfce064-b1b1",
     "section": "Geometry",
     "domain": "Area and Volume",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 19: Surface Area of Solids",
     "description": "Find surface area of right prisms, cylinders, pyramids, cones, and spheres; decompose nets and apply lateral/total surface area formulas; solve real-world problems including composite solids and unit conversions.",
     "duration": 45,
@@ -1556,10 +1686,12 @@
     "progress": 0
   },
   {
-    "id": "0199897e6530-f4fc411b956d7432f0bfcf0u20",
+    "id": "0199897e6530-80574eeb-7b4a",
     "section": "Geometry",
     "domain": "Area and Volume",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 20: Volume of Prisms, Cylinders, Pyramids, Cones, and Spheres",
     "description": "Compute volumes of right prisms, cylinders, pyramids, cones, and spheres (and hemispheres); apply Cavalieri’s principle and volume relationships (e.g., pyramid/cone vs. prism/cylinder); solve modeling problems with composite figures.",
     "duration": 45,
@@ -1569,10 +1701,12 @@
     "progress": 0
   },
   {
-    "id": "0199897e6530-f4fc411b956d7432f0bfcf0u21",
+    "id": "0199897e6530-5de1fc1c-3e38",
     "section": "Geometry",
     "domain": "Advanced Triangle Concepts",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 21: Special Right Triangles",
     "description": "Explore relationships in 45°–45°–90° and 30°–60°–90° triangles; derive and apply side ratios to find missing sides; solve geometric and real-world problems involving special right triangles and their properties.",
     "duration": 45,
@@ -1582,10 +1716,12 @@
     "progress": 0
   },
   {
-    "id": "0199897e6530-f4fc411b956d7432f0bfcf0u22",
+    "id": "0199897e6530-b46ee4d7-95a7",
     "section": "Geometry",
     "domain": "Advanced Triangle Concepts",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 22: Pythagorean Theorem and Its Converse",
     "description": "Apply and prove the Pythagorean Theorem and its converse; use it to determine triangle types and solve for unknown sides; apply to coordinate geometry and real-world distance problems in two and three dimensions.",
     "duration": 45,
@@ -1595,10 +1731,12 @@
     "progress": 0
   },
   {
-    "id": "0199897e6530-f4fc411b956d7432f0bfcf0u23",
+    "id": "0199897e6530-559f0465-ad4a",
     "section": "Geometry",
     "domain": "Advanced Triangle Concepts",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 23: Trigonometric Ratios and Applications",
     "description": "Define sine, cosine, and tangent for acute angles; use trigonometric ratios to find missing sides and angles in right triangles; solve word problems involving elevation, depression, and indirect measurement.",
     "duration": 45,
@@ -1608,10 +1746,12 @@
     "progress": 0
   },
   {
-    "id": "0199897e6530-f4fc411b956d7432f0bfcf0u24",
+    "id": "0199897e6530-51747488-f64f",
     "section": "Geometry",
     "domain": "Advanced Triangle Concepts",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 24: Law of Sines and Law of Cosines",
     "description": "Apply the Law of Sines and Law of Cosines to solve oblique triangles (AAS, ASA, SSA, SAS, SSS cases); determine area of triangles using trigonometric methods; model and solve real-world problems involving non-right triangles.",
     "duration": 45,
@@ -1621,10 +1761,12 @@
     "progress": 0
   },
   {
-    "id": "0199897e6530-f4fc411b956d7432f0bfcf0u25",
+    "id": "0199897e6530-0afb27e6-e945",
     "section": "Geometry",
     "domain": "Modeling and Applications",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 25: Geometric Probability",
     "description": "Model probabilities using area and length ratios; compute likelihoods with segments, regions, and target areas; solve problems involving random points, chord/sector selections, and simulations/experimental design.",
     "duration": 45,
@@ -1634,10 +1776,12 @@
     "progress": 0
   },
   {
-    "id": "0199897e6530-f4fc411b956d7432f0bfcf0u26",
+    "id": "0199897e6530-473b8a40-7299",
     "section": "Geometry",
     "domain": "Modeling and Applications",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 26: Using Geometry in Real-World Contexts",
     "description": "Apply geometric reasoning to design and measurement tasks (e.g., scale drawings, blueprints, packaging, optimization); interpret tolerances and error bounds; justify assumptions and validate models with units and precision.",
     "duration": 45,
@@ -1647,10 +1791,12 @@
     "progress": 0
   },
   {
-    "id": "0199897e6530-f4fc411b956d7432f0bfcf0u27",
+    "id": "0199897e6530-697a6392-acd7",
     "section": "Geometry",
     "domain": "Modeling and Applications",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 27: Coordinate Geometry in Modeling",
     "description": "Use coordinates to model and solve geometric problems: fit and analyze lines/circles, partition segments in a given ratio, optimize distances, and prove properties with vectors/slope/distance/midpoint formulas in context-rich tasks.",
     "duration": 45,
@@ -1660,10 +1806,12 @@
     "progress": 0
   },
   {
-    "id": "0199897e6530-f4fc411b956d7432f0bfcf0u28",
+    "id": "0199897e6530-1a8f899d-930e",
     "section": "Geometry",
     "domain": "Modeling and Applications",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 28: Applying Trigonometric Ratios in Problem Solving",
     "description": "Model real-world and design problems using right-triangle trigonometry and inverse trig; resolve elevation/depression, bearing, and indirect measurement scenarios; incorporate error analysis and appropriate precision in solutions.",
     "duration": 45,
@@ -1673,10 +1821,12 @@
     "progress": 0
   },
   {
-    "id": "0199897e6530-f4fc411b956d7432f0bfcf0u29",
+    "id": "0199897e6530-43af2eb8-1292",
     "section": "Geometry",
     "domain": "Advanced Geometry Concepts and Applications",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 29: Advanced Geometric Constructions and Loci",
     "description": "Use compass-and-straightedge (and dynamic geometry tools) to construct perpendicular/angle bisectors, parallel lines, equilateral triangles, and copies of segments/angles; construct triangle centers (circumcenter, incenter, centroid, orthocenter) and analyze their properties; solve locus problems describing sets of points defined by distance constraints (from a point, a line, or two points/lines) and connect loci to coordinate and algebraic representations.",
     "duration": 45,
@@ -1686,27 +1836,31 @@
     "progress": 0
   },
   {
-    "id": "0199897e6530-f4fc411b956d7432f0bfcf0u30",
+    "id": "0199897e6530-e3796174-15ba",
     "section": "Geometry",
     "domain": "Advanced Geometry Concepts and Applications",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 30: Foundations of Non-Euclidean and Spherical Geometry",
     "description": "Compare Euclid’s Parallel Postulate with alternatives; examine models of non-Euclidean geometry qualitatively (Poincaré disk/upper half-plane) and spherical geometry (great circles as geodesics, triangle angle sum > 180°, spherical polygons); explore real-world applications such as navigation and map projections, emphasizing similarities/differences from Euclidean results.",
     "duration": 45,
-    "content":"<div class=\"geometry-lesson\">\n<h2>Unit 30: Foundations of Non-Euclidean and Spherical Geometry</h2>\n<h3>Objectives</h3>\n<ul>\n<li>Understand the fundamental assumptions (postulates) of Euclidean geometry and how altering them leads to non-Euclidean systems.</li>\n<li>Explore the geometry of curved surfaces, particularly spherical geometry, and compare its principles to the Euclidean plane.</li>\n<li>Analyze real-world applications of non-Euclidean geometry in astronomy, navigation, and physics (general relativity).</li>\n</ul>\n<h3>Foundational Concepts</h3>\n<ul>\n<li><strong>Euclidean Geometry:</strong> Based on Euclid’s five postulates, including the Parallel Postulate: through a point not on a line, exactly one line can be drawn parallel to the given line.</li>\n<li><strong>Non-Euclidean Geometry:</strong> Geometric systems developed when the Parallel Postulate is replaced or modified. Two major types:\n<ul>\n<li><em>Hyperbolic Geometry:</em> Through a point not on a line, infinitely many lines can be drawn parallel to the given line.</li>\n<li><em>Elliptic (Spherical) Geometry:</em> Through a point not on a line, no parallel lines exist—great circles always intersect.</li>\n</ul>\n</li>\n<li><strong>Plane vs. Surface Geometry:</strong> Euclidean geometry occurs on a flat plane, while spherical geometry takes place on the surface of a sphere.</li>\n<li><strong>Great Circle:</strong> The largest possible circle on a sphere, formed by intersecting the sphere with a plane through its center (e.g., Earth's equator, meridians).</li>\n</ul>\n<h3>Key Properties — Spherical vs. Euclidean Geometry</h3>\n<table>\n<thead><tr><th>Property</th><th>Euclidean Geometry</th><th>Spherical Geometry</th></tr></thead>\n<tbody>\n<tr><td>Lines</td><td>Infinite straight paths</td><td>Great circles (finite, but unbounded)</td></tr>\n<tr><td>Parallel Lines</td><td>Can exist; one unique parallel through a point</td><td>No parallels; all great circles intersect</td></tr>\n<tr><td>Angle Sum of Triangle</td><td>Exactly 180°</td><td>Greater than 180° (depends on triangle area)</td></tr>\n<tr><td>Similar Triangles</td><td>Possible without congruence</td><td>All similar triangles are congruent</td></tr>\n<tr><td>Shortest Path</td><td>Straight line</td><td>Arc of a great circle</td></tr>\n</tbody>\n</table>\n<h3>Formulas & Relationships</h3>\n<ul>\n<li><strong>Spherical Excess:</strong> For a triangle on a sphere of radius <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math> with angles <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>:\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi><mo>=</mo><mi>A</mi><mo>+</mo><mi>B</mi><mo>+</mo><mi>C</mi><mo>−</mo><mn>180</mn><mo>°</mo></math>.\nThe area of the spherical triangle is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mi>E</mi><mo>·</mo><mfrac><mi>π</mi><mn>180</mn></mfrac><mo>·</mo><msup><mi>r</mi><mn>2</mn></msup></math>.</li>\n<li><strong>Arc Length:</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mi>r</mi><mi>θ</mi></math> (with <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>θ</mi></math> in radians).</li>\n<li><strong>Surface Distance on Earth:</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mi>r</mi><mi>Δσ</mi></math>, where <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Δσ</mi></math> is the central angle between two points (radians).</li>\n<li><strong>Spherical Law of Cosines:</strong>\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>cos</mi><mi>a</mi><mo>=</mo><mi>cos</mi><mi>b</mi><mi>cos</mi><mi>c</mi><mo>+</mo><mi>sin</mi><mi>b</mi><mi>sin</mi><mi>c</mi><mi>cos</mi><mi>A</mi></math>.</li>\n</ul>\n<h3>Step-by-Step Reasoning</h3>\n<ol>\n<li><strong>Identify the Surface Type</strong>: Determine if the problem is planar (flat) or spherical (curved surface).</li>\n<li><strong>Draw a Diagram</strong>: Represent the geometry with labeled points, arcs, and relevant great circles.</li>\n<li><strong>Choose the Appropriate Model</strong>:\n<ul>\n<li>Flat distances/angles → Euclidean postulates.</li>\n<li>Large-scale navigation/planetary motion → spherical or non-Euclidean formulas.</li>\n</ul>\n</li>\n<li><strong>Apply Relationships</strong>:\n<ul>\n<li>Use Euclidean or spherical laws of sines/cosines as needed.</li>\n<li>Check consistency with expected properties (sum of triangle angles, curvature, etc.).</li>\n</ul>\n</li>\n<li><strong>Interpret in Context</strong>: Convert angular measures to physical distances; verify results align with curvature and real-world units.</li>\n</ol>\n<h3>Worked Examples</h3>\n<h4>Example 1 — Comparing Triangle Angle Sums</h4>\n<p><strong>Situation:</strong> On a flat plane, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>+</mo><mi>B</mi><mo>+</mo><mi>C</mi><mo>=</mo><mn>180</mn><mo>°</mo></math>. On Earth, a triangle formed by the equator and two meridians 90° apart meets at the North Pole.</p>\n<ul>\n<li>Each vertex at the pole measures 90°; thus the triangle’s angle sum = 270° → spherical excess 90°.</li>\n<li>The triangle covers one-eighth of Earth’s surface (since 360° / 4 = 90°).</li>\n</ul>\n<h4>Example 2 — Great-Circle Distance</h4>\n<p><strong>Given:</strong> Two cities at latitude 40°N, longitudes 75°W and 120°W. <strong>Find:</strong> Distance along Earth’s surface (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mn>6371</mn></math> km).</p>\n<ul>\n<li>Central angle <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Δσ</mi><mo>=</mo><mi>Δλ</mi><mi>cos</mi><mi>φ</mi><mo>=</mo><mo>(</mo><mn>45</mn><mo>°</mo><mo>)</mo><mi>cos</mi><mn>40</mn><mo>°</mo><mo>≈</mo><mn>34.5</mn><mo>°</mo></math> = 0.602 rad.</li>\n<li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mn>6371</mn><mo>×</mo><mn>0.602</mn><mo>≈</mo><mn>3835</mn></math> km.</li>\n</ul>\n<h4>Example 3 — Hyperbolic Contrast</h4>\n<p><strong>Idea:</strong> In hyperbolic geometry (saddle-shaped space), triangle angle sums are <strong>less than 180°</strong>. Distances grow exponentially with coordinate differences, modeled using negative curvature <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi><mo><</mo><mn>0</mn></math>.</p>\n<ul>\n<li>Real-world analogs include models in relativity and certain optical surfaces.</li>\n</ul>\n<h3>Applications</h3>\n<ul>\n<li><strong>Navigation & Astronomy:</strong> Great-circle routes for aircraft and ships minimize distance over Earth’s curved surface.</li>\n<li><strong>Geodesy:</strong> Measuring and modeling Earth's shape and curvature for mapping and GPS accuracy.</li>\n<li><strong>Physics:</strong> Einstein’s theory of general relativity uses non-Euclidean geometry to describe spacetime curvature near massive bodies.</li>\n<li><strong>Art & Design:</strong> Tessellations on spheres (e.g., soccer balls, geodesic domes) apply spherical symmetry principles.</li>\n</ul>\n<h3>Quick Tips & Common Pitfalls</h3>\n<ul>\n<li>Always specify whether distances are measured <em>on</em> the surface (curved) or in space (straight-line chord).</li>\n<li>For small triangles (local scales), spherical geometry approximates Euclidean closely.</li>\n<li>Do not assume parallel lines exist on a sphere—great circles always meet.</li>\n<li>When using spherical trigonometry, convert all angles to radians before applying formulas.</li>\n<li>Check for over-rounding; small angular errors can produce large surface distance changes.</li>\n</ul>\n</div>",
+    "content": "<div class=\"geometry-lesson\">\n<h2>Unit 30: Foundations of Non-Euclidean and Spherical Geometry</h2>\n<h3>Objectives</h3>\n<ul>\n<li>Understand the fundamental assumptions (postulates) of Euclidean geometry and how altering them leads to non-Euclidean systems.</li>\n<li>Explore the geometry of curved surfaces, particularly spherical geometry, and compare its principles to the Euclidean plane.</li>\n<li>Analyze real-world applications of non-Euclidean geometry in astronomy, navigation, and physics (general relativity).</li>\n</ul>\n<h3>Foundational Concepts</h3>\n<ul>\n<li><strong>Euclidean Geometry:</strong> Based on Euclid’s five postulates, including the Parallel Postulate: through a point not on a line, exactly one line can be drawn parallel to the given line.</li>\n<li><strong>Non-Euclidean Geometry:</strong> Geometric systems developed when the Parallel Postulate is replaced or modified. Two major types:\n<ul>\n<li><em>Hyperbolic Geometry:</em> Through a point not on a line, infinitely many lines can be drawn parallel to the given line.</li>\n<li><em>Elliptic (Spherical) Geometry:</em> Through a point not on a line, no parallel lines exist—great circles always intersect.</li>\n</ul>\n</li>\n<li><strong>Plane vs. Surface Geometry:</strong> Euclidean geometry occurs on a flat plane, while spherical geometry takes place on the surface of a sphere.</li>\n<li><strong>Great Circle:</strong> The largest possible circle on a sphere, formed by intersecting the sphere with a plane through its center (e.g., Earth's equator, meridians).</li>\n</ul>\n<h3>Key Properties — Spherical vs. Euclidean Geometry</h3>\n<table>\n<thead><tr><th>Property</th><th>Euclidean Geometry</th><th>Spherical Geometry</th></tr></thead>\n<tbody>\n<tr><td>Lines</td><td>Infinite straight paths</td><td>Great circles (finite, but unbounded)</td></tr>\n<tr><td>Parallel Lines</td><td>Can exist; one unique parallel through a point</td><td>No parallels; all great circles intersect</td></tr>\n<tr><td>Angle Sum of Triangle</td><td>Exactly 180°</td><td>Greater than 180° (depends on triangle area)</td></tr>\n<tr><td>Similar Triangles</td><td>Possible without congruence</td><td>All similar triangles are congruent</td></tr>\n<tr><td>Shortest Path</td><td>Straight line</td><td>Arc of a great circle</td></tr>\n</tbody>\n</table>\n<h3>Formulas & Relationships</h3>\n<ul>\n<li><strong>Spherical Excess:</strong> For a triangle on a sphere of radius <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math> with angles <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>:\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi><mo>=</mo><mi>A</mi><mo>+</mo><mi>B</mi><mo>+</mo><mi>C</mi><mo>−</mo><mn>180</mn><mo>°</mo></math>.\nThe area of the spherical triangle is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mi>E</mi><mo>·</mo><mfrac><mi>π</mi><mn>180</mn></mfrac><mo>·</mo><msup><mi>r</mi><mn>2</mn></msup></math>.</li>\n<li><strong>Arc Length:</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mi>r</mi><mi>θ</mi></math> (with <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>θ</mi></math> in radians).</li>\n<li><strong>Surface Distance on Earth:</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mi>r</mi><mi>Δσ</mi></math>, where <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Δσ</mi></math> is the central angle between two points (radians).</li>\n<li><strong>Spherical Law of Cosines:</strong>\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>cos</mi><mi>a</mi><mo>=</mo><mi>cos</mi><mi>b</mi><mi>cos</mi><mi>c</mi><mo>+</mo><mi>sin</mi><mi>b</mi><mi>sin</mi><mi>c</mi><mi>cos</mi><mi>A</mi></math>.</li>\n</ul>\n<h3>Step-by-Step Reasoning</h3>\n<ol>\n<li><strong>Identify the Surface Type</strong>: Determine if the problem is planar (flat) or spherical (curved surface).</li>\n<li><strong>Draw a Diagram</strong>: Represent the geometry with labeled points, arcs, and relevant great circles.</li>\n<li><strong>Choose the Appropriate Model</strong>:\n<ul>\n<li>Flat distances/angles → Euclidean postulates.</li>\n<li>Large-scale navigation/planetary motion → spherical or non-Euclidean formulas.</li>\n</ul>\n</li>\n<li><strong>Apply Relationships</strong>:\n<ul>\n<li>Use Euclidean or spherical laws of sines/cosines as needed.</li>\n<li>Check consistency with expected properties (sum of triangle angles, curvature, etc.).</li>\n</ul>\n</li>\n<li><strong>Interpret in Context</strong>: Convert angular measures to physical distances; verify results align with curvature and real-world units.</li>\n</ol>\n<h3>Worked Examples</h3>\n<h4>Example 1 — Comparing Triangle Angle Sums</h4>\n<p><strong>Situation:</strong> On a flat plane, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>+</mo><mi>B</mi><mo>+</mo><mi>C</mi><mo>=</mo><mn>180</mn><mo>°</mo></math>. On Earth, a triangle formed by the equator and two meridians 90° apart meets at the North Pole.</p>\n<ul>\n<li>Each vertex at the pole measures 90°; thus the triangle’s angle sum = 270° → spherical excess 90°.</li>\n<li>The triangle covers one-eighth of Earth’s surface (since 360° / 4 = 90°).</li>\n</ul>\n<h4>Example 2 — Great-Circle Distance</h4>\n<p><strong>Given:</strong> Two cities at latitude 40°N, longitudes 75°W and 120°W. <strong>Find:</strong> Distance along Earth’s surface (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mn>6371</mn></math> km).</p>\n<ul>\n<li>Central angle <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Δσ</mi><mo>=</mo><mi>Δλ</mi><mi>cos</mi><mi>φ</mi><mo>=</mo><mo>(</mo><mn>45</mn><mo>°</mo><mo>)</mo><mi>cos</mi><mn>40</mn><mo>°</mo><mo>≈</mo><mn>34.5</mn><mo>°</mo></math> = 0.602 rad.</li>\n<li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mn>6371</mn><mo>×</mo><mn>0.602</mn><mo>≈</mo><mn>3835</mn></math> km.</li>\n</ul>\n<h4>Example 3 — Hyperbolic Contrast</h4>\n<p><strong>Idea:</strong> In hyperbolic geometry (saddle-shaped space), triangle angle sums are <strong>less than 180°</strong>. Distances grow exponentially with coordinate differences, modeled using negative curvature <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi><mo><</mo><mn>0</mn></math>.</p>\n<ul>\n<li>Real-world analogs include models in relativity and certain optical surfaces.</li>\n</ul>\n<h3>Applications</h3>\n<ul>\n<li><strong>Navigation & Astronomy:</strong> Great-circle routes for aircraft and ships minimize distance over Earth’s curved surface.</li>\n<li><strong>Geodesy:</strong> Measuring and modeling Earth's shape and curvature for mapping and GPS accuracy.</li>\n<li><strong>Physics:</strong> Einstein’s theory of general relativity uses non-Euclidean geometry to describe spacetime curvature near massive bodies.</li>\n<li><strong>Art & Design:</strong> Tessellations on spheres (e.g., soccer balls, geodesic domes) apply spherical symmetry principles.</li>\n</ul>\n<h3>Quick Tips & Common Pitfalls</h3>\n<ul>\n<li>Always specify whether distances are measured <em>on</em> the surface (curved) or in space (straight-line chord).</li>\n<li>For small triangles (local scales), spherical geometry approximates Euclidean closely.</li>\n<li>Do not assume parallel lines exist on a sphere—great circles always meet.</li>\n<li>When using spherical trigonometry, convert all angles to radians before applying formulas.</li>\n<li>Check for over-rounding; small angular errors can produce large surface distance changes.</li>\n</ul>\n</div>",
     "completed": false,
     "locked": false,
     "progress": 0
   },
   {
-    "id": "0199897e6530-f4fc411b956d7432f0bfcf0u31",
+    "id": "0199897e6530-d7382786-9a12",
     "section": "Geometry",
     "domain": "Advanced Geometry Concepts and Applications",
-    "related_skills": [""],
+    "related_skills": [
+      ""
+    ],
     "unit": "Unit 31: Solid Geometry, Cross-Sections, and Spatial Visualization",
     "description": "Analyze 3D figures (prisms, pyramids, cylinders, cones, spheres) using nets, surface development, and Euler’s formula (V − E + F = 2) for polyhedra; determine and sketch cross-sections of solids and identify resulting 2D figures; relate solids of revolution (qualitatively) and use coordinate/vector methods to compute distances and interpret spatial relationships in modeling tasks.",
     "duration": 45,
-     "content": "<div class=\"geometry-lesson\">\n  <h3>Definitions</h3>\n  <ul>\n    <li><strong>Solid Geometry:</strong> The study of three-dimensional (3D) figures, including their surfaces, volumes, and cross-sections.</li>\n    <li><strong>Polyhedron:</strong> A solid bounded by flat polygonal faces, straight edges, and vertices (e.g., prisms, pyramids).</li>\n    <li><strong>Non-Polyhedron:</strong> Solids with curved surfaces (e.g., cylinders, cones, spheres).</li>\n    <li><strong>Cross-Section:</strong> The two-dimensional shape formed when a solid is cut by a plane.</li>\n    <li><strong>Spatial Visualization:</strong> The ability to mentally picture and manipulate 3D objects from different perspectives or sections.</li>\n    <li><strong>Net:</strong> A two-dimensional figure that can be folded to form a 3D solid.</li>\n    <li><strong>Oblique vs. Right Solid:</strong> A <em>right</em> solid has lateral edges perpendicular to the base; an <em>oblique</em> solid does not.</li>\n  </ul>\n\n  <h3>Key Concepts</h3>\n  <ul>\n    <li><strong>Prisms:</strong> Two congruent, parallel polygonal bases connected by rectangular (lateral) faces. Volume <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mi>B</mi><mi>h</mi></math>, where <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> = base area.</li>\n    <li><strong>Pyramids:</strong> One polygonal base and triangular lateral faces meeting at a vertex. Volume <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>B</mi><mi>h</mi></math>.</li>\n    <li><strong>Cylinder:</strong> Two congruent, parallel circular bases; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mi>πr</mi><msup><mi>r</mi><mn>2</mn></msup><mi>h</mi></math>.</li>\n    <li><strong>Cone:</strong> One circular base with a vertex; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>πr</mi><msup><mi>r</mi><mn>2</mn></msup><mi>h</mi></math>.</li>\n    <li><strong>Sphere:</strong> All points in space equidistant from a center; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mi>πr</mi><msup><mi>r</mi><mn>3</mn></msup></math>.</li>\n    <li><strong>Euler’s Formula:</strong> For convex polyhedra, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>−</mo><mi>E</mi><mo>+</mo><mi>F</mi><mo>=</mo><mn>2</mn></math> (vertices, edges, faces).</li>\n  </ul>\n\n  <h3>Types of Cross-Sections</h3>\n  <ul>\n    <li><strong>Prisms:</strong> Horizontal cut → same shape as base; diagonal cut → parallelogram.</li>\n    <li><strong>Pyramids:</strong> Parallel to base → similar (smaller) polygon; slanted cut → trapezoid or triangle.</li>\n    <li><strong>Cylinders:</strong> Parallel to base → circle; diagonal cut → ellipse; perpendicular through axis → rectangle.</li>\n    <li><strong>Cones:</strong> Parallel to base → circle; slanted cut → ellipse/parabola/hyperbola (conic sections).</li>\n    <li><strong>Spheres:</strong> Any plane cut → circle; diameter cut → great circle.</li>\n  </ul>\n\n  <h3>Step-by-Step Procedures (Cross-Section Analysis)</h3>\n  <ol>\n    <li><strong>Identify the solid</strong> (prism, pyramid, cone, cylinder, or sphere).</li>\n    <li><strong>Determine the orientation</strong> of the cutting plane (parallel, perpendicular, or diagonal to the base).</li>\n    <li><strong>Visualize the intersection</strong> — use nets or transparent models if needed.</li>\n    <li><strong>Name the resulting shape</strong> (circle, rectangle, trapezoid, etc.) and describe its dimensions relative to the solid.</li>\n    <li><strong>Relate 2D and 3D measures:</strong> Use area of cross-section × height for volume comparisons or ratios.</li>\n  </ol>\n\n  <h3>Example 1 — Prism Cross-Section</h3>\n  <p><strong>Given:</strong> A rectangular prism with base 8 × 4 and height 6 is cut by a plane parallel to the base. Find the cross-section’s area.</p>\n  <ul>\n    <li>Parallel to base → cross-section congruent to base.</li>\n    <li>Area = 8 × 4 = 32 square units.</li>\n  </ul>\n\n  <h3>Example 2 — Pyramid Cross-Section</h3>\n  <p><strong>Given:</strong> A square pyramid with base side 12 and height 9 is cut by a plane parallel to the base halfway up. Find side length of cross-section.</p>\n  <ul>\n    <li>Ratios of similarity: side ∝ height → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>s</mi><mn>12</mn></mfrac><mo>=</mo><mfrac><mn>4.5</mn><mn>9</mn></mfrac></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mn>6</mn></math>.</li>\n    <li>Cross-section: smaller square, area = 6² = 36 square units.</li>\n  </ul>\n\n  <h3>Example 3 — Cylinder Cross-Section</h3>\n  <p><strong>Given:</strong> A cylinder has radius 5 cm and height 10 cm. A plane cuts it perpendicular to its base. What is the cross-section shape and area?</p>\n  <ul>\n    <li>Perpendicular cut → rectangle.</li>\n    <li>Dimensions: height 10, width = diameter = 10 → area = 100 cm².</li>\n  </ul>\n\n  <h3>Example 4 — Sphere Cross-Section</h3>\n  <p><strong>Given:</strong> A sphere has radius 10 cm. A plane cuts it 6 cm from the center. Find the radius of the circular cross-section.</p>\n  <ul>\n    <li>Using Pythagoras: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>r</mi><mn>2</mn></msup><mo>=</mo><msup><mn>10</mn><mn>2</mn></msup><mo>−</mo><msup><mn>6</mn><mn>2</mn></msup></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><msqrt><mn>64</mn></msqrt><mo>=</mo><mn>8</mn></math> cm.</li>\n  </ul>\n\n  <h3>Example 5 — Spatial Visualization</h3>\n  <p><strong>Scenario:</strong> A cube is cut diagonally from one vertex to the opposite vertex on the far face. What is the cross-section?</p>\n  <ul>\n    <li>The resulting section is a regular hexagon — slicing diagonally through opposite vertices exposes all six square faces in section.</li>\n  </ul>\n\n  <h3>Example 6 — Net Interpretation</h3>\n  <p><strong>Scenario:</strong> A cylinder’s net consists of two circles and a rectangle. If the cylinder’s height is 8 cm and radius 3 cm, find the rectangle’s dimensions.</p>\n  <ul>\n    <li>Height = 8 cm, length = circumference of base = 2πr = 6π cm.</li>\n    <li>Rectangle: 6π × 8 cm.</li>\n  </ul>\n\n  <h3>Example 7 — Combining Solids</h3>\n  <p><strong>Given:</strong> A hemisphere of radius 4 cm is attached to a right cylinder of the same radius and height 10 cm. Find total volume.</p>\n  <ul>\n    <li>Cylinder: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup><mi>h</mi><mo>=</mo><mi>π</mi><mo>·</mo><msup><mn>4</mn><mn>2</mn></msup><mo>·</mo><mn>10</mn><mo>=</mo><mn>160</mn><mi>π</mi></math>.</li>\n    <li>Hemisphere: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mi>π</mi><msup><mn>4</mn><mn>3</mn></msup><mo>=</mo><mfrac><mn>128</mn><mn>3</mn></mfrac><mi>π</mi></math>.</li>\n    <li>Total volume ≈ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>160</mn><mi>π</mi><mo>+</mo><mn>42.67</mn><mi>π</mi><mo>=</mo><mn>202.67</mn><mi>π</mi></math> cm³.</li>\n  </ul>\n\n  <h3>Quick Tips &amp; Common Pitfalls</h3>\n  <ul>\n    <li>Sketch lightly in 3D; trace edges that are visible and use dashed lines for hidden ones.</li>\n    <li>Cross-sections parallel to bases are similar to the base; diagonal cuts often form new polygons (trapezoids, parallelograms).</li>\n    <li>When using nets, verify that all faces correspond to the 3D solid’s structure and dimensions.</li>\n    <li>Use right triangle relationships for sphere and cone cross-sections.</li>\n    <li>Euler’s formula applies only to convex polyhedra, not curved solids.</li>\n  </ul>\n</div>",
+    "content": "<div class=\"geometry-lesson\">\n  <h3>Definitions</h3>\n  <ul>\n    <li><strong>Solid Geometry:</strong> The study of three-dimensional (3D) figures, including their surfaces, volumes, and cross-sections.</li>\n    <li><strong>Polyhedron:</strong> A solid bounded by flat polygonal faces, straight edges, and vertices (e.g., prisms, pyramids).</li>\n    <li><strong>Non-Polyhedron:</strong> Solids with curved surfaces (e.g., cylinders, cones, spheres).</li>\n    <li><strong>Cross-Section:</strong> The two-dimensional shape formed when a solid is cut by a plane.</li>\n    <li><strong>Spatial Visualization:</strong> The ability to mentally picture and manipulate 3D objects from different perspectives or sections.</li>\n    <li><strong>Net:</strong> A two-dimensional figure that can be folded to form a 3D solid.</li>\n    <li><strong>Oblique vs. Right Solid:</strong> A <em>right</em> solid has lateral edges perpendicular to the base; an <em>oblique</em> solid does not.</li>\n  </ul>\n\n  <h3>Key Concepts</h3>\n  <ul>\n    <li><strong>Prisms:</strong> Two congruent, parallel polygonal bases connected by rectangular (lateral) faces. Volume <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mi>B</mi><mi>h</mi></math>, where <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> = base area.</li>\n    <li><strong>Pyramids:</strong> One polygonal base and triangular lateral faces meeting at a vertex. Volume <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>B</mi><mi>h</mi></math>.</li>\n    <li><strong>Cylinder:</strong> Two congruent, parallel circular bases; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mi>πr</mi><msup><mi>r</mi><mn>2</mn></msup><mi>h</mi></math>.</li>\n    <li><strong>Cone:</strong> One circular base with a vertex; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>πr</mi><msup><mi>r</mi><mn>2</mn></msup><mi>h</mi></math>.</li>\n    <li><strong>Sphere:</strong> All points in space equidistant from a center; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mi>πr</mi><msup><mi>r</mi><mn>3</mn></msup></math>.</li>\n    <li><strong>Euler’s Formula:</strong> For convex polyhedra, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>−</mo><mi>E</mi><mo>+</mo><mi>F</mi><mo>=</mo><mn>2</mn></math> (vertices, edges, faces).</li>\n  </ul>\n\n  <h3>Types of Cross-Sections</h3>\n  <ul>\n    <li><strong>Prisms:</strong> Horizontal cut → same shape as base; diagonal cut → parallelogram.</li>\n    <li><strong>Pyramids:</strong> Parallel to base → similar (smaller) polygon; slanted cut → trapezoid or triangle.</li>\n    <li><strong>Cylinders:</strong> Parallel to base → circle; diagonal cut → ellipse; perpendicular through axis → rectangle.</li>\n    <li><strong>Cones:</strong> Parallel to base → circle; slanted cut → ellipse/parabola/hyperbola (conic sections).</li>\n    <li><strong>Spheres:</strong> Any plane cut → circle; diameter cut → great circle.</li>\n  </ul>\n\n  <h3>Step-by-Step Procedures (Cross-Section Analysis)</h3>\n  <ol>\n    <li><strong>Identify the solid</strong> (prism, pyramid, cone, cylinder, or sphere).</li>\n    <li><strong>Determine the orientation</strong> of the cutting plane (parallel, perpendicular, or diagonal to the base).</li>\n    <li><strong>Visualize the intersection</strong> — use nets or transparent models if needed.</li>\n    <li><strong>Name the resulting shape</strong> (circle, rectangle, trapezoid, etc.) and describe its dimensions relative to the solid.</li>\n    <li><strong>Relate 2D and 3D measures:</strong> Use area of cross-section × height for volume comparisons or ratios.</li>\n  </ol>\n\n  <h3>Example 1 — Prism Cross-Section</h3>\n  <p><strong>Given:</strong> A rectangular prism with base 8 × 4 and height 6 is cut by a plane parallel to the base. Find the cross-section’s area.</p>\n  <ul>\n    <li>Parallel to base → cross-section congruent to base.</li>\n    <li>Area = 8 × 4 = 32 square units.</li>\n  </ul>\n\n  <h3>Example 2 — Pyramid Cross-Section</h3>\n  <p><strong>Given:</strong> A square pyramid with base side 12 and height 9 is cut by a plane parallel to the base halfway up. Find side length of cross-section.</p>\n  <ul>\n    <li>Ratios of similarity: side ∝ height → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>s</mi><mn>12</mn></mfrac><mo>=</mo><mfrac><mn>4.5</mn><mn>9</mn></mfrac></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mn>6</mn></math>.</li>\n    <li>Cross-section: smaller square, area = 6² = 36 square units.</li>\n  </ul>\n\n  <h3>Example 3 — Cylinder Cross-Section</h3>\n  <p><strong>Given:</strong> A cylinder has radius 5 cm and height 10 cm. A plane cuts it perpendicular to its base. What is the cross-section shape and area?</p>\n  <ul>\n    <li>Perpendicular cut → rectangle.</li>\n    <li>Dimensions: height 10, width = diameter = 10 → area = 100 cm².</li>\n  </ul>\n\n  <h3>Example 4 — Sphere Cross-Section</h3>\n  <p><strong>Given:</strong> A sphere has radius 10 cm. A plane cuts it 6 cm from the center. Find the radius of the circular cross-section.</p>\n  <ul>\n    <li>Using Pythagoras: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>r</mi><mn>2</mn></msup><mo>=</mo><msup><mn>10</mn><mn>2</mn></msup><mo>−</mo><msup><mn>6</mn><mn>2</mn></msup></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><msqrt><mn>64</mn></msqrt><mo>=</mo><mn>8</mn></math> cm.</li>\n  </ul>\n\n  <h3>Example 5 — Spatial Visualization</h3>\n  <p><strong>Scenario:</strong> A cube is cut diagonally from one vertex to the opposite vertex on the far face. What is the cross-section?</p>\n  <ul>\n    <li>The resulting section is a regular hexagon — slicing diagonally through opposite vertices exposes all six square faces in section.</li>\n  </ul>\n\n  <h3>Example 6 — Net Interpretation</h3>\n  <p><strong>Scenario:</strong> A cylinder’s net consists of two circles and a rectangle. If the cylinder’s height is 8 cm and radius 3 cm, find the rectangle’s dimensions.</p>\n  <ul>\n    <li>Height = 8 cm, length = circumference of base = 2πr = 6π cm.</li>\n    <li>Rectangle: 6π × 8 cm.</li>\n  </ul>\n\n  <h3>Example 7 — Combining Solids</h3>\n  <p><strong>Given:</strong> A hemisphere of radius 4 cm is attached to a right cylinder of the same radius and height 10 cm. Find total volume.</p>\n  <ul>\n    <li>Cylinder: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup><mi>h</mi><mo>=</mo><mi>π</mi><mo>·</mo><msup><mn>4</mn><mn>2</mn></msup><mo>·</mo><mn>10</mn><mo>=</mo><mn>160</mn><mi>π</mi></math>.</li>\n    <li>Hemisphere: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mi>π</mi><msup><mn>4</mn><mn>3</mn></msup><mo>=</mo><mfrac><mn>128</mn><mn>3</mn></mfrac><mi>π</mi></math>.</li>\n    <li>Total volume ≈ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>160</mn><mi>π</mi><mo>+</mo><mn>42.67</mn><mi>π</mi><mo>=</mo><mn>202.67</mn><mi>π</mi></math> cm³.</li>\n  </ul>\n\n  <h3>Quick Tips &amp; Common Pitfalls</h3>\n  <ul>\n    <li>Sketch lightly in 3D; trace edges that are visible and use dashed lines for hidden ones.</li>\n    <li>Cross-sections parallel to bases are similar to the base; diagonal cuts often form new polygons (trapezoids, parallelograms).</li>\n    <li>When using nets, verify that all faces correspond to the 3D solid’s structure and dimensions.</li>\n    <li>Use right triangle relationships for sphere and cone cross-sections.</li>\n    <li>Euler’s formula applies only to convex polyhedra, not curved solids.</li>\n  </ul>\n</div>",
     "completed": false,
     "locked": false,
     "progress": 0
