@@ -27,12 +27,12 @@ main { display: grid; grid-template-columns: 1fr; padding: 16px; }
 aside { background: var(--panel); border: 1px solid var(--border); border-radius: 8px; padding: 12px; height: calc(100vh - 180px); overflow: auto; }
 .content { background: var(--panel); border: 1px solid var(--border); border-radius: 8px; padding: 16px; }
 
-#rw-search, #math-search { width: 100%; padding: 10px 12px; margin-bottom: 12px; border-radius: 6px; border: 1px solid var(--border); background: #0b1022; color: var(--text); }
+#rw-search, #math-search, #processed-search { width: 100%; padding: 10px 12px; margin-bottom: 12px; border-radius: 6px; border: 1px solid var(--border); background: #0b1022; color: var(--text); }
 
-#rw-list, #math-list { list-style: none; padding: 0; margin: 0; }
-#rw-list li, #math-list li { padding: 10px 12px; border: 1px solid var(--border); border-radius: 6px; margin-bottom: 8px; cursor: pointer; transition: background .15s ease; }
-#rw-list li:hover, #math-list li:hover { background: #0b1022; }
-#rw-list li.active, #math-list li.active { border-color: var(--accent); color: var(--accent); }
+#rw-list, #math-list, #processed-list { list-style: none; padding: 0; margin: 0; }
+#rw-list li, #math-list li, #processed-list li { padding: 10px 12px; border: 1px solid var(--border); border-radius: 6px; margin-bottom: 8px; cursor: pointer; transition: background .15s ease; }
+#rw-list li:hover, #math-list li:hover, #processed-list li:hover { background: #0b1022; }
+#rw-list li.active, #math-list li.active, #processed-list li.active { border-color: var(--accent); color: var(--accent); }
 
 /* Unit grouping styles */
 .unit-header { 

@@ -542,21 +542,169 @@ async function initMath() {
   }
 }
 
+// ---- Lectures rendering (uses all_lectures.json) ----
+function renderLecture(lecture) {
+  console.log('Rendering lecture:', lecture);
+  const titleEl = document.getElementById('processed-title');
+  const metaEl = document.getElementById('processed-meta');
+  const bodyEl = document.getElementById('processed-body');
+
+  titleEl.textContent = lecture.unit || lecture.title || 'Lecture';
+  metaEl.innerHTML = '';
+  const metaPills = [
+    el('span', { class: 'pill' }, [lecture.section || 'Section']),
+    el('span', { class: 'pill' }, [lecture.domain || 'Domain']),
+    el('span', { class: 'pill' }, [`~${lecture.duration || 0} min`]),
+    lecture.related_skills && lecture.related_skills.length > 0 
+      ? el('span', { class: 'pill' }, [`${lecture.related_skills.length} skills`])
+      : null
+  ].filter(Boolean);
+  metaPills.forEach(pill => metaEl.appendChild(pill));
+
+  bodyEl.innerHTML = '';
+
+  const descBlock = lecture.description
+    ? el('div', { class: 'content-block' }, [
+        el('div', { class: 'pill' }, ['Description']), 
+        el('div', {}, [lecture.description])
+      ])
+    : null;
+
+  const skillsBlock = lecture.related_skills && lecture.related_skills.length > 0
+    ? el('div', { class: 'content-block' }, [
+        el('div', { class: 'pill' }, ['Related Skills']),
+        el('div', {}, lecture.related_skills.map(skill => el('span', { class: 'pill', style: 'margin-top: 4px; display: inline-block;' }, [skill])))
+      ])
+    : null;
+
+  const contentContainer = el('div', { class: 'content-block' });
+  contentContainer.appendChild(el('div', { class: 'pill' }, ['Content']));
+  
+  if (lecture.content) {
+    console.log('Rendering lecture content:', lecture.content.substring(0, 100) + '...');
+    const contentWrap = el('div', {});
+    contentWrap.style.whiteSpace = 'pre-wrap';
+    contentWrap.style.lineHeight = '1.5';
+    contentWrap.innerHTML = lecture.content;
+    contentContainer.appendChild(contentWrap);
+  } else {
+    contentContainer.appendChild(el('div', {}, ['No content available']));
+  }
+
+  const progressBlock = el('div', { class: 'content-block' }, [
+    el('div', { class: 'pill' }, ['Progress']),
+    el('div', {}, [
+      `Progress: ${lecture.progress || 0}%`,
+      el('span', { class: 'pill', style: 'margin-left: 8px;' }, [lecture.completed ? 'Completed' : 'In Progress'])
+    ])
+  ]);
+
+  [descBlock, skillsBlock, contentContainer, progressBlock].filter(Boolean).forEach(x => bodyEl.appendChild(x));
+
+  localStorage.setItem('lectures:last-id', lecture.id || '');
+}
+
+async function initLectures() {
+  const listEl = document.getElementById('processed-list');
+  const searchEl = document.getElementById('processed-search');
+
+  const lectures = await fetchJSON('data/units_processed/all_lectures.json').catch(err => {
+    console.error('Failed to load lectures:', err);
+    return [];
+  });
+  console.log('Loaded lectures:', lectures.length);
+
+  function filterLectures(query) {
+    const q = (query || '').toLowerCase();
+    if (!q) return lectures;
+    return lectures.filter(l => (
+      (l.unit || '').toLowerCase().includes(q) ||
+      (l.section || '').toLowerCase().includes(q) ||
+      (l.domain || '').toLowerCase().includes(q) ||
+      (l.description || '').toLowerCase().includes(q) ||
+      (Array.isArray(l.related_skills) && l.related_skills.some(s => (s || '').toLowerCase().includes(q)))
+    ));
+  }
+
+  function renderList(filter = '') {
+    listEl.innerHTML = '';
+    const filteredLectures = filterLectures(filter);
+    
+    // Group lectures by section and unit
+    const groups = {};
+    filteredLectures.forEach(lecture => {
+      const section = lecture.section || 'Other';
+      const unit = lecture.unit || 'Other';
+      const key = `${section}::${unit}`;
+      if (!groups[key]) {
+        groups[key] = { section, unit, lectures: [] };
+      }
+      groups[key].lectures.push(lecture);
+    });
+    
+    // Sort groups by section, then unit
+    const sortedGroups = Object.values(groups).sort((a, b) => {
+      if (a.section !== b.section) return a.section.localeCompare(b.section);
+      return a.unit.localeCompare(b.unit);
+    });
+    
+    sortedGroups.forEach(group => {
+      // Add section/unit header
+      const header = el('li', { class: 'unit-header' }, [`${group.section}: ${group.unit}`]);
+      listEl.appendChild(header);
+      
+      // Add lectures under this unit
+      group.lectures.forEach(lecture => {
+        const li = el('li', { class: 'lesson-item' }, [lecture.unit || 'Lecture']);
+        li.addEventListener('click', () => {
+          [...listEl.children].forEach(a => a.classList.remove('active'));
+          li.classList.add('active');
+          renderLecture(lecture);
+        });
+        listEl.appendChild(li);
+      });
+    });
+  }
+
+  renderList('');
+  searchEl.addEventListener('input', e => renderList(e.target.value));
+
+  // Load last viewed or first
+  const lastId = localStorage.getItem('lectures:last-id');
+  const initial = lectures.find(l => l.id === lastId) || lectures[0];
+  if (initial) {
+    renderList('');
+    // Need to re-render to find the correct item
+    setTimeout(() => {
+      const targetLabel = initial.unit || 'Lecture';
+      [...listEl.children].forEach(li => {
+        if (li.classList.contains('lesson-item') && li.textContent === targetLabel) {
+          li.classList.add('active');
+        }
+      });
+    }, 0);
+    renderLecture(initial);
+  }
+}
+
 function initTabs() {
   const tabRW = document.getElementById('tab-rw');
   const tabMath = document.getElementById('tab-math');
+  const tabProcessed = document.getElementById('tab-processed');
   const tabRubric = document.getElementById('tab-rubric');
   tabRW.addEventListener('click', () => setActive('tab-rw', 'panel-rw'));
   tabMath.addEventListener('click', () => setActive('tab-math', 'panel-math'));
+  tabProcessed.addEventListener('click', () => setActive('tab-processed', 'panel-processed'));
   tabRubric.addEventListener('click', () => setActive('tab-rubric', 'panel-rubric'));
 }
 
 (async function init() {
   initTabs();
-  await Promise.all([initRW(), initMath(), initRubric()]).catch(err => {
+  await Promise.all([initRW(), initMath(), initLectures(), initRubric()]).catch(err => {
     console.error(err);
     document.getElementById('rw-title').textContent = 'Error loading';
     document.getElementById('math-title').textContent = 'Error loading';
+    document.getElementById('processed-title').textContent = 'Error loading';
     const rb = document.getElementById('rubric-body');
     if (rb) rb.textContent = 'Error loading rubric';
   });
